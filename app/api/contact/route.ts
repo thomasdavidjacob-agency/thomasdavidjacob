@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server'
-import nodemailer from 'nodemailer'
+import { Resend } from 'resend'
 
 export async function POST(request: NextRequest) {
   try {
@@ -9,32 +9,28 @@ export async function POST(request: NextRequest) {
       return Response.json({ error: 'All fields are required.' }, { status: 400 })
     }
 
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT ?? 587),
-      secure: process.env.SMTP_SECURE === 'true',
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    })
+    const resend = new Resend(process.env.RESEND_API_KEY)
 
-    await transporter.sendMail({
-      from: `"${name}" <${process.env.SMTP_USER}>`,
+    const { error } = await resend.emails.send({
+      from: 'Thomas David Jacob <hello@thomasdavidjacob.com>',
       replyTo: email,
       to: 'hello@thomasdavidjacob.com',
       subject: `[Contact Form] ${subject}`,
-      text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`,
       html: `
-        <h2 style="color:#f59e0b">New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
-        <p><strong>Subject:</strong> ${subject}</p>
+        <h2 style="color:#f59e0b;font-family:sans-serif">New Contact Form Submission</h2>
+        <p style="font-family:sans-serif"><strong>Name:</strong> ${name}</p>
+        <p style="font-family:sans-serif"><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
+        <p style="font-family:sans-serif"><strong>Subject:</strong> ${subject}</p>
         <hr />
-        <p><strong>Message:</strong></p>
-        <p style="white-space:pre-wrap">${message}</p>
+        <p style="font-family:sans-serif"><strong>Message:</strong></p>
+        <p style="font-family:sans-serif;white-space:pre-wrap">${message}</p>
       `,
     })
+
+    if (error) {
+      console.error('Resend error:', error)
+      return Response.json({ error: 'Failed to send. Please try again.' }, { status: 500 })
+    }
 
     return Response.json({ success: true })
   } catch (err) {
