@@ -111,7 +111,7 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.9)' }}>
           <div className="flex justify-center mb-6">
             <Image
-              src="/images/Logowhite.png"
+              src="/images/Main_LogoWhite.png"
               alt="Thomas David Jacob Digital Creative Agency"
               width={200}
               height={60}
