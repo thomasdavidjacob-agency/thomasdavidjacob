@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: 'Thomas David Jacob | Digital Agency Oregon City, OR',
   description:
     'Full-service digital creative agency in Oregon City, OR — WordPress web design, SEO & marketing for the Portland metro and Oregon statewide.',
+  verification: {
+    google: 'xNLWk1ytCymhdvAE0_UZPd4MpUCwOVCEJa9VljWA5_4',
+  },
 };
 
 export default function RootLayout({
