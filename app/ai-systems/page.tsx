@@ -197,12 +197,12 @@ export default function AISystemsPage() {
           <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-6">
             AI Systems Architecture
           </p>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-black leading-[1.05] tracking-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] tracking-tight mb-6">
             AI Systems
             <br />
             <span className="text-amber-400">Architecture</span>
           </h1>
-          <p className="text-zinc-300 text-xl md:text-2xl max-w-3xl mx-auto mb-10 leading-relaxed">
+          <p className="text-zinc-300 text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto mb-10 leading-relaxed">
             We design and implement AI-powered systems that automate your business, generate leads, and scale your revenue — without you needing to understand the technology.
           </p>
           <Link
@@ -215,7 +215,7 @@ export default function AISystemsPage() {
       </section>
 
       {/* ── What We Do ── */}
-      <section className="py-28 px-6">
+      <section className="py-16 md:py-28 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
@@ -251,7 +251,7 @@ export default function AISystemsPage() {
       </section>
 
       {/* ── Packages ── */}
-      <section className="py-28 px-6 bg-zinc-950/60 border-y border-zinc-800/50">
+      <section className="py-16 md:py-28 px-6 bg-zinc-950/60 border-y border-zinc-800/50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
@@ -271,7 +271,7 @@ export default function AISystemsPage() {
                 key={pkg.name}
                 className={`relative rounded-2xl p-8 flex flex-col transition-all duration-300 hover:-translate-y-1 ${
                   pkg.popular
-                    ? 'bg-amber-400/5 border-2 border-amber-400/50 hover:border-amber-400'
+                    ? 'mt-6 md:mt-0 bg-amber-400/5 border-2 border-amber-400/50 hover:border-amber-400'
                     : 'bg-[#0d0d0d] border border-zinc-800 hover:border-amber-400/30'
                 }`}
               >
@@ -358,7 +358,7 @@ export default function AISystemsPage() {
       </section>
 
       {/* ── Trust ── */}
-      <section className="py-28 px-6 bg-zinc-950/60 border-y border-zinc-800/50">
+      <section className="py-16 md:py-28 px-6 bg-zinc-950/60 border-y border-zinc-800/50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
@@ -393,7 +393,7 @@ export default function AISystemsPage() {
             Get Started
           </p>
           <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-6">
-            Ready to Put AI to Work<br />in Your Business?
+            Ready to Put AI to Work<br className="hidden sm:block" /> in Your Business?
           </h2>
           <p className="text-zinc-400 text-xl leading-relaxed mb-10">
             Book a free 30-minute AI audit and discover exactly how AI can save you time and make you more money.
