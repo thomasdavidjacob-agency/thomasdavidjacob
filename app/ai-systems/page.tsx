@@ -277,7 +277,7 @@ export default function AISystemsPage() {
               >
                 {pkg.popular && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                    <span className="bg-amber-400 text-black text-xs font-black tracking-[0.2em] uppercase px-5 py-1.5 rounded-full">
+                    <span className="bg-amber-400 text-black text-xs font-black tracking-[0.15em] uppercase px-4 py-1.5 rounded-full whitespace-nowrap">
                       Most Popular
                     </span>
                   </div>
