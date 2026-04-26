@@ -3,7 +3,8 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-const navLinks = [
+const navLinks: { label: string; href: string; highlight?: boolean }[] = [
+  { label: 'AI Systems', href: '/ai-systems', highlight: true },
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'Services', href: '/services' },
@@ -35,7 +36,11 @@ export default function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-sm text-zinc-400 hover:text-amber-400 transition-colors tracking-wide font-medium"
+                className={
+                  link.highlight
+                    ? 'text-sm text-amber-400 hover:text-amber-300 transition-colors tracking-wide font-bold'
+                    : 'text-sm text-zinc-400 hover:text-amber-400 transition-colors tracking-wide font-medium'
+                }
               >
                 {link.label}
               </Link>
@@ -69,7 +74,11 @@ export default function Navbar() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-zinc-300 hover:text-amber-400 transition-colors font-medium tracking-wide"
+                  className={
+                    link.highlight
+                      ? 'text-amber-400 hover:text-amber-300 transition-colors font-bold tracking-wide'
+                      : 'text-zinc-300 hover:text-amber-400 transition-colors font-medium tracking-wide'
+                  }
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.label}

@@ -220,6 +220,34 @@ export default function Home() {
             </p>
           </div>
 
+          {/* AI Systems — featured full-width card */}
+          <Link
+            href="/ai-systems"
+            className="block bg-[#0d0d0d] border border-amber-400/30 rounded-2xl p-8 md:p-10 hover:border-amber-400/60 hover:-translate-y-1 transition-all duration-300 group mb-6"
+          >
+            <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
+              <div className="flex-shrink-0 w-16 h-16 bg-amber-400/10 border border-amber-400/25 rounded-xl flex items-center justify-center group-hover:bg-amber-400/20 transition-colors">
+                <svg className="w-8 h-8 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-3 mb-2">
+                  <h3 className="text-2xl font-black text-white">AI Systems Architecture</h3>
+                  <span className="text-xs font-bold tracking-[0.2em] uppercase bg-amber-400/15 border border-amber-400/30 text-amber-400 px-3 py-1 rounded-full">New</span>
+                </div>
+                <p className="text-zinc-400 leading-relaxed text-base md:text-lg">
+                  We design and implement AI-powered systems that automate your business and generate revenue on autopilot — so you can focus on growth, not repetitive tasks.
+                </p>
+              </div>
+              <div className="flex-shrink-0 text-amber-400 group-hover:translate-x-1 transition-transform">
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </div>
+          </Link>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {services.map((service) => (
               <div
