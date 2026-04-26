@@ -285,8 +285,8 @@ export default function AISystemsPage() {
 
                 <div className="mb-8">
                   <h3 className="text-2xl font-black text-white mb-2">{pkg.name}</h3>
-                  <p className="text-4xl font-black text-amber-400 mt-3">{pkg.price}</p>
-                  <p className="text-zinc-500 text-sm mt-1">one-time investment</p>
+                  <p className="text-xs text-zinc-500 uppercase tracking-widest font-bold mt-3">Starting at</p>
+                  <p className="text-4xl font-black text-amber-400 mt-1">{pkg.price}</p>
                 </div>
 
                 <ul className="space-y-3 flex-1 mb-8">
