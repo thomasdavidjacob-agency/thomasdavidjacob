@@ -109,6 +109,14 @@
 - Lead Funnels
 - AI Marketing Systems
 
+#### TDJ Website — Completed Milestones
+- Live at thomasdavidjacob.com, hosted on Vercel
+- Code on GitHub: github.com/thomasdavidjacob-agency/thomasdavidjacob
+- Contact form working via Resend → thomasdavidjacob@gmail.com
+- Blog live with 8 SEO posts targeting Portland metro / Oregon City
+- Google Business Profile set up
+- Google Search Console verified
+
 ### Future (PromptVerse Studios)
 - AI Influencer Creation
 - Prompt Packs
