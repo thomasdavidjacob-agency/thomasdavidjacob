@@ -104,6 +104,85 @@ export const posts: BlogPost[] = [
     ),
   },
   {
+    slug: 'ai-reshaping-customer-expectations-oregon',
+    title: 'How AI Is Reshaping Customer Expectations — and What Oregon Businesses Must Do to Keep Up',
+    metaTitle: 'AI Reshaping Customer Expectations for Oregon Businesses | Thomas David Jacob',
+    metaDescription:
+      "Your customers already interact with AI every day. Their expectations have changed. Here's how Oregon businesses can meet the new standard before it costs them customers.",
+    date: 'June 2, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "Your customers already interact with AI every day. Their expectations have changed. Here's how Oregon businesses can meet the new standard before it costs them customers.",
+    heroImage: '/images/ai-reshaping-customer-expectations-oregon.jpg',
+    content: (
+      <>
+        <p>
+          Your customers aren&apos;t comparing you to your local competitors anymore. They&apos;re comparing you to every experience they&apos;ve ever had — including Amazon&apos;s same-day delivery, Uber&apos;s real-time tracking, and Spotify&apos;s personalized recommendations.
+        </p>
+        <p>AI raised the bar. And most local Oregon businesses don&apos;t realize it yet.</p>
+
+        <h2>The New Customer Expectation Standard</h2>
+        <p>
+          When someone sends an inquiry to your business at 9 PM on a Friday, their unconscious expectation — shaped by thousands of interactions with AI-powered companies — is a fast, helpful response. Not Monday morning. Not &ldquo;we&apos;ll get back to you within 24–48 hours.&rdquo;
+        </p>
+        <p>Fast.</p>
+        <p>
+          Research consistently shows that leads contacted within five minutes of inquiry are dramatically more likely to convert than those contacted after an hour. For most small businesses, that&apos;s an impossible standard to meet manually.
+        </p>
+        <p>But it&apos;s a standard AI can meet effortlessly.</p>
+
+        <h2>A Real Oregon Story: When Speed Is Your Brand Promise</h2>
+        <p>Speed to respond was literally part of their brand promise.</p>
+        <p>
+          This boutique real estate brokerage operated in two of the most competitive, high-value markets in the Pacific Northwest — the Pearl District in Portland and Downtown Vancouver, Washington. Their agents were sharp, their listings were premium, and their reputation was built on being the team that got back to clients faster than anyone else.
+        </p>
+        <p>Except they weren&apos;t.</p>
+        <p>
+          When we did a discovery audit, the reality was uncomfortable. Inquiries coming in after 6 PM — a significant percentage of their daily volume, because serious buyers browse listings in the evening — were sitting untouched until the next morning. Weekend inquiries piled up until Monday. During busy transaction periods, even daytime leads were falling into a multi-hour response gap while agents were out showing properties or in negotiations.
+        </p>
+        <p>
+          In a market like the Pearl District, where a condo can go from listed to under contract in 48 hours, a multi-hour response gap isn&apos;t a minor inconvenience. It&apos;s the difference between being the agent who guided that buyer and being the agent they never heard from.
+        </p>
+        <p>
+          We built an AI-powered response system that matched the brand identity they&apos;d been promising but not fully delivering. Every inquiry — regardless of time, day, or how busy the team was — received an immediate, personalized response within 90 seconds. The message introduced the right agent by name, acknowledged the specific property or neighborhood the prospect was interested in, and invited them to schedule a showing or consultation directly on the agent&apos;s calendar.
+        </p>
+        <p>
+          By morning, leads that came in at 10 PM were already in active conversations. By Monday, weekend inquiries were pre-qualified and appointment-ready.
+        </p>
+        <p>
+          The brand promise finally matched the experience. And in the Pearl District, that alignment is everything.
+        </p>
+
+        <h2>What Your Customers Already Expect From AI</h2>
+        <p>Whether they know it or not, your customers now expect:</p>
+        <p>
+          <strong>Instant responses.</strong> An AI assistant on your website or Google Business Profile can respond to inquiries in seconds, at any hour.
+        </p>
+        <p>
+          <strong>Personalization.</strong> AI systems can address customers by name, reference their previous interactions, and tailor responses to their specific situation.
+        </p>
+        <p>
+          <strong>Frictionless scheduling.</strong> The ability to book an appointment or consultation without phone tag.
+        </p>
+        <p>
+          <strong>Proactive communication.</strong> Automated reminders, follow-ups, and check-ins that make customers feel remembered and valued.
+        </p>
+
+        <h2>The Risk of Standing Still</h2>
+        <p>
+          Every week a business waits to address customer experience through AI, they&apos;re training customers to expect less — or, more accurately, driving customers to competitors who have already built these systems.
+        </p>
+        <p>
+          The good news: the investment to get there is smaller than most business owners assume. The question is whether you build it now, while you can be an early mover, or later, when the bar has risen even further.
+        </p>
+        <p>
+          <a href="/contact">Book a free AI audit with Thomas+David+Jacob</a>{' '}
+          and find out exactly where your customer experience gaps are.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'what-is-ai-systems-architect',
     title: 'What Is an AI Systems Architect — and Why Your Business Needs One',
     metaTitle: 'What Is an AI Systems Architect? | Thomas David Jacob Oregon',
