@@ -39,7 +39,7 @@ export const posts: BlogPost[] = [
           Today, the most powerful AI automation tools have intuitive visual interfaces. Connecting your website to your CRM to an AI assistant to your calendar is a matter of configuration, not coding. The technical barrier has dropped dramatically.
         </p>
         <p>
-          What remains is the strategic and architectural knowledge to design systems that actually solve the right problems — and that&apos;s exactly what professional AI integration partners provide.
+          What remains is the <a href="/blog/what-is-ai-systems-architect">strategic and architectural knowledge</a> to design systems that actually solve the right problems — and that&apos;s exactly what professional AI integration partners provide.
         </p>
 
         <h2>The Price Has Never Been Lower</h2>
@@ -55,7 +55,7 @@ export const posts: BlogPost[] = [
           In three years, AI integration will be standard practice. The businesses that aren&apos;t doing it will be as conspicuous as businesses without websites are today. At that point, building AI systems will be the cost of staying relevant, not a competitive advantage.
         </p>
         <p>
-          Right now, it&apos;s still a competitive advantage. Early adopters in Oregon are pulling ahead of competitors who are still operating without AI infrastructure. That lead compounds every month.
+          Right now, it&apos;s still a competitive advantage. <a href="/blog/ai-creating-new-class-business-owner-oregon">Early adopters in Oregon</a> are pulling ahead of competitors who are still operating without AI infrastructure. That lead compounds every month.
         </p>
         <p>
           The window to be an early mover is open. It won&apos;t be open indefinitely.
@@ -66,7 +66,7 @@ export const posts: BlogPost[] = [
           The final barrier we hear from Oregon business owners: &ldquo;I want to wait until I have a better handle on it.&rdquo;
         </p>
         <p>
-          This instinct is understandable — and it&apos;s the wrong approach for AI. The way to get a handle on it is to build something, run it, learn from it, and refine it. The businesses that have deep AI expertise today got it by starting early and accumulating real-world experience.
+          This instinct is understandable — and it&apos;s the wrong approach for AI. The way to get a handle on it is to build something, run it, learn from it, and refine it. The businesses that have deep AI expertise today got it by starting early and <a href="/blog/compound-effect-of-ai-business">accumulating real-world experience</a>.
         </p>
         <p>
           You don&apos;t need a perfect plan. You need a professional partner, a clear starting point, and the willingness to start.
@@ -111,7 +111,7 @@ export const posts: BlogPost[] = [
           The biggest shift happening in 2026 is the move from AI that responds to AI that acts. &ldquo;Agentic&rdquo; AI systems can take multi-step actions on your behalf — not just answering a question, but researching a lead, drafting a proposal, scheduling a follow-up, and entering the data in your CRM.
         </p>
         <p>
-          <strong>What to do now:</strong> Build the foundational integrations — CRM connections, calendar access, communication platform hooks — that agentic AI will run on. The businesses with clean, connected infrastructure will deploy agentic systems immediately when they&apos;re ready.
+          <strong>What to do now:</strong> Build the foundational integrations — <a href="/blog/what-is-ai-systems-architect">CRM connections, calendar access</a>, communication platform hooks — that agentic AI will run on. The businesses with clean, connected infrastructure will deploy agentic systems immediately when they&apos;re ready.
         </p>
 
         <h2>Trend 2: AI Search Is Rewriting SEO</h2>
@@ -119,7 +119,7 @@ export const posts: BlogPost[] = [
           Google&apos;s AI Overviews and ChatGPT search are changing how customers find local businesses. The old model — rank on page one for a keyword — is being supplemented by a new one: be cited in AI-generated answers.
         </p>
         <p>
-          <strong>What to do now:</strong> Content that answers specific, practical questions is the new SEO currency. Blog posts that directly address &ldquo;how do I find an AI consultant in Oregon&rdquo; or &ldquo;what does AI integration cost for a small business&rdquo; are more likely to appear in AI-generated search responses than generic service page copy.
+          <strong>What to do now:</strong> Content that <a href="/blog/why-oregon-businesses-need-ai-integration-expert">answers specific, practical questions</a> is the new SEO currency. Blog posts that directly address &ldquo;how do I find an AI consultant in Oregon&rdquo; or &ldquo;what does AI integration cost for a small business&rdquo; are more likely to appear in AI-generated search responses than generic service page copy.
         </p>
 
         <h2>Trend 3: Personalization at Scale</h2>
@@ -143,7 +143,7 @@ export const posts: BlogPost[] = [
           The demand for skilled AI integration professionals is growing faster than the supply. Businesses that secure relationships with capable AI integration partners now will have priority access to the expertise that will matter most over the next three years.
         </p>
         <p>
-          <strong>What to do now:</strong> Find your AI integration partner before you desperately need one. Build the relationship. Start with a manageable first project.
+          <strong>What to do now:</strong> Find your AI integration partner before you desperately need one. Build the relationship. Start with a <a href="/blog/ai-automation-vs-hiring-oregon-business">manageable first project</a>.
         </p>
 
         <p>
@@ -173,13 +173,13 @@ export const posts: BlogPost[] = [
 
         <h2>How AI Compounds Over Time</h2>
         <p>
-          <strong>Month 1:</strong> Your lead follow-up system goes live. It responds to every inquiry within 90 seconds. You book 15% more consultations than before.
+          <strong>Month 1:</strong> Your <a href="/blog/most-powerful-ai-automations-portland-metro">lead follow-up system goes live</a>. It responds to every inquiry within 90 seconds. You book 15% more consultations than before.
         </p>
         <p>
           <strong>Month 3:</strong> The system has now processed hundreds of leads. You can see which messages are converting and which aren&apos;t. You refine the copy. Conversion rate improves again.
         </p>
         <p>
-          <strong>Month 6:</strong> You add a nurture sequence for prospects who didn&apos;t convert immediately. Leads from three months ago start re-engaging. You&apos;re getting booked conversations from people your old system would have lost forever.
+          <strong>Month 6:</strong> You add a <a href="/blog/ai-automate-sales-funnel-oregon">nurture sequence</a> for prospects who didn&apos;t convert immediately. Leads from three months ago start re-engaging. You&apos;re getting booked conversations from people your old system would have lost forever.
         </p>
         <p>
           <strong>Month 12:</strong> Your Google reviews are at 47 — up from 9 — because your AI review request sequence has been running consistently for a year. Your Google Business Profile is showing in the local map pack for your primary keywords. Inbound leads have increased 60% organically without any additional marketing spend.
@@ -213,7 +213,7 @@ export const posts: BlogPost[] = [
           The most expensive AI investment is the one you delay while watching the window close.
         </p>
         <p>
-          Thomas+David+Jacob builds AI systems for Oregon businesses that are designed to compound — starting with your highest-impact opportunity and expanding as results confirm the direction.{' '}
+          Thomas+David+Jacob builds AI systems for Oregon businesses that are designed to compound — starting with your <a href="/blog/signs-business-ready-for-ai">highest-impact opportunity</a> and expanding as results confirm the direction.{' '}
           <a href="/contact">Start compounding today</a>.
         </p>
       </>
@@ -242,7 +242,7 @@ export const posts: BlogPost[] = [
 
         <h2>Step 1: Document Your Processes</h2>
         <p>
-          You can&apos;t automate what you haven&apos;t documented. Before any AI integration work can begin, you need a clear picture of how your business actually operates.
+          You can&apos;t automate what you haven&apos;t documented. Before any <a href="/blog/what-is-ai-systems-architect">AI integration work can begin</a>, you need a clear picture of how your business actually operates.
         </p>
         <p>
           Map the key processes: how leads come in, how they&apos;re followed up with, how appointments are scheduled, how customers are onboarded, how you communicate with active clients, how you generate reports. Write it down. Draw it out. Even a rough diagram on paper is a start.
@@ -267,12 +267,12 @@ export const posts: BlogPost[] = [
           With your processes documented and your tech stack understood, the question becomes: where is the biggest gap between what you&apos;re doing manually and what a well-built system could handle?
         </p>
         <p>
-          For most businesses, this is in one of three areas: lead follow-up, customer communication, or administrative tasks. Start there.
+          For most businesses, this is in one of three areas: <a href="/blog/signs-business-ready-for-ai">lead follow-up, customer communication</a>, or administrative tasks. Start there.
         </p>
 
         <h2>Step 4: Partner with a Professional</h2>
         <p>
-          This is where most businesses go wrong — they try to figure it all out themselves and end up with half-built automations that create more problems than they solve.
+          This is where most businesses go wrong — they try to figure it all out themselves and end up with <a href="/blog/ai-nephew-setup-costing-oregon-businesses">half-built automations</a> that create more problems than they solve.
         </p>
         <p>
           An AI integration partner brings systems expertise, tool knowledge, and implementation experience that dramatically reduces the time and cost to get something working. They also help you avoid the common pitfalls that derail DIY projects.
@@ -337,7 +337,7 @@ export const posts: BlogPost[] = [
         </p>
         <p>And then there was the pace of the technology itself.</p>
         <p>
-          By the time the team had gotten comfortable with a tool, a new version had shipped. By the time they&apos;d built a workflow, the platform had changed its interface. By the time they&apos;d designed a system that worked in testing, the underlying model had been updated and the behavior was different. AI in 2024 and 2025 wasn&apos;t a stable target — it was a moving one. And a team learning on the margins, in stolen hours, couldn&apos;t keep pace with an industry evolving by the week.
+          By the time the team had gotten comfortable with a tool, a new version had shipped. By the time they&apos;d built a workflow, the <a href="/blog/ai-business-integration-trends-2026">platform had changed its interface</a>. By the time they&apos;d designed a system that worked in testing, the underlying model had been updated and the behavior was different. AI in 2024 and 2025 wasn&apos;t a stable target — it was a moving one. And a team learning on the margins, in stolen hours, couldn&apos;t keep pace with an industry evolving by the week.
         </p>
         <p>
           The result: months of effort, significant internal time investment, and systems that were partially built, partially outdated, and never fully deployed. The opportunity cost — what those employees could have been doing with those hours — was substantial. And the business was no closer to having working AI infrastructure than when they started.
@@ -372,12 +372,12 @@ export const posts: BlogPost[] = [
           <strong>Gap #3: Business Understanding</strong>
         </p>
         <p>
-          The most important variable in effective AI integration isn&apos;t technical skill. It&apos;s business understanding. Building a system that actually solves your specific problem requires someone who understands both the technology and the business context.
+          The most important variable in effective AI integration isn&apos;t technical skill. It&apos;s business understanding. Building a system that actually solves your specific problem requires someone who understands <a href="/blog/what-is-ai-systems-architect">both the technology and the business context</a>.
         </p>
 
         <h2>What Professional Implementation Actually Costs</h2>
         <p>
-          A professional AI integration project from Thomas+David+Jacob starts at $1,500 for a single, high-impact automation. When that automation generates even five additional booked appointments per month for a service business, it pays for itself in the first month of operation.
+          A professional <a href="/services/ai-systems">AI integration project from Thomas+David+Jacob</a> starts at $1,500 for a single, high-impact automation. When that automation generates even five additional booked appointments per month for a service business, it pays for itself in the first month of operation.
         </p>
         <p>
           The question isn&apos;t whether professional implementation is worth it. It&apos;s whether a half-built, unsupported DIY system will ever get to the point where it delivers that return.
@@ -410,7 +410,7 @@ export const posts: BlogPost[] = [
 
         <h2>What AI Actually Delivers (Proven, Real-World Results)</h2>
         <p>
-          <strong>Automated lead follow-up:</strong> This is the highest-ROI application for most small businesses. AI follow-up systems respond within 90 seconds, qualify prospects with conversational messages, and keep leads warm indefinitely. Businesses that implement this consistently see 30–50% increases in booked consultations.
+          <strong>Automated lead follow-up:</strong> This is the highest-ROI application for most small businesses. AI follow-up systems respond within 90 seconds, qualify prospects with conversational messages, and keep leads warm indefinitely. Businesses that implement this consistently see <a href="/blog/most-powerful-ai-automations-portland-metro">30–50% increases in booked consultations</a>.
         </p>
         <p>
           <strong>24/7 customer communication:</strong> AI assistants trained on your business can handle inquiries, answer FAQs, and route conversations appropriately around the clock. Not perfectly — but consistently and at scale.
@@ -441,10 +441,10 @@ export const posts: BlogPost[] = [
 
         <h2>The Honest Bottom Line</h2>
         <p>
-          AI in 2026 is not magic. It&apos;s a powerful tool that delivers real, measurable value when applied to the right problems by someone who knows how to build and connect the systems.
+          AI in 2026 is not magic. It&apos;s a powerful tool that delivers real, measurable value when applied to the <a href="/blog/what-is-ai-systems-architect">right problems by someone who knows how to build</a> and connect the systems.
         </p>
         <p>
-          The businesses that win with AI aren&apos;t the ones that automate everything. They&apos;re the ones that automate the right things, built correctly, on a solid foundation.
+          The businesses that win with AI aren&apos;t the ones that automate everything. They&apos;re the ones that automate the right things, built correctly, on a <a href="/blog/how-to-prepare-business-for-ai-era">solid foundation</a>.
         </p>
         <p>
           That&apos;s exactly what Thomas+David+Jacob helps Oregon businesses do.{' '}
@@ -486,7 +486,7 @@ export const posts: BlogPost[] = [
           When she came to us, she had tabs open for every AI tool she&apos;d seen on Instagram that week — a brand new Sotheby&apos;s agent working the luxury West Linn and Lake Oswego market, selling $900,000-plus homes, with more software subscriptions than she had active clients.
         </p>
         <p>
-          We cut the noise and built three focused systems. She went from scattered and overwhelmed to running a polished one-woman operation that looks and feels like a fully staffed boutique firm. Her high-net-worth clients receive white-glove, attentive communication at every stage — automatically. They have no idea it&apos;s just her.
+          We cut the noise and built three focused systems. She went from scattered and overwhelmed to running a polished one-woman operation that looks and feels like a fully staffed boutique firm. Her high-net-worth clients receive <a href="/blog/ai-reshaping-customer-expectations-oregon">white-glove, attentive communication</a> at every stage — automatically. They have no idea it&apos;s just her.
         </p>
         <p>
           In luxury real estate, perception is everything. The right AI systems don&apos;t just save time — they build the brand.
@@ -501,7 +501,7 @@ export const posts: BlogPost[] = [
           We built him an automated lead response and job intake system that worked while he worked. Every inquiry got an immediate, professional response. His calendar filled without requiring him to step off a job site.
         </p>
         <p>
-          The expansion into Gladstone and Portland didn&apos;t require hiring a dispatcher. It required better systems — ones that made a one-man operation feel like an established local business to every customer who reached out, regardless of time of day.
+          The expansion into Gladstone and Portland didn&apos;t require hiring a dispatcher. It required better systems — <a href="/blog/ai-great-equalizer-small-business-oregon">ones that made a one-man operation</a> feel like an established local business to every customer who reached out, regardless of time of day.
         </p>
         <p>
           The businesses that grow aren&apos;t always the ones with the most people. They&apos;re the ones with the most reliable systems.
@@ -530,7 +530,7 @@ export const posts: BlogPost[] = [
         <h2>The Decision</h2>
         <p>You don&apos;t have to automate everything tomorrow. You just have to start.</p>
         <p>
-          Thomas+David+Jacob offers a free AI audit for Oregon businesses. In 30 minutes, we&apos;ll show you exactly where the highest-impact opportunities are and what it would take to build them.
+          Thomas+David+Jacob offers a <a href="/contact">free AI audit for Oregon businesses</a>. In 30 minutes, we&apos;ll show you exactly where the highest-impact opportunities are and what it would take to build them.
         </p>
         <p>
           <a href="/contact">Book your free AI audit today</a>. The question isn&apos;t whether AI will matter to your business. It&apos;s whether you&apos;ll be ready when it does.
@@ -569,7 +569,7 @@ export const posts: BlogPost[] = [
 
         <h2>What Oregon Service Businesses Are Automating in 2026</h2>
         <p>
-          <strong>Lead Response:</strong> AI responds to every inquiry within 90 seconds with a personalized message, answers common questions, and invites the prospect to schedule a consultation or estimate.
+          <strong>Lead Response:</strong> <a href="/blog/most-powerful-ai-automations-portland-metro">AI responds to every inquiry within 90 seconds</a> with a personalized message, answers common questions, and invites the prospect to schedule a consultation or estimate.
         </p>
         <p>
           <strong>Scheduling:</strong> Integration between AI and your calendar means prospects can book directly, with automatic confirmations and reminders sent on your behalf.
@@ -597,13 +597,13 @@ export const posts: BlogPost[] = [
 
         <h2>Getting Started Without Getting Overwhelmed</h2>
         <p>
-          You don&apos;t have to automate everything at once. The most effective approach is to start with the single process that has the biggest gap between what you&apos;re doing now and what an optimized system could do.
+          You don&apos;t have to automate everything at once. The most effective approach is to start with the <a href="/blog/signs-business-ready-for-ai">single process that has the biggest gap</a> between what you&apos;re doing now and what an optimized system could do.
         </p>
         <p>
           For most service businesses, that&apos;s lead follow-up. Start there, build it right, measure the result, and expand from that foundation.
         </p>
         <p>
-          Thomas+David+Jacob specializes in AI systems for service businesses in the Oregon metro area. Our AI Starter package — designed to automate your single highest-impact process — starts at $1,500. It pays for itself in most cases within 60–90 days.{' '}
+          Thomas+David+Jacob specializes in AI systems for service businesses in the Oregon metro area. Our <a href="/services/ai-systems">AI Starter package</a> — designed to automate your single highest-impact process — starts at $1,500. It pays for itself in most cases within 60–90 days.{' '}
           <a href="/contact">Book your free audit today</a>.
         </p>
       </>
@@ -645,12 +645,12 @@ export const posts: BlogPost[] = [
 
         <h2>Stage 3: Qualification</h2>
         <p>
-          Not every lead is a great fit. AI qualification systems ask the right questions via SMS, email, or chat — and automatically segment leads by readiness, budget, and fit. Your time goes to the prospects most likely to close, not the tire-kickers.
+          Not every lead is a great fit. <a href="/blog/what-is-ai-systems-architect">AI qualification systems</a> ask the right questions via SMS, email, or chat — and automatically segment leads by readiness, budget, and fit. Your time goes to the prospects most likely to close, not the tire-kickers.
         </p>
 
         <h2>Stage 4: Nurture</h2>
         <p>
-          Most prospects don&apos;t buy on first contact. A well-designed AI nurture sequence keeps your business top-of-mind over 30, 60, or 90 days — with emails, texts, and touchpoints that educate, build trust, and gently move the prospect toward a decision.
+          Most prospects don&apos;t buy on first contact. A well-designed <a href="/blog/most-powerful-ai-automations-portland-metro">AI nurture sequence</a> keeps your business top-of-mind over 30, 60, or 90 days — with emails, texts, and touchpoints that educate, build trust, and gently move the prospect toward a decision.
         </p>
         <p>This happens automatically, for every prospect, indefinitely.</p>
 
@@ -669,7 +669,7 @@ export const posts: BlogPost[] = [
           When every stage is connected and automated, the result isn&apos;t just efficiency — it&apos;s a fundamentally different business. One that generates more revenue from the same leads, retains more customers, and grows without proportionally increasing owner time.
         </p>
         <p>
-          At Thomas+David+Jacob, we build full-funnel AI systems for Oregon businesses — from lead capture through post-sale follow-up.{' '}
+          At Thomas+David+Jacob, we build <a href="/services/ai-systems">full-funnel AI systems</a> for Oregon businesses — from lead capture through post-sale follow-up.{' '}
           <a href="/contact">Book a free AI audit and we&apos;ll show you exactly where your funnel is leaking</a>.
         </p>
       </>
@@ -711,7 +711,7 @@ export const posts: BlogPost[] = [
 
         <h2>What an AI System Costs — and What It Delivers</h2>
         <p>
-          A well-built AI automation system from Thomas+David+Jacob runs $1,500–7,500 depending on complexity. It runs 24/7/365. It doesn&apos;t call in sick. It doesn&apos;t take vacation. It doesn&apos;t need to be managed, trained, or HR-processed.
+          A <a href="/services/ai-systems">well-built AI automation system from Thomas+David+Jacob</a> runs $1,500–7,500 depending on complexity. It runs 24/7/365. It doesn&apos;t call in sick. It doesn&apos;t take vacation. It doesn&apos;t need to be managed, trained, or HR-processed.
         </p>
         <p>
           More importantly: it does exactly what it&apos;s designed to do, every single time, at machine speed.
@@ -731,7 +731,7 @@ export const posts: BlogPost[] = [
         <p>
           We built him an end-to-end automation system — lead capture, instant response, scheduling integration, follow-up sequences, and job confirmation workflows — all connected, all running without requiring his family to manually touch every transaction. His team went from spending the majority of their day on coordination and communication to focusing on the work that actually required a human.
         </p>
-        <p>Within the first two quarters, his business grew 38%.</p>
+        <p>Within the <a href="/blog/compound-effect-of-ai-business">first two quarters</a>, his business grew 38%.</p>
         <p>
           Not because he hired more people. Not because he spent more on marketing. Because the leads he was already generating finally had a system designed to catch them — and the family running his operation could finally focus on growth instead of just keeping up.
         </p>
@@ -756,10 +756,10 @@ export const posts: BlogPost[] = [
 
         <h2>The Smart Strategy: Both, In the Right Order</h2>
         <p>
-          The best Oregon businesses aren&apos;t choosing between AI and people. They&apos;re automating the repeatable, high-volume tasks — lead follow-up, scheduling, reminders, reporting, content — and freeing their people to do the work that actually requires human judgment.
+          The best Oregon businesses aren&apos;t choosing between AI and people. They&apos;re automating the repeatable, high-volume tasks — <a href="/blog/most-powerful-ai-automations-portland-metro">lead follow-up, scheduling, reminders, reporting</a>, content — and freeing their people to do the work that actually requires human judgment.
         </p>
         <p>
-          Start with a professional AI audit. Understand what&apos;s automatable. Then build the system that lets your people focus on what they do best.{' '}
+          Start with a <a href="/contact">professional AI audit</a>. Understand what&apos;s automatable. Then build the system that lets your people focus on what they do best.{' '}
           <a href="/contact">Schedule yours today</a>.
         </p>
       </>
@@ -782,7 +782,7 @@ export const posts: BlogPost[] = [
           You don&apos;t need to automate everything to see significant results. You need to start with the right things.
         </p>
         <p>
-          After working with businesses across the Portland metro — Oregon City, Lake Oswego, West Linn, Beaverton, and Portland proper — here are the five AI automations that consistently deliver the highest return.
+          After working with businesses across the Portland metro — Oregon City, Lake Oswego, West Linn, Beaverton, and Portland proper — here are the five AI automations that consistently deliver the <a href="/blog/compound-effect-of-ai-business">highest return</a>.
         </p>
 
         <h2>The Real-World Proof: One Lead That Paid for Everything</h2>
@@ -797,7 +797,7 @@ export const posts: BlogPost[] = [
           Leads came in through the website, through Google, through social media. Some got called back promptly. Others — especially those that came in after hours or during a busy clinic day — sat in an inbox waiting for someone to have a free moment. In a practice where a single converted patient could represent $15,000 in treatment revenue, every unanswered inquiry was a five-figure opportunity walking out the door.
         </p>
         <p>
-          We built an automated lead response and appointment booking system that ensured every inquiry received an immediate, personalized response regardless of when it came in. Prospects were guided directly to the consultation booking flow and pre-qualified by the AI before they ever spoke to a staff member.
+          We built an <a href="/services/ai-systems">automated lead response and appointment booking system</a> that ensured every inquiry received an immediate, personalized response regardless of when it came in. Prospects were guided directly to the consultation booking flow and pre-qualified by the AI before they ever spoke to a staff member.
         </p>
         <p>The first new patient who booked through the system paid for our entire service fee. Everything after that was pure return.</p>
         <p>
@@ -829,7 +829,7 @@ export const posts: BlogPost[] = [
           <strong>What it does:</strong> After a positive interaction, every customer receives an automated, personalized request to leave a Google review — timed for when they&apos;re most likely to be satisfied and responsive.
         </p>
         <p>
-          <strong>Why it matters:</strong> In the Portland metro, Google reviews are a primary driver of local purchasing decisions. Most businesses have under 15 reviews because they never ask consistently.
+          <strong>Why it matters:</strong> In the Portland metro, <a href="/our-seo-process">Google reviews are a primary driver</a> of local purchasing decisions. Most businesses have under 15 reviews because they never ask consistently.
         </p>
 
         <h2>#4: The Appointment Reminder and Confirmation Sequence</h2>
@@ -900,7 +900,7 @@ export const posts: BlogPost[] = [
           In a market like the Pearl District, where a condo can go from listed to under contract in 48 hours, a multi-hour response gap isn&apos;t a minor inconvenience. It&apos;s the difference between being the agent who guided that buyer and being the agent they never heard from.
         </p>
         <p>
-          We built an AI-powered response system that matched the brand identity they&apos;d been promising but not fully delivering. Every inquiry — regardless of time, day, or how busy the team was — received an immediate, personalized response within 90 seconds. The message introduced the right agent by name, acknowledged the specific property or neighborhood the prospect was interested in, and invited them to schedule a showing or consultation directly on the agent&apos;s calendar.
+          We built an <a href="/services/ai-systems">AI-powered response system</a> that matched the brand identity they&apos;d been promising but not fully delivering. Every inquiry — regardless of time, day, or how busy the team was — received an <a href="/blog/most-powerful-ai-automations-portland-metro">immediate, personalized response within 90 seconds</a>. The message introduced the right agent by name, acknowledged the specific property or neighborhood the prospect was interested in, and invited them to schedule a showing or consultation directly on the agent&apos;s calendar.
         </p>
         <p>
           By morning, leads that came in at 10 PM were already in active conversations. By Monday, weekend inquiries were pre-qualified and appointment-ready.
@@ -929,7 +929,7 @@ export const posts: BlogPost[] = [
           Every week a business waits to address customer experience through AI, they&apos;re training customers to expect less — or, more accurately, driving customers to competitors who have already built these systems.
         </p>
         <p>
-          The good news: the investment to get there is smaller than most business owners assume. The question is whether you build it now, while you can be an early mover, or later, when the bar has risen even further.
+          The good news: the investment to get there is smaller than most business owners assume. The question is whether you build it now, while you can be an <a href="/blog/best-time-to-start-ai-integration-oregon-business">early mover</a>, or later, when the bar has risen even further.
         </p>
         <p>
           <a href="/contact">Book a free AI audit with Thomas+David+Jacob</a>{' '}
@@ -963,7 +963,7 @@ export const posts: BlogPost[] = [
           Over 70% of small business owners say they want to use AI more in their operations. But fewer than 30% have successfully implemented systems that deliver measurable results.
         </p>
         <p>
-          That gap — the distance between wanting AI and having AI that works — is the AI skills gap. And it&apos;s not a knowledge problem. It&apos;s an architecture problem.
+          That gap — the distance between wanting AI and having AI that works — is the <a href="/blog/ai-nephew-setup-costing-oregon-businesses">AI skills gap</a>. And it&apos;s not a knowledge problem. It&apos;s an architecture problem.
         </p>
 
         <h2>What &ldquo;Doing AI Wrong&rdquo; Looks Like</h2>
@@ -981,7 +981,7 @@ export const posts: BlogPost[] = [
         <h2>What Professional AI Implementation Looks Like</h2>
         <p>A professional AI integration partner brings:</p>
         <p>
-          <strong>Systems thinking:</strong> Understanding how every component of the system connects, and designing it so changes in one area don&apos;t break others.
+          <strong><a href="/blog/what-is-ai-systems-architect">Systems thinking</a>:</strong> Understanding how every component of the system connects, and designing it so changes in one area don&apos;t break others.
         </p>
         <p>
           <strong>Tool expertise:</strong> Knowing which platforms work best for which use cases, and which combinations of tools create the most reliable, scalable systems.
@@ -998,7 +998,7 @@ export const posts: BlogPost[] = [
           For Oregon businesses, the AI skills gap represents an opportunity. While your competitors are fumbling through failed DIY attempts, a well-executed professional implementation gives you a reliable, high-performing system that compounds in value over time.
         </p>
         <p>
-          Thomas+David+Jacob exists to bridge exactly this gap — bringing professional AI architecture expertise to Oregon businesses that want results, not experiments.{' '}
+          Thomas+David+Jacob exists to bridge exactly this gap — bringing professional <a href="/services/ai-systems">AI architecture expertise</a> to Oregon businesses that want results, not experiments.{' '}
           <a href="/contact">Book a free consultation today</a>.
         </p>
       </>
@@ -1033,13 +1033,13 @@ export const posts: BlogPost[] = [
         <h2>What They Actually Build</h2>
         <p>For most small and mid-size businesses, an AI Systems Architect focuses on three high-value areas:</p>
         <p>
-          <strong>1. Lead Generation and Follow-Up Systems</strong>
+          <strong>1. <a href="/blog/ai-automate-sales-funnel-oregon">Lead Generation and Follow-Up Systems</a></strong>
         </p>
         <p>
           Building the infrastructure that captures leads from every source — your website, social media, ads, referrals — and follows up automatically with the right message at the right time. No lead slips through the cracks. No follow-up forgotten.
         </p>
         <p>
-          <strong>2. Operational Automation</strong>
+          <strong>2. <a href="/blog/signs-business-ready-for-ai">Operational Automation</a></strong>
         </p>
         <p>
           Identifying the tasks your team repeats daily and weekly — data entry, appointment reminders, invoice generation, report creation, document delivery — and replacing them with systems that run on their own.
@@ -1056,7 +1056,7 @@ export const posts: BlogPost[] = [
           The tools exist. Many of them are even user-friendly. But building a system that actually works — one that handles edge cases, doesn&apos;t break when data is messy, and scales as your business grows — requires architectural thinking, not just tool knowledge.
         </p>
         <p>
-          Most business owners who attempt DIY AI automation end up with a collection of half-built workflows that create more problems than they solve. The value of an AI Systems Architect isn&apos;t access to tools. It&apos;s knowing how to build something that works.
+          Most business owners who attempt DIY AI automation end up with a collection of <a href="/blog/ai-nephew-setup-costing-oregon-businesses">half-built workflows</a> that create more problems than they solve. The value of an AI Systems Architect isn&apos;t access to tools. It&apos;s knowing how to build something that works.
         </p>
 
         <h2>The Oregon Business Case</h2>
@@ -1067,7 +1067,7 @@ export const posts: BlogPost[] = [
           Competing with bigger, better-funded businesses used to require hiring more people. Today, it requires better systems. And better systems require someone who knows how to build them.
         </p>
         <p>
-          Thomas+David+Jacob provides AI Systems Architecture services for Oregon businesses at three tiers — from a single high-impact automation to a complete operational overhaul. The right starting point depends on where your biggest opportunity is.{' '}
+          Thomas+David+Jacob provides <a href="/services/ai-systems">AI Systems Architecture services</a> for Oregon businesses at three tiers — from a <a href="/services/ai-systems">single high-impact automation to a complete operational overhaul</a>. The right starting point depends on where your biggest opportunity is.{' '}
           <a href="/contact">Book a free audit to find out</a>.
         </p>
       </>
@@ -1100,7 +1100,7 @@ export const posts: BlogPost[] = [
 
         <h2>Sign 2: Leads Are Falling Through the Cracks</h2>
         <p>
-          If you&apos;ve ever looked at your phone on a Monday and realized you never followed up with an inquiry from Thursday — that&apos;s money on the table. AI follow-up systems respond within 90 seconds, every time, without relying on human memory.
+          If you&apos;ve ever looked at your phone on a Monday and realized you never followed up with an inquiry from Thursday — that&apos;s money on the table. <a href="/blog/most-powerful-ai-automations-portland-metro">AI follow-up systems respond within 90 seconds</a>, every time, without relying on human memory.
         </p>
 
         <h2>Sign 3: You&apos;re Answering the Same Questions Over and Over</h2>
@@ -1110,7 +1110,7 @@ export const posts: BlogPost[] = [
 
         <h2>Sign 4: You Struggle to Keep Your Online Presence Active</h2>
         <p>
-          Posting consistently on Google Business Profile, your website, and social media drives customers to you. But it&apos;s time-consuming. AI content systems can generate, schedule, and maintain a consistent presence without requiring your constant attention.
+          Posting consistently on Google Business Profile, your website, and social media drives customers to you. But it&apos;s time-consuming. <a href="/blog/ai-service-businesses-oregon-2026-guide">AI content systems can generate, schedule</a>, and maintain a consistent presence without requiring your constant attention.
         </p>
 
         <h2>Sign 5: You Spend More Than an Hour a Day on Scheduling</h2>
@@ -1130,12 +1130,12 @@ export const posts: BlogPost[] = [
 
         <h2>The Next Step</h2>
         <p>
-          If any of these sound familiar, the right move isn&apos;t to research every AI tool on the market and try to build something yourself. The right move is a professional AI audit — a structured conversation with someone who can look at your specific business and tell you exactly where the highest-impact opportunities are.
+          If any of these sound familiar, the right move isn&apos;t to research every AI tool on the market and try to build something yourself. The right move is a <a href="/contact">professional AI audit</a> — a structured conversation with someone who can look at your specific business and tell you exactly where the highest-impact opportunities are.
         </p>
         <p>
           That&apos;s exactly what we do at Thomas+David+Jacob.{' '}
           <a href="/contact">Start with a free AI audit call</a>{' '}
-          and find out what&apos;s actually possible for your Oregon business.
+          and find out <a href="/blog/what-ai-can-and-cannot-do-business-2026">what&apos;s actually possible for your Oregon business</a>.
         </p>
       </>
     ),
@@ -1207,7 +1207,7 @@ export const posts: BlogPost[] = [
         <p>
           Attempting to build AI systems without professional guidance is like attempting to build your own accounting system instead of hiring a CPA. You can technically do it — but the cost of the mistakes you&apos;ll make almost always exceeds the cost of hiring someone who does it right the first time.
         </p>
-        <p>A professional AI integration partner brings:</p>
+        <p>A <a href="/blog/what-is-ai-systems-architect">professional AI integration partner</a> brings:</p>
         <ul>
           <li>Knowledge of which tools actually work together (and which don&apos;t)</li>
           <li>Experience designing systems that scale without breaking</li>
@@ -1220,10 +1220,10 @@ export const posts: BlogPost[] = [
 
         <h2>Starting Now Is the Smart Play</h2>
         <p>
-          You don&apos;t have to automate everything at once. The right approach is to start with your single highest-impact process — the one thing that, if automated, would free up the most time or generate the most revenue — and build from there.
+          You don&apos;t have to automate everything at once. The right approach is to start with your <a href="/blog/signs-business-ready-for-ai">single highest-impact process</a> — the one thing that, if automated, would free up the most time or generate the most revenue — and build from there.
         </p>
         <p>
-          At Thomas+David+Jacob, we help Oregon businesses find that starting point and build it right. One well-built automation can pay for itself in 60 days. From there, every additional system is compounding return on a foundation you already own.
+          At Thomas+David+Jacob, we help Oregon businesses find that starting point and build it right. One well-built automation can pay for itself in 60 days. From there, every additional system is <a href="/blog/compound-effect-of-ai-business">compounding return on a foundation</a> you already own.
         </p>
         <p>
           The cost of waiting is real. The cost of starting is a fraction of that.{' '}
@@ -1272,7 +1272,7 @@ export const posts: BlogPost[] = [
           She was paying for tools she hadn&apos;t fully set up. Running workflows that connected to nothing. Spending more time watching tutorial videos than talking to clients. Every new AI product that crossed her feed looked like the missing piece, so she added it to the stack. The result wasn&apos;t efficiency — it was noise.
         </p>
         <p>
-          We sat down, audited everything, and cut the stack down to three core systems tailored specifically to her business: a lead capture and instant response system that made her look like she had a team on call around the clock, a nurture sequence that kept luxury prospects warm over the long decision timelines that come with high-end real estate, and a client communication workflow that delivered the attentive, high-touch experience Sotheby&apos;s buyers expect — without requiring her to personally manage every touchpoint.
+          We sat down, audited everything, and cut the stack down to <a href="/blog/signs-business-ready-for-ai">three core systems</a> tailored specifically to her business: a lead capture and instant response system that made her look like she had a team on call around the clock, a nurture sequence that kept luxury prospects warm over the long decision timelines that come with high-end real estate, and a client communication workflow that delivered the attentive, high-touch experience Sotheby&apos;s buyers expect — without requiring her to personally manage every touchpoint.
         </p>
         <p>
           She went from overwhelmed and scattered to running a tight, polished one-woman operation that looked and felt like a fully staffed boutique agency. Her clients have no idea it&apos;s just her. That&apos;s exactly the point.
@@ -1320,7 +1320,7 @@ export const posts: BlogPost[] = [
 
         <h2>The Three AI Systems That Level the Playing Field Fastest</h2>
         <p>
-          <strong>1. AI-Powered Lead Response</strong>
+          <strong>1. <a href="/blog/most-powerful-ai-automations-portland-metro">AI-Powered Lead Response</a></strong>
         </p>
         <p>
           Enterprise companies have sales development reps who respond to leads within minutes during business hours. AI responds in 90 seconds, around the clock. You win on speed.
@@ -1343,7 +1343,7 @@ export const posts: BlogPost[] = [
           In Oregon City, Portland, West Linn, and across the metro area, most small businesses haven&apos;t built these systems yet. The early movers are claiming territory that will be much harder to claim in two years, when adoption becomes standard.
         </p>
         <p>
-          At Thomas+David+Jacob, we help Oregon small businesses build the AI infrastructure that lets them compete — and win — against companies twice their size.{' '}
+          At Thomas+David+Jacob, we help Oregon small businesses build the <a href="/services/ai-systems">AI infrastructure</a> that lets them compete — and win — against companies twice their size.{' '}
           <a href="/contact">Book a free AI audit today</a>.
         </p>
       </>
@@ -1369,7 +1369,7 @@ export const posts: BlogPost[] = [
           It&apos;s not a new product. It&apos;s not a trend. It&apos;s a structural change in how business gets done.
         </p>
         <p>
-          Within three years, artificial intelligence won&apos;t just be a competitive advantage — it will be the baseline. The businesses that don&apos;t integrate it won&apos;t simply be behind. They&apos;ll be invisible.
+          Within <a href="/blog/compound-effect-of-ai-business">three years</a>, artificial intelligence won&apos;t just be a competitive advantage — it will be the baseline. The businesses that don&apos;t integrate it won&apos;t simply be behind. They&apos;ll be invisible.
         </p>
 
         <h2>The Comparison Most Business Owners Need to Hear</h2>
@@ -1380,7 +1380,7 @@ export const posts: BlogPost[] = [
           But it did change. The businesses that embraced websites and SEO early didn&apos;t just survive — they dominated their markets. The ones that waited until everyone was doing it spent years playing catch-up and tens of thousands of dollars just to get back to even.
         </p>
         <p>
-          AI is the same inflection point. And we&apos;re in the early-mover window right now.
+          AI is the same inflection point. And we&apos;re in the <a href="/blog/best-time-to-start-ai-integration-oregon-business">early-mover window</a> right now.
         </p>
 
         <h2>What &ldquo;AI Integration&rdquo; Actually Means for a Local Business</h2>
@@ -1395,7 +1395,7 @@ export const posts: BlogPost[] = [
           <li>Content systems that keep your online presence active and your SEO growing without requiring three hours of your week</li>
         </ul>
         <p>
-          None of this requires a technical background. It requires the right integration partner who knows how to build it, connect it to your existing tools, and hand it off to you running.
+          None of this requires a technical background. It requires the <a href="/blog/what-is-ai-systems-architect">right integration partner who knows how to build it</a>, connect it to your existing tools, and hand it off to you running.
         </p>
 
         <h2>A Real Oregon Example</h2>
@@ -1437,7 +1437,7 @@ export const posts: BlogPost[] = [
           The question isn&apos;t whether to start. It&apos;s when.
         </p>
         <p>
-          At Thomas+David+Jacob, we specialize in designing and implementing AI-powered business systems for Oregon businesses at every stage. If you&apos;re ready to understand what AI can actually do for your operation,{' '}
+          At Thomas+David+Jacob, we specialize in <a href="/services/ai-systems">designing and implementing AI-powered business systems</a> for Oregon businesses at every stage. If you&apos;re ready to understand what AI can actually do for your operation,{' '}
           <a href="/contact">let&apos;s talk</a>.
         </p>
       </>
@@ -1531,6 +1531,14 @@ export const posts: BlogPost[] = [
             Book a Free AI ROI Consultation
           </a>
         </div>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">AI Automation vs. Hiring: Which Is the Smarter Investment for Your Oregon Business?</a></li>
+          <li><a href="/blog/compound-effect-of-ai-business">The Compound Effect of AI: Why Every Month You Wait Costs More</a></li>
+          <li><a href="/blog/what-is-ai-systems-architect">What Is an AI Systems Architect — and Why Your Business Needs One</a></li>
+        </ul>
       </>
     ),
   },
@@ -1700,6 +1708,14 @@ export const posts: BlogPost[] = [
             Explore AI Lead Generation Systems
           </a>
         </div>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-automate-sales-funnel-oregon">From Lead to Close: How AI Can Automate Your Entire Sales Funnel</a></li>
+          <li><a href="/blog/most-powerful-ai-automations-portland-metro">The 5 Most Powerful AI Automations for Portland Metro Businesses</a></li>
+          <li><a href="/blog/ai-reshaping-customer-expectations-oregon">How AI Is Reshaping Customer Expectations</a></li>
+        </ul>
       </>
     ),
   },
@@ -1789,6 +1805,14 @@ export const posts: BlogPost[] = [
             Explore Custom AI Assistant Development
           </a>
         </div>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-reshaping-customer-expectations-oregon">How AI Is Reshaping Customer Expectations — and What Oregon Businesses Must Do</a></li>
+          <li><a href="/blog/what-ai-can-and-cannot-do-business-2026">Real Talk: What AI Can and Cannot Do for Your Business in 2026</a></li>
+          <li><a href="/blog/most-powerful-ai-automations-portland-metro">The 5 Most Powerful AI Automations for Portland Metro Businesses</a></li>
+        </ul>
       </>
     ),
   },
@@ -1883,6 +1907,14 @@ export const posts: BlogPost[] = [
             Book a Free AI Audit
           </a>
         </div>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">AI Automation vs. Hiring: Which Is the Smarter Investment for Your Oregon Business?</a></li>
+          <li><a href="/blog/compound-effect-of-ai-business">The Compound Effect of AI: Why Every Month You Wait Costs More</a></li>
+          <li><a href="/blog/what-is-ai-systems-architect">What Is an AI Systems Architect — and Why Your Business Needs One</a></li>
+        </ul>
       </>
     ),
   },
@@ -1980,6 +2012,14 @@ export const posts: BlogPost[] = [
             Explore AI Systems Architecture
           </a>
         </div>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/why-oregon-businesses-need-ai-integration-expert">Why Every Oregon Business Will Need an AI Integration Expert Within 3 Years</a></li>
+          <li><a href="/blog/signs-business-ready-for-ai">7 Signs Your Business Is Ready to Integrate AI</a></li>
+          <li><a href="/blog/what-is-ai-systems-architect">What Is an AI Systems Architect — and Why Your Business Needs One</a></li>
+        </ul>
       </>
     ),
   },
@@ -2047,6 +2087,14 @@ export const posts: BlogPost[] = [
         <p>
           If you're a business owner in Oregon City, Portland, Beaverton, Hillsboro, Lake Oswego, or anywhere in the metro area, the best time to start SEO was six months ago. The second best time is today. Reach out to the Thomas David Jacob team for a free consultation — we'll show you exactly where your site stands and what a realistic growth plan looks like.
         </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/compound-effect-of-ai-business">The Compound Effect of AI: Why Every Month You Wait Costs More</a></li>
+          <li><a href="/blog/hidden-cost-of-not-adopting-ai">The Hidden Cost of Doing Nothing: Why Waiting to Adopt AI Will Hurt Your Business</a></li>
+          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026</a></li>
+        </ul>
       </>
     ),
   },
@@ -2106,6 +2154,14 @@ export const posts: BlogPost[] = [
         <p>
           The Thomas David Jacob team builds exclusively on WordPress for this reason. If you'd like to talk through what a professionally designed, SEO-optimized WordPress site could look like for your business, reach out for a free consultation.
         </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">AI Automation vs. Hiring: Which Is the Smarter Investment?</a></li>
+          <li><a href="/blog/ai-service-businesses-oregon-2026-guide">AI for Service Businesses in Oregon: The Complete 2026 Guide</a></li>
+          <li><a href="/blog/signs-business-ready-for-ai">7 Signs Your Business Is Ready to Integrate AI</a></li>
+        </ul>
       </>
     ),
   },
@@ -2178,6 +2234,14 @@ export const posts: BlogPost[] = [
         <p>
           Local SEO done right is one of the highest-ROI investments a small business can make. If you'd like an expert team to handle the research, optimization, and ongoing content strategy for your Oregon City business, the Thomas David Jacob team is here to help. Contact us for a free local SEO audit.
         </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026</a></li>
+          <li><a href="/blog/how-to-prepare-business-for-ai-era">How to Prepare Your Business for the AI Era</a></li>
+          <li><a href="/blog/ai-great-equalizer-small-business-oregon">Why AI Is the Great Equalizer for Small Businesses</a></li>
+        </ul>
       </>
     ),
   },
@@ -2255,6 +2319,14 @@ export const posts: BlogPost[] = [
         <p>
           If your website isn't generating leads, you don't necessarily need to rebuild it from scratch — but you do need a systematic audit and a clear action plan. The Thomas David Jacob team offers free website audits for businesses in Oregon City and the Portland metro. Reach out today and we'll tell you exactly what's holding your site back.
         </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">AI Automation vs. Hiring: Which Is the Smarter Investment?</a></li>
+          <li><a href="/blog/ai-service-businesses-oregon-2026-guide">AI for Service Businesses in Oregon: The Complete 2026 Guide</a></li>
+          <li><a href="/blog/signs-business-ready-for-ai">7 Signs Your Business Is Ready to Integrate AI</a></li>
+        </ul>
       </>
     ),
   },
@@ -2334,6 +2406,14 @@ export const posts: BlogPost[] = [
         <p>
           Optimizing a Google Business Profile properly takes time and ongoing attention. If you'd rather focus on running your business, the Thomas David Jacob team handles Google Business Profile optimization as part of our local SEO packages. Serving Oregon City, Gladstone, Milwaukie, West Linn, Lake Oswego, and the greater Portland metro. Contact us for a free consultation.
         </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026 and Beyond</a></li>
+          <li><a href="/blog/best-time-to-start-ai-integration-oregon-business">Why Now Is the Best Time in History to Start Integrating AI</a></li>
+          <li><a href="/blog/ai-reshaping-customer-expectations-oregon">How AI Is Reshaping Customer Expectations</a></li>
+        </ul>
       </>
     ),
   },
@@ -2412,6 +2492,14 @@ export const posts: BlogPost[] = [
         <p>
           If you're a business owner in Oregon City, Portland, or the metro area considering a new website or redesign, we'd love to have a conversation. Contact us for a free consultation — no pressure, no sales pitch, just an honest conversation about what you need and whether we're the right fit.
         </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">AI Automation vs. Hiring: Which Is the Smarter Investment?</a></li>
+          <li><a href="/blog/ai-service-businesses-oregon-2026-guide">AI for Service Businesses in Oregon: The Complete 2026 Guide</a></li>
+          <li><a href="/blog/signs-business-ready-for-ai">7 Signs Your Business Is Ready to Integrate AI</a></li>
+        </ul>
       </>
     ),
   },
@@ -2483,6 +2571,14 @@ export const posts: BlogPost[] = [
         <p>
           The Thomas David Jacob team works with businesses across Oregon City, Gladstone, West Linn, Lake Oswego, Portland, Beaverton, and Hillsboro to develop integrated digital marketing strategies that make sense for their specific market, budget, and goals. Contact us to talk through what the right approach looks like for your business.
         </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/compound-effect-of-ai-business">The Compound Effect of AI: Why Every Month You Wait Costs More</a></li>
+          <li><a href="/blog/hidden-cost-of-not-adopting-ai">The Hidden Cost of Doing Nothing: Why Waiting to Adopt AI Will Hurt Your Business</a></li>
+          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026</a></li>
+        </ul>
       </>
     ),
   },
@@ -2563,6 +2659,14 @@ export const posts: BlogPost[] = [
         <p>
           If your current website feels dated, slow, or generic, it may be costing you customers. The Thomas David Jacob team designs and builds websites for businesses across Oregon City, Portland, Beaverton, Lake Oswego, and the broader metro area — built for both conversion and search visibility. Contact us for a free website evaluation.
         </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026 and Beyond</a></li>
+          <li><a href="/blog/best-time-to-start-ai-integration-oregon-business">Why Now Is the Best Time in History to Start Integrating AI</a></li>
+          <li><a href="/blog/ai-reshaping-customer-expectations-oregon">How AI Is Reshaping Customer Expectations</a></li>
+        </ul>
       </>
     ),
   },
