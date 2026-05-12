@@ -1014,7 +1014,7 @@ export const posts: BlogPost[] = [
     author: 'Thomas David Jacob Team',
     excerpt:
       "The title sounds technical. The value is practical. Here's what an AI Systems Architect actually does and why forward-thinking Oregon businesses are hiring one now.",
-    heroImage: '/images/what-is-ai-systems-architect.jpg',
+    heroImage: '/images/dark_desktop_notebooks.jpg',
     content: (
       <>
         <p>
