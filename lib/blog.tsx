@@ -92,6 +92,98 @@ export const posts: BlogPost[] = [
     ),
   },
   {
+    slug: 'ai-nephew-setup-costing-oregon-businesses',
+    title: "Why 'I'll Have My Nephew Set That Up' Is Costing Oregon Businesses Real Money",
+    metaTitle: "Why DIY AI Setup Is Costing Oregon Businesses Real Money | Thomas David Jacob",
+    metaDescription:
+      "Outsourcing AI integration to a non-expert — a nephew, an intern, or your own internal team — is one of the most common and costly mistakes Oregon businesses make.",
+    date: 'June 26, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "Outsourcing AI integration to a non-expert — a nephew, an intern, or your own internal team — is one of the most common and costly mistakes Oregon businesses make.",
+    heroImage: '/images/ai-nephew-setup-costing-oregon-businesses.jpg',
+    content: (
+      <>
+        <p>
+          We hear some version of this every month: &ldquo;Oh, I&apos;m going to have my nephew set that up for me. He&apos;s good with computers.&rdquo;
+        </p>
+        <p>
+          We understand the instinct. AI tools look approachable. The interfaces are user-friendly. And your nephew might be excellent at many things.
+        </p>
+        <p>
+          But AI systems architecture is a discipline — and the gap between &ldquo;set up&rdquo; and &ldquo;works correctly and scales&rdquo; is where most of these well-intentioned projects collapse.
+        </p>
+
+        <h2>The Real Story: When Smart People Hit the Wall</h2>
+        <p>Smart people are not the same as the right people for the job.</p>
+        <p>
+          We worked with a company that had exactly the kind of team you&apos;d want if you were going to tackle AI in-house. Sharp employees. Technical backgrounds. Real problem-solving ability. On paper, they had everything they needed to build their own AI systems without outside help.
+        </p>
+        <p>So that&apos;s what they tried.</p>
+        <p>
+          The plan made sense in theory: assign the project to internal staff, give them time to learn the tools, and build the systems themselves. No outside consultants, no integration fees. Just smart people and time.
+        </p>
+        <p>
+          What happened in practice was slower and more expensive than anyone anticipated.
+        </p>
+        <p>
+          The employees tasked with learning AI still had their regular jobs. Client work didn&apos;t pause. Deadlines didn&apos;t move. The AI learning happened in the margins — a lunch break here, an hour on Friday afternoon there. Progress was slow not because the people weren&apos;t capable, but because they were already fully deployed doing the work the business depended on.
+        </p>
+        <p>And then there was the pace of the technology itself.</p>
+        <p>
+          By the time the team had gotten comfortable with a tool, a new version had shipped. By the time they&apos;d built a workflow, the platform had changed its interface. By the time they&apos;d designed a system that worked in testing, the underlying model had been updated and the behavior was different. AI in 2024 and 2025 wasn&apos;t a stable target — it was a moving one. And a team learning on the margins, in stolen hours, couldn&apos;t keep pace with an industry evolving by the week.
+        </p>
+        <p>
+          The result: months of effort, significant internal time investment, and systems that were partially built, partially outdated, and never fully deployed. The opportunity cost — what those employees could have been doing with those hours — was substantial. And the business was no closer to having working AI infrastructure than when they started.
+        </p>
+        <p>
+          When they brought us in, we built in weeks what the internal team had been trying to build for months. Not because we were smarter. Because this is what we do every day. We stay current because we have to. We build fast because we&apos;ve already solved the problems they were encountering for the first time. We don&apos;t have a day job that competes with the work.
+        </p>
+        <p>
+          The lesson isn&apos;t that internal teams can&apos;t learn AI. It&apos;s that learning AI on the side, while running a business, is a race you&apos;re always going to lose against someone who does it full time.
+        </p>
+        <p>
+          Hiring a professional AI integration partner isn&apos;t an admission that your team isn&apos;t capable. It&apos;s a recognition that their time is worth more than the learning curve.
+        </p>
+
+        <h2>The Three Gaps That Cost You</h2>
+        <p>
+          <strong>Gap #1: Technical Competence vs. Systems Thinking</strong>
+        </p>
+        <p>
+          Being &ldquo;good with computers&rdquo; means being comfortable with individual tools. Building an AI business system means designing how multiple tools work together — how data flows between them, what triggers what, how errors are handled, and what happens when edge cases occur.
+        </p>
+        <p>
+          <strong>Gap #2: Availability and Accountability</strong>
+        </p>
+        <p>
+          Your nephew has a life. A job. Competing priorities. When the automation breaks on a Thursday at 2 PM — as it inevitably will — the question is who is accountable for fixing it, and how fast they can respond.
+        </p>
+        <p>
+          Professional AI integration partners come with documentation, support, and the institutional knowledge to maintain what they build.
+        </p>
+        <p>
+          <strong>Gap #3: Business Understanding</strong>
+        </p>
+        <p>
+          The most important variable in effective AI integration isn&apos;t technical skill. It&apos;s business understanding. Building a system that actually solves your specific problem requires someone who understands both the technology and the business context.
+        </p>
+
+        <h2>What Professional Implementation Actually Costs</h2>
+        <p>
+          A professional AI integration project from Thomas+David+Jacob starts at $1,500 for a single, high-impact automation. When that automation generates even five additional booked appointments per month for a service business, it pays for itself in the first month of operation.
+        </p>
+        <p>
+          The question isn&apos;t whether professional implementation is worth it. It&apos;s whether a half-built, unsupported DIY system will ever get to the point where it delivers that return.
+        </p>
+        <p>
+          Most don&apos;t.{' '}
+          <a href="/contact">Let&apos;s build yours right the first time</a>.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'what-ai-can-and-cannot-do-business-2026',
     title: 'Real Talk: What AI Can and Cannot Do for Your Business in 2026',
     metaTitle: 'What AI Can and Cannot Do for Oregon Businesses in 2026 | Thomas David Jacob',
