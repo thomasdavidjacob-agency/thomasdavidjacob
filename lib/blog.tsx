@@ -173,6 +173,73 @@ export const posts: BlogPost[] = [
     ),
   },
   {
+    slug: 'signs-business-ready-for-ai',
+    title: '7 Signs Your Business Is Ready to Integrate AI (Even If You Think You\'re Not)',
+    metaTitle: '7 Signs Your Oregon Business Is Ready for AI Integration | Thomas David Jacob',
+    metaDescription:
+      "You don't need to be a tech company to benefit from AI. Here are the 7 signs that your Oregon business is ready — and what to do next.",
+    date: 'May 22, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "You don't need to be a tech company to benefit from AI. Here are the 7 signs that your Oregon business is ready — and what to do next.",
+    heroImage: '/images/signs-business-ready-for-ai.jpg',
+    content: (
+      <>
+        <p>
+          Most business owners assume AI is for tech companies. Or big companies. Or companies with massive budgets and dedicated IT departments.
+        </p>
+        <p>
+          That assumption is expensive. Here&apos;s the truth: if your business does any of these seven things, you&apos;re ready for AI — and waiting is costing you.
+        </p>
+
+        <h2>Sign 1: You Have a Repetitive Task You Do Every Week</h2>
+        <p>
+          If you send the same type of email every week, enter the same type of data every day, or run the same report every month — that task is automatable. If it takes you 30 minutes per day, that&apos;s 182 hours per year you&apos;re spending on something a system could handle in seconds.
+        </p>
+
+        <h2>Sign 2: Leads Are Falling Through the Cracks</h2>
+        <p>
+          If you&apos;ve ever looked at your phone on a Monday and realized you never followed up with an inquiry from Thursday — that&apos;s money on the table. AI follow-up systems respond within 90 seconds, every time, without relying on human memory.
+        </p>
+
+        <h2>Sign 3: You&apos;re Answering the Same Questions Over and Over</h2>
+        <p>
+          &ldquo;What are your hours?&rdquo; &ldquo;Do you serve my area?&rdquo; &ldquo;How does pricing work?&rdquo; These questions are valuable signals from prospects — but they&apos;re also time-consuming to answer manually, especially at scale. A trained AI assistant handles these instantly, 24/7.
+        </p>
+
+        <h2>Sign 4: You Struggle to Keep Your Online Presence Active</h2>
+        <p>
+          Posting consistently on Google Business Profile, your website, and social media drives customers to you. But it&apos;s time-consuming. AI content systems can generate, schedule, and maintain a consistent presence without requiring your constant attention.
+        </p>
+
+        <h2>Sign 5: You Spend More Than an Hour a Day on Scheduling</h2>
+        <p>
+          Back-and-forth scheduling emails are one of the highest-friction, lowest-value activities in business. AI scheduling systems integrated with your calendar eliminate this entirely.
+        </p>
+
+        <h2>Sign 6: You Don&apos;t Know Where Your Best Customers Are Coming From</h2>
+        <p>
+          If you can&apos;t answer &ldquo;which marketing channel is driving the most revenue?&rdquo; in under 30 seconds, you don&apos;t have the data systems to make good growth decisions. AI-powered reporting fixes this.
+        </p>
+
+        <h2>Sign 7: You Feel Like You&apos;re Always Reacting, Never Ahead</h2>
+        <p>
+          If your business runs on your personal energy and attention rather than systems that run independently, AI is the lever that changes that dynamic. Systems don&apos;t get tired. They don&apos;t have bad days. They just run.
+        </p>
+
+        <h2>The Next Step</h2>
+        <p>
+          If any of these sound familiar, the right move isn&apos;t to research every AI tool on the market and try to build something yourself. The right move is a professional AI audit — a structured conversation with someone who can look at your specific business and tell you exactly where the highest-impact opportunities are.
+        </p>
+        <p>
+          That&apos;s exactly what we do at Thomas+David+Jacob.{' '}
+          <a href="/contact">Start with a free AI audit call</a>{' '}
+          and find out what&apos;s actually possible for your Oregon business.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'hidden-cost-of-not-adopting-ai',
     title: 'The Hidden Cost of Doing Nothing: Why Waiting to Adopt AI Will Hurt Your Business',
     metaTitle: 'The Hidden Cost of Not Adopting AI | Oregon Business Strategy | Thomas David Jacob',
