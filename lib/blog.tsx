@@ -14,6 +14,72 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'ai-automate-sales-funnel-oregon',
+    title: 'From Lead to Close: How AI Can Automate Your Entire Sales Funnel',
+    metaTitle: 'AI Sales Funnel Automation for Oregon Businesses | Thomas David Jacob',
+    metaDescription:
+      "Most Oregon businesses are only using their sales funnel at 40% efficiency. Here's how AI can turn every stage of your funnel into an automated revenue machine.",
+    date: 'June 12, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "Most Oregon businesses are only using their sales funnel at 40% efficiency. Here's how AI can turn every stage of your funnel into an automated revenue machine.",
+    heroImage: '/images/ai-automate-sales-funnel-oregon.jpg.png',
+    content: (
+      <>
+        <p>
+          Your sales funnel has a leak. Multiple leaks, actually. And most of them are in the places where humans are supposed to be handling things manually — but aren&apos;t.
+        </p>
+        <p>Here&apos;s how AI seals every one of them.</p>
+
+        <h2>Stage 1: Lead Capture</h2>
+        <p>
+          Every inquiry that lands on your website, comes through social media, or arrives via Google Business Profile is a potential customer. AI systems ensure every single one is captured, tagged, and entered into your CRM automatically — regardless of what time it arrives or how busy you are.
+        </p>
+        <p>
+          No more lost inquiry forms. No more leads that fell into a spam folder and were never seen.
+        </p>
+
+        <h2>Stage 2: Instant Follow-Up</h2>
+        <p>
+          This is where most small businesses hemorrhage opportunity. A lead comes in at 7 PM on a Tuesday. The business owner doesn&apos;t see it until Wednesday morning. By then, the prospect has already booked with someone else.
+        </p>
+        <p>
+          AI follow-up systems respond within 90 seconds — always. With a personalized, intelligent message that acknowledges their inquiry, answers their most likely initial questions, and invites them to the next step.
+        </p>
+
+        <h2>Stage 3: Qualification</h2>
+        <p>
+          Not every lead is a great fit. AI qualification systems ask the right questions via SMS, email, or chat — and automatically segment leads by readiness, budget, and fit. Your time goes to the prospects most likely to close, not the tire-kickers.
+        </p>
+
+        <h2>Stage 4: Nurture</h2>
+        <p>
+          Most prospects don&apos;t buy on first contact. A well-designed AI nurture sequence keeps your business top-of-mind over 30, 60, or 90 days — with emails, texts, and touchpoints that educate, build trust, and gently move the prospect toward a decision.
+        </p>
+        <p>This happens automatically, for every prospect, indefinitely.</p>
+
+        <h2>Stage 5: Booking and Confirmation</h2>
+        <p>
+          AI scheduling systems book consultations, send confirmations, and send reminders automatically. No back-and-forth. No no-shows because the reminder didn&apos;t go out.
+        </p>
+
+        <h2>Stage 6: Post-Sale Follow-Up</h2>
+        <p>
+          After the sale is where most businesses go completely silent. AI follow-up sequences handle: thank-you messages, onboarding instructions, check-ins at day 7 and day 30, review requests, and referral asks. All automatic. All personalized.
+        </p>
+
+        <h2>The Result: A Funnel That Actually Works</h2>
+        <p>
+          When every stage is connected and automated, the result isn&apos;t just efficiency — it&apos;s a fundamentally different business. One that generates more revenue from the same leads, retains more customers, and grows without proportionally increasing owner time.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we build full-funnel AI systems for Oregon businesses — from lead capture through post-sale follow-up.{' '}
+          <a href="/contact">Book a free AI audit and we&apos;ll show you exactly where your funnel is leaking</a>.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'ai-automation-vs-hiring-oregon-business',
     title: 'AI Automation vs. Hiring: Which Is the Smarter Investment for Your Oregon Business?',
     metaTitle: 'AI Automation vs. Hiring for Oregon Small Business | Thomas David Jacob',
