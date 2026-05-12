@@ -156,6 +156,91 @@ export const posts: BlogPost[] = [
     ),
   },
   {
+    slug: 'ai-creating-new-class-business-owner-oregon',
+    title: 'AI Is Creating a New Class of Business Owner in Oregon — Which Side Are You On?',
+    metaTitle: 'AI Is Creating a New Class of Oregon Business Owner | Thomas David Jacob',
+    metaDescription:
+      "Two types of business owners are emerging: those who leverage AI and those who compete against it. The divide is already visible in Oregon. Which side will you be on?",
+    date: 'June 19, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "Two types of business owners are emerging: those who leverage AI and those who compete against it. The divide is already visible in Oregon. Which side will you be on?",
+    heroImage: '/images/ai-creating-new-class-business-owner-oregon.jpg',
+    content: (
+      <>
+        <p>
+          A divide is forming in Oregon&apos;s business community. It&apos;s happening quietly, without announcements or press releases. But if you talk to business owners who are growing aggressively right now, you start to notice a pattern.
+        </p>
+        <p>They all have AI-powered systems.</p>
+
+        <h2>The Two Business Owners</h2>
+        <p>
+          <strong>The Traditional Owner</strong> runs their business the way they always have. They respond to leads when they can. They follow up when they remember. They rely on their reputation and relationships — which are strong, but have natural limits. They work hard, often harder than they want to, and they can feel the ceiling of what&apos;s possible when everything runs through them personally.
+        </p>
+        <p>
+          <strong>The AI-Enabled Owner</strong> has built systems that run independently of their personal time and attention. Leads are followed up with instantly. Customers are communicated with consistently. Reporting happens automatically. Their personal energy goes to high-value work — relationships, strategy, delivery — while the infrastructure handles the rest.
+        </p>
+
+        <h2>Three Oregon Business Owners Already on the AI Side</h2>
+
+        <h3>The West Linn Luxury Real Estate Agent</h3>
+        <p>
+          When she came to us, she had tabs open for every AI tool she&apos;d seen on Instagram that week — a brand new Sotheby&apos;s agent working the luxury West Linn and Lake Oswego market, selling $900,000-plus homes, with more software subscriptions than she had active clients.
+        </p>
+        <p>
+          We cut the noise and built three focused systems. She went from scattered and overwhelmed to running a polished one-woman operation that looks and feels like a fully staffed boutique firm. Her high-net-worth clients receive white-glove, attentive communication at every stage — automatically. They have no idea it&apos;s just her.
+        </p>
+        <p>
+          In luxury real estate, perception is everything. The right AI systems don&apos;t just save time — they build the brand.
+        </p>
+
+        <h3>The Oregon City Electrician Now Serving Three Markets</h3>
+        <p>He knew the trade cold. What he was still learning was how to run a business.</p>
+        <p>
+          An Oregon City electrician — skilled, licensed, building a reputation one job at a time — had reached the point where word-of-mouth was working and he was thinking about expanding into Gladstone and Portland. The problem was that his entire operation ran through him personally. When he was on a job, he was unreachable. Callbacks happened in stolen moments. Some customers didn&apos;t wait.
+        </p>
+        <p>
+          We built him an automated lead response and job intake system that worked while he worked. Every inquiry got an immediate, professional response. His calendar filled without requiring him to step off a job site.
+        </p>
+        <p>
+          The expansion into Gladstone and Portland didn&apos;t require hiring a dispatcher. It required better systems — ones that made a one-man operation feel like an established local business to every customer who reached out, regardless of time of day.
+        </p>
+        <p>
+          The businesses that grow aren&apos;t always the ones with the most people. They&apos;re the ones with the most reliable systems.
+        </p>
+
+        <h3>The Portland Wellness Coach Who Finally Stopped Drowning in Software</h3>
+        <p>
+          She had seventeen active software subscriptions and a business that felt more stressful to manage than the stress her clients hired her to fix.
+        </p>
+        <p>
+          We audited everything, cancelled what wasn&apos;t working, and connected what was into one lean, functional system. Her monthly costs dropped. Her admin hours dropped more. And for the first time, her business felt as calm as the practice she built for her clients.
+        </p>
+        <p>Sometimes the most powerful thing AI can do is tell you what to turn off.</p>
+
+        <h2>The Compounding Effect</h2>
+        <p>
+          Here&apos;s what makes this divide self-reinforcing: every month the AI-enabled owner runs their systems, those systems get better. They accumulate data. Sequences are refined. New automations are added. The infrastructure grows.
+        </p>
+        <p>
+          Meanwhile, the traditional owner is running the same playbook they ran last year.
+        </p>
+        <p>
+          A 12-month head start in AI adoption is not a 12-month advantage. It&apos;s a foundational advantage that compounds over years.
+        </p>
+
+        <h2>The Decision</h2>
+        <p>You don&apos;t have to automate everything tomorrow. You just have to start.</p>
+        <p>
+          Thomas+David+Jacob offers a free AI audit for Oregon businesses. In 30 minutes, we&apos;ll show you exactly where the highest-impact opportunities are and what it would take to build them.
+        </p>
+        <p>
+          <a href="/contact">Book your free AI audit today</a>. The question isn&apos;t whether AI will matter to your business. It&apos;s whether you&apos;ll be ready when it does.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'ai-service-businesses-oregon-2026-guide',
     title: 'AI for Service Businesses in Oregon: The Complete 2026 Guide',
     metaTitle: 'AI for Oregon Service Businesses: The Complete 2026 Guide | Thomas David Jacob',
