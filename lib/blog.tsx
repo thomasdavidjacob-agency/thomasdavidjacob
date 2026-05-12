@@ -14,6 +14,96 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'ai-automation-vs-hiring-oregon-business',
+    title: 'AI Automation vs. Hiring: Which Is the Smarter Investment for Your Oregon Business?',
+    metaTitle: 'AI Automation vs. Hiring for Oregon Small Business | Thomas David Jacob',
+    metaDescription:
+      "Should you hire another employee or build an AI system? Here's an honest comparison that every Oregon small business owner needs to read before their next hiring decision.",
+    date: 'June 9, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "Should you hire another employee or build an AI system? Here's an honest comparison that every Oregon small business owner needs to read before their next hiring decision.",
+    heroImage: '/images/ai-automation-vs-hiring-oregon-business.jpg',
+    content: (
+      <>
+        <p>
+          Your business is growing. You&apos;re overwhelmed. The obvious solution seems like hiring another person.
+        </p>
+        <p>But before you post that job listing, run these numbers.</p>
+
+        <h2>The True Cost of a New Hire</h2>
+        <p>
+          A full-time employee in Oregon earning $45,000 per year — a modest salary for an administrative or customer service role — actually costs your business significantly more when you factor in:
+        </p>
+        <ul>
+          <li>Employer payroll taxes: approximately 8–10%</li>
+          <li>Health insurance contribution: $3,000–7,000 per year</li>
+          <li>Workers&apos; compensation</li>
+          <li>Onboarding and training time (often 60–90 days before full productivity)</li>
+          <li>Management time</li>
+          <li>Turnover risk</li>
+        </ul>
+        <p>
+          All in, that $45,000 employee often costs $58,000–65,000 per year in real terms. And they work roughly 2,000 hours per year — only during business hours, only when not sick or on vacation, and only as efficiently as they feel on any given day.
+        </p>
+
+        <h2>What an AI System Costs — and What It Delivers</h2>
+        <p>
+          A well-built AI automation system from Thomas+David+Jacob runs $1,500–7,500 depending on complexity. It runs 24/7/365. It doesn&apos;t call in sick. It doesn&apos;t take vacation. It doesn&apos;t need to be managed, trained, or HR-processed.
+        </p>
+        <p>
+          More importantly: it does exactly what it&apos;s designed to do, every single time, at machine speed.
+        </p>
+
+        <h2>A Real Oregon Story: From Family Operation to 38% Growth</h2>
+        <p>
+          One of our favorite client stories involves a plumber who spent years as a top performer at one of the largest plumbing companies in the Oregon area. He knew the trade inside and out. He knew how to run a job, satisfy a customer, and build a reputation. So when he finally went out on his own, the work wasn&apos;t the problem.
+        </p>
+        <p>The business infrastructure was.</p>
+        <p>
+          He launched with the people he trusted most — his sister, his brother-in-law, and his mother. A tight, loyal crew. But between them, they were trying to manually handle every inquiry, every callback, every scheduling request, every follow-up, every invoice, and every customer communication — while he was out in the field actually doing the work. Nothing was automated. Everything ran on memory, text messages, and goodwill.
+        </p>
+        <p>
+          Leads came in and sat. Customers called back and got voicemail. Jobs that should have been booked weren&apos;t, because nobody had time to chase them down while managing the ones already on the schedule.
+        </p>
+        <p>
+          We built him an end-to-end automation system — lead capture, instant response, scheduling integration, follow-up sequences, and job confirmation workflows — all connected, all running without requiring his family to manually touch every transaction. His team went from spending the majority of their day on coordination and communication to focusing on the work that actually required a human.
+        </p>
+        <p>Within the first two quarters, his business grew 38%.</p>
+        <p>
+          Not because he hired more people. Not because he spent more on marketing. Because the leads he was already generating finally had a system designed to catch them — and the family running his operation could finally focus on growth instead of just keeping up.
+        </p>
+
+        <h2>What AI Does Better Than a Human</h2>
+        <p>AI automation is unmatched for:</p>
+        <ul>
+          <li><strong>Speed:</strong> Following up with a lead within 90 seconds versus hours or days</li>
+          <li><strong>Consistency:</strong> Sending the exact right message every time, without forgetting</li>
+          <li><strong>Scale:</strong> Handling 10 leads or 1,000 leads with identical effort</li>
+          <li><strong>Hours:</strong> Operating at 2 AM on a holiday weekend without overtime</li>
+        </ul>
+
+        <h2>What Humans Do Better Than AI</h2>
+        <p>People still outperform AI on:</p>
+        <ul>
+          <li>Complex relationship-building and emotional intelligence</li>
+          <li>Creative problem-solving in novel situations</li>
+          <li>High-trust sales conversations requiring nuance</li>
+          <li>Physical tasks and on-site service delivery</li>
+        </ul>
+
+        <h2>The Smart Strategy: Both, In the Right Order</h2>
+        <p>
+          The best Oregon businesses aren&apos;t choosing between AI and people. They&apos;re automating the repeatable, high-volume tasks — lead follow-up, scheduling, reminders, reporting, content — and freeing their people to do the work that actually requires human judgment.
+        </p>
+        <p>
+          Start with a professional AI audit. Understand what&apos;s automatable. Then build the system that lets your people focus on what they do best.{' '}
+          <a href="/contact">Schedule yours today</a>.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'what-is-ai-systems-architect',
     title: 'What Is an AI Systems Architect — and Why Your Business Needs One',
     metaTitle: 'What Is an AI Systems Architect? | Thomas David Jacob Oregon',
