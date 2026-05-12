@@ -14,6 +14,75 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'what-is-ai-systems-architect',
+    title: 'What Is an AI Systems Architect — and Why Your Business Needs One',
+    metaTitle: 'What Is an AI Systems Architect? | Thomas David Jacob Oregon',
+    metaDescription:
+      "The title sounds technical. The value is practical. Here's what an AI Systems Architect actually does and why forward-thinking Oregon businesses are hiring one now.",
+    date: 'May 26, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "The title sounds technical. The value is practical. Here's what an AI Systems Architect actually does and why forward-thinking Oregon businesses are hiring one now.",
+    heroImage: '/images/what-is-ai-systems-architect.jpg',
+    content: (
+      <>
+        <p>
+          You&apos;ve heard the term. You&apos;re not sure exactly what it means. And you&apos;re wondering if it&apos;s relevant to a business like yours.
+        </p>
+        <p>It is. Let&apos;s break it down.</p>
+
+        <h2>The Simple Definition</h2>
+        <p>
+          An AI Systems Architect designs, builds, and connects the AI-powered systems that automate and accelerate your business. Think of it like a general contractor — but instead of building a house, they&apos;re building the intelligent infrastructure that runs your operations.
+        </p>
+        <p>
+          Where a general contractor knows how to connect plumbing, electrical, and framing into a functioning building, an AI Systems Architect knows how to connect automation tools, AI models, CRMs, communication platforms, and data flows into a functioning business machine.
+        </p>
+
+        <h2>What They Actually Build</h2>
+        <p>For most small and mid-size businesses, an AI Systems Architect focuses on three high-value areas:</p>
+        <p>
+          <strong>1. Lead Generation and Follow-Up Systems</strong>
+        </p>
+        <p>
+          Building the infrastructure that captures leads from every source — your website, social media, ads, referrals — and follows up automatically with the right message at the right time. No lead slips through the cracks. No follow-up forgotten.
+        </p>
+        <p>
+          <strong>2. Operational Automation</strong>
+        </p>
+        <p>
+          Identifying the tasks your team repeats daily and weekly — data entry, appointment reminders, invoice generation, report creation, document delivery — and replacing them with systems that run on their own.
+        </p>
+        <p>
+          <strong>3. AI Assistants and Customer Communication</strong>
+        </p>
+        <p>
+          Deploying trained AI assistants that handle customer questions, qualify prospects, book appointments, and hand off to a human when needed. Available 24/7, never has a bad day, never misses a message.
+        </p>
+
+        <h2>Why You Can&apos;t Just &ldquo;Figure It Out&rdquo; Yourself</h2>
+        <p>
+          The tools exist. Many of them are even user-friendly. But building a system that actually works — one that handles edge cases, doesn&apos;t break when data is messy, and scales as your business grows — requires architectural thinking, not just tool knowledge.
+        </p>
+        <p>
+          Most business owners who attempt DIY AI automation end up with a collection of half-built workflows that create more problems than they solve. The value of an AI Systems Architect isn&apos;t access to tools. It&apos;s knowing how to build something that works.
+        </p>
+
+        <h2>The Oregon Business Case</h2>
+        <p>
+          For businesses in the Portland metro, Oregon City, and surrounding communities, an AI Systems Architect represents something that didn&apos;t exist five years ago: a way to operate with the efficiency of a much larger company, without the overhead.
+        </p>
+        <p>
+          Competing with bigger, better-funded businesses used to require hiring more people. Today, it requires better systems. And better systems require someone who knows how to build them.
+        </p>
+        <p>
+          Thomas+David+Jacob provides AI Systems Architecture services for Oregon businesses at three tiers — from a single high-impact automation to a complete operational overhaul. The right starting point depends on where your biggest opportunity is.{' '}
+          <a href="/contact">Book a free audit to find out</a>.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'hidden-cost-of-not-adopting-ai',
     title: 'The Hidden Cost of Doing Nothing: Why Waiting to Adopt AI Will Hurt Your Business',
     metaTitle: 'The Hidden Cost of Not Adopting AI | Oregon Business Strategy | Thomas David Jacob',
