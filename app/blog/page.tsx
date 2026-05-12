@@ -75,7 +75,6 @@ export default function BlogPage() {
                 <div className="absolute inset-0 bg-black/30" />
               </div>
               <div className="bg-zinc-900/60 p-10 flex flex-col justify-center">
-                <p className="text-zinc-500 text-sm mb-4">{featured.date}</p>
                 <h2 className="text-2xl md:text-3xl font-black text-white mb-4 leading-tight group-hover:text-amber-400 transition-colors">
                   {featured.title}
                 </h2>
@@ -112,7 +111,6 @@ export default function BlogPage() {
                     <div className="absolute inset-0 bg-black/30" />
                   </div>
                   <div className="p-7 flex flex-col flex-1">
-                    <p className="text-zinc-500 text-xs mb-3">{post.date}</p>
                     <h3 className="text-lg font-black text-white mb-3 leading-snug group-hover:text-amber-400 transition-colors flex-1">
                       {post.title}
                     </h3>

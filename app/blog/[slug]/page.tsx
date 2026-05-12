@@ -79,8 +79,6 @@ export default async function BlogPostPage({
             </h1>
             <div className="flex items-center gap-4 text-zinc-400 text-sm">
               <span>{post.author}</span>
-              <span className="text-zinc-600">·</span>
-              <span>{post.date}</span>
             </div>
           </div>
         </div>
@@ -152,7 +150,6 @@ export default async function BlogPostPage({
                       <div className="absolute inset-0 bg-black/30" />
                     </div>
                     <div className="p-6 flex flex-col flex-1">
-                      <p className="text-zinc-500 text-xs mb-3">{related.date}</p>
                       <h3 className="text-base font-black text-white mb-4 leading-snug group-hover:text-amber-400 transition-colors flex-1">
                         {related.title}
                       </h3>
