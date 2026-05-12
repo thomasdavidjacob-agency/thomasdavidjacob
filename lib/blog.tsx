@@ -524,7 +524,7 @@ export const posts: BlogPost[] = [
           Meanwhile, the traditional owner is running the same playbook they ran last year.
         </p>
         <p>
-          A 12-month head start in AI adoption is not a 12-month advantage. It&apos;s a foundational advantage that compounds over years.
+          A 12-month head start in AI adoption is not a 12-month advantage. It&apos;s a foundational advantage that <a href="/blog/compound-effect-of-ai-business">compounds over years</a>.
         </p>
 
         <h2>The Decision</h2>
@@ -821,7 +821,7 @@ export const posts: BlogPost[] = [
           <strong>What it does:</strong> Prospects who don&apos;t convert immediately are enrolled in a 30–60–90 day follow-up sequence — intelligent messages sent at the right intervals that keep your business top-of-mind, build trust, and invite action when the prospect is ready.
         </p>
         <p>
-          <strong>Why it matters:</strong> Most leads don&apos;t convert on first contact. A consistent nurture system works on your behalf indefinitely, without requiring your time or memory.
+          <strong>Why it matters:</strong> Most leads don&apos;t convert on first contact. A consistent <a href="/blog/ai-automate-sales-funnel-oregon">nurture system</a> works on your behalf indefinitely, without requiring your time or memory.
         </p>
 
         <h2>#3: The Review Generation System</h2>
