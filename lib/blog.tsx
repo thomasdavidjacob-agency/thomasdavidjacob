@@ -14,6 +14,70 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'what-ai-can-and-cannot-do-business-2026',
+    title: 'Real Talk: What AI Can and Cannot Do for Your Business in 2026',
+    metaTitle: 'What AI Can and Cannot Do for Oregon Businesses in 2026 | Thomas David Jacob',
+    metaDescription:
+      "There's a lot of hype about AI — and some legitimate skepticism. Here's an honest, grounded assessment of what AI actually delivers for Oregon businesses right now.",
+    date: 'June 23, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "There's a lot of hype about AI — and some legitimate skepticism. Here's an honest, grounded assessment of what AI actually delivers for Oregon businesses right now.",
+    heroImage: '/images/what-ai-can-and-cannot-do-business-2026.jpg',
+    content: (
+      <>
+        <p>Let&apos;s cut through the noise.</p>
+        <p>
+          There&apos;s more AI hype than almost any other topic in business right now. And with hype comes misinformation — both the kind that overpromises and the kind that dismisses the genuine value.
+        </p>
+        <p>Here&apos;s what AI can and cannot honestly do for your business in 2026.</p>
+
+        <h2>What AI Actually Delivers (Proven, Real-World Results)</h2>
+        <p>
+          <strong>Automated lead follow-up:</strong> This is the highest-ROI application for most small businesses. AI follow-up systems respond within 90 seconds, qualify prospects with conversational messages, and keep leads warm indefinitely. Businesses that implement this consistently see 30–50% increases in booked consultations.
+        </p>
+        <p>
+          <strong>24/7 customer communication:</strong> AI assistants trained on your business can handle inquiries, answer FAQs, and route conversations appropriately around the clock. Not perfectly — but consistently and at scale.
+        </p>
+        <p>
+          <strong>Scheduling and appointment management:</strong> Fully automatable. When done right, the back-and-forth email chain disappears entirely.
+        </p>
+        <p>
+          <strong>Routine reporting and data analysis:</strong> AI can pull data from your existing tools, identify patterns, and deliver plain-language summaries. The manual reporting work that takes an hour becomes a five-minute automated process.
+        </p>
+        <p>
+          <strong>Content drafts and marketing materials:</strong> AI significantly accelerates content creation. For outlines, drafts, email campaigns, and routine marketing copy, it&apos;s a genuine time multiplier.
+        </p>
+
+        <h2>What AI Still Can&apos;t Replace</h2>
+        <p>
+          <strong>Complex relationship management:</strong> High-stakes client relationships, sensitive negotiations, and trust-building conversations still require a skilled human. AI can support these relationships; it can&apos;t lead them.
+        </p>
+        <p>
+          <strong>Creative strategy:</strong> AI can generate ideas and produce variations, but original strategic thinking — the kind that comes from deep business understanding and market intuition — is still a human advantage.
+        </p>
+        <p>
+          <strong>Judgment in ambiguous situations:</strong> When something genuinely novel happens, AI applies patterns from training data. Human judgment is still needed for situations that don&apos;t fit existing patterns.
+        </p>
+        <p>
+          <strong>Your expertise:</strong> Whatever makes your business exceptional — your craft, your knowledge, your relationships — AI enhances your ability to deliver it. It doesn&apos;t replace it.
+        </p>
+
+        <h2>The Honest Bottom Line</h2>
+        <p>
+          AI in 2026 is not magic. It&apos;s a powerful tool that delivers real, measurable value when applied to the right problems by someone who knows how to build and connect the systems.
+        </p>
+        <p>
+          The businesses that win with AI aren&apos;t the ones that automate everything. They&apos;re the ones that automate the right things, built correctly, on a solid foundation.
+        </p>
+        <p>
+          That&apos;s exactly what Thomas+David+Jacob helps Oregon businesses do.{' '}
+          <a href="/contact">Let&apos;s talk about what AI can do for yours</a>.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'ai-service-businesses-oregon-2026-guide',
     title: 'AI for Service Businesses in Oregon: The Complete 2026 Guide',
     metaTitle: 'AI for Oregon Service Businesses: The Complete 2026 Guide | Thomas David Jacob',
