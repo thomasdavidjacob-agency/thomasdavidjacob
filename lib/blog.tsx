@@ -14,6 +14,84 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-prepare-business-for-ai-era',
+    title: "How to Prepare Your Business for the AI Era Before It's Too Late",
+    metaTitle: "How to Prepare Your Oregon Business for the AI Era | Thomas David Jacob",
+    metaDescription:
+      "The businesses that prepare now will dominate the next decade. Here's a practical, step-by-step guide to getting your Oregon business AI-ready before the window closes.",
+    date: 'June 30, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "The businesses that prepare now will dominate the next decade. Here's a practical, step-by-step guide to getting your Oregon business AI-ready before the window closes.",
+    heroImage: '/images/how-to-prepare-business-for-ai-era.jpg',
+    content: (
+      <>
+        <p>
+          You can feel the shift. AI is everywhere in the news, your competitors are talking about it, and your customers are experiencing it in every other part of their lives.
+        </p>
+        <p>
+          The question isn&apos;t whether AI will change your industry. It&apos;s whether you&apos;ll be ahead of the change or behind it.
+        </p>
+        <p>Here&apos;s a practical guide to getting your Oregon business AI-ready — step by step.</p>
+
+        <h2>Step 1: Document Your Processes</h2>
+        <p>
+          You can&apos;t automate what you haven&apos;t documented. Before any AI integration work can begin, you need a clear picture of how your business actually operates.
+        </p>
+        <p>
+          Map the key processes: how leads come in, how they&apos;re followed up with, how appointments are scheduled, how customers are onboarded, how you communicate with active clients, how you generate reports. Write it down. Draw it out. Even a rough diagram on paper is a start.
+        </p>
+        <p>
+          This documentation serves two purposes: it reveals the automation opportunities, and it gives an AI integration partner the raw material to build effectively.
+        </p>
+
+        <h2>Step 2: Get Your Tech Stack in Order</h2>
+        <p>
+          AI systems connect to other tools — your CRM, email platform, calendar, website, communication apps. Before you build, understand what you have.
+        </p>
+        <p>
+          Do a quick audit: What CRM are you using? What email marketing platform? Where do your leads land? What calendar system do you use? How do you invoice?
+        </p>
+        <p>
+          If the answer to any of these is &ldquo;I don&apos;t have one of those&rdquo; — that&apos;s important to know, because an AI integration project often includes selecting and connecting the right tools.
+        </p>
+
+        <h2>Step 3: Identify Your Highest-Impact Opportunity</h2>
+        <p>
+          With your processes documented and your tech stack understood, the question becomes: where is the biggest gap between what you&apos;re doing manually and what a well-built system could handle?
+        </p>
+        <p>
+          For most businesses, this is in one of three areas: lead follow-up, customer communication, or administrative tasks. Start there.
+        </p>
+
+        <h2>Step 4: Partner with a Professional</h2>
+        <p>
+          This is where most businesses go wrong — they try to figure it all out themselves and end up with half-built automations that create more problems than they solve.
+        </p>
+        <p>
+          An AI integration partner brings systems expertise, tool knowledge, and implementation experience that dramatically reduces the time and cost to get something working. They also help you avoid the common pitfalls that derail DIY projects.
+        </p>
+
+        <h2>Step 5: Build, Measure, Expand</h2>
+        <p>
+          Start with one well-built system. Measure the result. Then expand.
+        </p>
+        <p>
+          This approach keeps investment manageable, produces measurable early returns that justify continued investment, and builds on a solid foundation rather than rushing to automate everything at once.
+        </p>
+
+        <h2>The Timeline Reality</h2>
+        <p>
+          Businesses that start this process today will have a functioning, compounding AI infrastructure within 90 days. Businesses that wait will spend that time building what the early movers already have.
+        </p>
+        <p>
+          Thomas+David+Jacob offers a free AI audit for Oregon businesses — a structured conversation that maps your processes, identifies your opportunities, and recommends a starting point.{' '}
+          <a href="/contact">Book yours today</a>.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'what-ai-can-and-cannot-do-business-2026',
     title: 'Real Talk: What AI Can and Cannot Do for Your Business in 2026',
     metaTitle: 'What AI Can and Cannot Do for Oregon Businesses in 2026 | Thomas David Jacob',
