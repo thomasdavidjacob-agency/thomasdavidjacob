@@ -14,6 +14,77 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'ai-service-businesses-oregon-2026-guide',
+    title: 'AI for Service Businesses in Oregon: The Complete 2026 Guide',
+    metaTitle: 'AI for Oregon Service Businesses: The Complete 2026 Guide | Thomas David Jacob',
+    metaDescription:
+      "Plumbers, contractors, consultants, real estate pros — AI is changing how service businesses in Oregon operate. Here's everything you need to know in 2026.",
+    date: 'June 16, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      "Plumbers, contractors, consultants, real estate pros — AI is changing how service businesses in Oregon operate. Here's everything you need to know in 2026.",
+    heroImage: '/images/ai-service-businesses-oregon-2026-guide.jpg',
+    content: (
+      <>
+        <p>
+          If you run a service business in Oregon — whether you&apos;re a contractor, consultant, real estate professional, healthcare provider, or any other service provider — this guide is for you.
+        </p>
+        <p>
+          AI in 2026 is not abstract. It&apos;s not a future technology. It&apos;s a set of practical, accessible systems that service businesses are using right now to work less and earn more.
+        </p>
+
+        <h2>Why Service Businesses Have the Most to Gain</h2>
+        <p>
+          Unlike product businesses, service businesses are fundamentally human-resource constrained. You can only serve as many customers as your time allows. AI breaks that constraint — not by replacing your service delivery, but by automating everything around it.
+        </p>
+        <p>
+          Think about everything that happens before and after you actually do the work: marketing, inquiries, qualification, scheduling, quoting, follow-up, reminders, invoicing, check-ins, reviews. Most service business owners spend 30–40% of their time on these activities.
+        </p>
+        <p>AI automates most of them.</p>
+
+        <h2>What Oregon Service Businesses Are Automating in 2026</h2>
+        <p>
+          <strong>Lead Response:</strong> AI responds to every inquiry within 90 seconds with a personalized message, answers common questions, and invites the prospect to schedule a consultation or estimate.
+        </p>
+        <p>
+          <strong>Scheduling:</strong> Integration between AI and your calendar means prospects can book directly, with automatic confirmations and reminders sent on your behalf.
+        </p>
+        <p>
+          <strong>Estimates and Proposals:</strong> For businesses with consistent service offerings, AI can generate preliminary estimates based on information the prospect provides — filtering out non-starters before you invest your time.
+        </p>
+        <p>
+          <strong>Customer Onboarding:</strong> Once a new client signs on, AI sends onboarding sequences that set expectations, deliver necessary documents, and answer predictable early questions.
+        </p>
+        <p>
+          <strong>Review Generation:</strong> Post-service AI sequences automatically ask satisfied customers for Google reviews — consistently, without you having to remember.
+        </p>
+        <p>
+          <strong>Seasonal and Maintenance Follow-Up:</strong> For businesses like HVAC, landscaping, or pest control, AI handles the entire recurring customer communication cycle — maintenance reminders, seasonal offers, and renewal outreach.
+        </p>
+
+        <h2>The Competitive Reality in Oregon</h2>
+        <p>
+          The service business market in the Portland metro area and surrounding communities is competitive. Most service businesses compete on reputation, availability, and price.
+        </p>
+        <p>
+          AI changes the competition landscape. Businesses with AI-powered operations respond faster, follow up more consistently, book more appointments from the same number of leads, and retain more customers. Those advantages compound over time.
+        </p>
+
+        <h2>Getting Started Without Getting Overwhelmed</h2>
+        <p>
+          You don&apos;t have to automate everything at once. The most effective approach is to start with the single process that has the biggest gap between what you&apos;re doing now and what an optimized system could do.
+        </p>
+        <p>
+          For most service businesses, that&apos;s lead follow-up. Start there, build it right, measure the result, and expand from that foundation.
+        </p>
+        <p>
+          Thomas+David+Jacob specializes in AI systems for service businesses in the Oregon metro area. Our AI Starter package — designed to automate your single highest-impact process — starts at $1,500. It pays for itself in most cases within 60–90 days.{' '}
+          <a href="/contact">Book your free audit today</a>.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: 'ai-automate-sales-funnel-oregon',
     title: 'From Lead to Close: How AI Can Automate Your Entire Sales Funnel',
     metaTitle: 'AI Sales Funnel Automation for Oregon Businesses | Thomas David Jacob',
