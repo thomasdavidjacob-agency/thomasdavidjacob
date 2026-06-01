@@ -4,9 +4,7 @@ import Link from 'next/link'
 import Navbar from './components/Navbar'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
-import AuroraBackground from './components/AuroraBackground'
 import SpotlightCard from './components/SpotlightCard'
-import ShimmerButton from './components/ShimmerButton'
 
 export const metadata: Metadata = {
   title: 'Digital Creative Agency | Oregon City, OR | Thomas David Jacob',
@@ -86,47 +84,68 @@ export default function Home() {
       <Navbar />
 
       {/* ── Hero ── */}
-      <section className="relative isolate min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-base bg-grid">
-        <AuroraBackground />
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <Image
+          src="/images/hero-home.jpg"
+          alt="Digital creative agency workspace"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/10" />
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] rounded-full bg-amber-500/6 blur-[120px]" />
+        </div>
+        <div
+          className="absolute inset-0 opacity-[0.03]"
+          style={{
+            backgroundImage:
+              'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)',
+            backgroundSize: '60px 60px',
+          }}
+        />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.9)' }}>
           <div className="flex justify-center mb-6">
             <Image
               src="/images/Main_LogoWhite.png"
               alt="Thomas David Jacob Digital Creative Agency"
               width={200}
               height={60}
-              className="w-[200px] h-auto animate-fade-up"
+              className="w-[200px] h-auto"
               priority
             />
           </div>
 
-          <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/20 rounded-full px-5 py-2 mb-8 animate-fade-up [animation-delay:80ms]">
-            <span className="w-2 h-2 rounded-full bg-gold animate-pulse" />
-            <span className="font-mono text-gold/90 text-xs font-bold tracking-[0.25em] uppercase">
+          <div className="inline-flex items-center gap-2 bg-amber-400/10 border border-amber-400/20 rounded-full px-5 py-2 mb-8">
+            <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+            <span className="text-amber-400 text-xs font-bold tracking-[0.25em] uppercase">
               Oregon City, OR — Est. 2020
             </span>
           </div>
 
-          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.05] tracking-tight mb-6 text-gradient-gold animate-fade-up [animation-delay:160ms]">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[1.05] tracking-tight mb-6">
             A Full-Service
             <br />
-            Digital Creative
+            <span className="text-amber-400">Digital Creative</span>
             <br />
             Agency
           </h1>
 
-          <p className="text-ink text-xl md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up [animation-delay:240ms]">
+          <p className="text-zinc-300 text-xl md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed">
             We build powerful websites, dominate search rankings, and create
             marketing systems that turn clicks into paying customers — for
             businesses across Oregon City, Portland, Lake Oswego, West Linn,
             and all of Oregon.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up [animation-delay:320ms]">
-            <ShimmerButton href="#contact">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="#contact"
+              className="inline-block bg-amber-400 hover:bg-amber-300 text-black font-black px-10 py-4 rounded-full transition-all hover:scale-105 tracking-wide shadow-lg shadow-amber-400/20"
+            >
               Start Getting More Customers
-            </ShimmerButton>
+            </Link>
             <Link
               href="#services"
               className="text-zinc-300 hover:text-white border border-white/15 hover:border-zinc-500 px-8 py-4 rounded-full transition-all hover:bg-white/5"
