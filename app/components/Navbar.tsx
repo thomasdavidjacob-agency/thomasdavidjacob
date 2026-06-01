@@ -4,8 +4,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const navLinks: { label: string; href: string; highlight?: boolean }[] = [
-  { label: 'AI Systems', href: '/ai-systems', highlight: true },
   { label: 'Home', href: '/' },
+  { label: 'AI Systems', href: '/ai-systems', highlight: true },
   { label: 'About', href: '/about' },
   { label: 'Services', href: '/services' },
   { label: 'Our SEO Process', href: '/our-seo-process' },
