@@ -1,11 +1,59 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@600,700&display=swap");
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: #0a0a0a;
+  --color-background: #07070a;
   --color-foreground: #ffffff;
   --color-accent: #f59e0b;
+
+  /* AI-studio dark palette (gold-on-near-black) */
+  --color-base: #07070a; /* page background — a hair of blue, not pure black */
+  --color-surface: #0e0e16; /* cards */
+  --color-elevate: #15151f; /* hover surfaces */
+  --color-gold: #e5c76b; /* brand — light gold for text/glow */
+  --color-gold-deep: #c8a24b; /* brand — saturated for borders/CTA */
+  --color-haze: #4f46e5; /* cool counter-accent for the mesh only */
+  --color-ink: #a1a1ab; /* muted body text */
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: "Clash Display", var(--font-geist-sans), system-ui, sans-serif;
+
+  --animate-aurora: aurora 22s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.5s infinite;
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes aurora {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  33% {
+    transform: translate(6%, -8%) rotate(120deg) scale(1.1);
+  }
+  66% {
+    transform: translate(-6%, 6%) rotate(240deg) scale(0.95);
+  }
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:root {
+  --grid: rgba(229, 199, 107, 0.06); /* faint gold grid lines */
 }
 
 html {
@@ -13,7 +61,58 @@ html {
 }
 
 body {
-  background: #0a0a0a;
-  color: #ffffff;
+  background: #07070a;
+  color: #e7e7ea;
   font-family: var(--font-geist-sans, Arial, Helvetica, sans-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headline gradient text — gold → warm white */
+.text-gradient-gold {
+  background: linear-gradient(180deg, #ffffff 0%, #f1dda4 45%, #e5c76b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Faint blueprint grid overlay — drop on any section */
+.bg-grid {
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(
+    ellipse 80% 60% at 50% 0%,
+    #000 40%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    ellipse 80% 60% at 50% 0%,
+    #000 40%,
+    transparent 100%
+  );
+}
+
+/* Grain/noise overlay — add <div className="grain" /> once as a fixed top layer */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Accessibility: kill motion for users who ask for it */
+@media (prefers-reduced-motion: reduce) {
+  .animate-aurora,
+  .animate-shimmer {
+    animation: none !important;
+  }
+  .animate-fade-up {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
