@@ -2,10 +2,11 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
+import { usePathname } from 'next/navigation'
 
-const navLinks: { label: string; href: string; highlight?: boolean }[] = [
+const navLinks: { label: string; href: string; badge?: boolean }[] = [
   { label: 'Home', href: '/' },
-  { label: 'AI Systems', href: '/ai-systems', highlight: true },
+  { label: 'AI Systems', href: '/ai-systems', badge: true },
   { label: 'About', href: '/about' },
   { label: 'Services', href: '/services' },
   { label: 'Our SEO Process', href: '/our-seo-process' },
@@ -16,6 +17,10 @@ const navLinks: { label: string; href: string; highlight?: boolean }[] = [
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const pathname = usePathname()
+
+  const isActive = (href: string) =>
+    href === '/' ? pathname === '/' : pathname.startsWith(href)
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/95 backdrop-blur-md border-b border-zinc-800/60">
@@ -31,21 +36,40 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop nav */}
-        <ul className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <Link
-                href={link.href}
-                className={
-                  link.highlight
-                    ? 'text-sm text-amber-400 hover:text-amber-300 transition-colors tracking-wide font-bold'
-                    : 'text-sm text-zinc-400 hover:text-amber-400 transition-colors tracking-wide font-medium'
-                }
-              >
-                {link.label}
-              </Link>
-            </li>
-          ))}
+        <ul className="hidden md:flex items-center gap-6">
+          {navLinks.map((link) => {
+            const active = isActive(link.href)
+            if (link.badge) {
+              return (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className={`text-sm font-bold tracking-wide px-4 py-1.5 rounded-full border transition-all ${
+                      active
+                        ? 'bg-amber-400/25 border-amber-400/50 text-white'
+                        : 'bg-amber-400/8 border-amber-400/20 text-white hover:bg-amber-400/18 hover:border-amber-400/35'
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              )
+            }
+            return (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  className={`text-sm tracking-wide font-medium transition-colors ${
+                    active
+                      ? 'text-amber-400'
+                      : 'text-white hover:text-amber-600'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              </li>
+            )
+          })}
         </ul>
 
         {/* Mobile hamburger */}
@@ -70,21 +94,41 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden bg-[#0d0d0d] border-t border-zinc-800 overflow-y-auto max-h-[calc(100vh-64px)]">
           <ul className="flex flex-col px-6 py-6 gap-5">
-            {navLinks.map((link) => (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className={
-                    link.highlight
-                      ? 'text-amber-400 hover:text-amber-300 transition-colors font-bold tracking-wide'
-                      : 'text-zinc-300 hover:text-amber-400 transition-colors font-medium tracking-wide'
-                  }
-                  onClick={() => setMenuOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
+            {navLinks.map((link) => {
+              const active = isActive(link.href)
+              if (link.badge) {
+                return (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className={`inline-block font-bold tracking-wide px-4 py-1.5 rounded-full border transition-all ${
+                        active
+                          ? 'bg-amber-400/25 border-amber-400/50 text-white'
+                          : 'bg-amber-400/8 border-amber-400/20 text-white hover:bg-amber-400/18 hover:border-amber-400/35'
+                      }`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                )
+              }
+              return (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className={`font-medium tracking-wide transition-colors ${
+                      active
+                        ? 'text-amber-400'
+                        : 'text-white hover:text-amber-600'
+                    }`}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              )
+            })}
           </ul>
         </div>
       )}
