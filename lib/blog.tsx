@@ -2099,60 +2099,63 @@ export const posts: BlogPost[] = [
     ),
   },
   {
-    slug: 'wordpress-vs-squarespace-local-business',
-    title: 'WordPress vs. Squarespace for Local Businesses: Which Should You Choose?',
-    metaTitle: 'WordPress vs Squarespace for Oregon City & Portland Local Businesses',
+    slug: 'custom-built-vs-template-websites-oregon-businesses',
+    title: 'Custom-Built vs. Template Websites: What Oregon Businesses Need to Know',
+    metaTitle: 'Custom-Built vs Template Websites for Oregon City & Portland Businesses',
     metaDescription:
-      "Comparing WordPress and Squarespace for your Oregon City or Portland small business website? Here's what actually matters for local SEO and long-term growth.",
+      "Squarespace, Wix, and other template platforms are easy — but are they right for your Oregon business? Here's why custom-built AI-powered websites win.",
     date: 'April 7, 2026',
     author: 'Thomas David Jacob Team',
     excerpt:
-      "Squarespace looks beautiful in the demos. WordPress is more powerful. But which one is actually right for your local business? Here's our honest take.",
+      "Template platforms look great in the demos. But for Oregon businesses that want to compete and grow online, there's a clear winner — and it's not a template.",
     heroImage: '/images/webdesign_in_darkroom.jpg',
     content: (
       <>
         <p>
-          Every week, business owners across Oregon City, Portland, and the metro area ask us the same question: "Should I use WordPress or Squarespace?" It's a reasonable question — both platforms can produce a professional-looking website, and both have genuine strengths. But after building websites for dozens of local businesses, we have a clear recommendation — and the reasons behind it matter.
+          Every week, business owners across Oregon City, Portland, and the metro area ask us some version of the same question: "Should I just use Squarespace or Wix?" It's a fair question — these platforms are heavily marketed, visually polished, and easy to spin up. But after building digital systems for dozens of local businesses, our answer is always the same: if you're serious about growth, you need something built for your business — not assembled from someone else's template.
         </p>
 
-        <h2>The Case for Squarespace</h2>
+        <h2>The Appeal of Template Platforms</h2>
         <p>
-          Squarespace's appeal is real. The templates are beautiful out of the box, the editor is drag-and-drop, and you don't need any technical knowledge to launch a basic site. For a solo freelancer, an artist, or a very simple service business with no growth ambitions, Squarespace can be perfectly adequate.
+          Squarespace, Wix, and similar platforms are genuinely great for certain use cases. The drag-and-drop editors are intuitive, the templates look professional out of the box, and you can have something live in an afternoon. For a solo freelancer, an artist portfolio, or a side project with no growth ambitions, they can be perfectly adequate.
         </p>
         <p>
-          The monthly subscription covers hosting, SSL, and basic support — which simplifies the billing picture. And their customer support, while sometimes slow, is generally responsive.
-        </p>
-
-        <h2>Where Squarespace Falls Short for Local Businesses</h2>
-        <p>
-          The problems start when you want to grow. Squarespace's SEO capabilities are limited in ways that matter at scale. You have less granular control over technical SEO elements like schema markup, canonical tags, and advanced sitemaps. The plugin ecosystem is small compared to WordPress, which means when you need a specialized feature — a booking system, a custom quote calculator, an inventory integration — you often hit a wall.
-        </p>
-        <p>
-          More critically, Squarespace pages consistently load slower than well-optimized WordPress sites. Page speed is a direct ranking factor for Google. For a business in a competitive market like Beaverton or Lake Oswego, a slower site means lower rankings, which means fewer leads.
+          They also simplify billing — hosting, SSL, and basic support are bundled into a monthly subscription. That clarity is appealing when you're just getting started.
         </p>
 
-        <h2>Why We Build on WordPress</h2>
+        <h2>Where Template Platforms Fall Short</h2>
         <p>
-          WordPress powers over 40% of the entire web for a reason. The flexibility is unmatched — with the right theme and plugins, you can build almost anything. Yoast SEO or Rank Math give you granular control over every SEO element on every page. WooCommerce turns your site into a full eCommerce platform. Advanced Custom Fields lets you structure content in ways Squarespace simply can't replicate.
+          The problems start the moment you want to compete. Template platforms limit your control over technical SEO — schema markup, canonical tags, Core Web Vitals, site structure — in ways that matter when you're trying to rank on Google in a competitive market like Beaverton, Lake Oswego, or Portland.
         </p>
         <p>
-          For local businesses in Oregon City, Portland, Milwaukie, and Wilsonville, WordPress's SEO toolset is particularly valuable. We can set up local schema markup that tells Google exactly who you are, where you're located, and what areas you serve — structured data that meaningfully improves local pack visibility.
+          You're also renting, not owning. If the platform raises prices, changes its terms, or shuts down, your site goes with it. And because thousands of other businesses use the same templates, it's nearly impossible to stand out visually or technically.
         </p>
         <p>
-          WordPress also gives you full ownership of your data and your platform. You're not renting space on Squarespace's servers — you own your files, your database, and your content. If Squarespace raises prices or changes its terms (which they have done), you're at their mercy. With WordPress, you can move hosts at any time.
+          Perhaps most importantly, a template site isn't designed to be part of a larger system. It's a static brochure — not an integrated piece of a revenue-generating AI infrastructure.
+        </p>
+
+        <h2>What a Custom-Built Site Actually Means in 2026</h2>
+        <p>
+          At Thomas David Jacob, we don't use page builders or template platforms. We build custom websites using modern, AI-powered development tools — which means every line of code is written specifically for your business, your brand, and your goals. The result is faster, cleaner, and more capable than anything a template can produce.
+        </p>
+        <p>
+          More importantly, the website is one component of the larger AI system we build around your business. It connects to your lead capture, your automation flows, your SEO architecture, and your marketing engine — all designed to work together. A template platform can't do that.
+        </p>
+        <p>
+          For local businesses in Oregon City, Portland, Milwaukie, and Wilsonville, this matters. We can implement custom local schema markup, optimize every technical SEO layer, and build a site that communicates exactly who you are, where you serve, and why you're the best choice — in a way no template can replicate.
         </p>
 
         <h2>The Real Cost Comparison</h2>
         <p>
-          Squarespace plans run $16–$49/month depending on features. WordPress itself is free, but you'll pay for hosting ($10–$30/month for quality managed hosting), a premium theme ($50–$100 one-time), and potentially a few plugins. Professionally built, both platforms cost roughly the same to run — but a professionally built WordPress site delivers dramatically more SEO and functionality value per dollar.
+          Template platform subscriptions run $16–$49/month — forever. A custom-built site is a one-time investment you own outright, with no recurring platform fees, no terms-of-service surprises, and no ceiling on what it can do as your business grows. When you factor in the SEO performance gap and the lost revenue from a site that doesn't convert, the custom build pays for itself faster than most business owners expect.
         </p>
 
-        <h2>Our Honest Recommendation</h2>
+        <h2>Our Recommendation</h2>
         <p>
-          If you're a local business in the Oregon City or Portland metro area and you care about showing up on Google, getting found by new customers, and growing your online presence over time — WordPress is the right choice. It's not more complicated to use once it's set up, and the long-term advantages in SEO flexibility and platform control are significant.
+          If you're a local business in the Oregon City or Portland metro area and you care about showing up on Google, generating consistent leads, and building a digital presence that compounds over time — a custom-built site is the right investment. Templates are for people who want a website. We build for businesses that want results.
         </p>
         <p>
-          The Thomas David Jacob team builds exclusively on WordPress for this reason. If you'd like to talk through what a professionally designed, SEO-optimized WordPress site could look like for your business, reach out for a free consultation.
+          If you'd like to talk through what a custom-built, AI-powered digital system could look like for your business, reach out for a free consultation.
         </p>
 
         <hr />
@@ -2365,7 +2368,7 @@ export const posts: BlogPost[] = [
 
         <h2>Write a Keyword-Rich Business Description</h2>
         <p>
-          You have 750 characters for your business description. Use them well. Naturally incorporate your primary services, your location, and what differentiates you. For a business in Oregon City: "Thomas David Jacob is a full-service digital creative agency serving Oregon City, Portland, and the surrounding metro area. We specialize in WordPress web design, local SEO, and digital marketing for small businesses in Clackamas County and the greater Portland region."
+          You have 750 characters for your business description. Use them well. Naturally incorporate your primary services, your location, and what differentiates you. For a business in Oregon City: "Thomas David Jacob is a full-service digital creative agency serving Oregon City, Portland, and the surrounding metro area. We specialize in AI-powered web design, local SEO, and digital marketing for small businesses in Clackamas County and the greater Portland region."
         </p>
         <p>
           Avoid keyword stuffing — write for humans first, search engines second. Google's algorithm can tell the difference.
@@ -2461,7 +2464,7 @@ export const posts: BlogPost[] = [
 
         <h2>Phase 3: Development (Week 3–6)</h2>
         <p>
-          Once designs are approved, development begins. For WordPress sites, this means building out the approved design in code, setting up the CMS, configuring plugins, and integrating any third-party tools (booking systems, forms, payment processors).
+          Once designs are approved, development begins. This means building out the approved design in clean, custom code, configuring the content structure, and integrating any third-party tools (booking systems, forms, payment processors, automation workflows).
         </p>
         <p>
           During development, you may be asked to provide content — your service descriptions, team bios, photos, and any other copy that goes on the site. Content delays are the second most common cause of project overruns. Prepare your content as early as possible, ideally during the design phase.

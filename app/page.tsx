@@ -4,6 +4,9 @@ import Link from 'next/link'
 import Navbar from './components/Navbar'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
+import AuroraBackground from './components/AuroraBackground'
+import SpotlightCard from './components/SpotlightCard'
+import ShimmerButton from './components/ShimmerButton'
 
 export const metadata: Metadata = {
   title: 'Digital Creative Agency | Oregon City, OR | Thomas David Jacob',
@@ -28,9 +31,9 @@ const steps = [
 
 const services = [
   {
-    title: 'WordPress Web Design',
+    title: 'Custom Web Design',
     description:
-      'Custom WordPress websites engineered for speed, conversions, and top search rankings. Every site is mobile-first, ADA compliant, secure, and built to scale as your business grows.',
+      'Custom websites built with modern AI-powered tools — engineered for speed, conversions, and top search rankings. Every site is mobile-first, ADA compliant, and built to scale as your business grows.',
     features: ['Custom Design', 'Mobile-First', 'SEO-Ready Architecture', 'Speed Optimized'],
     icon: (
       <svg className="w-7 h-7 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -83,75 +86,50 @@ export default function Home() {
       <Navbar />
 
       {/* ── Hero ── */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-        <Image
-          src="/images/hero-home.jpg"
-          alt="Digital creative agency workspace"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/10" />
-        {/* Ambient glow */}
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] rounded-full bg-amber-500/6 blur-[120px]" />
-          <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
-        </div>
+      <section className="relative isolate min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-base bg-grid">
+        <AuroraBackground />
 
-        {/* Grid pattern overlay */}
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage:
-              'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)',
-            backgroundSize: '60px 60px',
-          }}
-        />
-
-        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.9)' }}>
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <div className="flex justify-center mb-6">
             <Image
               src="/images/Main_LogoWhite.png"
               alt="Thomas David Jacob Digital Creative Agency"
               width={200}
               height={60}
-              className="w-[200px] h-auto"
+              className="w-[200px] h-auto animate-fade-up"
               priority
             />
           </div>
 
-          <div className="inline-flex items-center gap-2 bg-amber-400/10 border border-amber-400/20 rounded-full px-5 py-2 mb-8">
-            <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-            <span className="text-amber-400 text-xs font-bold tracking-[0.25em] uppercase">
+          <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/20 rounded-full px-5 py-2 mb-8 animate-fade-up [animation-delay:80ms]">
+            <span className="w-2 h-2 rounded-full bg-gold animate-pulse" />
+            <span className="font-mono text-gold/90 text-xs font-bold tracking-[0.25em] uppercase">
               Oregon City, OR — Est. 2020
             </span>
           </div>
 
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[1.05] tracking-tight mb-6">
+          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.05] tracking-tight mb-6 text-gradient-gold animate-fade-up [animation-delay:160ms]">
             A Full-Service
             <br />
-            <span className="text-amber-400">Digital Creative</span>
+            Digital Creative
             <br />
             Agency
           </h1>
 
-          <p className="text-zinc-400 text-xl md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-ink text-xl md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up [animation-delay:240ms]">
             We build powerful websites, dominate search rankings, and create
             marketing systems that turn clicks into paying customers — for
             businesses across Oregon City, Portland, Lake Oswego, West Linn,
             and all of Oregon.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="#contact"
-              className="bg-amber-400 hover:bg-amber-300 text-black font-black px-10 py-4 rounded-full text-base transition-all hover:scale-105 tracking-wide shadow-lg shadow-amber-400/20"
-            >
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up [animation-delay:320ms]">
+            <ShimmerButton href="#contact">
               Start Getting More Customers
-            </Link>
+            </ShimmerButton>
             <Link
               href="#services"
-              className="text-zinc-300 hover:text-white border border-zinc-700 hover:border-zinc-500 px-8 py-4 rounded-full transition-all hover:bg-white/5"
+              className="text-zinc-300 hover:text-white border border-white/15 hover:border-zinc-500 px-8 py-4 rounded-full transition-all hover:bg-white/5"
             >
               See Our Services
             </Link>
@@ -250,9 +228,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {services.map((service) => (
-              <div
+              <SpotlightCard
                 key={service.title}
-                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl p-8 hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 group flex flex-col"
+                className="hover:-translate-y-1.5"
               >
                 <div className="w-14 h-14 bg-amber-400/8 border border-amber-400/15 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-400/15 transition-colors">
                   {service.icon}
@@ -290,7 +268,7 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </SpotlightCard>
             ))}
           </div>
         </div>

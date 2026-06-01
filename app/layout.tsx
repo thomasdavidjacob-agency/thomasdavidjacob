@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Thomas David Jacob | Digital Agency Oregon City, OR',
   description:
-    'Full-service digital creative agency in Oregon City, OR — WordPress web design, SEO & marketing for the Portland metro and Oregon statewide.',
+    'Full-service digital creative agency in Oregon City, OR — AI-powered web design, SEO & marketing for the Portland metro and Oregon statewide.',
   verification: {
     google: 'xNLWk1ytCymhdvAE0_UZPd4MpUCwOVCEJa9VljWA5_4',
   },
@@ -31,7 +31,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-[#0a0a0a] text-white">{children}</body>
+      <body className="min-h-full bg-base text-white">
+        {children}
+        <div className="grain" />
+      </body>
     </html>
   );
 }

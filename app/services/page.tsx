@@ -7,15 +7,15 @@ import Footer from '../components/Footer'
 export const metadata: Metadata = {
   title: 'Web Design, SEO & Marketing Services | Oregon City',
   description:
-    'WordPress web design, SEO & digital marketing in Oregon City. Serving Portland, Beaverton, Hillsboro, Milwaukie & across Oregon.',
+    'AI-powered web design, SEO & digital marketing in Oregon City. Serving Portland, Beaverton, Hillsboro, Milwaukie & across Oregon.',
 }
 
 const coreServices = [
   {
-    title: 'WordPress Web Design',
+    title: 'Custom Web Design',
     tagline: 'Websites that work as hard as you do.',
     description:
-      'Your website is the foundation of everything. It\'s where first impressions are formed, trust is built, and customers are converted. We design and develop custom WordPress websites that don\'t just look premium — they\'re engineered to rank on Google, load fast, and turn visitors into paying customers. No templates. No shortcuts. Every site is built from scratch to match your brand and goals — whether you\'re in Oregon City, Portland, or anywhere across the state.',
+      'Your website is one part of a larger AI-powered system we build around your business. It\'s where first impressions are formed, trust is built, and customers are converted. We design and develop custom websites using modern AI-powered tools — no templates, no shortcuts, no outdated platforms. Every site is built from scratch, coded for performance, and engineered to rank on Google and turn visitors into paying customers — whether you\'re in Oregon City, Portland, or anywhere across the state.',
     image: '/images/services.jpg',
     imageAlt: 'Professional web design and development',
     features: [

@@ -15,7 +15,7 @@ const webDesignFAQs = [
   {
     question: 'How long does it take to build a website?',
     answer:
-      'Most custom WordPress websites take 3–6 weeks from kickoff to launch, depending on the number of pages, complexity of functionality, and how quickly you provide content and feedback. We\'ll give you a specific timeline during our initial consultation based on your project\'s scope.',
+      'Most custom websites take 3–6 weeks from kickoff to launch, depending on the number of pages, complexity of functionality, and how quickly you provide content and feedback. We\'ll give you a specific timeline during our initial consultation based on your project\'s scope.',
   },
   {
     question: 'Do I own my website when it\'s done?',
@@ -23,9 +23,9 @@ const webDesignFAQs = [
       '100%. Everything we build belongs to you — the design, the code, the content, and the domain. We hand over full credentials and access when the project is complete. You are never locked into a proprietary platform that holds your site hostage.',
   },
   {
-    question: 'Why WordPress? Why not Wix or Squarespace?',
+    question: 'Why not Wix or Squarespace?',
     answer:
-      'WordPress powers 43% of the entire web for good reason. It\'s the most flexible, SEO-friendly, and extensible CMS available. Unlike page builders, WordPress sites can scale to any size, support advanced SEO configurations, and aren\'t tied to a monthly subscription for basic functionality. It\'s simply the best long-term investment for a serious business.',
+      'Template platforms like Wix and Squarespace are fine for a DIY hobby site — but they\'re not designed to win in competitive markets. They limit your SEO control, lock you into their ecosystem, and look like every other business using the same theme. We build custom sites using AI-powered development tools, which means faster builds, cleaner code, and a result that\'s 100% yours. No subscriptions, no platform dependency, no ceilings on growth.',
   },
   {
     question: 'Will my website work on phones and tablets?',
