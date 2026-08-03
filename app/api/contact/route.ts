@@ -1,12 +1,50 @@
 import { NextRequest } from 'next/server'
 import { Resend } from 'resend'
 
+/* Only accept submissions that originate from our own site. */
+const ALLOWED_HOSTS = ['thomasdavidjacob.com', 'www.thomasdavidjacob.com']
+
+function originAllowed(request: NextRequest): boolean {
+  const origin = request.headers.get('origin') || request.headers.get('referer') || ''
+  if (!origin) return false
+  try {
+    const host = new URL(origin).hostname
+    if (host === 'localhost' || host === '127.0.0.1') return true // local dev
+    return ALLOWED_HOSTS.includes(host)
+  } catch {
+    return false
+  }
+}
+
 export async function POST(request: NextRequest) {
   try {
-    const { name, email, subject, message } = await request.json()
+    // Block bots that POST straight to the API (no/foreign Origin).
+    if (!originAllowed(request)) {
+      return Response.json({ error: 'Forbidden.' }, { status: 403 })
+    }
+
+    const { name, email, subject, message, website, t } = await request.json()
+
+    // Honeypot: humans never see/fill `website`. If it's set, silently accept
+    // (return success so the bot thinks it worked) but send nothing.
+    if (typeof website === 'string' && website.trim() !== '') {
+      return Response.json({ success: true })
+    }
+
+    // Timing: real people take more than a couple seconds to fill the form.
+    // A missing or too-fast timestamp is a bot — silently drop it.
+    const elapsed = typeof t === 'number' ? Date.now() - t : NaN
+    if (!Number.isFinite(elapsed) || elapsed < 2000 || elapsed > 1000 * 60 * 60 * 24) {
+      return Response.json({ success: true })
+    }
 
     if (!name || !email || !subject || !message) {
       return Response.json({ error: 'All fields are required.' }, { status: 400 })
+    }
+
+    // Basic email sanity check.
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email))) {
+      return Response.json({ error: 'Invalid email address.' }, { status: 400 })
     }
 
     const resend = new Resend(process.env.RESEND_API_KEY)
