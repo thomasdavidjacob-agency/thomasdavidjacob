@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
       return Response.json({ error: 'Forbidden.' }, { status: 403 })
     }
 
-    const { name, email, subject, message, website, t } = await request.json()
+    const { name, email, subject, message, website, t, turnstileToken } = await request.json()
 
     // Honeypot: humans never see/fill `website`. If it's set, silently accept
     // (return success so the bot thinks it worked) but send nothing.
@@ -36,6 +36,27 @@ export async function POST(request: NextRequest) {
     const elapsed = typeof t === 'number' ? Date.now() - t : NaN
     if (!Number.isFinite(elapsed) || elapsed < 2000 || elapsed > 1000 * 60 * 60 * 24) {
       return Response.json({ success: true })
+    }
+
+    // Cloudflare Turnstile — active ONLY when TURNSTILE_SECRET_KEY is set.
+    // Until then this block is skipped and the form works on the other guards.
+    const turnstileSecret = process.env.TURNSTILE_SECRET_KEY
+    if (turnstileSecret) {
+      if (typeof turnstileToken !== 'string' || !turnstileToken) {
+        return Response.json({ error: 'Please complete the verification.' }, { status: 400 })
+      }
+      const verifyRes = await fetch(
+        'https://challenges.cloudflare.com/turnstile/v0/siteverify',
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams({ secret: turnstileSecret, response: turnstileToken }),
+        }
+      )
+      const outcome = (await verifyRes.json()) as { success?: boolean }
+      if (!outcome.success) {
+        return Response.json({ error: 'Verification failed. Please try again.' }, { status: 400 })
+      }
     }
 
     if (!name || !email || !subject || !message) {
