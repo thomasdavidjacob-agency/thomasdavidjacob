@@ -14,6 +14,585 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'why-small-businesses-need-ai-more-than-ever-2026',
+    title: 'Why Small Businesses Need AI More Than Ever in 2026',
+    metaTitle: 'Why Small Businesses Need AI in 2026 | Oregon City Agency',
+    metaDescription:
+      'AI is no longer just about your website. Small businesses need AI for reputation management, lead generation, and their Google Business Profile. Here’s why 2026 is the tipping point.',
+    date: 'August 1, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'For years, “getting online” meant building a website. That era is over. In 2026, the small businesses pulling ahead use AI across everything a customer touches — reviews, lead follow-up, and their Google Business Profile — while everyone else is still admiring their homepage.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          If you own a small business in Oregon City, Portland, or anywhere in the metro area, you have probably heard some version of &ldquo;you need to get on AI&rdquo; a hundred times this year. Most of it is noise. Most of it points you at a chatbot you don&apos;t need or a tool you&apos;ll never open twice.
+        </p>
+        <p>
+          So let&apos;s cut through it. Small businesses don&apos;t need AI because it&apos;s trendy. They need it because the three things that actually bring in customers &mdash; your reputation, your leads, and how you show up on Google &mdash; have all quietly moved to a speed and scale that a busy owner simply can&apos;t match by hand anymore.
+        </p>
+
+        <h2>The Website Was Never the Finish Line</h2>
+        <p>
+          For a decade, the advice was simple: get a website. Then it was get a <em>good</em> website. Today, a competent agency can build you a fast, beautiful, mobile-friendly site in days using AI tools. The website is no longer the hard part, and it&apos;s no longer where you win or lose.
+        </p>
+        <p>
+          A website is a storefront. It sits there and looks nice. What decides whether a stranger becomes a paying customer is everything that happens <em>around</em> that storefront: whether they trust your reviews, whether anyone responds when they reach out, and whether you even appear when they search. That is where AI earns its keep.
+        </p>
+
+        <h2>The Three Places AI Now Decides Whether You Win</h2>
+        <p>
+          When we audit a small business, we look at three systems before we ever talk about design. These are the areas where the gap between an AI-equipped business and a manual one has become impossible to ignore.
+        </p>
+
+        <h3>1. Reputation Management</h3>
+        <p>
+          Nine out of ten people read reviews before they call you. Your star rating on Google is, for a huge share of customers, the entire first impression &mdash; formed before they ever see your logo. Yet most owners ask for reviews sporadically, forget to respond to the ones they get, and never see a bad review until it&apos;s buried three deep.
+        </p>
+        <p>
+          AI changes the economics of this. It can prompt every happy customer for a review at the exact right moment, alert you the instant a negative one lands, and draft a professional, on-brand response in seconds so nothing sits unanswered. Reputation stops being something you react to and becomes something you run.
+        </p>
+
+        <h3>2. Lead Generation and Follow-Up</h3>
+        <p>
+          Here is the number that changes minds: a lead contacted within five minutes is many times more likely to convert than one contacted an hour later. Now think about how long it actually takes you to reply to a form fill or a missed call when you&apos;re on a job site, with a customer, or asleep.
+        </p>
+        <p>
+          AI answers instantly, every time, day or night. It texts back the missed call, replies to the 11pm form fill, books the appointment, and keeps following up with the leads that go quiet &mdash; the ones you almost always lose today. Most small businesses don&apos;t have a lead <em>generation</em> problem. They have a lead <em>response</em> problem, and that is exactly what AI solves.
+        </p>
+
+        <h3>3. Your Google Business Profile</h3>
+        <p>
+          For local businesses, your Google Business Profile is now more important than your website. It&apos;s the map pin, the star rating, the photos, the hours, and the &ldquo;call&rdquo; button that show up the moment someone searches &ldquo;near me.&rdquo; A neglected profile quietly hands those customers to the competitor above you.
+        </p>
+        <p>
+          AI keeps that profile alive: fresh posts, answered questions, replied-to reviews, and accurate information &mdash; the exact signals Google rewards with higher local rankings. It turns a profile you set up once and forgot into one that works every week.
+        </p>
+
+        <h2>Why Now, and Not Next Year</h2>
+        <p>
+          The tools got cheap and the customers got impatient at the same time. What used to require a full-time marketing hire now runs on systems that cost a fraction of one salary. Meanwhile, the businesses in your market who adopt first don&apos;t just get a little ahead &mdash; they collect the reviews, the rankings, and the fast-response reputation that compound month over month. Waiting a year doesn&apos;t keep you even. It puts you a year behind a competitor who started.
+        </p>
+
+        <h2>What This Looks Like for a Real Small Business</h2>
+        <p>
+          Picture a two-truck plumbing company in the Portland metro. Today, half their leads go cold because nobody can answer the phone mid-job. Reviews trickle in whenever someone remembers to ask. Their Google profile hasn&apos;t been touched since setup.
+        </p>
+        <p>
+          With AI systems in place: every missed call gets an instant text back and a booking link. Every completed job triggers a review request. Every review gets a same-day reply. Their Google profile posts weekly and answers customer questions automatically. Nothing about their trade changed &mdash; but the number of customers who make it from &ldquo;searching&rdquo; to &ldquo;booked&rdquo; roughly doubled.
+        </p>
+        <p>
+          That&apos;s the real reason small businesses need AI more than ever. Not to look modern. To stop losing customers they already earned.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we build these systems for Oregon businesses &mdash; reputation, lead response, and Google presence, working together. If you want to see where you&apos;re leaking customers, reach out for a free AI systems audit.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-reputation-management-small-business">AI Reputation Management: Turn Reviews Into Your Best Salesperson</a></li>
+          <li><a href="/blog/ai-speed-to-lead-5-minute-rule">The 5-Minute Rule: How AI Speed-to-Lead Wins More Customers</a></li>
+          <li><a href="/blog/google-business-profile-ai-management-small-business">Let AI Run Your Google Business Profile</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'ai-reputation-management-small-business',
+    title: 'AI Reputation Management: Turn Reviews Into Your Best Salesperson',
+    metaTitle: 'AI Reputation Management for Small Business | Oregon City',
+    metaDescription:
+      'Your online reviews sell for you 24/7 — or scare customers away. Here’s how AI helps small businesses monitor, respond to, and grow their reputation automatically.',
+    date: 'July 31, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'Before a customer calls you, they read your reviews. That means your reputation is doing the selling long before you get a word in. AI lets small businesses manage that reputation the way big brands do — without hiring a marketing team.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Your reputation is the first salesperson every customer meets, and you&apos;re usually not in the room when it happens. Someone searches for your service in Oregon City or Portland, sees a row of businesses, and their eyes go straight to the star ratings and the most recent reviews. In about ten seconds, before they read a single word you wrote, they&apos;ve mostly decided whether to call you or the shop next to you.
+        </p>
+        <p>
+          That is either your biggest advantage or your quietest leak. AI is what lets a small business run its reputation deliberately instead of leaving it to chance.
+        </p>
+
+        <h2>Why Reputation Is a System, Not a Vibe</h2>
+        <p>
+          Most owners treat reviews as something that just happens. A great customer leaves a glowing note; an angry one leaves a scathing one; the vast, satisfied middle says nothing at all. The result is a rating that swings on whoever felt strongest that week &mdash; not one that reflects the real quality of your work.
+        </p>
+        <p>
+          Reputation done right is a system with three moving parts: getting reviews consistently, responding to every one of them, and catching problems early. Doing all three by hand, on top of running the business, is exactly where small businesses fall down &mdash; and exactly where AI fits.
+        </p>
+
+        <h2>What AI Actually Does for Your Reviews</h2>
+        <ul>
+          <li><strong>Asks at the perfect moment.</strong> AI triggers a review request right after a job is done or a purchase is made &mdash; when goodwill is highest &mdash; by text or email, with a one-tap link straight to your Google profile.</li>
+          <li><strong>Responds to every review.</strong> It drafts a warm, specific, on-brand reply to each review in seconds, so positive ones get acknowledged and negative ones get handled fast &mdash; publicly and professionally.</li>
+          <li><strong>Watches every platform.</strong> Google, Facebook, Yelp, industry sites &mdash; AI monitors them and alerts you the moment a new review lands, so nothing festers unseen.</li>
+          <li><strong>Spots patterns.</strong> It reads across dozens of reviews and surfaces themes &mdash; &ldquo;three people mentioned wait times this month&rdquo; &mdash; turning complaints into a to-do list.</li>
+        </ul>
+
+        <h2>Responding to the Bad Ones Is Where You Win</h2>
+        <p>
+          Here is what most owners get wrong: a negative review is not a disaster, it&apos;s an audition. Future customers read how you respond far more closely than the complaint itself. A calm, accountable, human reply within a day tells every future reader &ldquo;this business takes care of people.&rdquo; Silence, or a defensive rant, tells them the opposite.
+        </p>
+        <p>
+          The problem is that responding well takes emotional distance most of us don&apos;t have when we&apos;ve just been criticized. AI drafts a level-headed first version instantly &mdash; you read it, adjust the details, and post. You get the professionalism of a PR team without the pause where a frustrated reply would have gone out.
+        </p>
+
+        <h2>The Compounding Math of a Higher Rating</h2>
+        <p>
+          Moving from 3.9 to 4.6 stars, and from 20 reviews to 200, is not a cosmetic change. It lifts where you rank in Google&apos;s local results, raises your click-through rate against competitors, and increases the share of searchers who choose you. Every one of those effects feeds the next. A business that systematically collects and manages reviews doesn&apos;t just look better &mdash; it gets found more and chosen more, month after month.
+        </p>
+
+        <h2>Getting Started Without Adding Work</h2>
+        <p>
+          The point of an AI reputation system is that it runs in the background. Once it&apos;s set up, review requests go out automatically, alerts come to your phone, and responses are pre-drafted and waiting. You spend a few minutes a week approving replies instead of a few hours you don&apos;t have chasing reviews you&apos;ll never get.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we set up reputation systems for Oregon small businesses so your best customers become your loudest advocates &mdash; on autopilot. Reach out for a free audit of where your reviews stand today.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/how-ai-gets-more-5-star-reviews-small-business">How AI Gets You More 5-Star Reviews (Automatically)</a></li>
+          <li><a href="/blog/google-business-profile-ai-management-small-business">Let AI Run Your Google Business Profile</a></li>
+          <li><a href="/blog/why-small-businesses-need-ai-more-than-ever-2026">Why Small Businesses Need AI More Than Ever in 2026</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'how-ai-gets-more-5-star-reviews-small-business',
+    title: 'How AI Gets You More 5-Star Reviews (Automatically)',
+    metaTitle: 'Get More 5-Star Reviews with AI | Small Business Oregon',
+    metaDescription:
+      'Happy customers rarely leave reviews on their own. Learn how AI helps small businesses ask at the right moment and turn great service into a steady stream of 5-star reviews.',
+    date: 'July 30, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'The reason you don’t have more 5-star reviews isn’t your service — it’s that nobody asked at the right time. AI fixes the timing, and the timing is everything.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Most small businesses do excellent work and have the thin review count to prove nobody asked. The gap between &ldquo;my customers love me&rdquo; and &ldquo;my Google profile shows 14 reviews&rdquo; is almost never a quality problem. It&apos;s a timing-and-follow-through problem &mdash; and that is precisely the kind of problem AI was made for.
+        </p>
+
+        <h2>Why Happy Customers Stay Silent</h2>
+        <p>
+          A delighted customer walks away thinking you&apos;re great and then gets on with their life. They&apos;re not withholding a review out of spite; they just never got a clear, easy nudge at the moment they felt good about you. By the next day the feeling has faded and the moment is gone. Meanwhile, upset customers are highly motivated to post &mdash; which is why unmanaged review profiles skew more negative than the business deserves.
+        </p>
+        <p>
+          The fix is to make asking automatic and perfectly timed, so the quiet majority of happy customers actually leaves the feedback they were happy to give.
+        </p>
+
+        <h2>Timing Is the Entire Game</h2>
+        <p>
+          The best moment to ask is right after the win &mdash; the job wrapped, the meal enjoyed, the problem solved. AI ties the review request to that moment automatically:
+        </p>
+        <ul>
+          <li>A home-services customer gets a text an hour after the technician marks the job complete.</li>
+          <li>A restaurant guest gets a friendly follow-up the evening after their visit.</li>
+          <li>A professional-services client gets an email the day after the project closes.</li>
+        </ul>
+        <p>
+          Each one lands while the experience is fresh and includes a single tap straight to your Google review form &mdash; no hunting, no login friction, no excuse to put it off.
+        </p>
+
+        <h2>Make It Effortless or It Won&apos;t Happen</h2>
+        <p>
+          Every extra step costs you reviews. &ldquo;Search for us on Google, scroll down, click reviews, sign in&rdquo; loses most people. A direct link that opens the review box with one tap converts many times better. AI handles the mechanics &mdash; the right link, the right channel, the right message &mdash; so the customer&apos;s only job is to type a sentence and hit post.
+        </p>
+
+        <h2>Stay on the Right Side of the Rules</h2>
+        <p>
+          Getting more reviews is not the same as gaming them. You cannot buy reviews, offer discounts in exchange for them, or filter so only happy customers get asked &mdash; Google prohibits that and penalizes it. A good AI system asks <em>every</em> customer, makes it easy, and lets honest feedback flow. The goal is volume and consistency from real customers, which is exactly what builds a rating that lasts.
+        </p>
+
+        <h2>What a Steady Review Engine Does for You</h2>
+        <p>
+          Consistency matters as much as quantity. A business earning a handful of fresh reviews every week signals to both Google and customers that it&apos;s active, busy, and trusted &mdash; which lifts local rankings and click-through at the same time. Turn asking into a system, and reviews stop being something you occasionally scramble for and become a dependable stream that quietly compounds your visibility.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we build automated review engines for Oregon small businesses so your everyday great work finally shows up in your star rating. Reach out and we&apos;ll map out how many reviews you should be earning.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-reputation-management-small-business">AI Reputation Management: Turn Reviews Into Your Best Salesperson</a></li>
+          <li><a href="/blog/google-business-profile-ai-management-small-business">Let AI Run Your Google Business Profile</a></li>
+          <li><a href="/blog/how-customers-find-small-business-ai-local-search">How Customers Find Your Small Business Now</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'google-business-profile-ai-management-small-business',
+    title: 'Let AI Run Your Google Business Profile',
+    metaTitle: 'AI Google Business Profile Management | Oregon Small Business',
+    metaDescription:
+      'Your Google Business Profile is your new homepage. Learn how AI keeps it posting, answering, and ranking so local customers find you first.',
+    date: 'July 29, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'For a local business, your Google Business Profile matters more than your website — it’s what shows up when someone searches “near me.” AI keeps it active and climbing while you run the business.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Here is an uncomfortable truth for anyone who spent good money on a website: for a local business, your Google Business Profile is more important than your site. When someone in Oregon City or Portland searches &ldquo;plumber near me&rdquo; or &ldquo;best tacos nearby,&rdquo; Google shows a map with three businesses and their star ratings. Most people choose from those three. Your beautiful homepage never even gets a look.
+        </p>
+        <p>
+          That map pack is decided by your Google Business Profile &mdash; and most small businesses set theirs up once, years ago, and never touched it again. AI is how you turn a dormant profile into one that actively wins customers.
+        </p>
+
+        <h2>Why the Profile Beats the Website for Local Search</h2>
+        <p>
+          The profile is where the action is: the map pin, the star rating, the photos, the hours, the phone button, the reviews, and the questions other customers ask. A searcher can call you, get directions, and read reviews without ever leaving Google. If your profile is thin or stale, you simply don&apos;t make the shortlist &mdash; no matter how good your website is.
+        </p>
+
+        <h2>What Google Rewards &mdash; and What AI Keeps Up</h2>
+        <p>
+          Google ranks profiles higher when they&apos;re active, complete, and engaged with. That means regular posts, answered questions, replied-to reviews, fresh photos, and accurate information. Every one of those is a small recurring task, and small recurring tasks are exactly what a busy owner drops first. AI keeps them all running:
+        </p>
+        <ul>
+          <li><strong>Posts every week.</strong> Offers, updates, and highlights published on a steady schedule, so your profile always looks alive.</li>
+          <li><strong>Answers questions.</strong> The public Q&amp;A section gets prompt, accurate replies instead of sitting empty or, worse, answered wrong by a stranger.</li>
+          <li><strong>Replies to reviews.</strong> Every review gets a timely response &mdash; one of the signals Google most directly rewards.</li>
+          <li><strong>Keeps details right.</strong> Hours, services, and categories stay accurate, including around holidays when wrong hours cost you real visits.</li>
+        </ul>
+
+        <h2>The Photos and Posts Nobody Has Time For</h2>
+        <p>
+          Profiles with fresh, plentiful photos get dramatically more clicks and calls than bare ones. But who has time to upload photos weekly and write posts? That&apos;s the recurring grind AI removes &mdash; drafting posts, scheduling them, and prompting you for the occasional photo &mdash; so the profile stays fed without adding a job to your week.
+        </p>
+
+        <h2>Turning Profile Views Into Phone Calls</h2>
+        <p>
+          A well-run profile doesn&apos;t just rank &mdash; it converts. Clear services, current photos, a strong star rating, and recent reviews turn a casual searcher into a phone call. And because the profile connects directly to your reviews and your lead response, it becomes the front of a single system: get found on the map, chosen for the reviews, and answered instantly when they reach out.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we manage Google Business Profiles for Oregon businesses with AI so you climb the local map and stay there. Reach out for a free look at how your profile stacks up against the competitors above you.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/google-business-profile-optimization-guide">The Complete Google Business Profile Optimization Guide</a></li>
+          <li><a href="/blog/how-customers-find-small-business-ai-local-search">How Customers Find Your Small Business Now</a></li>
+          <li><a href="/blog/ai-reputation-management-small-business">AI Reputation Management: Turn Reviews Into Your Best Salesperson</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'ai-speed-to-lead-5-minute-rule',
+    title: 'The 5-Minute Rule: How AI Speed-to-Lead Wins More Customers',
+    metaTitle: 'AI Speed-to-Lead for Small Business | Oregon City Agency',
+    metaDescription:
+      'Leads go cold fast. Businesses that respond in five minutes win far more of them. Here’s how AI gives small businesses instant lead response without hiring anyone.',
+    date: 'July 28, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'A lead you answer in five minutes is worth many times one you answer in an hour. Most small businesses answer in hours — or never. AI closes that gap to seconds.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          There is one metric that quietly decides how many customers a small business wins, and almost nobody measures it: how fast you respond to a new lead. Study after study lands on the same brutal finding &mdash; contact a lead within five minutes and you&apos;re many times more likely to win them than if you wait even an hour. Wait a day, and most are gone.
+        </p>
+        <p>
+          Now be honest about your own response time. When a form comes in while you&apos;re on a job, with a customer, or asleep, how long until someone replies? For most Oregon small businesses the answer is hours &mdash; and every one of those hours is customers walking to a competitor who answered first.
+        </p>
+
+        <h2>Why Speed Beats Almost Everything Else</h2>
+        <p>
+          A person filling out your form or calling you is at peak intent &mdash; they want the problem solved <em>now</em>, and they usually contacted more than one business. Whoever responds first gets the conversation, the trust, and usually the job. The other businesses are answering a lead that&apos;s already been claimed. Speed isn&apos;t a nice-to-have; it&apos;s often the whole contest.
+        </p>
+
+        <h2>What AI Speed-to-Lead Looks Like</h2>
+        <p>
+          An AI lead-response system reacts the instant a lead comes in, at any hour:
+        </p>
+        <ul>
+          <li>A form fill gets an immediate, personal text and email &mdash; not a generic auto-reply, but a real answer that moves things forward.</li>
+          <li>A missed call gets an instant text back: &ldquo;Sorry we missed you &mdash; how can we help?&rdquo; so the caller doesn&apos;t just dial the next number.</li>
+          <li>The lead is offered real appointment times and can book on the spot.</li>
+          <li>Common questions &mdash; pricing ranges, service area, availability &mdash; get answered right away, keeping the conversation warm until you can step in.</li>
+        </ul>
+        <p>
+          To the customer it feels like you were sitting there waiting for them. In reality your system was, so you didn&apos;t have to be.
+        </p>
+
+        <h2>The After-Hours Leads You&apos;re Handing Away</h2>
+        <p>
+          A large share of leads arrive evenings and weekends &mdash; exactly when no one&apos;s watching the inbox. Those leads don&apos;t wait politely until Monday; they keep searching and book whoever gets back to them. AI turns your quietest hours into booked appointments instead of missed ones, which for many businesses is the single biggest source of &ldquo;found&rdquo; revenue.
+        </p>
+
+        <h2>Instant Doesn&apos;t Mean Impersonal</h2>
+        <p>
+          The worry we hear is &ldquo;I don&apos;t want a robot talking to my customers.&rdquo; Fair. The goal isn&apos;t to replace you &mdash; it&apos;s to make sure the conversation <em>starts</em> instantly and hands off to you smoothly. Done right, customers feel cared for by a business that&apos;s remarkably responsive, and you step in warm instead of chasing cold. It&apos;s the responsiveness of a big company with the personal touch of a local one.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we build speed-to-lead systems for Oregon businesses so you&apos;re first to every lead, around the clock. Reach out and we&apos;ll show you how many leads your current response time is costing you.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-capture-leads-after-hours-small-business">The Leads You&apos;re Losing After 5 PM</a></li>
+          <li><a href="/blog/ai-lead-follow-up-nurture-small-business">The Follow-Up Problem: Why AI Beats a Busy Owner</a></li>
+          <li><a href="/blog/ai-lead-generation-oregon">AI Lead Generation for Oregon Businesses</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'ai-capture-leads-after-hours-small-business',
+    title: 'The Leads You’re Losing After 5 PM',
+    metaTitle: 'Capture After-Hours Leads with AI | Oregon Small Business',
+    metaDescription:
+      'Most leads arrive when your business is closed. Learn how AI captures after-hours calls and form fills so small businesses stop losing customers to voicemail.',
+    date: 'July 27, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'Your customers don’t only need you between 9 and 5. A huge share of leads come in nights and weekends — and voicemail loses almost all of them. AI answers when you can’t.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Think about when people actually deal with their to-do lists. The homeowner researches contractors after the kids are down. The busy professional books appointments on Sunday. The frustrated customer with a burst pipe calls at 9pm. A large share of the leads a small business receives arrive outside business hours &mdash; and for most owners, those leads hit voicemail and vanish.
+        </p>
+        <p>
+          You&apos;re not losing after-hours leads because you&apos;re bad at your job. You&apos;re losing them because you were living your life. AI is how you stop that leak without chaining yourself to your phone.
+        </p>
+
+        <h2>Voicemail Is Where Leads Go to Die</h2>
+        <p>
+          Almost nobody with an urgent need leaves a voicemail and waits. They hang up and call the next business. An unanswered form fill sits until morning while the customer keeps shopping. By the time you see it, they&apos;ve often already booked someone else. The lead was never really yours &mdash; it belonged to whoever responded first, and that&apos;s rarely the business that was closed.
+        </p>
+
+        <h2>How AI Covers Your Off Hours</h2>
+        <ul>
+          <li><strong>Missed-call text-back.</strong> The second a call goes unanswered, the caller gets a text: &ldquo;Sorry we missed you &mdash; what do you need help with?&rdquo; The conversation continues by text instead of ending at the beep.</li>
+          <li><strong>Instant form replies.</strong> That 11pm inquiry gets an immediate, helpful response and a link to book &mdash; not a &ldquo;we&apos;ll get back to you&rdquo; that arrives too late.</li>
+          <li><strong>Around-the-clock booking.</strong> Customers grab a real appointment slot at midnight and wake up already on your calendar.</li>
+          <li><strong>Smart triage.</strong> A true emergency can be flagged to reach you, while routine requests are captured and scheduled for the morning.</li>
+        </ul>
+
+        <h2>A Real After-Hours Save</h2>
+        <p>
+          A customer&apos;s water heater fails on a Saturday night. They search, land on your profile, and call &mdash; you&apos;re at dinner. Old way: voicemail, and by Monday they&apos;ve hired someone else. With AI: an instant text back, a few quick questions, and a Sunday-morning slot booked before they even reach the next business on the list. Same you, same schedule &mdash; a customer won instead of lost.
+        </p>
+
+        <h2>You Get Your Evenings and the Lead</h2>
+        <p>
+          The trade small owners think they face is &ldquo;answer every call at all hours&rdquo; versus &ldquo;lose after-hours business.&rdquo; AI erases that trade. Your system stays awake so you don&apos;t have to, captures the lead, and hands you a booked appointment in the morning &mdash; not a list of missed calls and regrets. You keep your nights and weekends <em>and</em> the customers.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we set up after-hours capture for Oregon businesses so no lead ever hits a dead end again. Reach out and we&apos;ll estimate how much off-hours business you&apos;re currently missing.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-speed-to-lead-5-minute-rule">The 5-Minute Rule: How AI Speed-to-Lead Wins More Customers</a></li>
+          <li><a href="/blog/ai-lead-follow-up-nurture-small-business">The Follow-Up Problem: Why AI Beats a Busy Owner</a></li>
+          <li><a href="/blog/why-small-businesses-need-ai-more-than-ever-2026">Why Small Businesses Need AI More Than Ever in 2026</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'ai-lead-follow-up-nurture-small-business',
+    title: 'The Follow-Up Problem: Why AI Beats a Busy Owner',
+    metaTitle: 'AI Lead Follow-Up & Nurture | Small Business Oregon',
+    metaDescription:
+      'Most leads never get a second follow-up — and that’s where the money is. Learn how AI nurtures small-business leads until they’re ready to buy.',
+    date: 'July 26, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'The sale is rarely lost on the first contact — it’s lost on the fifth one that never happened. AI does the persistent, polite follow-up that busy owners simply don’t have time for.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Most small businesses pour effort into getting leads and then quietly lose the majority of them to the same thing: no follow-up. Someone inquires, you reply once, they don&apos;t answer right away, and the lead disappears into the void. Not because they weren&apos;t interested &mdash; because life got in the way and nobody followed up.
+        </p>
+        <p>
+          The uncomfortable reality is that a large share of sales happen after several follow-ups, while most businesses give up after one. That gap is pure lost revenue, and it&apos;s exactly the kind of patient, repetitive work AI does better than a busy human ever could.
+        </p>
+
+        <h2>Why Good Leads Go Cold</h2>
+        <p>
+          A lead going quiet almost never means &ldquo;no.&rdquo; It means they got busy, they&apos;re comparing options, they need to talk to a spouse, or the timing isn&apos;t quite right yet. These are all temporary. But when the only follow-up is you remembering &mdash; between jobs, customers, and everything else &mdash; the follow-up doesn&apos;t happen, and a winnable customer slips away for lack of a nudge.
+        </p>
+
+        <h2>What AI Nurture Actually Does</h2>
+        <ul>
+          <li><strong>Follows up on a schedule.</strong> A quiet lead gets a friendly check-in the next day, then a few days later, then the next week &mdash; persistent without being pushy, and without you lifting a finger.</li>
+          <li><strong>Answers the stall.</strong> It responds to &ldquo;let me think about it&rdquo; with helpful information &mdash; answers to common questions, proof, a gentle reason to move &mdash; instead of silence.</li>
+          <li><strong>Re-warms old leads.</strong> That pile of inquiries from three months ago isn&apos;t dead; AI can revive it with a timely offer or update and pull real jobs out of leads you&apos;d written off.</li>
+          <li><strong>Hands off when they&apos;re ready.</strong> The moment a lead re-engages, you&apos;re alerted so a human can close &mdash; you spend your time on ready buyers, not chasing.</li>
+        </ul>
+
+        <h2>Persistent, Not Annoying</h2>
+        <p>
+          Good follow-up is helpful, not nagging. Each touch gives the customer something &mdash; an answer, reassurance, a reason it&apos;s a good time &mdash; rather than just &ldquo;are you ready yet?&rdquo; AI can keep that tone consistent across every lead and every message, and it stops the instant someone books or asks to be left alone. The result feels like attentive service, not pressure.
+        </p>
+
+        <h2>The Money Was Always in the Follow-Up</h2>
+        <p>
+          Here&apos;s what makes this the highest-return system a small business can add: you&apos;ve already paid to get these leads &mdash; through your website, ads, referrals, and reputation. Squeezing more customers out of the leads you already have is far cheaper than going and finding new ones. AI follow-up doesn&apos;t just add sales; it raises the return on every marketing dollar you already spend.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we build lead nurture systems for Oregon businesses so no good lead dies from neglect. Reach out and we&apos;ll help you see how many customers are hiding in your &ldquo;no response&rdquo; pile.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-speed-to-lead-5-minute-rule">The 5-Minute Rule: How AI Speed-to-Lead Wins More Customers</a></li>
+          <li><a href="/blog/ai-capture-leads-after-hours-small-business">The Leads You&apos;re Losing After 5 PM</a></li>
+          <li><a href="/blog/why-your-website-is-not-generating-leads">Why Your Website Isn&apos;t Generating Leads</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'how-customers-find-small-business-ai-local-search',
+    title: 'How Customers Find Your Small Business Now',
+    metaTitle: 'How Customers Find You: AI & Local Search | Oregon Business',
+    metaDescription:
+      'The way people find local businesses has changed — AI answers, map results, and reviews now decide who gets the call. Here’s how small businesses keep up.',
+    date: 'July 25, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'People don’t find local businesses the way they did five years ago. AI overviews, the map pack, and reviews now do the choosing — often before anyone clicks a website. Here’s how to stay in the running.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          The path a customer takes to find you has quietly changed, and a lot of small businesses are still optimizing for the old one. Five years ago, someone searched, scrolled a list of blue links, and clicked a few websites. Today they get an AI-generated answer at the top, a map with three businesses and their star ratings just below, and they often choose from those without clicking a single website.
+        </p>
+        <p>
+          If your entire online strategy is &ldquo;we have a website,&rdquo; you&apos;re showing up to a race that already moved to a different track. Here&apos;s where customers actually decide now &mdash; and how AI keeps you in front of them.
+        </p>
+
+        <h2>AI Answers Come First</h2>
+        <p>
+          Search engines increasingly answer questions directly with AI summaries that pull from around the web. To be included, your business needs clear, structured, trustworthy information out there &mdash; an accurate profile, consistent details across sites, and content that plainly answers what customers ask. Businesses with a strong, coherent online presence get referenced in those answers; businesses with a thin or inconsistent one get skipped.
+        </p>
+
+        <h2>The Map Pack Beats the Website</h2>
+        <p>
+          For anything &ldquo;near me,&rdquo; the map of three local businesses is the main event. Which three appear comes down to your Google Business Profile, your reviews, and how actively both are managed. This is the highest-value real estate in local search, and it&apos;s won with reputation and profile activity &mdash; exactly the things AI helps a small business keep up consistently.
+        </p>
+
+        <h2>Reviews Are the New Word of Mouth</h2>
+        <p>
+          Even after a customer finds you, your reviews make the final call. A higher star rating and a steady stream of recent, well-handled reviews is often the deciding factor between you and the business next to you on the map. Word of mouth didn&apos;t go away &mdash; it went public and permanent, and it&apos;s searchable by every future customer.
+        </p>
+
+        <h2>It All Connects &mdash; Which Is the Point</h2>
+        <p>
+          Notice how these overlap. Getting found in AI answers depends on consistent information. Winning the map pack depends on your profile and reviews. Getting chosen depends on reputation. And once chosen, getting the customer depends on how fast you respond. These aren&apos;t separate projects &mdash; they&apos;re one connected system, and trying to run it by hand across every platform is where small businesses fall behind.
+        </p>
+        <ul>
+          <li>Consistent, accurate information everywhere customers look</li>
+          <li>An active, well-managed Google Business Profile</li>
+          <li>A steady flow of fresh, well-handled reviews</li>
+          <li>Instant response when someone finally reaches out</li>
+        </ul>
+
+        <h2>Keeping Up Without Falling Behind</h2>
+        <p>
+          The businesses winning local search in 2026 aren&apos;t the ones with the fanciest websites. They&apos;re the ones showing up complete, active, and well-reviewed everywhere the decision actually happens &mdash; and using AI to keep all of it current without hiring a marketing department. That&apos;s the whole game now.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we help Oregon businesses show up and get chosen across modern local search. Reach out for a free look at how findable your business really is today.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/google-business-profile-ai-management-small-business">Let AI Run Your Google Business Profile</a></li>
+          <li><a href="/blog/local-seo-oregon-city-guide">The Local SEO Guide for Oregon City Businesses</a></li>
+          <li><a href="/blog/ai-reputation-management-small-business">AI Reputation Management: Turn Reviews Into Your Best Salesperson</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'small-business-ai-roadmap-reputation-leads-google',
+    title: 'A Small Business AI Roadmap: Where to Start with Reputation, Leads, and Google',
+    metaTitle: 'Small Business AI Roadmap | Reputation, Leads & Google',
+    metaDescription:
+      'You don’t need to do everything at once. This practical roadmap shows small businesses where to start with AI — reputation, lead response, and Google — for the fastest return.',
+    date: 'July 24, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'AI for small business sounds overwhelming until you sequence it. Here’s the order we actually recommend — the fastest wins first — across reputation, leads, and your Google presence.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          The reason most small businesses stall on AI isn&apos;t doubt &mdash; it&apos;s overwhelm. Every tool claims to be essential, everything sounds like a big project, and a busy owner has no time to sort the useful from the noise. So nothing happens.
+        </p>
+        <p>
+          The fix is sequence. You don&apos;t adopt AI all at once; you start with the highest-return, lowest-effort piece and build from there. Here&apos;s the roadmap we walk Oregon businesses through, in the order that pays off fastest.
+        </p>
+
+        <h2>Step 1: Plug the Lead Leak First</h2>
+        <p>
+          Start where you&apos;re losing customers you already earned. Instant lead response &mdash; missed-call text-back and immediate replies to form fills &mdash; almost always delivers the fastest, most obvious return, because you&apos;re capturing business that was walking out the door. Most owners see the difference within the first couple of weeks, which also builds the confidence to keep going.
+        </p>
+
+        <h2>Step 2: Turn On the Review Engine</h2>
+        <p>
+          Next, make getting reviews automatic. Set up AI to ask every customer at the right moment and to help you respond to every review that comes in. Reputation compounds slowly, so the sooner you start, the sooner it pays &mdash; and a rising star rating quietly lifts everything downstream, from rankings to close rate.
+        </p>
+
+        <h2>Step 3: Wake Up Your Google Business Profile</h2>
+        <p>
+          With leads captured and reviews flowing, point that momentum at your Google Business Profile &mdash; regular posts, answered questions, replied-to reviews, current photos and info. This is what gets you into the map pack and in front of &ldquo;near me&rdquo; searchers, and it feeds directly off the reviews you started collecting in step two.
+        </p>
+
+        <h2>Step 4: Add Follow-Up and Nurture</h2>
+        <p>
+          Now go back to the leads that don&apos;t buy right away. Automated follow-up sequences keep quiet leads warm and revive old ones, squeezing more customers out of the leads you already paid to get. This is high-return work that only makes sense once your instant response and capture are solid &mdash; which is why it comes after, not before.
+        </p>
+
+        <h2>Step 5: Connect It Into One System</h2>
+        <p>
+          The real payoff comes when these stop being separate tools. Found on the map, chosen for your reviews, answered instantly, followed up automatically &mdash; one connected system where each part feeds the next. That&apos;s when a small business genuinely competes with far larger competitors, because the customer experience feels every bit as responsive and polished.
+        </p>
+
+        <h2>You Don&apos;t Have to Build It Alone</h2>
+        <p>
+          The point of a roadmap is that you take it one step at a time, with each step paying for the next. You don&apos;t need to become a technologist or overhaul everything this quarter. You need the right first move and a sensible order &mdash; and a partner who&apos;s set these systems up before.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we help Oregon small businesses roll out AI in the right sequence, starting with whatever will move the needle fastest for you. Reach out for a free audit and we&apos;ll map your step one.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/why-small-businesses-need-ai-more-than-ever-2026">Why Small Businesses Need AI More Than Ever in 2026</a></li>
+          <li><a href="/blog/ai-speed-to-lead-5-minute-rule">The 5-Minute Rule: How AI Speed-to-Lead Wins More Customers</a></li>
+          <li><a href="/blog/ai-reputation-management-small-business">AI Reputation Management: Turn Reviews Into Your Best Salesperson</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
     slug: 'website-is-now-the-least-important-thing-we-build',
     title: 'The Website Is the Least Important Thing We Build',
     metaTitle: 'Why AI Systems Matter More Than Websites | Oregon City Agency',
