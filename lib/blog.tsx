@@ -14,6 +14,404 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'ai-seo-food-carts-food-trucks-level-playing-field',
+    title: 'How AI and SEO Level the Playing Field for Food Carts and Food Trucks',
+    metaTitle: 'AI & SEO for Food Carts & Food Trucks | Oregon City Agency',
+    metaDescription:
+      'Food carts and trucks compete against chains with huge budgets. Here’s how AI and SEO give small food businesses the exposure to win — without a marketing team.',
+    date: 'August 4, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'A national chain spends more on lunch promotions than your cart earns in a year. But in 2026, the tools that used to belong only to the big players — SEO, AI, and automated marketing — are cheap, fast, and finally within reach of a one-cart operation.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Portland didn&apos;t become a food city because of its chains. It became one because of its carts &mdash; hundreds of tiny, independent kitchens in pods across the metro, each one doing a handful of things better than anyone else. If you run one of those carts, or a truck working events and street corners around Oregon City and Portland, you already know the food isn&apos;t the problem. Getting enough people to <em>find</em> you is.
+        </p>
+        <p>
+          That&apos;s the fight, and it&apos;s an uneven one. The chain down the block has a marketing department, an ad budget, and an app with a million downloads. You have a griddle and maybe a hand-painted sign. But here&apos;s what changed: the marketing tools that used to require that whole department now run on AI, cost very little, and are available to you today. This is how a food cart competes &mdash; and wins.
+        </p>
+
+        <h2>Why the Playing Field Was Never Level</h2>
+        <p>
+          A national chain doesn&apos;t have better food than a great food cart. What it has is <em>visibility</em>. It shows up first when someone searches, it has thousands of reviews, it&apos;s all over social media, and it can afford to be everywhere at once. For decades, that visibility was something only money could buy, which meant the little guy simply hoped for foot traffic and word of mouth.
+        </p>
+        <p>
+          Visibility is exactly what AI and SEO produce &mdash; and they don&apos;t care how big you are. A one-person cart with the right systems can outrank, out-review, and out-post a chain in the neighborhoods that actually matter to it.
+        </p>
+
+        <h2>The Four Places a Food Cart Wins Exposure</h2>
+        <h3>1. Getting Found When People Search &ldquo;Food Near Me&rdquo;</h3>
+        <p>
+          When someone nearby is hungry and searches, Google shows a map of options. Local SEO and a strong Google Business Profile decide whether your cart is one of them. Get this right and you appear at the exact moment someone is deciding where to eat &mdash; the single most valuable moment in your business.
+        </p>
+        <h3>2. Reviews That Do the Selling</h3>
+        <p>
+          A cart with 300 five-star reviews beats a chain in the only way that counts: trust. AI makes collecting and managing those reviews automatic, so your line out the door turns into a wall of social proof that pulls in the next customer.
+        </p>
+        <h3>3. Social Media That Actually Gets Posted</h3>
+        <p>
+          Food is the most shareable thing on the internet, and carts have an unfair advantage &mdash; personality. AI can keep your Instagram and TikTok fed with posts, captions, and today&apos;s-location updates without stealing the hours you don&apos;t have.
+        </p>
+        <h3>4. Regulars, Not Just Passers-By</h3>
+        <p>
+          Chains win on repeat business. AI lets a cart do the same &mdash; capture customers, remember them, and pull them back &mdash; without a corporate loyalty app.
+        </p>
+
+        <h2>The Equalizer Is Here &mdash; But Only If You Use It</h2>
+        <p>
+          None of this requires you to become a marketer or hire one. It requires setting up a handful of systems once and letting them run while you cook. The carts that do this don&apos;t just survive next to the chains &mdash; they build lines the chains would envy, because great food plus real visibility is a combination the big players can&apos;t match on taste.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we help Oregon food carts and trucks get found and get chosen using AI and SEO built for small budgets. Reach out for a free look at how visible your cart is right now.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/how-customers-find-your-food-truck-local-seo">How Hungry Customers Find Your Food Truck</a></li>
+          <li><a href="/blog/food-cart-out-market-national-chain-ai">How a One-Cart Operation Can Out-Market a National Chain</a></li>
+          <li><a href="/blog/ai-social-media-food-truck-marketing">Let AI Run Your Food Truck&apos;s Social Media</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'how-customers-find-your-food-truck-local-seo',
+    title: 'How Hungry Customers Find Your Food Truck',
+    metaTitle: 'Local SEO for Food Trucks & Carts | Get Found on Google',
+    metaDescription:
+      'Most food-truck customers are deciding where to eat right now on their phones. Learn how local SEO and Google Business Profile get your cart in front of them.',
+    date: 'August 3, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'Your next customer is standing three blocks away, hungry, searching “food near me” on their phone. Whether your cart shows up in that search is the difference between a busy day and a slow one — and it’s something you can control.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Here is how most food-cart customers actually decide where to eat: they&apos;re out, they&apos;re hungry, and they pull out their phone and search &mdash; &ldquo;food near me,&rdquo; &ldquo;tacos downtown Portland,&rdquo; &ldquo;lunch open now.&rdquo; In about ten seconds, Google shows them a map with a few options and their star ratings, and they walk to one of them. If your cart isn&apos;t in those results, you didn&apos;t lose a fair fight &mdash; you were never in it.
+        </p>
+        <p>
+          The good news: which carts show up isn&apos;t random, and it isn&apos;t about who has the biggest budget. It&apos;s about local SEO, and a food cart can win it.
+        </p>
+
+        <h2>Your Google Business Profile Is Your Storefront</h2>
+        <p>
+          A cart doesn&apos;t have a permanent building, so your Google Business Profile <em>is</em> your storefront &mdash; the map pin, the photos, the hours, the menu, the star rating. For a mobile food business it&apos;s the single most important thing you have online, more than any website. A complete, active profile is what lands you in that map of results; a blank or outdated one keeps you invisible.
+        </p>
+
+        <h2>What Gets a Cart Into the Local Results</h2>
+        <ul>
+          <li><strong>Accurate location and hours.</strong> Nothing kills trust like a customer walking to where you used to be. Keeping these current is non-negotiable for a mobile business &mdash; and AI can help you update them fast every time you move.</li>
+          <li><strong>Mouth-watering photos.</strong> Profiles with lots of fresh food photos get far more clicks. Your food already looks great; it just needs to be online.</li>
+          <li><strong>Real reviews, regularly.</strong> Volume and freshness of reviews strongly influence whether you make the map &mdash; and AI can keep them coming automatically.</li>
+          <li><strong>The right categories and keywords.</strong> Describing your cart the way customers search for it &mdash; &ldquo;Korean BBQ,&rdquo; &ldquo;vegan tacos,&rdquo; &ldquo;birria&rdquo; &mdash; helps Google match you to the right hungry person.</li>
+        </ul>
+
+        <h2>Win the Neighborhood, Not the World</h2>
+        <p>
+          You don&apos;t need to rank across the country. You need to dominate the few blocks and the specific dishes around wherever you&apos;re parked. That&apos;s a fight a small operator can absolutely win, because a focused cart with great reviews and a dialed-in profile beats a distant chain for &ldquo;birria near me&rdquo; every time. Local is where the little guy has the advantage.
+        </p>
+
+        <h2>Keeping It Current Without the Work</h2>
+        <p>
+          The catch for mobile food is that everything changes constantly &mdash; today&apos;s pod, tonight&apos;s event, this week&apos;s special. Updating all of it by hand across Google and social every day is exactly what busy cart owners skip. AI keeps your profile and posts current automatically, so &ldquo;where are you today?&rdquo; is answered before anyone has to ask.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we set up local SEO and Google profiles for Oregon food carts and trucks so hungry customers nearby find you first. Reach out and we&apos;ll show you where you&apos;re showing up &mdash; and where you&apos;re not.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-tools-food-trucks-changing-locations">Always-Moving? AI Tools for Food Trucks That Change Locations</a></li>
+          <li><a href="/blog/google-business-profile-ai-management-small-business">Let AI Run Your Google Business Profile</a></li>
+          <li><a href="/blog/local-seo-oregon-city-guide">The Local SEO Guide for Oregon City Businesses</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'ai-tools-food-trucks-changing-locations',
+    title: 'Always-Moving? AI Tools for Food Trucks That Change Locations',
+    metaTitle: 'AI Tools for Food Trucks That Move Locations | Oregon',
+    metaDescription:
+      'A food truck’s biggest marketing challenge is that it moves. Learn how AI keeps your location, hours, and “where are we today” updated everywhere at once.',
+    date: 'August 2, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'A restaurant is always in the same place. Your truck isn’t — and that’s your hardest marketing problem. Regulars can’t find you if they don’t know where you are today. AI solves the “where are we” problem automatically.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          A brick-and-mortar restaurant has one enormous advantage over a food truck, and it has nothing to do with the food: it never moves. Customers always know where to find it. Your truck, on the other hand, might be at a brewery Tuesday, an office park Wednesday, and a festival Saturday &mdash; and every time you move, the people who love your food have to figure out where you went.
+        </p>
+        <p>
+          That &ldquo;where are you today?&rdquo; problem is the single biggest thing standing between a truck and a base of loyal regulars. It&apos;s also exactly the kind of repetitive, everywhere-at-once updating that AI handles beautifully.
+        </p>
+
+        <h2>The Hidden Cost of Being Hard to Find</h2>
+        <p>
+          Every day your location is unclear, you lose the easiest customers you have &mdash; the ones who already love you and <em>want</em> to come back. They check Instagram, see a post from last week, and don&apos;t know if you&apos;ve moved. They search Google, find outdated hours, and give up. A regular who can&apos;t find you today isn&apos;t a loyal customer anymore; they&apos;re someone else&apos;s walk-up.
+        </p>
+
+        <h2>Update Once, Appear Everywhere</h2>
+        <p>
+          The problem isn&apos;t that you don&apos;t want to post your location &mdash; it&apos;s that it has to go to too many places: your Google profile, Instagram, Facebook, your website, maybe a text list. Doing all of that every single move is a job nobody has time for at 6am prep. AI collapses it into one step:
+        </p>
+        <ul>
+          <li><strong>One update, pushed everywhere.</strong> Tell your system where you are today, and it updates your Google profile, social posts, and site at once.</li>
+          <li><strong>Automatic &ldquo;today we&apos;re at…&rdquo; posts.</strong> A clear, consistent daily location post drafted and scheduled for you, so followers always know.</li>
+          <li><strong>Reminders to your regulars.</strong> A quick heads-up to your text or email list when you&apos;re near them &mdash; the digital version of ringing a bell.</li>
+          <li><strong>A schedule people can follow.</strong> AI can keep a &ldquo;where to find us this week&rdquo; view current so planners know where you&apos;ll be.</li>
+        </ul>
+
+        <h2>Turn Your Route Into a Following</h2>
+        <p>
+          Handled well, moving around stops being a liability and becomes a hook. &ldquo;Where will they be today?&rdquo; is a reason to follow you, check in, and chase you down &mdash; the kind of engagement a stationary chain restaurant never gets. Your route becomes a story your fans want to keep up with, and AI is what keeps that story current without eating your prep time.
+        </p>
+
+        <h2>Book More Events, Too</h2>
+        <p>
+          The same systems help you get booked. When your online presence is active and easy to find, breweries, offices, and event planners looking for a truck actually discover you &mdash; and AI can handle the first response to a catering or event inquiry instantly, so you don&apos;t lose a booking because you were slammed on the line.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we build location-aware marketing systems for Oregon food trucks so your regulars always know where you are. Reach out and let&apos;s make you impossible to lose track of.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/how-customers-find-your-food-truck-local-seo">How Hungry Customers Find Your Food Truck</a></li>
+          <li><a href="/blog/ai-social-media-food-truck-marketing">Let AI Run Your Food Truck&apos;s Social Media</a></li>
+          <li><a href="/blog/food-cart-loyalty-repeat-customers-ai">Turn First-Time Customers Into Regulars</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'ai-social-media-food-truck-marketing',
+    title: 'Let AI Run Your Food Truck’s Social Media',
+    metaTitle: 'AI Social Media for Food Trucks & Carts | Oregon City',
+    metaDescription:
+      'Food is made for social media, but posting takes time you don’t have. Learn how AI keeps your food truck’s Instagram and TikTok active and growing.',
+    date: 'July 31, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'Nothing sells food like a great photo — and no business is more built for social media than a food cart. The problem is posting consistently when you’re slammed on the line. That’s the exact gap AI fills.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Food carts have the single best product for social media on earth: hot, colorful, crave-able food and a face-to-face personality that chains can only fake. A truck with a good Instagram can build a following that lines up before you even park. And yet most carts post sporadically, go quiet for weeks, and let that advantage rot &mdash; not from laziness, but because you&apos;re cooking, not scrolling.
+        </p>
+        <p>
+          That&apos;s the whole problem: social media rewards consistency, and consistency is impossible when you&apos;re one person running a kitchen on wheels. AI is what makes consistent possible.
+        </p>
+
+        <h2>Why Social Matters More for Carts Than Anyone</h2>
+        <p>
+          For a stationary restaurant, social is nice to have. For a mobile food business it&apos;s a lifeline &mdash; it&apos;s how people know you exist, where you are, what&apos;s special today, and why they should walk past three other options to reach you. A cart with an active, mouth-watering feed doesn&apos;t just get likes; it gets a line. The exposure a chain buys with ad dollars, you can earn with one great daily post.
+        </p>
+
+        <h2>What AI Actually Handles</h2>
+        <ul>
+          <li><strong>Captions and posts, drafted for you.</strong> Give AI a photo and it writes a caption in your voice, with the right hashtags and a call to come find you.</li>
+          <li><strong>A steady schedule.</strong> It keeps you posting consistently &mdash; today&apos;s location, the special, behind-the-scenes prep &mdash; instead of vanishing for two weeks.</li>
+          <li><strong>Ideas when you&apos;re empty.</strong> No idea what to post? AI hands you a week of prompts built around your menu and your route.</li>
+          <li><strong>Replies that keep up.</strong> It helps answer the flood of &ldquo;where are you?&rdquo; and &ldquo;are you open?&rdquo; comments and DMs so no hungry follower gets ignored.</li>
+        </ul>
+
+        <h2>You Still Sound Like You</h2>
+        <p>
+          The fear is that AI makes your feed generic. Done right, it does the opposite &mdash; it removes the friction that was keeping the real you offline. You take the photo and share the moment; AI handles the writing, timing, and busywork that used to make posting feel like a chore. Your personality is the product, and the goal is to get more of it in front of people, more often.
+        </p>
+
+        <h2>Consistency Is the Whole Game</h2>
+        <p>
+          The algorithms reward accounts that show up regularly, and so do customers &mdash; a cart that posts daily stays top of mind, while one that posts monthly is forgotten between visits. Turning &ldquo;I should post more&rdquo; into a system that just happens is how a small food business builds the kind of audience that follows it from pod to pod.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we set up AI-powered social systems for Oregon food carts and trucks so your feed stays as active as your griddle. Reach out and let&apos;s turn your food into a following.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-tools-food-trucks-changing-locations">Always-Moving? AI Tools for Food Trucks That Change Locations</a></li>
+          <li><a href="/blog/more-reviews-for-your-food-cart-ai">More 5-Star Reviews for Your Food Cart</a></li>
+          <li><a href="/blog/ai-seo-food-carts-food-trucks-level-playing-field">How AI and SEO Level the Playing Field for Food Carts</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'more-reviews-for-your-food-cart-ai',
+    title: 'More 5-Star Reviews for Your Food Cart',
+    metaTitle: 'Get More Reviews for Your Food Cart with AI | Oregon',
+    metaDescription:
+      'Reviews are how a food cart out-trusts a chain. Learn how AI helps you collect more 5-star reviews and respond to every one — without slowing down your line.',
+    date: 'July 30, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'A food cart with 400 glowing reviews beats a chain on the only thing customers trust more than a brand name: other customers. Here’s how AI helps you build that wall of proof without holding up the line.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          A chain has name recognition. You have something better, if you collect it: proof. When a stranger sees a food cart with hundreds of recent five-star reviews raving about the exact dish they&apos;re craving, that beats a familiar logo every time. Reviews are how the little guy out-trusts the big guy &mdash; and for a food business, they pile up fast <em>if</em> you ask.
+        </p>
+        <p>
+          The problem is that asking, at a busy cart with a line out the door, feels impossible. You&apos;re handing food through a window, not walking tables. AI is how you turn that fast, face-to-face volume into a steady stream of reviews anyway.
+        </p>
+
+        <h2>Why Great Carts Have Too Few Reviews</h2>
+        <p>
+          It&apos;s never a quality problem. It&apos;s that the happy customer takes their food, has a fantastic lunch, and walks away &mdash; delighted and completely un-prompted to say so online. You served fifty joyful people today and maybe none of them reviewed you, because nobody made it easy in the two seconds you had with them. Meanwhile the rare unhappy customer is highly motivated to post, which skews your rating below what you deserve.
+        </p>
+
+        <h2>Getting Reviews Without Slowing the Line</h2>
+        <ul>
+          <li><strong>A QR code on the window.</strong> One scan takes a customer straight to your review page while they wait for their order &mdash; the easiest ask there is, and AI can route it to wherever you need reviews most.</li>
+          <li><strong>Text follow-ups for regulars and caterings.</strong> For anyone who orders ahead or books an event, AI sends a friendly review request at the right moment automatically.</li>
+          <li><strong>One-tap, no hoops.</strong> The link opens the review box directly &mdash; no searching, no login maze &mdash; because every extra step loses reviews.</li>
+        </ul>
+
+        <h2>Answer Every Review &mdash; Especially the Rough Ones</h2>
+        <p>
+          Future customers read your <em>responses</em> as closely as the reviews. A warm reply to a rave and a calm, human answer to a complaint both say &ldquo;real people who care run this cart.&rdquo; But you don&apos;t have time to craft careful responses between rushes. AI drafts them in seconds so nothing sits unanswered and no bad review festers into a bad impression.
+        </p>
+
+        <h2>What a Wall of Reviews Buys You</h2>
+        <p>
+          More reviews don&apos;t just look good &mdash; they lift you in Google&apos;s local results and raise the odds a searcher picks you over the options around you. For a cart fighting for the &ldquo;lunch near me&rdquo; crowd, a steady flow of fresh five-star reviews is one of the highest-return things you can build, and it compounds every week you keep it going.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we set up automatic review systems for Oregon food carts and trucks so your everyday great food finally shows up in your rating. Reach out and we&apos;ll get your reviews working as hard as you do.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/how-ai-gets-more-5-star-reviews-small-business">How AI Gets You More 5-Star Reviews (Automatically)</a></li>
+          <li><a href="/blog/ai-reputation-management-small-business">AI Reputation Management: Turn Reviews Into Your Best Salesperson</a></li>
+          <li><a href="/blog/how-customers-find-your-food-truck-local-seo">How Hungry Customers Find Your Food Truck</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'food-cart-out-market-national-chain-ai',
+    title: 'How a One-Cart Operation Can Out-Market a National Chain',
+    metaTitle: 'How Food Carts Out-Market Chains with AI | Oregon City',
+    metaDescription:
+      'You’ll never outspend a national chain — but you can out-market one. Here’s how AI lets a single food cart beat the big players where it actually counts.',
+    date: 'July 29, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'You will never outspend McDonald’s. Good news: you don’t have to. Marketing stopped being about budget and started being about speed, locality, and personality — three things a food cart has and a chain never will.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Let&apos;s be honest about the matchup. A national chain has a marketing budget bigger than the lifetime revenue of your cart. If marketing were a spending contest, you&apos;d lose before you started. But it isn&apos;t &mdash; not anymore. AI has quietly changed the rules so that the things a chain <em>can&apos;t</em> do matter more than the things only money can buy. And the things a chain can&apos;t do are exactly what a food cart is made of.
+        </p>
+
+        <h2>Where the Chain Is Actually Weak</h2>
+        <p>
+          A chain is slow, generic, and distant. It takes weeks to approve a social post. Its marketing has to work in a thousand cities, so it says nothing to yours. It can&apos;t be personal, local, or spontaneous &mdash; the very things that make a food cart magnetic. A chain optimizes for consistency; you can optimize for delight. AI lets you press that advantage instead of leaving it on the table.
+        </p>
+
+        <h2>Three Advantages AI Amplifies</h2>
+        <ul>
+          <li><strong>Speed.</strong> You can post today&apos;s special, react to today&apos;s weather, or run a &ldquo;first ten customers&rdquo; deal on a whim. A chain needs a committee; you need thirty seconds and AI to write it. Small and fast beats big and slow.</li>
+          <li><strong>Locality.</strong> A chain&apos;s ad speaks to no one in particular. Your marketing can name the neighborhood, the pod, the office across the street. AI helps you dominate the few blocks around you &mdash; where the chain&apos;s billion-dollar brand means nothing against &ldquo;birria near me.&rdquo;</li>
+          <li><strong>Personality.</strong> People root for the little guy with a face and a story. AI helps you tell that story consistently &mdash; the founder, the recipe, the grind &mdash; something a faceless chain can only imitate.</li>
+        </ul>
+
+        <h2>Punching Above Your Weight, Automatically</h2>
+        <p>
+          Here&apos;s the real unlock: AI gives a one-person operation the <em>output</em> of a marketing team. Reviews collected, social posted daily, locations updated everywhere, customers followed up with, inquiries answered instantly &mdash; that used to require staff a cart could never afford. Now it runs in the background while you cook. To the customer, you look every bit as buttoned-up as the chain &mdash; with food and personality the chain can&apos;t touch.
+        </p>
+
+        <h2>David Beats Goliath on the Right Battlefield</h2>
+        <p>
+          You don&apos;t beat a chain by playing its game of scale and spend. You beat it by being faster, more local, and more human &mdash; and by using AI to do all three consistently instead of only when you have a spare hour. Play on that battlefield and the size advantage flips: suddenly being small is the edge.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we help Oregon food carts and trucks out-market competitors many times their size with AI-powered systems. Reach out and let&apos;s build your unfair advantage.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-great-equalizer-small-business-oregon">AI: The Great Equalizer for Oregon Small Business</a></li>
+          <li><a href="/blog/ai-seo-food-carts-food-trucks-level-playing-field">How AI and SEO Level the Playing Field for Food Carts</a></li>
+          <li><a href="/blog/food-cart-loyalty-repeat-customers-ai">Turn First-Time Customers Into Regulars</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'food-cart-loyalty-repeat-customers-ai',
+    title: 'Turn First-Time Customers Into Regulars',
+    metaTitle: 'AI Loyalty & Repeat Customers for Food Carts | Oregon',
+    metaDescription:
+      'Chains win on repeat business. Learn how AI helps food carts capture customers, keep them coming back, and take orders directly — without third-app commissions.',
+    date: 'July 28, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'A chain’s real weapon isn’t its food — it’s repeat visits, apps, and loyalty programs that keep customers coming back. AI finally lets a food cart build the same machine, at a fraction of the cost.',
+    heroImage: '/images/hero_blogpost.jpg',
+    content: (
+      <>
+        <p>
+          Ask a chain where its money really comes from and the answer isn&apos;t the food &mdash; it&apos;s frequency. The app, the points, the &ldquo;buy nine get one free,&rdquo; the push notification at lunchtime: all of it engineered to turn a one-time visitor into someone who comes back every week. That loyalty machine is the chain&apos;s biggest advantage over a food cart, and for a long time it was out of reach for a small operator.
+        </p>
+        <p>
+          Not anymore. AI lets a cart build the same come-back-again engine without a corporate budget or an app development team.
+        </p>
+
+        <h2>The Leak Every Cart Has</h2>
+        <p>
+          You serve a delighted customer today, and then &mdash; nothing. You have no way to reach them, no reason for them to remember you next week, and no idea if they ever come back. Every happy customer who walks away anonymous is a regular you didn&apos;t keep. Chains plug that leak with technology; carts usually just hope. Hope isn&apos;t a strategy, and AI is a better one.
+        </p>
+
+        <h2>How AI Builds Loyalty for a Cart</h2>
+        <ul>
+          <li><strong>Capture, gently.</strong> A quick text-to-join or QR sign-up turns anonymous customers into a list you actually own &mdash; no clunky app required.</li>
+          <li><strong>Bring them back.</strong> AI sends the right nudge at the right time &mdash; &ldquo;we&apos;re near you today,&rdquo; a slow-Tuesday offer, a new special &mdash; so you&apos;re the lunch they think of first.</li>
+          <li><strong>Simple digital loyalty.</strong> Points or punch-cards that live on the phone, tracked automatically, giving people a reason to choose you again.</li>
+          <li><strong>Remember your regulars.</strong> A system that knows who orders what makes people feel like locals, not transactions &mdash; the thing a chain can never truly fake.</li>
+        </ul>
+
+        <h2>Take Orders Directly &mdash; and Keep the Commission</h2>
+        <p>
+          Loyalty and ordering go together. If your repeat customers order through a third-party app, you hand over 15&ndash;30% and never even learn who they are. AI-powered direct ordering &mdash; through your own profile, a text, or a simple online menu &mdash; keeps that commission in your pocket <em>and</em> keeps the customer relationship yours. For a cart running on thin margins, that difference is real money every week.
+        </p>
+
+        <h2>Frequency Is How Small Businesses Get Big</h2>
+        <p>
+          A cart doesn&apos;t need a million customers. It needs a few hundred who come back often and bring friends. That&apos;s a completely achievable goal, and it&apos;s built on capturing customers and giving them reasons to return &mdash; exactly the patient, automatic work AI does while you focus on the food. Turn first-timers into regulars and a one-cart operation starts to grow like the chains do.
+        </p>
+        <p>
+          At Thomas+David+Jacob, we help Oregon food carts and trucks build loyalty and direct-ordering systems that keep customers &mdash; and commissions. Reach out and let&apos;s turn your line into a following that comes back.
+        </p>
+
+        <hr />
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/restaurants-escaping-delivery-app-commissions-oregon">How Oregon Restaurants Are Escaping Grubhub and Uber Eats Commissions</a></li>
+          <li><a href="/blog/food-cart-out-market-national-chain-ai">How a One-Cart Operation Can Out-Market a National Chain</a></li>
+          <li><a href="/blog/ai-tools-food-trucks-changing-locations">Always-Moving? AI Tools for Food Trucks That Change Locations</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
     slug: 'why-small-businesses-need-ai-more-than-ever-2026',
     title: 'Why Small Businesses Need AI More Than Ever in 2026',
     metaTitle: 'Why Small Businesses Need AI in 2026 | Oregon City Agency',
