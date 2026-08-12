@@ -16,6 +16,8 @@ type Client = {
   location: string
   summary: string
   work: string[]
+  /** Screenshot of the live site, shown at the top of the card. */
+  thumb?: string
   href?: string
   status?: string
   tag?: string
@@ -34,6 +36,7 @@ const clients: Client[] = [
       'Wedding-market local SEO',
       'Mobile-first, fast-loading pages',
     ],
+    thumb: '/images/client-amore.webp',
     href: 'https://amorecoordination.com',
   },
   {
@@ -48,6 +51,7 @@ const clients: Client[] = [
       'Local SEO & Google Business Profile',
       'Zero ongoing hosting cost',
     ],
+    thumb: '/images/client-lafondita.webp',
     href: 'https://lafondita.food',
     tag: 'Pro Bono',
   },
@@ -63,6 +67,7 @@ const clients: Client[] = [
       'Quote request & lead capture',
       'Residential + commercial positioning',
     ],
+    thumb: '/images/client-diamondbond.webp',
     href: 'https://diamondbondoregon.com',
   },
   {
@@ -77,6 +82,7 @@ const clients: Client[] = [
       'Pre-approval lead capture',
       'Statewide local SEO',
     ],
+    thumb: '/images/client-phuongha.webp',
     href: 'https://phuongha.loans',
   },
 ]
@@ -149,8 +155,22 @@ export default function ClientsPage() {
             {clients.map((client) => (
               <div
                 key={client.name}
-                className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 flex flex-col"
+                className="group bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 flex flex-col"
               >
+                {/* Live-site screenshot, full-bleed to the card edges. */}
+                {client.thumb && (
+                  <div className="relative -mx-8 -mt-8 mb-7 h-44 overflow-hidden rounded-t-2xl border-b border-zinc-800">
+                    <Image
+                      src={client.thumb}
+                      alt={`${client.name} website homepage`}
+                      fill
+                      className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/70 via-transparent to-transparent" />
+                  </div>
+                )}
+
                 <div className="flex items-start justify-between gap-4 mb-3">
                   <div>
                     <h3 className="text-2xl font-black text-white leading-tight">{client.name}</h3>
