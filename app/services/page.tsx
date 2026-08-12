@@ -75,7 +75,9 @@ const coreServices = [
       'Google & Meta PPC advertising',
       'Email marketing automation',
       'Lead funnel design & build',
-      'Social media content strategy',
+      'Social media strategy & content',
+      'Short-form video & Reels production',
+      'Community management & engagement',
       'Retargeting campaigns',
       'Conversion rate optimization',
       'Landing page design',
@@ -93,32 +95,63 @@ const coreServices = [
 
 const aLaCarteServices = [
   {
-    title: 'Social Media Marketing',
+    title: 'Restaurant & Hospitality Tech',
     description:
-      'Consistent, on-brand content that builds your audience, drives engagement, and positions you as the go-to authority in your market. Platform strategy, content creation, and community management — done for you.',
+      'Your website, POS, and delivery apps should talk to each other. We connect Toast and other POS systems to online ordering, DoorDash and Uber Eats, reservations, and live menu sync — so you update a price once instead of in six places.',
     icon: (
       <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
       </svg>
     ),
   },
   {
-    title: 'ChatGPT Prompts',
+    title: 'AI Lead Generation',
     description:
-      'Custom, professionally crafted ChatGPT prompt libraries tailored to your business. Accelerate content creation, customer service scripts, sales copy, and internal workflows with AI prompts that actually produce results.',
+      'Most leads are lost in the first five minutes. We build AI systems that answer instantly — missed-call text-back, chat and voice intake that qualifies before you pick up, and automatic routing into your CRM so nothing sits in an inbox overnight.',
     icon: (
       <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
   },
   {
-    title: 'Shopify eCommerce',
+    title: 'Local SEO & Google Business Profile',
     description:
-      'Custom Shopify storefronts designed for conversion. Product page optimization, checkout flow improvement, app integrations, and performance tuning — everything you need to sell more online.',
+      'The map pack sits above every organic result, and most local businesses never claim their spot in it. We optimize your Google Business Profile, build consistent citations, and put a steady review engine behind it so you own your service area.',
     icon: (
       <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+    ),
+  },
+  {
+    title: 'AI Search Visibility',
+    description:
+      'Your customers are asking ChatGPT, Perplexity, and Google AI Overviews for recommendations — and those answers cite a handful of sources. We structure your content and data so you are one of the businesses the AI names.',
+    icon: (
+      <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Custom eCommerce',
+    description:
+      'A store you actually own — no monthly platform cut, no theme ceiling, no app subscriptions stacking up. We build custom storefronts and checkout flows around how you sell, then tune them for speed and conversion.',
+    icon: (
+      <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Social Media Content Engine',
+    description:
+      'Not hourly management — a system. We build the content engine: platform strategy, a repeatable posting calendar, short-form video and graphics produced in batches, and engagement that turns followers into customers.',
+    icon: (
+      <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
       </svg>
     ),
   },
