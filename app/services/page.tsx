@@ -17,6 +17,7 @@ const coreServices = [
     description:
       'Your website is one part of a larger AI-powered system we build around your business. It\'s where first impressions are formed, trust is built, and customers are converted. We design and develop custom websites using modern AI-powered tools — no templates, no shortcuts, no outdated platforms. Every site is built from scratch, coded for performance, and engineered to rank on Google and turn visitors into paying customers — whether you\'re in Oregon City, Portland, or anywhere across the state.',
     image: '/images/services.jpg',
+    imageFit: 'cover',
     imageAlt: 'Professional web design and development',
     features: [
       'Custom design — zero templates',
@@ -42,6 +43,7 @@ const coreServices = [
     description:
       'Ranking on Google isn\'t luck — it\'s a science. Our SEO process combines deep keyword research, technical site optimization, content strategy, and authoritative link building into a cohesive system that compounds over time. We focus on the keywords your ideal customers actually search for, not vanity terms. The result: more organic traffic, more qualified leads, and a lower cost of customer acquisition — for businesses from Portland and Beaverton to Hillsboro and beyond.',
     image: '/images/search_keyboard.jpg',
+    imageFit: 'cover',
     imageAlt: 'Search engine optimization services',
     features: [
       'Comprehensive keyword research',
@@ -66,8 +68,9 @@ const coreServices = [
     tagline: 'Turn traffic into revenue — at scale.',
     description:
       'Traffic means nothing without conversion. Our marketing and sales services bridge the gap between getting found and getting paid. From targeted PPC campaigns that put you in front of high-intent buyers, to email sequences that nurture leads until they\'re ready to buy, to social media strategies that build authority in your niche — we build integrated systems that generate consistent, predictable revenue growth for Oregon businesses of all sizes.',
-    image: '/images/AI_Phone.jpg',
-    imageAlt: 'AI powered digital marketing tools',
+    image: '/images/sales-funnel-dark.webp',
+    imageFit: 'contain',
+    imageAlt: 'Sales funnel turning traffic into revenue',
     features: [
       'Google & Meta PPC advertising',
       'Email marketing automation',
@@ -204,8 +207,19 @@ export default function ServicesPage() {
                     <h3 className="text-2xl font-black text-white mb-4">{service.title}</h3>
                     <p className="text-zinc-400 leading-relaxed mb-8">{service.description}</p>
 
-                    <div className="relative h-52 rounded-xl overflow-hidden mb-8 border border-zinc-700/40">
-                      <Image src={service.image} alt={service.imageAlt} fill className="object-cover" />
+                    {/* Illustrations use contain on a taller frame so nothing crops;
+                        photos stay on the original letterbox crop. */}
+                    <div
+                      className={`relative rounded-xl overflow-hidden mb-8 ${
+                        service.imageFit === 'contain' ? 'h-72' : 'h-52 border border-zinc-700/40'
+                      }`}
+                    >
+                      <Image
+                        src={service.image}
+                        alt={service.imageAlt}
+                        fill
+                        className={service.imageFit === 'contain' ? 'object-contain' : 'object-cover'}
+                      />
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-8">
