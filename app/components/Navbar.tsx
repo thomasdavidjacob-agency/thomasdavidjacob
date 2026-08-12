@@ -4,11 +4,25 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { usePathname } from 'next/navigation'
 
-const navLinks: { label: string; href: string; badge?: boolean }[] = [
+type NavLink = {
+  label: string
+  href: string
+  badge?: boolean
+  children?: { label: string; href: string }[]
+}
+
+const navLinks: NavLink[] = [
   { label: 'Home', href: '/' },
   { label: 'AI Systems', href: '/ai-systems', badge: true },
   { label: 'About', href: '/about' },
-  { label: 'Services', href: '/services' },
+  {
+    label: 'Services',
+    href: '/services',
+    children: [
+      { label: 'All Services', href: '/services' },
+      { label: 'Our Clients', href: '/clients' },
+    ],
+  },
   { label: 'Our SEO Process', href: '/our-seo-process' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Blog', href: '/blog' },
@@ -52,6 +66,50 @@ export default function Navbar() {
                   >
                     {link.label}
                   </Link>
+                </li>
+              )
+            }
+            if (link.children) {
+              const parentActive = active || link.children.some((child) => isActive(child.href))
+              return (
+                <li key={link.href} className="relative group">
+                  <Link
+                    href={link.href}
+                    className={`flex items-center gap-1.5 text-sm tracking-wide font-medium transition-colors ${
+                      parentActive ? 'text-amber-400' : 'text-white hover:text-amber-600'
+                    }`}
+                  >
+                    {link.label}
+                    <svg
+                      className="w-3 h-3 transition-transform duration-200 group-hover:rotate-180"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </Link>
+
+                  {/* Dropdown — pt-2 keeps the hover bridge from the trigger */}
+                  <div className="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block">
+                    <ul className="min-w-[13rem] bg-[#0d0d0d] border border-zinc-800 rounded-xl py-2 shadow-xl shadow-black/50">
+                      {link.children.map((child) => (
+                        <li key={child.href}>
+                          <Link
+                            href={child.href}
+                            className={`block px-4 py-2.5 text-sm font-medium tracking-wide transition-colors ${
+                              isActive(child.href)
+                                ? 'text-amber-400 bg-amber-400/5'
+                                : 'text-zinc-300 hover:text-amber-400 hover:bg-amber-400/5'
+                            }`}
+                          >
+                            {child.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </li>
               )
             }
@@ -126,6 +184,28 @@ export default function Navbar() {
                   >
                     {link.label}
                   </Link>
+
+                  {link.children && (
+                    <ul className="mt-4 ml-4 pl-4 border-l border-zinc-800 flex flex-col gap-4">
+                      {link.children
+                        .filter((child) => child.href !== link.href)
+                        .map((child) => (
+                          <li key={child.href}>
+                            <Link
+                              href={child.href}
+                              className={`text-sm font-medium tracking-wide transition-colors ${
+                                isActive(child.href)
+                                  ? 'text-amber-400'
+                                  : 'text-zinc-400 hover:text-amber-400'
+                              }`}
+                              onClick={() => setMenuOpen(false)}
+                            >
+                              {child.label}
+                            </Link>
+                          </li>
+                        ))}
+                    </ul>
+                  )}
                 </li>
               )
             })}
