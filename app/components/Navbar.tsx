@@ -20,6 +20,7 @@ const navLinks: NavLink[] = [
     href: '/services',
     children: [
       { label: 'All Services', href: '/services' },
+      { label: 'Restaurant Tech', href: '/restaurant-tech' },
       { label: 'Our Clients', href: '/clients' },
     ],
   },

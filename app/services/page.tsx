@@ -93,11 +93,22 @@ const coreServices = [
   },
 ]
 
-const aLaCarteServices = [
+type ALaCarteService = {
+  title: string
+  description: string
+  icon: React.ReactNode
+  /** Services with a dedicated landing page link there instead of straight to contact. */
+  href?: string
+  cta?: string
+}
+
+const aLaCarteServices: ALaCarteService[] = [
   {
     title: 'Restaurant & Hospitality Tech',
     description:
       'Your website, POS, and delivery apps should talk to each other. We connect Toast and other POS systems to online ordering, DoorDash and Uber Eats, reservations, and live menu sync — so you update a price once instead of in six places.',
+    href: '/restaurant-tech',
+    cta: 'Learn More',
     icon: (
       <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
@@ -312,10 +323,10 @@ export default function ServicesPage() {
                 <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
                 <p className="text-zinc-400 leading-relaxed mb-7 flex-1">{service.description}</p>
                 <Link
-                  href="/contact"
+                  href={service.href ?? '/contact'}
                   className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-bold text-sm transition-colors group/btn"
                 >
-                  Get Pricing
+                  {service.cta ?? 'Get Pricing'}
                   <svg className="w-4 h-4 transition-transform group-hover/btn:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
