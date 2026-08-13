@@ -2099,7 +2099,7 @@ export const posts: BlogPost[] = [
           The cost to access AI capabilities has dropped by orders of magnitude in the last three years. Models that cost thousands of dollars per month to run now cost pennies. Automation platforms have democratized access to capabilities that used to require enterprise-scale software budgets.
         </p>
         <p>
-          A single high-impact AI automation for an Oregon small business starts at $1,500 — with ongoing costs often under $100 per month. The ROI math at that price point is compelling for almost any service business.
+          A single high-impact AI automation for an Oregon small business starts at $2,500 — with ongoing costs often under $100 per month. The ROI math at that price point is compelling for almost any service business.
         </p>
 
         <h2>Your Competition Hasn&apos;t Fully Caught Up Yet</h2>
@@ -2429,7 +2429,7 @@ export const posts: BlogPost[] = [
 
         <h2>What Professional Implementation Actually Costs</h2>
         <p>
-          A professional <a href="/services/ai-systems">AI integration project from Thomas+David+Jacob</a> starts at $1,500 for a single, high-impact automation. When that automation generates even five additional booked appointments per month for a service business, it pays for itself in the first month of operation.
+          A professional <a href="/ai-systems">AI integration project from Thomas+David+Jacob</a> starts at $2,500 for a single, high-impact automation. When that automation generates even five additional booked appointments per month for a service business, it pays for itself in the first months of operation.
         </p>
         <p>
           The question isn&apos;t whether professional implementation is worth it. It&apos;s whether a half-built, unsupported DIY system will ever get to the point where it delivers that return.
@@ -2655,7 +2655,7 @@ export const posts: BlogPost[] = [
           For most service businesses, that&apos;s lead follow-up. Start there, build it right, measure the result, and expand from that foundation.
         </p>
         <p>
-          Thomas+David+Jacob specializes in AI systems for service businesses in the Oregon metro area. Our <a href="/services/ai-systems">AI Starter package</a> — designed to automate your single highest-impact process — starts at $1,500. It pays for itself in most cases within 60–90 days.{' '}
+          Thomas+David+Jacob specializes in AI systems for service businesses in the Oregon metro area. Our <a href="/ai-systems">AI Starter package</a> — designed to automate your single highest-impact process — starts at $2,500. It pays for itself in most cases within 60–90 days.{' '}
           <a href="/contact">Book your free audit today</a>.
         </p>
       </>
@@ -2721,7 +2721,7 @@ export const posts: BlogPost[] = [
           When every stage is connected and automated, the result isn&apos;t just efficiency — it&apos;s a fundamentally different business. One that generates more revenue from the same leads, retains more customers, and grows without proportionally increasing owner time.
         </p>
         <p>
-          At Thomas+David+Jacob, we build <a href="/services/ai-systems">full-funnel AI systems</a> for Oregon businesses — from lead capture through post-sale follow-up.{' '}
+          At Thomas+David+Jacob, we build <a href="/ai-systems">full-funnel AI systems</a> for Oregon businesses — from lead capture through post-sale follow-up.{' '}
           <a href="/contact">Book a free AI audit and we&apos;ll show you exactly where your funnel is leaking</a>.
         </p>
       </>
@@ -2763,7 +2763,7 @@ export const posts: BlogPost[] = [
 
         <h2>What an AI System Costs — and What It Delivers</h2>
         <p>
-          A <a href="/services/ai-systems">well-built AI automation system from Thomas+David+Jacob</a> runs $1,500–7,500 depending on complexity. It runs 24/7/365. It doesn&apos;t call in sick. It doesn&apos;t take vacation. It doesn&apos;t need to be managed, trained, or HR-processed.
+          A <a href="/ai-systems">well-built AI automation system from Thomas+David+Jacob</a> runs $2,500–20,000 depending on complexity. It runs 24/7/365. It doesn&apos;t call in sick. It doesn&apos;t take vacation. It doesn&apos;t need to be managed, trained, or HR-processed.
         </p>
         <p>
           More importantly: it does exactly what it&apos;s designed to do, every single time, at machine speed.
@@ -2849,7 +2849,7 @@ export const posts: BlogPost[] = [
           Leads came in through the website, through Google, through social media. Some got called back promptly. Others — especially those that came in after hours or during a busy clinic day — sat in an inbox waiting for someone to have a free moment. In a practice where a single converted patient could represent $15,000 in treatment revenue, every unanswered inquiry was a five-figure opportunity walking out the door.
         </p>
         <p>
-          We built an <a href="/services/ai-systems">automated lead response and appointment booking system</a> that ensured every inquiry received an immediate, personalized response regardless of when it came in. Prospects were guided directly to the consultation booking flow and pre-qualified by the AI before they ever spoke to a staff member.
+          We built an <a href="/ai-systems">automated lead response and appointment booking system</a> that ensured every inquiry received an immediate, personalized response regardless of when it came in. Prospects were guided directly to the consultation booking flow and pre-qualified by the AI before they ever spoke to a staff member.
         </p>
         <p>The first new patient who booked through the system paid for our entire service fee. Everything after that was pure return.</p>
         <p>
@@ -2952,7 +2952,7 @@ export const posts: BlogPost[] = [
           In a market like the Pearl District, where a condo can go from listed to under contract in 48 hours, a multi-hour response gap isn&apos;t a minor inconvenience. It&apos;s the difference between being the agent who guided that buyer and being the agent they never heard from.
         </p>
         <p>
-          We built an <a href="/services/ai-systems">AI-powered response system</a> that matched the brand identity they&apos;d been promising but not fully delivering. Every inquiry — regardless of time, day, or how busy the team was — received an <a href="/blog/most-powerful-ai-automations-portland-metro">immediate, personalized response within 90 seconds</a>. The message introduced the right agent by name, acknowledged the specific property or neighborhood the prospect was interested in, and invited them to schedule a showing or consultation directly on the agent&apos;s calendar.
+          We built an <a href="/ai-systems">AI-powered response system</a> that matched the brand identity they&apos;d been promising but not fully delivering. Every inquiry — regardless of time, day, or how busy the team was — received an <a href="/blog/most-powerful-ai-automations-portland-metro">immediate, personalized response within 90 seconds</a>. The message introduced the right agent by name, acknowledged the specific property or neighborhood the prospect was interested in, and invited them to schedule a showing or consultation directly on the agent&apos;s calendar.
         </p>
         <p>
           By morning, leads that came in at 10 PM were already in active conversations. By Monday, weekend inquiries were pre-qualified and appointment-ready.
@@ -3050,7 +3050,7 @@ export const posts: BlogPost[] = [
           For Oregon businesses, the AI skills gap represents an opportunity. While your competitors are fumbling through failed DIY attempts, a well-executed professional implementation gives you a reliable, high-performing system that compounds in value over time.
         </p>
         <p>
-          Thomas+David+Jacob exists to bridge exactly this gap — bringing professional <a href="/services/ai-systems">AI architecture expertise</a> to Oregon businesses that want results, not experiments.{' '}
+          Thomas+David+Jacob exists to bridge exactly this gap — bringing professional <a href="/ai-systems">AI architecture expertise</a> to Oregon businesses that want results, not experiments.{' '}
           <a href="/contact">Book a free consultation today</a>.
         </p>
       </>
@@ -3119,7 +3119,7 @@ export const posts: BlogPost[] = [
           Competing with bigger, better-funded businesses used to require hiring more people. Today, it requires better systems. And better systems require someone who knows how to build them.
         </p>
         <p>
-          Thomas+David+Jacob provides <a href="/services/ai-systems">AI Systems Architecture services</a> for Oregon businesses at three tiers — from a <a href="/services/ai-systems">single high-impact automation to a complete operational overhaul</a>. The right starting point depends on where your biggest opportunity is.{' '}
+          Thomas+David+Jacob provides <a href="/ai-systems">AI Systems Architecture services</a> for Oregon businesses at three tiers — from a <a href="/ai-systems">single high-impact automation to a complete operational overhaul</a>. The right starting point depends on where your biggest opportunity is.{' '}
           <a href="/contact">Book a free audit to find out</a>.
         </p>
       </>
@@ -3395,7 +3395,7 @@ export const posts: BlogPost[] = [
           In Oregon City, Portland, West Linn, and across the metro area, most small businesses haven&apos;t built these systems yet. The early movers are claiming territory that will be much harder to claim in two years, when adoption becomes standard.
         </p>
         <p>
-          At Thomas+David+Jacob, we help Oregon small businesses build the <a href="/services/ai-systems">AI infrastructure</a> that lets them compete — and win — against companies twice their size.{' '}
+          At Thomas+David+Jacob, we help Oregon small businesses build the <a href="/ai-systems">AI infrastructure</a> that lets them compete — and win — against companies twice their size.{' '}
           <a href="/contact">Book a free AI audit today</a>.
         </p>
       </>
@@ -3489,7 +3489,7 @@ export const posts: BlogPost[] = [
           The question isn&apos;t whether to start. It&apos;s when.
         </p>
         <p>
-          At Thomas+David+Jacob, we specialize in <a href="/services/ai-systems">designing and implementing AI-powered business systems</a> for Oregon businesses at every stage. If you&apos;re ready to understand what AI can actually do for your operation,{' '}
+          At Thomas+David+Jacob, we specialize in <a href="/ai-systems">designing and implementing AI-powered business systems</a> for Oregon businesses at every stage. If you&apos;re ready to understand what AI can actually do for your operation,{' '}
           <a href="/contact">let&apos;s talk</a>.
         </p>
       </>
