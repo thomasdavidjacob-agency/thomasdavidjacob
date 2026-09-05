@@ -71,7 +71,7 @@ const marketingFAQs = [
   {
     question: 'How much does it cost to work with you?',
     answer:
-      'Pricing varies based on the scope and services selected. Web design projects typically range from a few thousand to ten-plus thousand dollars. SEO and marketing retainers are priced monthly based on the level of service. We don\'t publish fixed pricing because every business has different needs — we prefer to build a custom proposal that fits your budget and goals. Contact us and we\'ll be upfront about costs within 24 hours.',
+      'It depends on the service. AI systems are packaged flat-rate — the AI Starter and AI Growth packages are published on our AI Systems page, and full transformations are scoped to the business. Web design and SEO are quoted per project: web builds typically range from a few thousand to ten-plus thousand dollars, and SEO and marketing retainers are priced monthly based on the level of service. Contact us and we\'ll be upfront about costs within 24 hours.',
   },
   {
     question: 'Are there any long-term contracts?',

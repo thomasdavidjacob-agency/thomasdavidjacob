@@ -15,7 +15,6 @@ const aiServices = [
     title: 'AI Workflow Automation',
     description:
       'We map and automate your most time-consuming business processes. Connect your CRM, email, calendar, and invoicing into one seamless automated system.',
-    price: '$2,500',
     icon: (
       <svg className="w-7 h-7 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -26,7 +25,6 @@ const aiServices = [
     title: 'Custom AI Assistant Development',
     description:
       'A branded AI assistant trained specifically on your business — handling customer inquiries, qualifying leads, and booking appointments automatically.',
-    price: '$4,000',
     icon: (
       <svg className="w-7 h-7 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
@@ -37,7 +35,6 @@ const aiServices = [
     title: 'AI Lead Generation Systems',
     description:
       'Automated lead capture, follow-up sequences, and pipeline management powered by AI. Never miss a lead again.',
-    price: '$5,000',
     icon: (
       <svg className="w-7 h-7 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -48,7 +45,6 @@ const aiServices = [
     title: 'AI Content & Marketing Systems',
     description:
       'Automated content creation, social media scheduling, email campaigns, and SEO pipelines — all running on autopilot.',
-    price: '$2,500',
     icon: (
       <svg className="w-7 h-7 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -59,7 +55,6 @@ const aiServices = [
     title: 'Full AI Business Transformation',
     description:
       'A complete audit and overhaul of your business operations using AI. We identify every opportunity for automation and implement it end to end.',
-    price: '$15,000',
     icon: (
       <svg className="w-7 h-7 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
@@ -94,7 +89,7 @@ const packages = [
   },
   {
     name: 'AI Transform',
-    price: '$20,000',
+    price: 'Custom',
     popular: false,
     items: [
       'Full business AI audit',
@@ -239,11 +234,7 @@ export default function AISystemsPage() {
                   {service.icon}
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
-                <p className="text-zinc-400 leading-relaxed flex-1 mb-6">{service.description}</p>
-                <div className="border-t border-zinc-800 pt-5">
-                  <span className="text-xs text-zinc-500 uppercase tracking-widest font-bold">Starting at</span>
-                  <p className="text-2xl font-black text-amber-400 mt-1">{service.price}</p>
-                </div>
+                <p className="text-zinc-400 leading-relaxed flex-1">{service.description}</p>
               </div>
             ))}
           </div>
@@ -285,7 +276,9 @@ export default function AISystemsPage() {
 
                 <div className="mb-8">
                   <h3 className="text-2xl font-black text-white mb-2">{pkg.name}</h3>
-                  <p className="text-xs text-zinc-500 uppercase tracking-widest font-bold mt-3">Starting at</p>
+                  <p className="text-xs text-zinc-500 uppercase tracking-widest font-bold mt-3">
+                    {pkg.price === 'Custom' ? 'Scoped to your business' : 'Starting at'}
+                  </p>
                   <p className="text-4xl font-black text-amber-400 mt-1">{pkg.price}</p>
                 </div>
 
