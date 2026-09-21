@@ -17,9 +17,8 @@ const coreServices = [
     tagline: 'Websites that work as hard as you do.',
     description:
       'Your website is one part of a larger AI-powered system we build around your business. It\'s where first impressions are formed, trust is built, and customers are converted. We design and develop custom websites using modern AI-powered tools — no templates, no shortcuts, no outdated platforms. Every site is built from scratch, coded for performance, and engineered to rank on Google and turn visitors into paying customers — whether you\'re in Oregon City, Portland, or anywhere across the state.',
-    image: '/images/services.jpg',
-    imageFit: 'cover',
-    imageAlt: 'Professional web design and development',
+    image: '/images/services/pillar-web-design.webp',
+    imageAlt: 'Laptop and phone showing a custom website layout',
     features: [
       'Custom design — zero templates',
       'Mobile-first, responsive layout',
@@ -43,9 +42,8 @@ const coreServices = [
     tagline: 'Rank higher. Get found. Grow faster.',
     description:
       'Ranking on Google isn\'t luck — it\'s a science. Our SEO process combines deep keyword research, technical site optimization, content strategy, and authoritative link building into a cohesive system that compounds over time. We focus on the keywords your ideal customers actually search for, not vanity terms. The result: more organic traffic, more qualified leads, and a lower cost of customer acquisition — for businesses from Portland and Beaverton to Hillsboro and beyond.',
-    image: '/images/search_keyboard.jpg',
-    imageFit: 'cover',
-    imageAlt: 'Search engine optimization services',
+    image: '/images/services/pillar-seo.webp',
+    imageAlt: 'Search ranking podium with a rising growth line',
     features: [
       'Comprehensive keyword research',
       'Competitor gap analysis',
@@ -69,9 +67,8 @@ const coreServices = [
     tagline: 'Turn traffic into revenue — at scale.',
     description:
       'Traffic means nothing without conversion. Our marketing and sales services bridge the gap between getting found and getting paid. From targeted PPC campaigns that put you in front of high-intent buyers, to email sequences that nurture leads until they\'re ready to buy, to social media strategies that build authority in your niche — we build integrated systems that generate consistent, predictable revenue growth for Oregon businesses of all sizes.',
-    image: '/images/sales-funnel-dark.webp',
-    imageFit: 'contain',
-    imageAlt: 'Sales funnel turning traffic into revenue',
+    image: '/images/services/pillar-marketing-sales.webp',
+    imageAlt: 'Magnet pulling traffic into revenue',
     features: [
       'Google & Meta PPC advertising',
       'Email marketing automation',
@@ -101,11 +98,13 @@ type ALaCarteService = {
   /** Services with a dedicated landing page link there instead of straight to contact. */
   href?: string
   cta?: string
+  image: string
 }
 
 const aLaCarteServices: ALaCarteService[] = [
   {
     title: 'Restaurant & Hospitality Tech',
+    image: '/images/services/restaurant-tech.webp',
     description:
       'Your website, POS, and delivery apps should talk to each other. We connect Toast and other POS systems to online ordering, DoorDash and Uber Eats, reservations, and live menu sync — so you update a price once instead of in six places.',
     href: '/restaurant-tech',
@@ -118,6 +117,7 @@ const aLaCarteServices: ALaCarteService[] = [
   },
   {
     title: 'AI Lead Generation',
+    image: '/images/services/ai-lead-generation.webp',
     description:
       'Most leads are lost in the first five minutes. We build AI systems that answer instantly — missed-call text-back, chat and voice intake that qualifies before you pick up, and automatic routing into your CRM so nothing sits in an inbox overnight.',
     icon: (
@@ -128,6 +128,7 @@ const aLaCarteServices: ALaCarteService[] = [
   },
   {
     title: 'Local SEO & Google Business Profile',
+    image: '/images/services/local-seo.webp',
     description:
       'The map pack sits above every organic result, and most local businesses never claim their spot in it. We optimize your Google Business Profile, build consistent citations, and put a steady review engine behind it so you own your service area.',
     icon: (
@@ -139,6 +140,7 @@ const aLaCarteServices: ALaCarteService[] = [
   },
   {
     title: 'Custom eCommerce',
+    image: '/images/services/custom-ecommerce.webp',
     description:
       'A store you actually own — no monthly platform cut, no theme ceiling, no app subscriptions stacking up. We build custom storefronts and checkout flows around how you sell, then tune them for speed and conversion.',
     icon: (
@@ -232,18 +234,13 @@ export default function ServicesPage() {
                     <h3 className="text-2xl font-black text-white mb-4">{service.title}</h3>
                     <p className="text-zinc-400 leading-relaxed mb-8">{service.description}</p>
 
-                    {/* Illustrations use contain on a taller frame so nothing crops;
-                        photos stay on the original letterbox crop. */}
-                    <div
-                      className={`relative rounded-xl overflow-hidden mb-8 ${
-                        service.imageFit === 'contain' ? 'h-72' : 'h-52 border border-zinc-700/40'
-                      }`}
-                    >
+                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden mb-8 border border-zinc-700/40">
                       <Image
                         src={service.image}
                         alt={service.imageAlt}
                         fill
-                        className={service.imageFit === 'contain' ? 'object-contain' : 'object-cover'}
+                        sizes="(min-width: 768px) 720px, 100vw"
+                        className="object-cover"
                       />
                     </div>
 
@@ -297,25 +294,29 @@ export default function ServicesPage() {
               <Link
                 key={service.slug}
                 href={`/services/${service.slug}`}
-                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl p-8 hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 group flex flex-col"
+                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 group flex flex-col"
               >
-                <div className="w-12 h-12 bg-amber-400/10 border border-amber-400/15 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-400/15 transition-colors">
-                  <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    {service.icon.map((d) => (
-                      <path key={d} strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={d} />
-                    ))}
-                  </svg>
+                <div className="relative aspect-[16/9] border-b border-zinc-800 overflow-hidden">
+                  <Image
+                    src={`/images/services/${service.slug}.webp`}
+                    alt={`${service.title} illustration`}
+                    fill
+                    sizes="(min-width: 1024px) 360px, (min-width: 768px) 50vw, 100vw"
+                    className="object-cover group-hover:scale-[1.04] transition-transform duration-500"
+                  />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">
-                  {service.title}
-                </h3>
-                <p className="text-zinc-400 leading-relaxed mb-7 flex-1">{service.cardDescription}</p>
-                <span className="inline-flex items-center gap-2 text-amber-400 font-bold text-sm">
-                  View Package
-                  <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </span>
+                <div className="p-8 flex flex-col flex-1">
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">
+                    {service.title}
+                  </h3>
+                  <p className="text-zinc-400 leading-relaxed mb-7 flex-1">{service.cardDescription}</p>
+                  <span className="inline-flex items-center gap-2 text-amber-400 font-bold text-sm">
+                    View Package
+                    <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </span>
+                </div>
               </Link>
             ))}
           </div>
@@ -341,22 +342,30 @@ export default function ServicesPage() {
             {aLaCarteServices.map((service) => (
               <div
                 key={service.title}
-                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl p-8 hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 group flex flex-col"
+                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 group flex flex-col"
               >
-                <div className="w-12 h-12 bg-amber-400/10 border border-amber-400/15 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-400/15 transition-colors">
-                  {service.icon}
+                <div className="relative aspect-[16/9] border-b border-zinc-800 overflow-hidden">
+                  <Image
+                    src={service.image}
+                    alt={`${service.title} illustration`}
+                    fill
+                    sizes="(min-width: 768px) 560px, 100vw"
+                    className="object-cover group-hover:scale-[1.04] transition-transform duration-500"
+                  />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
-                <p className="text-zinc-400 leading-relaxed mb-7 flex-1">{service.description}</p>
-                <Link
-                  href={service.href ?? '/contact'}
-                  className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-bold text-sm transition-colors group/btn"
-                >
-                  {service.cta ?? 'Get Pricing'}
-                  <svg className="w-4 h-4 transition-transform group-hover/btn:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
+                <div className="p-8 flex flex-col flex-1">
+                  <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
+                  <p className="text-zinc-400 leading-relaxed mb-7 flex-1">{service.description}</p>
+                  <Link
+                    href={service.href ?? '/contact'}
+                    className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-bold text-sm transition-colors group/btn"
+                  >
+                    {service.cta ?? 'Get Pricing'}
+                    <svg className="w-4 h-4 transition-transform group-hover/btn:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
+                </div>
               </div>
             ))}
           </div>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navbar from '../../components/Navbar'
@@ -31,6 +32,7 @@ export async function generateMetadata({
       description: service.metaDescription,
       url: `${BASE_URL}/services/${service.slug}`,
       siteName: 'Thomas David Jacob',
+      images: [{ url: `${BASE_URL}/images/services/${service.slug}.webp` }],
       locale: 'en_US',
       type: 'website',
     },
@@ -198,6 +200,20 @@ export default async function StudioServicePage({
               <ArrowIcon />
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* ── Feature Image ── */}
+      <section className="px-6 -mt-8 md:-mt-16 relative z-10">
+        <div className="max-w-5xl mx-auto relative aspect-[16/9] rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl shadow-amber-400/5">
+          <Image
+            src={`/images/services/${service.slug}.webp`}
+            alt={`${service.title} illustration`}
+            fill
+            priority
+            sizes="(min-width: 1024px) 1024px, 100vw"
+            className="object-cover"
+          />
         </div>
       </section>
 
@@ -432,23 +448,27 @@ export default async function StudioServicePage({
               <Link
                 key={item.slug}
                 href={`/services/${item.slug}`}
-                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl p-7 hover:border-amber-400/30 hover:-translate-y-1 transition-all duration-300 group flex flex-col"
+                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-400/30 hover:-translate-y-1 transition-all duration-300 group flex flex-col"
               >
-                <div className="w-11 h-11 bg-amber-400/10 border border-amber-400/15 rounded-xl flex items-center justify-center mb-5">
-                  <svg className="w-5 h-5 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    {item.icon.map((d) => (
-                      <path key={d} strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={d} />
-                    ))}
-                  </svg>
+                <div className="relative aspect-[16/9] border-b border-zinc-800 overflow-hidden">
+                  <Image
+                    src={`/images/services/${item.slug}.webp`}
+                    alt={`${item.title} illustration`}
+                    fill
+                    sizes="(min-width: 768px) 360px, 100vw"
+                    className="object-cover group-hover:scale-[1.04] transition-transform duration-500"
+                  />
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">
-                  {item.title}
-                </h3>
-                <p className="text-zinc-400 text-sm leading-relaxed mb-6 flex-1">{item.cardDescription}</p>
-                <span className="inline-flex items-center gap-2 text-amber-400 font-bold text-sm">
-                  View Package
-                  <ArrowIcon className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
-                </span>
+                <div className="p-7 flex flex-col flex-1">
+                  <h3 className="text-lg font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">
+                    {item.title}
+                  </h3>
+                  <p className="text-zinc-400 text-sm leading-relaxed mb-6 flex-1">{item.cardDescription}</p>
+                  <span className="inline-flex items-center gap-2 text-amber-400 font-bold text-sm">
+                    View Package
+                    <ArrowIcon className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
+                  </span>
+                </div>
               </Link>
             ))}
           </div>
