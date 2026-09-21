@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { posts } from '../lib/blog'
+import { studioServices } from '../lib/services'
 
 const BASE_URL = 'https://thomasdavidjacob.com'
 
@@ -39,5 +40,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   })
 
-  return [...staticEntries, ...postEntries]
+  const serviceEntries: MetadataRoute.Sitemap = studioServices.map((service) => ({
+    url: `${BASE_URL}/services/${service.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
+  return [...staticEntries, ...serviceEntries, ...postEntries]
 }

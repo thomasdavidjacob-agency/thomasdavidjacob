@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { studioServices } from '../../lib/services'
 
 export const metadata: Metadata = {
   title: 'Web Design, SEO & Marketing Services | Oregon City',
@@ -137,32 +138,12 @@ const aLaCarteServices: ALaCarteService[] = [
     ),
   },
   {
-    title: 'AI Search Visibility',
-    description:
-      'Your customers are asking ChatGPT, Perplexity, and Google AI Overviews for recommendations — and those answers cite a handful of sources. We structure your content and data so you are one of the businesses the AI names.',
-    icon: (
-      <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-      </svg>
-    ),
-  },
-  {
     title: 'Custom eCommerce',
     description:
       'A store you actually own — no monthly platform cut, no theme ceiling, no app subscriptions stacking up. We build custom storefronts and checkout flows around how you sell, then tune them for speed and conversion.',
     icon: (
       <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Social Media Content Engine',
-    description:
-      'Not hourly management — a system. We build the content engine: platform strategy, a repeatable posting calendar, short-form video and graphics produced in batches, and engagement that turns followers into customers.',
-    icon: (
-      <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
       </svg>
     ),
   },
@@ -296,8 +277,53 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* ── Growth & Content Studio ── */}
+      <section id="studio" className="py-28 px-6 bg-zinc-950/60 border-y border-zinc-800/50 scroll-mt-20">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
+              Monthly Programs
+            </p>
+            <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-5">
+              Growth &amp; Content Studio
+            </h2>
+            <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
+              AI-powered content and growth programs for loan officers, Realtors, wedding pros, and local businesses. Each one is a full package — open a card to see exactly what&apos;s included.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {studioServices.map((service) => (
+              <Link
+                key={service.slug}
+                href={`/services/${service.slug}`}
+                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl p-8 hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 group flex flex-col"
+              >
+                <div className="w-12 h-12 bg-amber-400/10 border border-amber-400/15 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-400/15 transition-colors">
+                  <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    {service.icon.map((d) => (
+                      <path key={d} strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={d} />
+                    ))}
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">
+                  {service.title}
+                </h3>
+                <p className="text-zinc-400 leading-relaxed mb-7 flex-1">{service.cardDescription}</p>
+                <span className="inline-flex items-center gap-2 text-amber-400 font-bold text-sm">
+                  View Package
+                  <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── À La Carte ── */}
-      <section className="py-28 px-6 bg-zinc-950/60 border-y border-zinc-800/50">
+      <section className="py-28 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
@@ -311,7 +337,7 @@ export default function ServicesPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {aLaCarteServices.map((service) => (
               <div
                 key={service.title}
@@ -338,7 +364,7 @@ export default function ServicesPage() {
       </section>
 
       {/* ── CTA Banner ── */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 border-t border-zinc-800/50">
         <div className="max-w-3xl mx-auto text-center">
           <div className="bg-amber-400/5 border border-amber-400/15 rounded-2xl p-10 md:p-14">
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-4">
