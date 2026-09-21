@@ -204,7 +204,7 @@ export default async function StudioServicePage({
       </section>
 
       {/* ── Feature Image ── */}
-      <section className="px-6 -mt-8 md:-mt-16 relative z-10">
+      <section className="px-6 mt-4 md:-mt-16 relative z-10">
         <div className="max-w-5xl mx-auto relative aspect-[16/9] rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl shadow-amber-400/5">
           <Image
             src={`/images/services/${service.slug}.webp`}

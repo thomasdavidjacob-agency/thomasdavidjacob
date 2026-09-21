@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 const aiServices = [
   {
     title: 'AI Workflow Automation',
+    image: '/images/ai-systems/workflow-automation.webp',
     description:
       'We map and automate your most time-consuming business processes. Connect your CRM, email, calendar, and invoicing into one seamless automated system.',
     icon: (
@@ -23,6 +24,7 @@ const aiServices = [
   },
   {
     title: 'Custom AI Assistant Development',
+    image: '/images/ai-systems/ai-assistant.webp',
     description:
       'A branded AI assistant trained specifically on your business — handling customer inquiries, qualifying leads, and booking appointments automatically.',
     icon: (
@@ -33,6 +35,7 @@ const aiServices = [
   },
   {
     title: 'AI Lead Generation Systems',
+    image: '/images/services/ai-lead-generation.webp',
     description:
       'Automated lead capture, follow-up sequences, and pipeline management powered by AI. Never miss a lead again.',
     icon: (
@@ -43,6 +46,7 @@ const aiServices = [
   },
   {
     title: 'AI Content & Marketing Systems',
+    image: '/images/ai-systems/content-marketing.webp',
     description:
       'Automated content creation, social media scheduling, email campaigns, and SEO pipelines — all running on autopilot.',
     icon: (
@@ -53,6 +57,7 @@ const aiServices = [
   },
   {
     title: 'Full AI Business Transformation',
+    image: '/images/ai-systems/transformation.webp',
     description:
       'A complete audit and overhaul of your business operations using AI. We identify every opportunity for automation and implement it end to end.',
     icon: (
@@ -107,24 +112,28 @@ const processSteps = [
   {
     number: '01',
     title: 'Discovery',
+    image: '/images/ai-systems/step-discovery.webp',
     description:
       'We audit your current business operations and identify every opportunity for AI automation.',
   },
   {
     number: '02',
     title: 'Strategy',
+    image: '/images/ai-systems/step-strategy.webp',
     description:
       'We design a custom AI architecture blueprint specifically for your business.',
   },
   {
     number: '03',
     title: 'Build',
+    image: '/images/ai-systems/step-build.webp',
     description:
       'We implement the systems, test everything, and train your team.',
   },
   {
     number: '04',
     title: 'Optimize',
+    image: '/images/ai-systems/step-optimize.webp',
     description:
       'We monitor performance and continuously improve your AI systems.',
   },
@@ -228,13 +237,21 @@ export default function AISystemsPage() {
             {aiServices.map((service) => (
               <div
                 key={service.title}
-                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl p-8 hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 group flex flex-col"
+                className="bg-[#0d0d0d] border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 group flex flex-col"
               >
-                <div className="w-14 h-14 bg-amber-400/8 border border-amber-400/15 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-400/15 transition-colors">
-                  {service.icon}
+                <div className="relative aspect-[16/9] border-b border-zinc-800 overflow-hidden">
+                  <Image
+                    src={service.image}
+                    alt={`${service.title} illustration`}
+                    fill
+                    sizes="(min-width: 1024px) 360px, (min-width: 768px) 50vw, 100vw"
+                    className="object-cover group-hover:scale-[1.04] transition-transform duration-500"
+                  />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
-                <p className="text-zinc-400 leading-relaxed flex-1">{service.description}</p>
+                <div className="p-8 flex flex-col flex-1">
+                  <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
+                  <p className="text-zinc-400 leading-relaxed flex-1">{service.description}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -332,12 +349,21 @@ export default function AISystemsPage() {
             {processSteps.map((step) => (
               <div
                 key={step.number}
-                className="relative bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 md:p-10 overflow-hidden hover:border-amber-400/25 transition-colors group"
+                className="relative bg-zinc-900/40 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-400/25 transition-colors group"
               >
-                <span className="absolute -top-4 right-6 text-[9rem] font-black text-white/[0.03] leading-none select-none pointer-events-none group-hover:text-amber-400/5 transition-colors">
+                <div className="relative aspect-[16/9] border-b border-zinc-800 overflow-hidden">
+                  <Image
+                    src={step.image}
+                    alt={`${step.title} step illustration`}
+                    fill
+                    sizes="(min-width: 768px) 560px, 100vw"
+                    className="object-cover group-hover:scale-[1.04] transition-transform duration-500"
+                  />
+                </div>
+                <span className="absolute bottom-0 right-6 text-[9rem] font-black text-white/[0.03] leading-none select-none pointer-events-none group-hover:text-amber-400/5 transition-colors">
                   {step.number}
                 </span>
-                <div className="relative z-10">
+                <div className="relative z-10 p-8 md:p-10">
                   <span className="inline-block text-xs text-amber-400 font-bold tracking-[0.3em] uppercase border border-amber-400/30 rounded-full px-3 py-1 mb-5">
                     Step {step.number}
                   </span>

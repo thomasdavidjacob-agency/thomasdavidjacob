@@ -15,7 +15,7 @@ const webDesignFAQs = [
   {
     question: 'How long does it take to build a website?',
     answer:
-      'Most custom websites take 3–6 weeks from kickoff to launch, depending on the number of pages, complexity of functionality, and how quickly you provide content and feedback. We\'ll give you a specific timeline during our initial consultation based on your project\'s scope.',
+      'Most custom websites launch in 1–2 weeks from kickoff — often faster. The biggest factor is how quickly we get what we need from you: your logo, photos, service details, and feedback on the first draft. The sooner those come back, the sooner you\'re live. We\'ll give you a specific timeline during our initial consultation based on your project\'s scope.',
   },
   {
     question: 'Do I own my website when it\'s done?',
