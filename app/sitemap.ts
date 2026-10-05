@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { posts } from '../lib/blog'
 import { studioServices } from '../lib/services'
+import { INDUSTRIES } from '../lib/industries'
 
 const BASE_URL = 'https://thomasdavidjacob.com'
 
@@ -13,7 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/services', priority: 0.8 },
     { path: '/clients', priority: 0.7 },
     { path: '/ai-systems', priority: 0.8 },
-    { path: '/restaurant-tech', priority: 0.8 },
+    { path: '/success-kit', priority: 0.8 },
+    { path: '/success-kit/dealkit', priority: 0.7 },
     { path: '/our-seo-process', priority: 0.7 },
     { path: '/about', priority: 0.6 },
     { path: '/faq', priority: 0.6 },
@@ -47,5 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticEntries, ...serviceEntries, ...postEntries]
+  const industryEntries: MetadataRoute.Sitemap = INDUSTRIES.map((industry) => ({
+    url: `${BASE_URL}/success-kit/${industry.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  }))
+
+  return [...staticEntries, ...industryEntries, ...serviceEntries, ...postEntries]
 }

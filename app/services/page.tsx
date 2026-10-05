@@ -107,7 +107,7 @@ const aLaCarteServices: ALaCarteService[] = [
     image: '/images/services/restaurant-tech.webp',
     description:
       'Your website, POS, and delivery apps should talk to each other. We connect Toast and other POS systems to online ordering, DoorDash and Uber Eats, reservations, and live menu sync — so you update a price once instead of in six places.',
-    href: '/restaurant-tech',
+    href: '/success-kit/restaurants',
     cta: 'Learn More',
     icon: (
       <svg className="w-6 h-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
