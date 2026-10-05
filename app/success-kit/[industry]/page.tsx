@@ -43,8 +43,41 @@ export default async function IndustryPage({ params }: { params: Promise<Params>
   const cta = ind.cta ?? "Get a Free Demo";
   const steps = ind.steps ?? DEFAULT_STEPS;
 
+  // Service + FAQPage structured data, generated from the same entry the page renders.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        name: ind.seoTitle.replace(/\s*\|\s*TDJ$/, ""),
+        serviceType: `Websites and lead systems for ${ind.name.toLowerCase()}`,
+        description: ind.seoDescription,
+        url: `https://thomasdavidjacob.com/success-kit/${ind.slug}`,
+        provider: {
+          "@type": "ProfessionalService",
+          name: "Thomas+David+Jacob",
+          url: "https://thomasdavidjacob.com",
+        },
+        areaServed: [
+          { "@type": "State", name: "Oregon" },
+          { "@type": "City", name: "Portland" },
+          { "@type": "City", name: "Oregon City" },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: ind.faq.map(([q, a]) => ({
+          "@type": "Question",
+          name: q,
+          acceptedAnswer: { "@type": "Answer", text: a },
+        })),
+      },
+    ],
+  };
+
   return (
     <main className="bg-[#0a0a0a] text-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* Hero */}
       <section className="relative overflow-hidden px-6 pb-24 pt-40 text-center">
         <div
