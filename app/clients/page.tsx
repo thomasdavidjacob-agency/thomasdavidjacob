@@ -85,6 +85,21 @@ const clients: Client[] = [
     thumb: '/images/client-phuongha.webp',
     href: 'https://phuongha.loans',
   },
+  {
+    name: '10 Deadliest Disasters',
+    industry: 'Disaster Education & Preparedness Publication',
+    location: 'Portland, OR — Pacific Northwest',
+    summary:
+      'An independent publication that ranks history\'s deadliest disasters and turns them into practical preparedness steps for Pacific Northwest households, from Cascadia earthquakes to wildfire smoke. We expanded the site with new hazard pages, a live-tracking blog, a gear guide, and a partner program.',
+    work: [
+      'Cascadia & extreme heat hazard pages',
+      'Blog with live disaster tracker',
+      'Preparedness gear guide',
+      'Brand partnership page',
+    ],
+    thumb: '/images/client-10deadliestdisasters.webp',
+    href: 'https://10deadliestdisasters.com',
+  },
 ]
 
 export default function ClientsPage() {
