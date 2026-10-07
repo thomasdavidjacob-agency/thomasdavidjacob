@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 import SpotlightCard from './components/SpotlightCard'
+import { INDUSTRIES } from '@/lib/industries'
+import { DEALKIT } from '@/lib/success-kit'
 
 export const metadata: Metadata = {
   title: 'Digital Creative Agency | Oregon City, OR | Thomas David Jacob',
@@ -289,6 +291,50 @@ export default function Home() {
                 </ul>
               </SpotlightCard>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Industries We Serve (Success Kit) ── */}
+      <section className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
+              Built for Your Industry
+            </p>
+            <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-5">
+              Industries We Serve
+            </h2>
+            <p className="text-zinc-400 text-lg max-w-xl mx-auto leading-relaxed">
+              Websites and lead systems made for how your industry wins customers. We build them and run them for you.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              ...INDUSTRIES.map((i) => ({ name: i.name, href: `/success-kit/${i.slug}`, note: i.group })),
+              { name: DEALKIT.name, href: DEALKIT.href, note: DEALKIT.audience },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group flex items-center justify-between gap-3 bg-[#0d0d0d] border border-zinc-800 rounded-2xl px-5 py-4 hover:border-amber-400/40 hover:-translate-y-0.5 transition-all duration-300"
+              >
+                <span>
+                  <span className="block font-bold text-white group-hover:text-amber-400 transition-colors">{item.name}</span>
+                  <span className="block text-xs text-zinc-500 mt-0.5">{item.note}</span>
+                </span>
+                <svg className="w-4 h-4 flex-shrink-0 text-amber-400 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link href="/success-kit" className="text-sm font-bold tracking-wide text-amber-400 hover:text-amber-300">
+              See all industries →
+            </Link>
           </div>
         </div>
       </section>
