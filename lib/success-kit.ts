@@ -37,7 +37,7 @@ export const AGENCY_SERVICES = [
 // Founding terms. Seat counts stay as caps until checkout goes live;
 // once Stripe is connected, show real "X of 50 left" numbers only.
 export const FOUNDING = {
-  opensLabel: "October 19, 2026",
+  opensLabel: "December 31, 2026",
   ultimateSeats: 50,
   teamBrokerages: 10,
   checkoutLive: false, // flip to true only after the launch gate passes
