@@ -89,8 +89,10 @@ export default async function StudioServicePage({
   if (!service) notFound()
 
   // Three other studio services, continuing in card order and wrapping around.
-  const index = studioServices.findIndex((s) => s.slug === slug)
-  const related = [1, 2, 3].map((n) => studioServices[(index + n) % studioServices.length])
+  // Pages outside the studio (studio: false) get the first three studio services.
+  const studio = studioServices.filter((s) => s.studio !== false)
+  const index = studio.findIndex((s) => s.slug === slug)
+  const related = [1, 2, 3].map((n) => studio[(index + n) % studio.length])
 
   const url = `${BASE_URL}/services/${service.slug}`
   const jsonLd = {

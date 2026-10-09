@@ -16,6 +16,8 @@ export type ServiceTier = {
 
 export type StudioService = {
   slug: string
+  /** false keeps the page out of the Growth & Content Studio grid (it's linked from elsewhere). */
+  studio?: boolean
   /** Card on /services */
   title: string
   cardDescription: string
@@ -1348,6 +1350,11 @@ export const studioServices: StudioService[] = [
           'Your AI Visibility Scorecard tracks how often you’re mentioned, recommended, and linked across a fixed set of customer questions; how you compare with named competitors; whether the AI describes your services, location, and credentials correctly; plus Bing’s AI citation data, AI referral traffic, and the leads it brings. If you show up in 4 of 40 answers this month and 12 of 40 next month, that’s real directional progress. It isn’t a promise about every AI search everywhere, and we’ll never present it as one.',
       },
       {
+        question: 'Is AI search more important than Google now?',
+        answer:
+          'Not yet: Google still sends far more traffic. But AI answers, including the AI Overviews at the top of Google, increasingly decide which few businesses a customer hears about, and both run on the same foundation. We break down the numbers in AI Search vs. Google on our SEO Process page.',
+      },
+      {
         question: 'Do I need an llms.txt file or special “AI schema”?',
         answer:
           'No file or markup guarantees an AI will recommend you, and Google says its AI features run on the same fundamentals as regular search. We focus on what does matter: crawl access, clear structured data, useful content, and credible mentions elsewhere.',
@@ -1535,6 +1542,172 @@ export const studioServices: StudioService[] = [
         question: 'Is there a minimum commitment?',
         answer:
           'Growth systems need a few months to show what they can do. We’ll agree on a term that gives the work a fair chance before you sign.',
+      },
+    ],
+  },
+
+  // ── 7-Day Website (Custom Web Design pillar, not part of the Studio grid) ──
+  {
+    slug: 'website-in-7-days',
+    studio: false,
+    title: 'Website in 7 Days',
+    cardDescription:
+      'A custom, mobile-first website live 7 days after we have your content. Starting at $497.',
+    icon: ['M13 10V3L4 14h7v7l9-11h-7z'],
+    metaTitle: 'Website in 7 Days, Starting at $497 | Oregon City Web Design',
+    metaDescription:
+      'Custom small business websites live 7 days after we have your content. One-page sites from $497, full business sites from $1,997. Web design for Oregon City, Portland, Lake Oswego, and West Linn.',
+    eyebrow: 'Custom Web Design · Live in 7 Days',
+    headline: ['Your New Website.', 'Live in 7 Days.'],
+    heroCopy:
+      'No templates and no months of back-and-forth. We design and build a custom, mobile-first site around how your customers actually decide, with a lead form that sends every inquiry straight to your inbox. Start with a one-page site at $497, or go straight to a full business site. The 7-day clock starts the day we have your logo, photos, and content notes.',
+    cta: 'Claim Your 7-Day Build',
+    problemHeading: 'Why Most Small Business Sites Stall',
+    problems: [
+      {
+        title: 'The project that never launches',
+        description:
+          'Months of meetings, revisions, and “almost done.” Meanwhile customers are finding the competitor whose site is already live.',
+      },
+      {
+        title: 'Templates that look like everyone else',
+        description:
+          'A drag-and-drop theme gets you online, but it looks like a thousand other sites and is rarely built to rank or convert.',
+      },
+      {
+        title: 'Pretty, but no leads',
+        description:
+          'A site that doesn’t tell people what to do next, or loses the form submission in a spam folder, is a brochure, not a sales tool.',
+      },
+    ],
+    includes: [
+      {
+        title: 'Custom Design',
+        description:
+          'Designed for your business and brand from the start. Zero templates, coded for speed.',
+      },
+      {
+        title: 'Mobile-First Build',
+        description:
+          'Most of your visitors are on a phone, so that’s where we design first, then scale up to desktop.',
+      },
+      {
+        title: 'Lead Capture',
+        description:
+          'A contact form that emails every inquiry to you, and a clear next step on every page.',
+      },
+      {
+        title: 'SEO-Ready Foundation',
+        description:
+          'Page titles, descriptions, a sitemap, and clean structure so Google can find and understand you from day one.',
+      },
+      {
+        title: 'Launch on Your Domain',
+        description:
+          'We connect your domain, set up security, and take the site live. No loose ends at handoff.',
+      },
+      {
+        title: 'Room to Grow',
+        description:
+          'Add pages, SEO, or AI visibility later. The site is built to grow with you, not to be rebuilt.',
+      },
+    ],
+    tiers: [
+      {
+        name: 'Launch',
+        price: 'From $497',
+        priceNote: 'one-time',
+        bestFor: 'A sharp one-page site, fast',
+        features: [
+          'One page, up to 6 sections',
+          'Custom, mobile-first design',
+          'Contact form to your inbox',
+          'Basic SEO setup & sitemap',
+          'Launch on your domain',
+          'You provide text & photos',
+          '1 revision round',
+        ],
+      },
+      {
+        name: 'Business',
+        price: 'From $1,997',
+        priceNote: 'one-time',
+        bestFor: 'A full site that brings in customers',
+        featured: true,
+        features: [
+          'Up to 5 pages',
+          'We write the copy from a 30-minute interview',
+          'Service & service-area pages',
+          'Business & service structured data',
+          'Google Business Profile tune-up',
+          'Analytics & lead tracking',
+          '2 revision rounds',
+        ],
+      },
+      {
+        name: 'Custom',
+        bestFor: 'Bigger builds: 6+ pages, ecommerce, integrations',
+        features: [
+          'Everything in Business',
+          'Ecommerce, booking, or CRM integrations',
+          'Custom features & larger page counts',
+          'Timeline set during your consultation',
+        ],
+      },
+    ],
+    industries: {
+      mortgage:
+        'A clean, fast site with your NMLS ID, licensed states, and the programs you actually offer. Every page goes to your compliance review before launch.',
+      realEstate:
+        'Your bio, your neighborhoods, and a home-value or buyer-inquiry form that reaches you, not a portal that sells your lead to the next agent.',
+      weddings:
+        'A portfolio-forward site that shows your style and makes the inquiry easy, built for couples browsing on their phones.',
+      local:
+        'Services, service area, and a click-to-call or quote form up front, because local customers decide fast.',
+    },
+    process: [
+      {
+        title: 'Kickoff · Day 0',
+        description: 'A short call and a simple content checklist. The 7-day clock starts once your logo, photos, and notes are in.',
+      },
+      {
+        title: 'Design · Days 1–3',
+        description: 'Your layout, colors, and copy come together, and you see a working draft.',
+      },
+      {
+        title: 'Build & Revise · Days 4–6',
+        description: 'Your revision round goes in, plus forms, SEO setup, and mobile checks.',
+      },
+      {
+        title: 'Launch · Day 7',
+        description: 'Live on your domain, tested, and handed off with a quick walkthrough.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'When does the 7-day clock start?',
+        answer:
+          'The day we have everything the build needs: your logo, photos, and content notes (or, for Business sites, your 30-minute interview). If feedback or materials are delayed, the launch date moves by the same amount.',
+      },
+      {
+        question: 'Is $497 really a custom site?',
+        answer:
+          'Yes. It’s designed for your business, not pulled from a template. It’s one page, it uses the text and photos you provide, and it includes one revision round. That focus is how we deliver it in 7 days at that price.',
+      },
+      {
+        question: 'Can I start with Launch and upgrade later?',
+        answer:
+          'Yes. A Launch site is built to grow. When you’re ready we add pages, copy, and SEO without starting over.',
+      },
+      {
+        question: 'What if I don’t have photos or copy?',
+        answer:
+          'Choose Business, where we write the copy from a 30-minute interview. For photos we can work with phone pictures, help you pick licensed stock images, or plan a shoot.',
+      },
+      {
+        question: 'How is this different from AI Visibility & Authority?',
+        answer:
+          'This builds your website. AI Visibility & Authority measures and improves whether AI assistants like ChatGPT and Gemini recommend your business, across your site and the rest of the web. A Business site already includes the on-site basics (structured data and a Google Business Profile tune-up), so if you add AI visibility later, we start from there instead of redoing it.',
       },
     ],
   },

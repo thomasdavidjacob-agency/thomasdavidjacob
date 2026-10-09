@@ -139,14 +139,14 @@ export default function Home() {
           </h1>
 
           <p className="text-zinc-300 text-xl md:text-2xl max-w-2xl mx-auto mb-6 leading-relaxed">
-            <span className="text-white font-bold">$1,997 flat.</span> A custom,
-            mobile-first site built to bring you customers, for businesses
-            across Oregon City, Portland, Lake Oswego, West Linn, and all of
-            Oregon.
+            <span className="text-white font-bold">Starting at $497.</span> A
+            custom, mobile-first site built to bring you customers, for
+            businesses across Oregon City, Portland, Lake Oswego, West Linn,
+            and all of Oregon.
           </p>
 
           <ul className="flex flex-wrap items-center justify-center gap-2.5 max-w-2xl mx-auto mb-10">
-            {['Custom design', 'SEO-ready', 'Lead alerts to your inbox', 'Google Business Profile tune-up'].map((item) => (
+            {['Custom design', 'Mobile-first', 'SEO-ready', 'Lead alerts to your inbox'].map((item) => (
               <li
                 key={item}
                 className="text-sm text-zinc-200 bg-black/40 border border-white/10 rounded-full px-4 py-1.5"
@@ -165,10 +165,10 @@ export default function Home() {
             </Link>
             <BookCallButton />
             <Link
-              href="#services"
+              href="/services/website-in-7-days"
               className="text-zinc-300 hover:text-white px-4 py-4 transition-colors underline-offset-4 hover:underline"
             >
-              See All Services
+              See What&apos;s Included
             </Link>
           </div>
 
