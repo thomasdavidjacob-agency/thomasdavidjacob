@@ -6,6 +6,7 @@ import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 import SpotlightCard from './components/SpotlightCard'
 import BookCallButton from './components/BookCallButton'
+import { siteGraph } from '@/lib/entity'
 import { INDUSTRIES } from '@/lib/industries'
 import { DEALKIT } from '@/lib/success-kit'
 
@@ -84,6 +85,10 @@ const services = [
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(siteGraph) }}
+      />
       <Navbar />
 
       {/* ── Hero ── */}

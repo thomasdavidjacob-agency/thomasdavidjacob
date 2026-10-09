@@ -1194,20 +1194,20 @@ export const studioServices: StudioService[] = [
   // ── #5 AI SEO / GEO / AEO ──
   {
     slug: 'ai-search-visibility',
-    title: 'AI Search Visibility',
+    title: 'AI Visibility & Authority',
     cardDescription:
-      'Your customers are asking ChatGPT, Perplexity, and Google AI Overviews for recommendations — and those answers cite a handful of sources. We structure your content and data so you’re one of the businesses the AI names.',
+      'Your customers are asking ChatGPT, Gemini, Perplexity, and Copilot who to hire, and those answers name a handful of businesses. We measure where you show up, fix what keeps you out, and track it every month.',
     icon: [
       'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z',
     ],
-    metaTitle: 'AI Search Visibility | GEO & AEO Services | Oregon',
+    metaTitle: 'AI Visibility Audit & GEO Services | Oregon | Thomas+David+Jacob',
     metaDescription:
-      'Get recommended by ChatGPT, Claude, Gemini, Perplexity, and Google AI Overviews. Generative engine optimization plus traditional SEO for Oregon businesses, loan officers, Realtors, and wedding pros.',
-    eyebrow: 'AI Search Visibility · SEO + GEO',
+      'Find out if ChatGPT, Gemini, Perplexity, Copilot, and Google AI Overviews recommend your business. AI visibility audits, generative engine optimization, and monthly AI citation tracking for Oregon businesses and professionals.',
+    eyebrow: 'AI Visibility & Authority · GEO + AEO + SEO',
     headline: ['Get Named When', 'AI Answers the Question'],
     heroCopy:
-      'Your customers are asking ChatGPT, Claude, Gemini, Perplexity, and Google’s AI Overviews who to hire. Those answers name a small handful of businesses. We combine traditional SEO with generative engine optimization — structured data, answer-first content, and consistent information across the web — so your business is one of the names the AI gives.',
-    cta: 'Get a Free AI Visibility Check',
+      'Your customers are asking ChatGPT, Claude, Gemini, Perplexity, Copilot, and Google’s AI Overviews who to hire. Those answers name a small handful of businesses. We start by measuring: we ask the AI tools the questions your customers ask and record who gets named. Then we fix what keeps you out, with crawl access, structured data, answer-first content, and consistent information across the web, and we retest the same questions every month so you can see the change.',
+    cta: 'Get Your AI Visibility Audit',
     problemHeading: 'Search Is Changing Shape',
     problems: [
       {
@@ -1228,78 +1228,84 @@ export const studioServices: StudioService[] = [
     ],
     includes: [
       {
-        title: 'AI Visibility Audit',
+        title: 'Technical Discoverability',
         description:
-          'We ask the major AI assistants the questions your customers ask and record who gets named — you, a competitor, or nobody.',
+          'We confirm Google, Bing, and the AI search crawlers (like OpenAI’s OAI-SearchBot and PerplexityBot) can reach and read your site, and that no firewall or robots rule is quietly blocking them.',
       },
       {
-        title: 'Structured Data & Schema',
+        title: 'Entity Clarity',
         description:
-          'Business, service, FAQ, and review markup that tells search engines and AI tools exactly who you are and what you do.',
+          'Business, person, service, and FAQ structured data, plus consistent name, services, and service area everywhere, so AI tools know exactly who you are and what you do.',
       },
       {
         title: 'Answer-First Content',
         description:
-          'Service pages, FAQs, and articles that answer real questions directly — the format AI tools prefer to cite.',
+          'Service pages, FAQs, comparisons, and cost explainers that answer real customer questions directly, with first-hand examples. That is the format AI tools prefer to cite.',
       },
       {
-        title: 'Citation Consistency',
+        title: 'Third-Party Credibility',
         description:
-          'Your name, address, phone, and services aligned across Google Business Profile, directories, and industry sites.',
+          'Google Business Profile, the directories and associations that matter in your industry, an honest review-request system, and earned mentions. No bought listings and no fake reviews.',
       },
       {
-        title: 'Traditional SEO Foundation',
+        title: 'Local & Professional Signals',
         description:
-          'Technical fixes, keyword research, and on-page optimization — AI answers still lean heavily on pages that rank.',
+          'Service-area pages, credentials, and expert bios that show you are the real, qualified, local choice.',
       },
       {
-        title: 'Monthly Visibility Tracking',
+        title: 'Measured Every Month',
         description:
-          'A recurring check of whether AI tools mention you, alongside your Google rankings and traffic.',
+          'The same question set retested monthly, plus Bing’s AI citation report and AI referral traffic, rolled into one AI Visibility Scorecard.',
       },
     ],
     tiers: [
       {
         name: 'Audit',
-        price: 'From $597',
+        price: 'From $497',
+        priceNote: 'one-time',
         bestFor: 'Knowing where you stand',
         features: [
-          'AI visibility audit across major assistants',
-          'Schema & structured data setup',
-          'Google Business Profile alignment',
-          'Prioritized fix list',
-          'One-time report',
+          '40 customer questions tested across 5 AI platforms',
+          'You vs. 3 named competitors',
+          'Crawler, indexing & schema check',
+          'AI Visibility Scorecard',
+          'Prioritized 90-day action plan',
+          'Fee credited if you start Foundation within 30 days',
         ],
       },
       {
-        name: 'Growth',
-        price: 'From $1,197',
-        bestFor: 'Competing for AI answers',
+        name: 'Foundation',
+        price: 'From $1,997',
+        priceNote: 'one-time',
+        bestFor: 'Fixing what keeps you out',
         featured: true,
         features: [
           'Everything in Audit',
-          '4 answer-first pages or articles / month',
-          'Citation cleanup & building',
-          'On-page SEO optimization',
-          'Monthly visibility tracking',
+          'Crawl, indexing & AI crawler fixes',
+          'Organization, person, service & FAQ schema',
+          'About, services & service-area pages rewritten',
+          'Google Business Profile & top directories aligned',
+          'Google Search Console & Bing Webmaster Tools setup',
+          '3 answer-first pages',
         ],
       },
       {
-        name: 'Full-Service',
-        price: 'From $1,997',
-        bestFor: 'Crowded, competitive markets',
+        name: 'Authority Growth',
+        price: 'From $997',
+        bestFor: 'Building recommendations month over month',
         features: [
-          'Everything in Growth',
-          '8 pages or articles / month',
-          'Competitor visibility monitoring',
-          'Digital PR & mention outreach',
-          'Quarterly strategy review',
+          '4 answer-first pages or articles / month',
+          'Review-request system',
+          'Directory, association & mention outreach',
+          'Monthly retest of your 40 questions',
+          'Bing AI citation & referral reporting',
+          'Monthly scorecard & strategy call',
         ],
       },
     ],
     industries: {
       mortgage:
-        '“Best loan officer for first-time buyers near me.” “Who does VA loans in Oregon City?” We build the answer-ready content and credentials AI tools look for — NMLS ID, licensed states, and the programs you actually offer.',
+        '“Best loan officer for first-time buyers near me.” “Who does VA loans in Oregon City?” We build the answer-ready content and credentials AI tools look for, like NMLS ID, licensed states, and the programs you actually offer, and every page goes to your compliance review before it publishes.',
       realEstate:
         'Neighborhood expertise, relocation content, and review signals that get you named when someone asks an AI which agent knows their area.',
       weddings:
@@ -1309,20 +1315,20 @@ export const studioServices: StudioService[] = [
     },
     process: [
       {
-        title: 'Audit',
-        description: 'Where you appear in AI answers and search today, and who appears instead.',
+        title: 'Baseline · Days 1–15',
+        description: 'We test your 40 questions across five AI platforms and record who gets named: you, a competitor, or nobody.',
       },
       {
-        title: 'Fix the Foundation',
-        description: 'Schema, technical SEO, and consistent business information everywhere.',
+        title: 'Foundation · Days 16–30',
+        description: 'Crawl fixes, structured data, and consistent business information everywhere AI tools look.',
       },
       {
-        title: 'Publish',
-        description: 'Answer-first pages and articles built around real customer questions.',
+        title: 'Content & Authority · Days 31–60',
+        description: 'Answer-first pages, directory and review work, and earned mentions where the gaps are.',
       },
       {
-        title: 'Track & Expand',
-        description: 'Monthly visibility checks and new content where the gaps are.',
+        title: 'Retest · Day 61 on',
+        description: 'Same questions, same conditions, every month. You see what moved and what we do next.',
       },
     ],
     faqs: [
@@ -1335,6 +1341,21 @@ export const studioServices: StudioService[] = [
         question: 'Can you guarantee ChatGPT will recommend me?',
         answer:
           'No, and be wary of anyone who says they can. AI answers vary by question, person, and day. We strengthen the signals AI tools rely on and track how often you appear.',
+      },
+      {
+        question: 'What exactly do you measure?',
+        answer:
+          'Your AI Visibility Scorecard tracks how often you’re mentioned, recommended, and linked across a fixed set of customer questions; how you compare with named competitors; whether the AI describes your services, location, and credentials correctly; plus Bing’s AI citation data, AI referral traffic, and the leads it brings. If you show up in 4 of 40 answers this month and 12 of 40 next month, that’s real directional progress. It isn’t a promise about every AI search everywhere, and we’ll never present it as one.',
+      },
+      {
+        question: 'Do I need an llms.txt file or special “AI schema”?',
+        answer:
+          'No file or markup guarantees an AI will recommend you, and Google says its AI features run on the same fundamentals as regular search. We focus on what does matter: crawl access, clear structured data, useful content, and credible mentions elsewhere.',
+      },
+      {
+        question: 'Can I stay out of AI training but still show up in AI search?',
+        answer:
+          'Often, yes. OpenAI, for example, uses separate crawlers for ChatGPT search (OAI-SearchBot) and for model training (GPTBot), so your site can allow one and block the other. We set this up to match your preference.',
       },
       {
         question: 'Is this different from regular SEO?',

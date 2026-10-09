@@ -6,8 +6,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import AccordionFAQ from '../../components/AccordionFAQ'
 import { studioServices, getStudioService } from '../../../lib/services'
-
-const BASE_URL = 'https://thomasdavidjacob.com'
+import { BASE_URL, ORG_ID, organization } from '../../../lib/entity'
 
 export const dynamicParams = false
 
@@ -97,17 +96,13 @@ export default async function StudioServicePage({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
+      organization,
       {
         '@type': 'Service',
         name: service.title,
         description: service.metaDescription,
         url,
-        provider: {
-          '@type': 'ProfessionalService',
-          name: 'Thomas+David+Jacob',
-          url: BASE_URL,
-          areaServed: 'Oregon',
-        },
+        provider: { '@id': ORG_ID },
         areaServed: [
           { '@type': 'State', name: 'Oregon' },
           { '@type': 'City', name: 'Portland' },
@@ -120,6 +115,13 @@ export default async function StudioServicePage({
             '@type': 'Offer',
             name: `${service.title} — ${tier.name}`,
             description: tier.features.join('; '),
+            ...(tier.price && {
+              priceSpecification: {
+                '@type': 'PriceSpecification',
+                minPrice: Number(tier.price.replace(/[^0-9.]/g, '')),
+                priceCurrency: 'USD',
+              },
+            }),
           })),
         },
       },

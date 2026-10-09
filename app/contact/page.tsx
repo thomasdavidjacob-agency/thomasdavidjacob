@@ -45,6 +45,7 @@ const contactDetails = [
 
 const quickReasons = [
   'Claim a 7-day website build ($1,997)',
+  'Book an AI Visibility Audit ($497)',
   'Request a website quote',
   'Ask about SEO services',
   'Discuss a marketing strategy',
