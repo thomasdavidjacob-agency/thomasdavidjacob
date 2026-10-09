@@ -18,6 +18,11 @@ export const AGENCY_SERVICES = [
     href: "/services",
   },
   {
+    name: "Growth & Content Studio",
+    blurb: "AI content and growth packages.",
+    href: "/services#studio",
+  },
+  {
     name: "AI Systems Architecture",
     blurb: "AI systems that automate and generate revenue.",
     href: "/ai-systems",

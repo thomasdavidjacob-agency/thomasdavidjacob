@@ -14,6 +14,549 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'ai-search-vs-google-rankings-do-you-need-both',
+    title: 'Does Ranking in ChatGPT Matter If You Already Rank on Google?',
+    metaTitle: 'ChatGPT vs Google Rankings: Do You Need Both? | Oregon',
+    metaDescription:
+      'Google still handles most searches, but AI answers now sit on top of it and name only a few businesses. An honest comparison for Oregon business owners.',
+    date: 'October 9, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'Google still handles the large majority of searches. So why are we talking about ChatGPT? Because AI answers now sit on top of Google, they name only a few businesses, and the shortlist is increasingly made there.',
+    heroImage: '/images/SEO_Search.jpg',
+    content: (
+      <>
+        <p>
+          Short answer: yes, it matters, but not because ChatGPT is replacing Google. It isn&apos;t. Google still handles the large majority of searches, and if you rank well there, you&apos;ve done real work that still pays. The reason to care about AI search is narrower and more practical: AI answers now appear on top of Google itself, they name only a handful of businesses, and a growing number of customers use them to build a shortlist before they ever visit a website.
+        </p>
+        <p>
+          This post lays out the honest numbers, what overlaps between the two, and what is actually different. For the full side-by-side, see our guide to <a href="/our-seo-process/ai-search">AI search vs Google</a>.
+        </p>
+
+        <h2>Google Is Still the Big One</h2>
+        <p>
+          Let&apos;s say this plainly, because a lot of marketing in this space doesn&apos;t. According to StatCounter, Google held roughly 90% of worldwide search engine market share in September 2026, with Bing at about 5%. ChatGPT, Gemini, Perplexity, Copilot, and Claude together are not close to displacing that. If someone tells you to stop caring about Google rankings, they&apos;re selling something.
+        </p>
+
+        <h2>But Customer Behavior Is Shifting Fast</h2>
+        <p>
+          Market share counts which search box people type into. It doesn&apos;t capture how people decide. A few data points worth knowing:
+        </p>
+        <ul>
+          <li>
+            BrightLocal&apos;s 2026 Local Consumer Review Survey (1,002 US adults, published February 2026) found that use of ChatGPT and other generative AI tools for local recommendations rose from 6% the year before to 45%. In the same survey, the share using Google for local recommendations dipped from 83% to 71%. It is one survey with a modest sample, so treat the exact figures as a direction, not a law. But the direction is clear.
+          </li>
+          <li>
+            OpenAI CEO Sam Altman said at the company&apos;s October 2025 developer event that more than 800 million people use ChatGPT every week.
+          </li>
+          <li>
+            Alphabet reported on its Q2 2025 earnings call that Google&apos;s AI Overviews reached 2 billion monthly users.
+          </li>
+        </ul>
+        <p>
+          Notice what the BrightLocal numbers say. People aren&apos;t abandoning Google. They&apos;re adding AI on top of it. That&apos;s the whole story in one sentence.
+        </p>
+
+        <h2>Why It Matters Even If You Rank Well</h2>
+        <p>
+          A traditional Google results page gives a searcher ten blue links and a map pack of three. An AI answer gives them a paragraph and, often, two to five named businesses. The room on that list is small.
+        </p>
+        <p>
+          Pew Research Center looked at the browsing behavior of 900 US adults in March 2025. When a Google search showed an AI summary, users clicked a traditional result link in 8% of visits. When it didn&apos;t, they clicked in 15% of visits. Clicks on the links inside the AI summary itself happened in only 1% of visits. Pew&apos;s study is observational, so it shows an association rather than proof of cause, but it matches what many owners are seeing: fewer clicks, more decisions made on the results page.
+        </p>
+        <p>
+          If the decision is made before the click, then being named in the answer matters as much as ranking below it.
+        </p>
+
+        <h2>Where Google Rankings and AI Visibility Overlap</h2>
+        <p>
+          Here&apos;s the good news. The two are built on largely the same foundation. Google&apos;s own documentation says there are no additional requirements to appear in AI Overviews or AI Mode, and no special optimizations or schema needed beyond normal SEO fundamentals: a page that is indexed and eligible to show in Search with a snippet. ChatGPT search, Perplexity, and Copilot also work from web content they can find and read.
+        </p>
+        <p>The shared foundation looks like this:</p>
+        <ul>
+          <li>A crawlable, fast website with clear pages for each service and each service area</li>
+          <li>A complete, accurate Google Business Profile</li>
+          <li>Consistent name, address, and phone details across the web</li>
+          <li>Real reviews, recent and answered</li>
+          <li>Content that answers the actual questions customers ask</li>
+        </ul>
+        <p>
+          If you already do these well, you&apos;re ahead of most competitors in Oregon City, Lake Oswego, and West Linn, and you have a head start on AI visibility too.
+        </p>
+
+        <h2>Where They Differ</h2>
+        <ul>
+          <li>
+            <strong>The output.</strong> Google ranks a list. AI assistants write an answer and name a few businesses. There is no page two.
+          </li>
+          <li>
+            <strong>The crawlers.</strong> ChatGPT search uses OpenAI&apos;s OAI-SearchBot, which is separate from GPTBot, the crawler used for training. OpenAI&apos;s documentation says sites that opt out of OAI-SearchBot won&apos;t be shown in ChatGPT search answers. A site that blocked every bot in its robots.txt file years ago can be invisible there without anyone noticing.
+          </li>
+          <li>
+            <strong>The measurement.</strong> Google Search Console tells you about Google. Bing Webmaster Tools added an AI Performance report in public preview in February 2026 that shows how often your content is cited in Copilot and other Microsoft AI answers. Ask whether your current reporting covers any of this.
+          </li>
+          <li>
+            <strong>Third-party mentions.</strong> An AI assistant leans on what the wider web says about you, not just your own site. Reviews, directory listings, local press, and association pages carry real weight.
+          </li>
+        </ul>
+
+        <h2>What We Will Not Promise</h2>
+        <p>
+          Nobody can guarantee you the top spot in ChatGPT. Answers vary by question, by user, and by day. Anyone who sells a guaranteed AI ranking, a magic file, or a special markup trick is guessing. Google says plainly that no special markup is needed. The honest version of this work is making your business easy to find, easy to verify, and easy to describe, then checking regularly where you actually show up.
+        </p>
+
+        <h2>The Practical Takeaway</h2>
+        <p>
+          Keep your Google fundamentals strong. Then fix the gaps that keep AI assistants from seeing or trusting you. We explain how the assistants pick businesses in <a href="/blog/how-ai-assistants-choose-local-businesses-to-recommend">How AI Assistants Decide Which Local Businesses to Recommend</a>, and you can run a free check yourself with <a href="/blog/check-if-chatgpt-gemini-perplexity-recommend-your-business">How to Check Whether ChatGPT, Gemini, and Perplexity Recommend Your Business</a>.
+        </p>
+        <p>
+          If you&apos;d rather have it done for you, our <a href="/services/ai-search-visibility">AI Visibility &amp; Authority service</a> starts with an audit of where you stand today. Or <a href="/contact">contact us</a> and we&apos;ll point you in the right direction.
+        </p>
+
+        <hr />
+        <p>
+          <small>
+            Sources: StatCounter Global Stats (September 2026); BrightLocal Local Consumer Review Survey (2026); Pew Research Center, July 2025; OpenAI DevDay keynote, October 2025; Alphabet Q2 2025 earnings; Google Search Central, AI features documentation; OpenAI crawler documentation.
+          </small>
+        </p>
+
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/how-ai-assistants-choose-local-businesses-to-recommend">How AI Assistants Decide Which Local Businesses to Recommend</a></li>
+          <li><a href="/blog/google-ai-overviews-oregon-small-businesses">What Google AI Overviews Mean for Oregon Small Businesses</a></li>
+          <li><a href="/blog/how-customers-find-small-business-ai-local-search">How Customers Find Your Small Business Now</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'how-ai-assistants-choose-local-businesses-to-recommend',
+    title: 'How AI Assistants Decide Which Local Businesses to Recommend',
+    metaTitle: 'How AI Picks Local Businesses to Recommend | Oregon',
+    metaDescription:
+      'ChatGPT, Gemini, Perplexity, Copilot and Claude do not publish their formulas. Here is what is documented, what is observed, and what Oregon businesses can fix.',
+    date: 'October 8, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'Nobody outside the AI companies knows the exact formula. But what is documented, plus what we can observe, points to a short list of things that make a local business easy to recommend.',
+    heroImage: '/images/search_keyboard.jpg',
+    content: (
+      <>
+        <p>
+          When someone asks an AI assistant for &ldquo;a good electrician in Lake Oswego&rdquo; or &ldquo;a wedding photographer near Portland,&rdquo; it names a few businesses. How does it choose? The honest answer is that ChatGPT, Gemini, Perplexity, Copilot, and Claude do not publish a ranking formula, and anyone who claims to know it exactly is guessing.
+        </p>
+        <p>
+          What we can do is separate three things: what the companies have documented, what shows up consistently when you test it, and what is reasonable inference. This post keeps those three apart. For the bigger picture, start with <a href="/our-seo-process/ai-search">AI search vs Google</a>.
+        </p>
+
+        <h2>What Is Actually Documented</h2>
+        <p>
+          A few facts are on the record, and they are more useful than they sound.
+        </p>
+        <ul>
+          <li>
+            <strong>Google says there is no special trick.</strong> Its documentation states there are no additional requirements to appear in AI Overviews or AI Mode, no special optimizations, and no special schema needed. A page needs to be indexed and eligible to show in Search with a snippet. That tells us AI features in Google are built on the same crawl, index, and quality systems as regular search.
+          </li>
+          <li>
+            <strong>ChatGPT search has its own crawler.</strong> OpenAI&apos;s OAI-SearchBot surfaces websites in ChatGPT&apos;s search features, and OpenAI states that sites opted out of OAI-SearchBot will not be shown in ChatGPT search answers. GPTBot is a different crawler, used for training. You can allow one and block the other. Blocking GPTBot does not remove you from ChatGPT search.
+          </li>
+          <li>
+            <strong>Microsoft shows you your citations.</strong> Bing Webmaster Tools added an AI Performance report in public preview in February 2026, showing how often your content is cited in Copilot and other Microsoft AI answers. It only works if your site is verified there, and a site that blocks AI crawlers will not see data.
+          </li>
+        </ul>
+        <p>
+          The pattern: the assistants answer from web content they can reach and read. If they can&apos;t reach you, you can&apos;t be named.
+        </p>
+
+        <h2>What You Can Reasonably Infer</h2>
+        <p>
+          Beyond the documented facts, an assistant is trying to give a safe, specific answer. That means it favors businesses where the evidence agrees with itself. These are inferences from how the systems work and from what we see when we test them, not guarantees.
+        </p>
+
+        <h3>1. Your basic facts are consistent everywhere</h3>
+        <p>
+          Business name, address, phone, hours, and services should match across your website, Google Business Profile, and major directories. When the sources disagree, a cautious system has less reason to trust any of them.
+        </p>
+
+        <h3>2. Your website says plainly what you do and where</h3>
+        <p>
+          A page titled &ldquo;Services&rdquo; with three vague sentences gives an assistant almost nothing to quote. A page that says &ldquo;We install and repair tankless water heaters in Oregon City, West Linn, and Lake Oswego&rdquo; gives it a sentence it can lift. Specific beats clever.
+        </p>
+
+        <h3>3. Other people say it too</h3>
+        <p>
+          Reviews, local directories, chamber and association listings, and press mentions all describe your business in someone else&apos;s words. An assistant weighing &ldquo;who is good?&rdquo; looks for that outside confirmation, the same way a person would ask a friend.
+        </p>
+
+        <h3>4. You answer real questions</h3>
+        <p>
+          Customers ask assistants full questions: how much notice does a photographer need, does a loan officer work with first-time buyers, is there parking at the restaurant. Pages that answer those questions directly, with a real person&apos;s expertise behind them, are easier to cite than pages that only list services.
+        </p>
+
+        <h3>5. Your site can be read at all</h3>
+        <p>
+          Text locked in images or PDFs, content that only loads after heavy scripts run, and robots.txt rules that block search crawlers all make you harder to read. This is the cheapest fix on the list and the one most often missed.
+        </p>
+
+        <h2>What We Do Not Know</h2>
+        <p>
+          We don&apos;t know exactly how much weight any assistant gives reviews versus website text versus third-party mentions. We don&apos;t know how often the models change their behavior. Answers also differ between ChatGPT, Gemini, Perplexity, Copilot, and Claude, and between the same assistant on different days. So we don&apos;t sell tricks. We fix the foundation, then test and re-test, and we tell clients what we see.
+        </p>
+
+        <h2>Things That Do Not Help</h2>
+        <ul>
+          <li>An llms.txt file or similar &ldquo;AI file.&rdquo; Google says you don&apos;t need new machine-readable files to appear in its AI features, and we don&apos;t treat any such file as a guarantee anywhere.</li>
+          <li>Special &ldquo;AI schema.&rdquo; Normal structured data that matches your visible page is fine. It is not a switch that makes assistants recommend you.</li>
+          <li>Stuffing your page with questions and keywords. It reads badly to people and to machines.</li>
+          <li>Fake or purchased reviews. The FTC finalized a rule in 2024 banning fake reviews and testimonials, and platforms detect them.</li>
+        </ul>
+
+        <h2>Where to Start</h2>
+        <p>
+          Check what the assistants currently say about you. We wrote a step-by-step guide: <a href="/blog/check-if-chatgpt-gemini-perplexity-recommend-your-business">How to Check Whether ChatGPT, Gemini, and Perplexity Recommend Your Business</a>. If you want the same check done thoroughly, with a prioritized fix list, that is what the audit in our <a href="/services/ai-search-visibility">AI Visibility &amp; Authority service</a> covers. Questions? <a href="/contact">Get in touch</a>.
+        </p>
+
+        <hr />
+        <p>
+          <small>
+            Sources: Google Search Central, AI features documentation; OpenAI crawler documentation (OAI-SearchBot and GPTBot); Bing Webmaster Tools AI Performance report announcement, February 2026; FTC fake reviews rule, 2024.
+          </small>
+        </p>
+
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-search-vs-google-rankings-do-you-need-both">Does Ranking in ChatGPT Matter If You Already Rank on Google?</a></li>
+          <li><a href="/blog/google-business-profile-ai-management-small-business">Let AI Run Your Google Business Profile</a></li>
+          <li><a href="/blog/ai-reputation-management-small-business">AI Reputation Management: Turn Reviews Into Your Best Salesperson</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'google-ai-overviews-oregon-small-businesses',
+    title: 'What Google AI Overviews Mean for Oregon Small Businesses',
+    metaTitle: 'Google AI Overviews and Oregon Small Businesses',
+    metaDescription:
+      'AI Overviews now sit above the results for many searches. Here is what the data says about clicks, what it means for Oregon businesses, and what to do about it.',
+    date: 'October 7, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'Google AI Overviews put an AI-written answer above the usual results. They are not the end of SEO, but they change what winning looks like. Here is the data and the practical response.',
+    heroImage: '/images/SEOProcess.jpg',
+    content: (
+      <>
+        <p>
+          If you&apos;ve searched Google lately, you&apos;ve seen it: an AI-written summary above the usual results, with a few links tucked beside or beneath it. Google calls these AI Overviews. For a local business owner, the question isn&apos;t whether they&apos;re &ldquo;good&rdquo; or &ldquo;bad.&rdquo; It&apos;s what they change about how customers find you, and what to do about it.
+        </p>
+        <p>
+          AI Overviews are one piece of a larger shift. Our full comparison is on the <a href="/our-seo-process/ai-search">AI search vs Google</a> page. Here we&apos;ll stay focused on Google itself.
+        </p>
+
+        <h2>What AI Overviews Are, in Plain English</h2>
+        <p>
+          An AI Overview is a generated answer that Google shows at the top of some search results. It pulls from web pages Google already indexes and links to some of them as sources. Google reported on its Q2 2025 earnings call that AI Overviews reached 2 billion monthly users. That is a large audience, and it is why this is worth your attention even though Google search itself is not going anywhere.
+        </p>
+
+        <h2>What the Data Says About Clicks</h2>
+        <p>
+          Pew Research Center analyzed March 2025 browsing data from 900 US adults and 68,879 unique Google searches. Of those searches, about 18% produced an AI summary. When a summary appeared, users clicked a traditional result link in 8% of visits, compared with 15% of visits when there was no summary. They clicked a link inside the summary in 1% of visits. Pew notes the study is observational, so it shows a difference in behavior, not proof of what causes it.
+        </p>
+        <p>
+          The study is observational, so it shows a pattern rather than proof of cause. What matters for you is practical: on searches where an AI Overview appears, fewer people click through to any website, so being named or linked in that answer carries more weight.
+        </p>
+        <p>
+          Note also that Overviews don&apos;t appear on every search. Many local searches still lead with the map pack and your Google Business Profile, which is why that profile remains one of the most valuable assets you have.
+        </p>
+
+        <h2>What This Means for Oregon Businesses</h2>
+        <h3>Informational searches are most affected</h3>
+        <p>
+          Questions like &ldquo;how much notice do I need to hire a wedding photographer&rdquo; or &ldquo;what does a heat pump install involve&rdquo; are the kind of searches AI summaries tend to answer directly. If your blog traffic is built on generic how-to content, expect it to be squeezed.
+        </p>
+        <h3>Local, high-intent searches are still won on the basics</h3>
+        <p>
+          &ldquo;Plumber in Oregon City&rdquo; still depends on your Google Business Profile, your reviews, your proximity, and your service pages. Customers who are ready to call tend to use the map and your reviews. Keep those strong.
+        </p>
+        <h3>Being the source matters</h3>
+        <p>
+          When an Overview does appear, the businesses linked as supporting sources are the ones whose pages answer the question clearly. Specific, experience-based content, written by someone who actually does the work, is the content worth having.
+        </p>
+
+        <h2>What Google Says You Need to Do</h2>
+        <p>
+          Less than you might think, and that is good news. Google&apos;s documentation says a page needs to be indexed and eligible to appear in Search with a snippet, and that there are no additional requirements, special optimizations, or special schema to appear in AI Overviews or AI Mode. Indexing and serving still aren&apos;t guaranteed.
+        </p>
+        <p>
+          In practice that means doing the unglamorous things well:
+        </p>
+        <ol>
+          <li>Make sure your important pages are indexed and not accidentally blocked. Check Google Search Console.</li>
+          <li>Give each service and each service area its own page with specific, honest detail.</li>
+          <li>Keep your Google Business Profile complete, current, and active.</li>
+          <li>Collect and answer real reviews.</li>
+          <li>Write for people. Answer the question a customer would actually ask, in your own voice, with your real experience.</li>
+          <li>Keep the site fast and readable on a phone.</li>
+        </ol>
+
+        <h2>How to Tell Whether It Is Affecting You</h2>
+        <p>
+          In Google Search Console, look at impressions and clicks over the past several months for your key pages. Rising impressions with flat or falling clicks can be a sign that more searches are being answered on the results page. It isn&apos;t proof by itself, but it is a useful flag. Then run a few of your real customer queries in Google and see whether an Overview appears and who is named. We walk through the process in <a href="/blog/check-if-chatgpt-gemini-perplexity-recommend-your-business">How to Check Whether ChatGPT, Gemini, and Perplexity Recommend Your Business</a>.
+        </p>
+
+        <h2>Do Not Panic, Do Not Ignore It</h2>
+        <p>
+          Google still handles the large majority of searches, and nothing about AI Overviews makes SEO obsolete. The same fundamentals that rank you in Google are the ones that earn a mention in the AI layer on top of it. But the layer is real, it is large, and it names fewer businesses than a page of results does. Treat it as another place customers decide.
+        </p>
+        <p>
+          Want to know where you stand? Our <a href="/services/ai-search-visibility">AI Visibility &amp; Authority service</a> begins with an audit of how you show up in Google and in AI assistants. Or <a href="/contact">reach out</a> and ask us anything.
+        </p>
+
+        <hr />
+        <p>
+          <small>
+            Sources: Pew Research Center, &ldquo;Google users are less likely to click on links when an AI summary appears in the results,&rdquo; July 22, 2025; Alphabet Q2 2025 earnings, as reported by Search Engine Journal; Google Search Central, AI features documentation.
+          </small>
+        </p>
+
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-search-vs-google-rankings-do-you-need-both">Does Ranking in ChatGPT Matter If You Already Rank on Google?</a></li>
+          <li><a href="/blog/how-ai-assistants-choose-local-businesses-to-recommend">How AI Assistants Decide Which Local Businesses to Recommend</a></li>
+          <li><a href="/blog/google-business-profile-ai-management-small-business">Let AI Run Your Google Business Profile</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'check-if-chatgpt-gemini-perplexity-recommend-your-business',
+    title: 'How to Check Whether ChatGPT, Gemini, and Perplexity Recommend Your Business',
+    metaTitle: 'Does ChatGPT Recommend Your Business? Free Test',
+    metaDescription:
+      'A free 30-minute test any Oregon business owner can run to see whether ChatGPT, Gemini, Perplexity, Copilot, and Claude name your business, with a scorecard.',
+    date: 'October 6, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'You do not need a tool or a budget to find out whether AI assistants recommend your business. Here is a free 30-minute test, a scorecard, and how to read the results honestly.',
+    heroImage: '/images/search_keyboard.jpg',
+    content: (
+      <>
+        <p>
+          Before you spend a dollar on AI search visibility, find out where you stand. You can do that in about 30 minutes with free accounts and a notepad. This is the same basic process we start from in a paid audit, simplified so any owner can run it.
+        </p>
+        <p>
+          If you want context first, read <a href="/our-seo-process/ai-search">AI search vs Google</a>. If you&apos;re ready, start below.
+        </p>
+
+        <h2>Before You Start: Three Honest Caveats</h2>
+        <ul>
+          <li>AI answers vary. Ask the same question twice and you may get different businesses. One test is a snapshot, not a verdict.</li>
+          <li>Results depend on your location and settings. Use a logged-out or private window where you can, and mention the city in your question.</li>
+          <li>Not appearing doesn&apos;t mean you&apos;re doing something wrong. It tells you where to look.</li>
+        </ul>
+
+        <h2>Step 1: Write 10 Real Customer Questions</h2>
+        <p>
+          Don&apos;t ask about yourself. Ask what a customer who doesn&apos;t know you would ask. Mix these types:
+        </p>
+        <ul>
+          <li><strong>Category and city:</strong> &ldquo;Who are the best HVAC companies in Oregon City?&rdquo;</li>
+          <li><strong>Specific need:</strong> &ldquo;Who can replace a failing heat pump in West Linn this week?&rdquo;</li>
+          <li><strong>Comparison:</strong> &ldquo;What should I look for when choosing a wedding photographer in Portland?&rdquo;</li>
+          <li><strong>Trust:</strong> &ldquo;Is [your business name] legitimate? What do people say about it?&rdquo;</li>
+        </ul>
+        <p>
+          Include at least two questions for each of your main services and two for your main service areas.
+        </p>
+
+        <h2>Step 2: Ask Each Assistant</h2>
+        <p>
+          Run the same questions in ChatGPT, Gemini, Perplexity, Microsoft Copilot, and Claude, using free versions. Where an assistant has a web search option, turn it on, because local recommendations depend on live web information. Also run a few of the questions in regular Google and note whether an AI Overview appears. Perplexity and several other assistants show the sources they used, which is useful in the next step.
+        </p>
+
+        <h2>Step 3: Score What You See</h2>
+        <p>
+          Use a simple table: one row per question, one column per assistant. For each cell, write one of:
+        </p>
+        <ul>
+          <li><strong>Named:</strong> your business was recommended.</li>
+          <li><strong>Mentioned:</strong> you appeared, but not as a top recommendation.</li>
+          <li><strong>Absent:</strong> competitors were named, you were not.</li>
+          <li><strong>Wrong:</strong> the assistant stated incorrect information about you (old address, wrong hours, a service you don&apos;t offer, a business with a similar name).</li>
+        </ul>
+        <p>
+          Also note which competitors are named and which sources are cited. Those sources are your map: they&apos;re the directories, review sites, and articles the assistants trust in your market.
+        </p>
+
+        <h2>Step 4: Read the Results</h2>
+        <h3>If you&apos;re named on trust questions but absent on category questions</h3>
+        <p>
+          The assistants know you exist but don&apos;t connect you to the service and city. Your website likely needs clearer service and location pages.
+        </p>
+        <h3>If the information is wrong</h3>
+        <p>
+          Something out there is outdated. Check your Google Business Profile, your website footer, and major directories first. Fix the source, not the assistant.
+        </p>
+        <h3>If you&apos;re absent everywhere</h3>
+        <p>
+          Check the basics. Is your site indexed in Google? Does your robots.txt block search crawlers? OpenAI&apos;s documentation says sites that opt out of OAI-SearchBot won&apos;t be shown in ChatGPT search answers, so a blanket block can hide you. Do you have recent reviews? Are you listed where your competitors are?
+        </p>
+        <h3>If competitors are named because of one site you&apos;re not on</h3>
+        <p>
+          If the cited sources keep repeating the same directory or association, that is a specific, fixable gap.
+        </p>
+
+        <h2>Step 5: Two Free Technical Checks</h2>
+        <ol>
+          <li>
+            <strong>Look at your robots.txt.</strong> Type yourwebsite.com/robots.txt into a browser. If you see broad blocks for all bots, ask your web person what they&apos;re for. You can allow OAI-SearchBot (ChatGPT search) while still blocking GPTBot (training) if you prefer.
+          </li>
+          <li>
+            <strong>Verify your site in Bing Webmaster Tools.</strong> Microsoft added an AI Performance report in public preview in February 2026 that shows how often your content is cited in Copilot and other Microsoft AI answers. It is free and shows real data rather than guesses.
+          </li>
+        </ol>
+
+        <h2>Step 6: Pick Three Fixes</h2>
+        <p>
+          Don&apos;t try to fix everything. Pick the three that your scorecard points to most clearly, usually from this list: correct inconsistent business details, write a proper page for each service and city, ask recent customers for reviews, or get listed where your competitors are cited. Re-run the test in 4 to 8 weeks.
+        </p>
+
+        <h2>When a DIY Test Is Not Enough</h2>
+        <p>
+          A one-time, 10-question test shows direction. It doesn&apos;t cover your whole market, repeat the questions enough to account for variation, or tell you which fixes will move the needle first. If you want that, our AI Search Visibility Audit starts at $497 as a one-time engagement, and the details are on the <a href="/services/ai-search-visibility">AI Visibility &amp; Authority service page</a>. If you&apos;d rather talk it through, <a href="/contact">contact us</a>. We&apos;ll be straight with you about whether you need us at all.
+        </p>
+
+        <hr />
+        <p>
+          <small>
+            Sources: OpenAI crawler documentation (OAI-SearchBot); Bing Webmaster Tools AI Performance report announcement, February 2026.
+          </small>
+        </p>
+
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/how-ai-assistants-choose-local-businesses-to-recommend">How AI Assistants Decide Which Local Businesses to Recommend</a></li>
+          <li><a href="/blog/google-ai-overviews-oregon-small-businesses">What Google AI Overviews Mean for Oregon Small Businesses</a></li>
+          <li><a href="/blog/ai-search-loan-officers-realtors-wedding-pros-what-to-fix-first">AI Search for Loan Officers, Realtors, and Wedding Pros: What to Fix First</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    slug: 'ai-search-loan-officers-realtors-wedding-pros-what-to-fix-first',
+    title: 'AI Search for Loan Officers, Realtors, and Wedding Pros: What to Fix First',
+    metaTitle: 'AI Search for Loan Officers, Realtors & Wedding Pros',
+    metaDescription:
+      'Referral-driven professionals get recommended by AI assistants differently. A prioritized fix list for loan officers, Realtors, and wedding pros, with compliance notes.',
+    date: 'October 5, 2026',
+    author: 'Thomas David Jacob Team',
+    excerpt:
+      'Loan officers, Realtors, and wedding pros live on trust and referrals, which is exactly what AI assistants try to weigh. Here is what to fix first in each field, including the compliance guardrails.',
+    heroImage: '/images/SEO_Search.jpg',
+    content: (
+      <>
+        <p>
+          Loan officers, Realtors, and wedding professionals share a business model: customers hire a person, not a product, and they usually ask someone before they choose. That is exactly the question people now put to AI assistants: &ldquo;Who should I call?&rdquo; The assistant names a few people, and the rest never get considered.
+        </p>
+        <p>
+          The fundamentals are the same across all three, and they&apos;re the same fundamentals behind Google rankings, as we explain in <a href="/our-seo-process/ai-search">AI search vs Google</a>. But each field has different gaps and, in two of them, real rules. Here&apos;s what to fix first.
+        </p>
+
+        <h2>The Shared First Five</h2>
+        <ol>
+          <li><strong>One consistent identity.</strong> Same name, photo, phone, and description on your website, Google Business Profile, and every directory and social profile.</li>
+          <li><strong>A clear page for each thing you do and each place you do it.</strong> Not one &ldquo;About&rdquo; page doing the work of ten.</li>
+          <li><strong>Reviews on the platforms customers use,</strong> recent and answered.</li>
+          <li><strong>Crawlable site.</strong> Make sure your robots.txt isn&apos;t blocking search crawlers. OpenAI&apos;s documentation says sites that opt out of OAI-SearchBot won&apos;t be shown in ChatGPT search answers.</li>
+          <li><strong>Test it.</strong> Ask the assistants the questions your clients ask. We show how in <a href="/blog/check-if-chatgpt-gemini-perplexity-recommend-your-business">our free DIY test</a>.</li>
+        </ol>
+        <p>
+          Now the field-specific parts.
+        </p>
+
+        <h2>Loan Officers</h2>
+        <h3>What to fix first</h3>
+        <ul>
+          <li>
+            <strong>Explain programs and process in plain language.</strong> First-time buyer paths, how pre-approval works, what documents you will ask for, how long each step tends to take, and what you do differently for self-employed borrowers or veterans. People ask assistants these questions constantly, and clear answers are the content most worth citing.
+          </li>
+          <li>
+            <strong>Show licensing clearly and accurately.</strong> Your licensing states, your NMLS information, and your employer&apos;s details should be consistent everywhere you appear. Inconsistency here is both a trust problem and a compliance problem.
+          </li>
+          <li>
+            <strong>Build local relationships into your web presence.</strong> Realtor partners, local lenders&apos; events, community involvement. Third-party mentions help assistants and people alike.
+          </li>
+        </ul>
+        <h3>The guardrails</h3>
+        <p>
+          Mortgage advertising is regulated. Treat everything you publish, including web pages, blog posts, FAQs, and social posts, as advertising. Content should go through your employer&apos;s compliance review before it goes live. As a rule for this kind of content, leave out specific interest rates, payment amounts, and dollar figures; once you state a rate or a payment, disclosure requirements under Regulation Z can apply. Describe how programs work and who they may suit, and let the conversation with you supply the numbers. Be careful with program details that change: confirm them against the current program source and your compliance team, and avoid calling any assistance a grant if it must be repaid. We are not your compliance department, and this is not legal advice.
+        </p>
+
+        <h2>Realtors</h2>
+        <h3>What to fix first</h3>
+        <ul>
+          <li>
+            <strong>Neighborhood and city pages written by someone who works there.</strong> Oregon City, Lake Oswego, West Linn, and Portland neighborhoods each deserve a page based on your real transactions and local knowledge: how the buying process feels, what the commute is, what you see in inspections, which questions come up. Avoid copying boilerplate that every agent in the market uses.
+          </li>
+          <li>
+            <strong>A Google Business Profile and a Zillow, Realtor.com, and brokerage profile that agree with each other.</strong> Same name, same photo, same service areas.
+          </li>
+          <li>
+            <strong>Reviews that mention the neighborhood and the type of transaction,</strong> such as a first purchase, a sale during a relocation, or a downsize. Customers write these naturally when you ask at the right moment.
+          </li>
+          <li>
+            <strong>Answers to the questions clients ask you in the first meeting.</strong> Those are the questions they type into assistants.
+          </li>
+        </ul>
+        <h3>The guardrails</h3>
+        <p>
+          Fair housing applies to your marketing, including website copy. Describe homes, amenities, and services, not the kind of people who live in or belong in an area. Avoid language about schools, safety, or &ldquo;family-friendly&rdquo; neighborhoods that implies who should or shouldn&apos;t live somewhere, and check with your broker about what your brokerage requires for disclosures and advertising. AI-generated neighborhood descriptions are a particular risk because they often drift into exactly this kind of language, so review every line yourself.
+        </p>
+
+        <h2>Wedding Pros</h2>
+        <p>
+          Planners, photographers, florists, venues, DJs, and caterers sell to people who have never hired one before and are nervous about getting it wrong. That makes trust signals and specifics unusually valuable.
+        </p>
+        <h3>What to fix first</h3>
+        <ul>
+          <li>
+            <strong>Say what you actually do, for whom, and where.</strong> &ldquo;Full-service wedding planning for Portland metro and Willamette Valley weddings&rdquo; is something an assistant can quote. &ldquo;Making your dream day come true&rdquo; is not.
+          </li>
+          <li>
+            <strong>Publish real galleries with context.</strong> Venue name, season, guest count, and the vendor team. Assistants and people alike rely on the details around the photos.
+          </li>
+          <li>
+            <strong>Get listed with the venues and vendors you work alongside.</strong> Preferred-vendor lists and venue pages are exactly the kind of third-party mention that confirms you are real and good.
+          </li>
+          <li>
+            <strong>Write the FAQ you answer in every inquiry.</strong> Booking timelines, what is included, how deposits work, what happens if plans change. State only what is true for your business, and leave out any pricing you haven&apos;t decided to publish.
+          </li>
+          <li>
+            <strong>Keep reviews coming on the platforms couples use.</strong>
+          </li>
+        </ul>
+
+        <h2>What We Will and Will Not Promise</h2>
+        <p>
+          We can help make you easier to find, verify, and describe. We cannot guarantee a specific placement in ChatGPT, Gemini, Perplexity, Copilot, or Claude, and nobody honestly can. If you want a specific plan, the <a href="/services/ai-search-visibility">AI Visibility &amp; Authority service</a> is where to look, and you can <a href="/contact">contact us</a> to talk about your situation.
+        </p>
+
+        <hr />
+        <p>
+          <small>
+            Source: OpenAI crawler documentation (OAI-SearchBot). This post is general information, not legal or compliance advice. Mortgage professionals should have all published content reviewed by their employer&apos;s compliance team; real estate professionals should confirm fair housing and advertising requirements with their broker.
+          </small>
+        </p>
+
+        <h2>Related Reading</h2>
+        <ul>
+          <li><a href="/blog/ai-search-vs-google-rankings-do-you-need-both">Does Ranking in ChatGPT Matter If You Already Rank on Google?</a></li>
+          <li><a href="/blog/how-ai-assistants-choose-local-businesses-to-recommend">How AI Assistants Decide Which Local Businesses to Recommend</a></li>
+          <li><a href="/blog/ai-reputation-management-small-business">AI Reputation Management: Turn Reviews Into Your Best Salesperson</a></li>
+        </ul>
+      </>
+    ),
+  },
+  {
     slug: 'will-ai-destroy-the-world',
     title: 'Will AI Destroy the World? What Business Owners Should Actually Worry About',
     metaTitle: "Will AI Destroy the World? A Guide for Owners",

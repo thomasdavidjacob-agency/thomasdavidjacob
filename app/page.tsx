@@ -5,6 +5,10 @@ import Navbar from './components/Navbar'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 import SpotlightCard from './components/SpotlightCard'
+import BookCallButton from './components/BookCallButton'
+import { siteGraph } from '@/lib/entity'
+import { INDUSTRIES } from '@/lib/industries'
+import { DEALKIT } from '@/lib/success-kit'
 
 export const metadata: Metadata = {
   title: 'Digital Creative Agency | Oregon City, OR | Thomas David Jacob',
@@ -81,6 +85,10 @@ const services = [
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(siteGraph) }}
+      />
       <Navbar />
 
       {/* ── Hero ── */}
@@ -125,34 +133,48 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[1.05] tracking-tight mb-6">
-            A Full-Service
+            Your New Website.
             <br />
-            <span className="text-amber-400">Digital Creative</span>
-            <br />
-            Agency
+            <span className="text-amber-400">Live in 7 Days.</span>
           </h1>
 
-          <p className="text-zinc-300 text-xl md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            We build powerful websites, dominate search rankings, and create
-            marketing systems that turn clicks into paying customers — for
+          <p className="text-zinc-300 text-xl md:text-2xl max-w-2xl mx-auto mb-6 leading-relaxed">
+            <span className="text-white font-bold">Starting at $497.</span> A
+            custom, mobile-first site built to bring you customers, for
             businesses across Oregon City, Portland, Lake Oswego, West Linn,
             and all of Oregon.
           </p>
+
+          <ul className="flex flex-wrap items-center justify-center gap-2.5 max-w-2xl mx-auto mb-10">
+            {['Custom design', 'Mobile-first', 'SEO-ready', 'Lead alerts to your inbox'].map((item) => (
+              <li
+                key={item}
+                className="text-sm text-zinc-200 bg-black/40 border border-white/10 rounded-full px-4 py-1.5"
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="#contact"
               className="inline-block bg-amber-400 hover:bg-amber-300 text-black font-black px-10 py-4 rounded-full transition-all hover:scale-105 tracking-wide shadow-lg shadow-amber-400/20"
             >
-              Start Getting More Customers
+              Claim Your 7-Day Build
             </Link>
+            <BookCallButton />
             <Link
-              href="#services"
-              className="text-zinc-300 hover:text-white border border-white/15 hover:border-zinc-500 px-8 py-4 rounded-full transition-all hover:bg-white/5"
+              href="/services/website-in-7-days"
+              className="text-zinc-300 hover:text-white px-4 py-4 transition-colors underline-offset-4 hover:underline"
             >
-              See Our Services
+              See What&apos;s Included
             </Link>
           </div>
+
+          <p className="text-zinc-500 text-sm mt-6">
+            The 7-day clock starts once we have your logo, photos, and content notes.
+          </p>
         </div>
       </section>
 
@@ -293,6 +315,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Industries We Serve (Success Kit) ── */}
+      <section className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
+              Built for Your Industry
+            </p>
+            <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-5">
+              Industries We Serve
+            </h2>
+            <p className="text-zinc-400 text-lg max-w-xl mx-auto leading-relaxed">
+              Websites and lead systems made for how your industry wins customers. We build them and run them for you.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              ...INDUSTRIES.map((i) => ({ name: i.name, href: `/success-kit/${i.slug}`, note: i.group })),
+              { name: DEALKIT.name, href: DEALKIT.href, note: DEALKIT.audience },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group flex items-center justify-between gap-3 bg-[#0d0d0d] border border-zinc-800 rounded-2xl px-5 py-4 hover:border-amber-400/40 hover:-translate-y-0.5 transition-all duration-300"
+              >
+                <span>
+                  <span className="block font-bold text-white group-hover:text-amber-400 transition-colors">{item.name}</span>
+                  <span className="block text-xs text-zinc-500 mt-0.5">{item.note}</span>
+                </span>
+                <svg className="w-4 h-4 flex-shrink-0 text-amber-400 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link href="/success-kit" className="text-sm font-bold tracking-wide text-amber-400 hover:text-amber-300">
+              See all industries →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── Client Results ── */}
       <section className="py-28 px-6">
         <div className="max-w-6xl mx-auto">
@@ -372,6 +438,9 @@ export default function Home() {
               Ready to grow your business? Send us a message and we&apos;ll get
               back to you within 24 hours.
             </p>
+            <div className="mt-8 flex justify-center">
+              <BookCallButton label="Or Book a 20-Min Call Now" />
+            </div>
           </div>
 
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 md:p-10">

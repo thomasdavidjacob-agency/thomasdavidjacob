@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/success-kit', priority: 0.8 },
     { path: '/success-kit/dealkit', priority: 0.7 },
     { path: '/our-seo-process', priority: 0.7 },
+    { path: '/our-seo-process/ai-search', priority: 0.7 },
     { path: '/about', priority: 0.6 },
     { path: '/faq', priority: 0.6 },
     { path: '/blog', priority: 0.8 },

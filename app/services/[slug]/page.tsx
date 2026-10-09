@@ -6,8 +6,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import AccordionFAQ from '../../components/AccordionFAQ'
 import { studioServices, getStudioService } from '../../../lib/services'
-
-const BASE_URL = 'https://thomasdavidjacob.com'
+import { BASE_URL, ORG_ID, organization } from '../../../lib/entity'
 
 export const dynamicParams = false
 
@@ -90,24 +89,22 @@ export default async function StudioServicePage({
   if (!service) notFound()
 
   // Three other studio services, continuing in card order and wrapping around.
-  const index = studioServices.findIndex((s) => s.slug === slug)
-  const related = [1, 2, 3].map((n) => studioServices[(index + n) % studioServices.length])
+  // Pages outside the studio (studio: false) get the first three studio services.
+  const studio = studioServices.filter((s) => s.studio !== false)
+  const index = studio.findIndex((s) => s.slug === slug)
+  const related = [1, 2, 3].map((n) => studio[(index + n) % studio.length])
 
   const url = `${BASE_URL}/services/${service.slug}`
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
+      organization,
       {
         '@type': 'Service',
         name: service.title,
         description: service.metaDescription,
         url,
-        provider: {
-          '@type': 'ProfessionalService',
-          name: 'Thomas+David+Jacob',
-          url: BASE_URL,
-          areaServed: 'Oregon',
-        },
+        provider: { '@id': ORG_ID },
         areaServed: [
           { '@type': 'State', name: 'Oregon' },
           { '@type': 'City', name: 'Portland' },
@@ -120,6 +117,13 @@ export default async function StudioServicePage({
             '@type': 'Offer',
             name: `${service.title} — ${tier.name}`,
             description: tier.features.join('; '),
+            ...(tier.price && {
+              priceSpecification: {
+                '@type': 'PriceSpecification',
+                minPrice: Number(tier.price.replace(/[^0-9.]/g, '')),
+                priceCurrency: 'USD',
+              },
+            }),
           })),
         },
       },
@@ -310,7 +314,7 @@ export default async function StudioServicePage({
                 <p className="text-sm text-zinc-400 mb-6">{tier.bestFor}</p>
                 <p className="text-3xl font-black text-amber-400 mb-1">{tier.price ?? 'Custom quote'}</p>
                 <p className="text-xs text-zinc-500 uppercase tracking-widest font-bold mb-8">
-                  {tier.price ? 'per month' : 'scoped to your business'}
+                  {tier.price ? tier.priceNote ?? 'per month' : 'scoped to your business'}
                 </p>
                 <ul className="space-y-3 mb-10 flex-1">
                   {tier.features.map((feature) => (
@@ -328,7 +332,7 @@ export default async function StudioServicePage({
                       : 'border border-zinc-700 hover:border-amber-400/60 text-white hover:text-amber-400'
                   }`}
                 >
-                  Get {tier.name} Pricing
+                  {tier.price ? `Start with ${tier.name}` : `Get ${tier.name} Pricing`}
                   <ArrowIcon />
                 </Link>
               </div>

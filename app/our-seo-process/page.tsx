@@ -230,6 +230,35 @@ export default function OurSEOProcessPage() {
         </div>
       </section>
 
+      {/* ── AI search band ── */}
+      <section className="px-6">
+        <div className="max-w-5xl mx-auto">
+          <Link
+            href="/our-seo-process/ai-search"
+            className="group flex flex-col md:flex-row md:items-center justify-between gap-6 bg-zinc-900/40 border border-zinc-800 hover:border-amber-400/40 rounded-2xl p-8 md:p-10 transition-colors"
+          >
+            <div>
+              <p className="text-amber-400 text-xs font-bold tracking-[0.3em] uppercase mb-3">
+                Beyond the Blue Links
+              </p>
+              <h2 className="text-2xl md:text-3xl font-black text-white mb-2">
+                AI Search vs. Google: Which Matters More?
+              </h2>
+              <p className="text-zinc-400 max-w-2xl">
+                ChatGPT, Gemini, and Google&apos;s own AI Overviews now name a few businesses before anyone
+                clicks. The honest, sourced answer on where to focus.
+              </p>
+            </div>
+            <span className="inline-flex flex-shrink-0 items-center gap-2 text-amber-400 font-bold text-sm">
+              Read it
+              <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
+          </Link>
+        </div>
+      </section>
+
       {/* ── CTA Banner ── */}
       <section className="py-20 px-6">
         <div className="max-w-3xl mx-auto text-center">

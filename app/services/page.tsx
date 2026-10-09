@@ -19,7 +19,9 @@ const coreServices = [
       'Your website is one part of a larger AI-powered system we build around your business. It\'s where first impressions are formed, trust is built, and customers are converted. We design and develop custom websites using modern AI-powered tools — no templates, no shortcuts, no outdated platforms. Every site is built from scratch, coded for performance, and engineered to rank on Google and turn visitors into paying customers — whether you\'re in Oregon City, Portland, or anywhere across the state.',
     image: '/images/services/pillar-web-design.webp',
     imageAlt: 'Laptop and phone showing a custom website layout',
+    learnMore: { href: '/services/website-in-7-days', label: 'Learn More: 7-Day Website' },
     features: [
+      'Live in 7 days once we have your content',
       'Custom design — zero templates',
       'Mobile-first, responsive layout',
       'Page speed optimization',
@@ -44,6 +46,7 @@ const coreServices = [
       'Ranking on Google isn\'t luck — it\'s a science. Our SEO process combines deep keyword research, technical site optimization, content strategy, and authoritative link building into a cohesive system that compounds over time. We focus on the keywords your ideal customers actually search for, not vanity terms. The result: more organic traffic, more qualified leads, and a lower cost of customer acquisition — for businesses from Portland and Beaverton to Hillsboro and beyond.',
     image: '/images/services/pillar-seo.webp',
     imageAlt: 'Search ranking podium with a rising growth line',
+    learnMore: { href: '/services/ai-search-visibility', label: 'Learn More: AI Visibility' },
     features: [
       'Comprehensive keyword research',
       'Competitor gap analysis',
@@ -69,6 +72,7 @@ const coreServices = [
       'Traffic means nothing without conversion. Our marketing and sales services bridge the gap between getting found and getting paid. From targeted PPC campaigns that put you in front of high-intent buyers, to email sequences that nurture leads until they\'re ready to buy, to social media strategies that build authority in your niche — we build integrated systems that generate consistent, predictable revenue growth for Oregon businesses of all sizes.',
     image: '/images/services/pillar-marketing-sales.webp',
     imageAlt: 'Magnet pulling traffic into revenue',
+    learnMore: null,
     features: [
       'Google & Meta PPC advertising',
       'Email marketing automation',
@@ -257,15 +261,25 @@ export default function ServicesPage() {
                       ))}
                     </div>
 
-                    <Link
-                      href="/contact"
-                      className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-black font-black px-7 py-3.5 rounded-full transition-all hover:scale-105 text-sm tracking-wide shadow-lg shadow-amber-400/20"
-                    >
-                      Get Pricing
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </Link>
+                    <div className="flex flex-wrap items-center gap-3">
+                      <Link
+                        href="/contact"
+                        className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-black font-black px-7 py-3.5 rounded-full transition-all hover:scale-105 text-sm tracking-wide shadow-lg shadow-amber-400/20"
+                      >
+                        Get Pricing
+                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                      </Link>
+                      {service.learnMore && (
+                        <Link
+                          href={service.learnMore.href}
+                          className="inline-flex items-center gap-2 border border-zinc-700 hover:border-amber-400/60 text-white hover:text-amber-400 font-black px-7 py-3.5 rounded-full transition-all text-sm tracking-wide"
+                        >
+                          {service.learnMore.label}
+                        </Link>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -290,7 +304,7 @@ export default function ServicesPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {studioServices.map((service) => (
+            {studioServices.filter((s) => s.studio !== false).map((service) => (
               <Link
                 key={service.slug}
                 href={`/services/${service.slug}`}

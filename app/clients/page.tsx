@@ -130,6 +130,22 @@ const clients: Client[] = [
     thumb: '/images/client-10deadliestdisasters.webp',
     href: 'https://10deadliestdisasters.com',
   },
+  {
+    name: 'Lakeridge Baseball',
+    industry: 'Fan Site — Youth & Legion Baseball',
+    location: 'Lake Oswego, OR',
+    summary:
+      'Four Lakeridge High School alumni played for the Post 158 Barbers, Northwest Region champions, at the 2026 American Legion World Series in Shelby, North Carolina. We built a fan site that gave all four the same spotlight, with a live countdown, the team\'s run to nationals, player cards, and game photos and video, plus matching social graphics for sharing.',
+    work: [
+      'Fan site design & build',
+      'Live countdown & season stats',
+      'Player cards, photos & video',
+      'Social graphics package',
+    ],
+    thumb: '/images/client-lakeridgebaseball.webp',
+    href: 'https://lakeridgebaseball.com',
+    tag: 'In-House',
+  },
 ]
 
 export default function ClientsPage() {

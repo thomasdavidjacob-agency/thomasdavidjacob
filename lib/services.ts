@@ -1,19 +1,23 @@
 // Growth & Content Studio offers. Each entry renders a full package page at
 // /services/[slug] and a card on /services. Order here is card order.
 //
-// Tier prices are intentionally unset — add `price` to a tier once pricing is
-// decided and the page will show it; until then the tier reads "Custom quote".
+// Tier prices are "From" starting prices. A tier without `price` reads
+// "Custom quote". `priceNote` overrides the "per month" label (e.g. one-time).
 
 export type ServiceTier = {
   name: string
   bestFor: string
   price?: string
+  /** Label under the price; defaults to "per month". */
+  priceNote?: string
   features: string[]
   featured?: boolean
 }
 
 export type StudioService = {
   slug: string
+  /** false keeps the page out of the Growth & Content Studio grid (it's linked from elsewhere). */
+  studio?: boolean
   /** Card on /services */
   title: string
   cardDescription: string
@@ -113,6 +117,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $497',
         bestFor: 'Businesses testing Meta ads for the first time',
         features: [
           'Competitor ad research',
@@ -124,6 +129,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $997',
         bestFor: 'Businesses running ads every month',
         featured: true,
         features: [
@@ -136,6 +142,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,997',
         bestFor: 'Creative and campaign management together',
         features: [
           'Everything in Growth',
@@ -279,6 +286,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $497',
         bestFor: 'Solo pros with occasional design needs',
         features: [
           'Brand kit setup',
@@ -290,6 +298,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $997',
         bestFor: 'Growing teams with weekly design needs',
         featured: true,
         features: [
@@ -302,6 +311,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,797',
         bestFor: 'Teams that need design and motion',
         features: [
           'Everything in Growth',
@@ -437,6 +447,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $597',
         bestFor: 'Accounts that need consistency first',
         features: [
           'Content strategy & pillars',
@@ -448,6 +459,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $1,197',
         bestFor: 'Businesses ready to grow reach',
         featured: true,
         features: [
@@ -460,6 +472,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $2,197',
         bestFor: 'Social as a real lead channel',
         features: [
           'Everything in Growth',
@@ -597,6 +610,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $797',
         bestFor: 'Professionals just getting on camera',
         features: [
           'Channel audit & setup',
@@ -608,6 +622,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $1,497',
         bestFor: 'Pros ready to post every week',
         featured: true,
         features: [
@@ -620,6 +635,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $2,497',
         bestFor: 'The whole studio handled',
         features: [
           'Everything in Growth',
@@ -756,6 +772,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $697',
         bestFor: 'Testing AI video on your channels',
         features: [
           'Script development',
@@ -767,6 +784,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $1,297',
         bestFor: 'Weekly video without weekly filming',
         featured: true,
         features: [
@@ -779,6 +797,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $2,297',
         bestFor: 'Video across organic and paid',
         features: [
           'Everything in Growth',
@@ -918,6 +937,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $497',
         bestFor: 'Pros getting started on LinkedIn',
         features: [
           'Voice discovery session',
@@ -929,6 +949,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $997',
         bestFor: 'Building a steady referral engine',
         featured: true,
         features: [
@@ -941,6 +962,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,797',
         bestFor: 'A full thought-leadership presence',
         features: [
           'Everything in Growth',
@@ -1078,6 +1100,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $397',
         bestFor: 'A list you’ve never really emailed',
         features: [
           'List audit & cleanup',
@@ -1089,6 +1112,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $797',
         bestFor: 'Emailing consistently',
         featured: true,
         features: [
@@ -1101,6 +1125,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,297',
         bestFor: 'Email as a lead engine',
         features: [
           'Everything in Growth',
@@ -1171,20 +1196,20 @@ export const studioServices: StudioService[] = [
   // ── #5 AI SEO / GEO / AEO ──
   {
     slug: 'ai-search-visibility',
-    title: 'AI Search Visibility',
+    title: 'AI Visibility & Authority',
     cardDescription:
-      'Your customers are asking ChatGPT, Perplexity, and Google AI Overviews for recommendations — and those answers cite a handful of sources. We structure your content and data so you’re one of the businesses the AI names.',
+      'Your customers are asking ChatGPT, Gemini, Perplexity, and Copilot who to hire, and those answers name a handful of businesses. We measure where you show up, fix what keeps you out, and track it every month.',
     icon: [
       'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z',
     ],
-    metaTitle: 'AI Search Visibility | GEO & AEO Services | Oregon',
+    metaTitle: 'AI Visibility Audit & GEO Services | Oregon | Thomas+David+Jacob',
     metaDescription:
-      'Get recommended by ChatGPT, Claude, Gemini, Perplexity, and Google AI Overviews. Generative engine optimization plus traditional SEO for Oregon businesses, loan officers, Realtors, and wedding pros.',
-    eyebrow: 'AI Search Visibility · SEO + GEO',
+      'Find out if ChatGPT, Gemini, Perplexity, Copilot, and Google AI Overviews recommend your business. AI visibility audits, generative engine optimization, and monthly AI citation tracking for Oregon businesses and professionals.',
+    eyebrow: 'AI Visibility & Authority · GEO + AEO + SEO',
     headline: ['Get Named When', 'AI Answers the Question'],
     heroCopy:
-      'Your customers are asking ChatGPT, Claude, Gemini, Perplexity, and Google’s AI Overviews who to hire. Those answers name a small handful of businesses. We combine traditional SEO with generative engine optimization — structured data, answer-first content, and consistent information across the web — so your business is one of the names the AI gives.',
-    cta: 'Get a Free AI Visibility Check',
+      'Your customers are asking ChatGPT, Claude, Gemini, Perplexity, Copilot, and Google’s AI Overviews who to hire. Those answers name a small handful of businesses. We start by measuring: we ask the AI tools the questions your customers ask and record who gets named. Then we fix what keeps you out, with crawl access, structured data, answer-first content, and consistent information across the web, and we retest the same questions every month so you can see the change.',
+    cta: 'Get Your AI Visibility Audit',
     problemHeading: 'Search Is Changing Shape',
     problems: [
       {
@@ -1205,75 +1230,84 @@ export const studioServices: StudioService[] = [
     ],
     includes: [
       {
-        title: 'AI Visibility Audit',
+        title: 'Technical Discoverability',
         description:
-          'We ask the major AI assistants the questions your customers ask and record who gets named — you, a competitor, or nobody.',
+          'We confirm Google, Bing, and the AI search crawlers (like OpenAI’s OAI-SearchBot and PerplexityBot) can reach and read your site, and that no firewall or robots rule is quietly blocking them.',
       },
       {
-        title: 'Structured Data & Schema',
+        title: 'Entity Clarity',
         description:
-          'Business, service, FAQ, and review markup that tells search engines and AI tools exactly who you are and what you do.',
+          'Business, person, service, and FAQ structured data, plus consistent name, services, and service area everywhere, so AI tools know exactly who you are and what you do.',
       },
       {
         title: 'Answer-First Content',
         description:
-          'Service pages, FAQs, and articles that answer real questions directly — the format AI tools prefer to cite.',
+          'Service pages, FAQs, comparisons, and cost explainers that answer real customer questions directly, with first-hand examples. That is the format AI tools prefer to cite.',
       },
       {
-        title: 'Citation Consistency',
+        title: 'Third-Party Credibility',
         description:
-          'Your name, address, phone, and services aligned across Google Business Profile, directories, and industry sites.',
+          'Google Business Profile, the directories and associations that matter in your industry, an honest review-request system, and earned mentions. No bought listings and no fake reviews.',
       },
       {
-        title: 'Traditional SEO Foundation',
+        title: 'Local & Professional Signals',
         description:
-          'Technical fixes, keyword research, and on-page optimization — AI answers still lean heavily on pages that rank.',
+          'Service-area pages, credentials, and expert bios that show you are the real, qualified, local choice.',
       },
       {
-        title: 'Monthly Visibility Tracking',
+        title: 'Measured Every Month',
         description:
-          'A recurring check of whether AI tools mention you, alongside your Google rankings and traffic.',
+          'The same question set retested monthly, plus Bing’s AI citation report and AI referral traffic, rolled into one AI Visibility Scorecard.',
       },
     ],
     tiers: [
       {
         name: 'Audit',
+        price: 'From $497',
+        priceNote: 'one-time',
         bestFor: 'Knowing where you stand',
         features: [
-          'AI visibility audit across major assistants',
-          'Schema & structured data setup',
-          'Google Business Profile alignment',
-          'Prioritized fix list',
-          'One-time report',
+          '40 customer questions tested across 5 AI platforms',
+          'You vs. 3 named competitors',
+          'Crawler, indexing & schema check',
+          'AI Visibility Scorecard',
+          'Prioritized 90-day action plan',
+          'Fee credited if you start Foundation within 30 days',
         ],
       },
       {
-        name: 'Growth',
-        bestFor: 'Competing for AI answers',
+        name: 'Foundation',
+        price: 'From $1,997',
+        priceNote: 'one-time',
+        bestFor: 'Fixing what keeps you out',
         featured: true,
         features: [
           'Everything in Audit',
-          '4 answer-first pages or articles / month',
-          'Citation cleanup & building',
-          'On-page SEO optimization',
-          'Monthly visibility tracking',
+          'Crawl, indexing & AI crawler fixes',
+          'Organization, person, service & FAQ schema',
+          'About, services & service-area pages rewritten',
+          'Google Business Profile & top directories aligned',
+          'Google Search Console & Bing Webmaster Tools setup',
+          '3 answer-first pages',
         ],
       },
       {
-        name: 'Full-Service',
-        bestFor: 'Crowded, competitive markets',
+        name: 'Authority Growth',
+        price: 'From $997',
+        bestFor: 'Building recommendations month over month',
         features: [
-          'Everything in Growth',
-          '8 pages or articles / month',
-          'Competitor visibility monitoring',
-          'Digital PR & mention outreach',
-          'Quarterly strategy review',
+          '4 answer-first pages or articles / month',
+          'Review-request system',
+          'Directory, association & mention outreach',
+          'Monthly retest of your 40 questions',
+          'Bing AI citation & referral reporting',
+          'Monthly scorecard & strategy call',
         ],
       },
     ],
     industries: {
       mortgage:
-        '“Best loan officer for first-time buyers near me.” “Who does VA loans in Oregon City?” We build the answer-ready content and credentials AI tools look for — NMLS ID, licensed states, and the programs you actually offer.',
+        '“Best loan officer for first-time buyers near me.” “Who does VA loans in Oregon City?” We build the answer-ready content and credentials AI tools look for, like NMLS ID, licensed states, and the programs you actually offer, and every page goes to your compliance review before it publishes.',
       realEstate:
         'Neighborhood expertise, relocation content, and review signals that get you named when someone asks an AI which agent knows their area.',
       weddings:
@@ -1283,20 +1317,20 @@ export const studioServices: StudioService[] = [
     },
     process: [
       {
-        title: 'Audit',
-        description: 'Where you appear in AI answers and search today, and who appears instead.',
+        title: 'Baseline · Days 1–15',
+        description: 'We test your 40 questions across five AI platforms and record who gets named: you, a competitor, or nobody.',
       },
       {
-        title: 'Fix the Foundation',
-        description: 'Schema, technical SEO, and consistent business information everywhere.',
+        title: 'Foundation · Days 16–30',
+        description: 'Crawl fixes, structured data, and consistent business information everywhere AI tools look.',
       },
       {
-        title: 'Publish',
-        description: 'Answer-first pages and articles built around real customer questions.',
+        title: 'Content & Authority · Days 31–60',
+        description: 'Answer-first pages, directory and review work, and earned mentions where the gaps are.',
       },
       {
-        title: 'Track & Expand',
-        description: 'Monthly visibility checks and new content where the gaps are.',
+        title: 'Retest · Day 61 on',
+        description: 'Same questions, same conditions, every month. You see what moved and what we do next.',
       },
     ],
     faqs: [
@@ -1309,6 +1343,26 @@ export const studioServices: StudioService[] = [
         question: 'Can you guarantee ChatGPT will recommend me?',
         answer:
           'No, and be wary of anyone who says they can. AI answers vary by question, person, and day. We strengthen the signals AI tools rely on and track how often you appear.',
+      },
+      {
+        question: 'What exactly do you measure?',
+        answer:
+          'Your AI Visibility Scorecard tracks how often you’re mentioned, recommended, and linked across a fixed set of customer questions; how you compare with named competitors; whether the AI describes your services, location, and credentials correctly; plus Bing’s AI citation data, AI referral traffic, and the leads it brings. If you show up in 4 of 40 answers this month and 12 of 40 next month, that’s real directional progress. It isn’t a promise about every AI search everywhere, and we’ll never present it as one.',
+      },
+      {
+        question: 'Is AI search more important than Google now?',
+        answer:
+          'Not yet: Google still sends far more traffic. But AI answers, including the AI Overviews at the top of Google, increasingly decide which few businesses a customer hears about, and both run on the same foundation. We break down the numbers in AI Search vs. Google on our SEO Process page.',
+      },
+      {
+        question: 'Do I need an llms.txt file or special “AI schema”?',
+        answer:
+          'No file or markup guarantees an AI will recommend you, and Google says its AI features run on the same fundamentals as regular search. We focus on what does matter: crawl access, clear structured data, useful content, and credible mentions elsewhere.',
+      },
+      {
+        question: 'Can I stay out of AI training but still show up in AI search?',
+        answer:
+          'Often, yes. OpenAI, for example, uses separate crawlers for ChatGPT search (OAI-SearchBot) and for model training (GPTBot), so your site can allow one and block the other. We set this up to match your preference.',
       },
       {
         question: 'Is this different from regular SEO?',
@@ -1396,6 +1450,8 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Build',
+        price: 'From $2,497',
+        priceNote: 'one-time build',
         bestFor: 'A one-time system build',
         features: [
           'Growth audit & roadmap',
@@ -1407,6 +1463,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Operate',
+        price: 'From $1,997',
         bestFor: 'Ongoing monthly execution',
         featured: true,
         features: [
@@ -1419,6 +1476,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Partner',
+        price: 'From $3,997',
         bestFor: 'A deep, long-term partnership',
         features: [
           'Everything in Operate',
@@ -1484,6 +1542,172 @@ export const studioServices: StudioService[] = [
         question: 'Is there a minimum commitment?',
         answer:
           'Growth systems need a few months to show what they can do. We’ll agree on a term that gives the work a fair chance before you sign.',
+      },
+    ],
+  },
+
+  // ── 7-Day Website (Custom Web Design pillar, not part of the Studio grid) ──
+  {
+    slug: 'website-in-7-days',
+    studio: false,
+    title: 'Website in 7 Days',
+    cardDescription:
+      'A custom, mobile-first website live 7 days after we have your content. Starting at $497.',
+    icon: ['M13 10V3L4 14h7v7l9-11h-7z'],
+    metaTitle: 'Website in 7 Days, Starting at $497 | Oregon City Web Design',
+    metaDescription:
+      'Custom small business websites live 7 days after we have your content. One-page sites from $497, full business sites from $1,997. Web design for Oregon City, Portland, Lake Oswego, and West Linn.',
+    eyebrow: 'Custom Web Design · Live in 7 Days',
+    headline: ['Your New Website.', 'Live in 7 Days.'],
+    heroCopy:
+      'No templates and no months of back-and-forth. We design and build a custom, mobile-first site around how your customers actually decide, with a lead form that sends every inquiry straight to your inbox. Start with a one-page site at $497, or go straight to a full business site. The 7-day clock starts the day we have your logo, photos, and content notes.',
+    cta: 'Claim Your 7-Day Build',
+    problemHeading: 'Why Most Small Business Sites Stall',
+    problems: [
+      {
+        title: 'The project that never launches',
+        description:
+          'Months of meetings, revisions, and “almost done.” Meanwhile customers are finding the competitor whose site is already live.',
+      },
+      {
+        title: 'Templates that look like everyone else',
+        description:
+          'A drag-and-drop theme gets you online, but it looks like a thousand other sites and is rarely built to rank or convert.',
+      },
+      {
+        title: 'Pretty, but no leads',
+        description:
+          'A site that doesn’t tell people what to do next, or loses the form submission in a spam folder, is a brochure, not a sales tool.',
+      },
+    ],
+    includes: [
+      {
+        title: 'Custom Design',
+        description:
+          'Designed for your business and brand from the start. Zero templates, coded for speed.',
+      },
+      {
+        title: 'Mobile-First Build',
+        description:
+          'Most of your visitors are on a phone, so that’s where we design first, then scale up to desktop.',
+      },
+      {
+        title: 'Lead Capture',
+        description:
+          'A contact form that emails every inquiry to you, and a clear next step on every page.',
+      },
+      {
+        title: 'SEO-Ready Foundation',
+        description:
+          'Page titles, descriptions, a sitemap, and clean structure so Google can find and understand you from day one.',
+      },
+      {
+        title: 'Launch on Your Domain',
+        description:
+          'We connect your domain, set up security, and take the site live. No loose ends at handoff.',
+      },
+      {
+        title: 'Room to Grow',
+        description:
+          'Add pages, SEO, or AI visibility later. The site is built to grow with you, not to be rebuilt.',
+      },
+    ],
+    tiers: [
+      {
+        name: 'Launch',
+        price: 'From $497',
+        priceNote: 'one-time',
+        bestFor: 'A sharp one-page site, fast',
+        features: [
+          'One page, up to 6 sections',
+          'Custom, mobile-first design',
+          'Contact form to your inbox',
+          'Basic SEO setup & sitemap',
+          'Launch on your domain',
+          'You provide text & photos',
+          '1 revision round',
+        ],
+      },
+      {
+        name: 'Business',
+        price: 'From $1,997',
+        priceNote: 'one-time',
+        bestFor: 'A full site that brings in customers',
+        featured: true,
+        features: [
+          'Up to 5 pages',
+          'We write the copy from a 30-minute interview',
+          'Service & service-area pages',
+          'Business & service structured data',
+          'Google Business Profile tune-up',
+          'Analytics & lead tracking',
+          '2 revision rounds',
+        ],
+      },
+      {
+        name: 'Custom',
+        bestFor: 'Bigger builds: 6+ pages, ecommerce, integrations',
+        features: [
+          'Everything in Business',
+          'Ecommerce, booking, or CRM integrations',
+          'Custom features & larger page counts',
+          'Timeline set during your consultation',
+        ],
+      },
+    ],
+    industries: {
+      mortgage:
+        'A clean, fast site with your NMLS ID, licensed states, and the programs you actually offer. Every page goes to your compliance review before launch.',
+      realEstate:
+        'Your bio, your neighborhoods, and a home-value or buyer-inquiry form that reaches you, not a portal that sells your lead to the next agent.',
+      weddings:
+        'A portfolio-forward site that shows your style and makes the inquiry easy, built for couples browsing on their phones.',
+      local:
+        'Services, service area, and a click-to-call or quote form up front, because local customers decide fast.',
+    },
+    process: [
+      {
+        title: 'Kickoff · Day 0',
+        description: 'A short call and a simple content checklist. The 7-day clock starts once your logo, photos, and notes are in.',
+      },
+      {
+        title: 'Design · Days 1–3',
+        description: 'Your layout, colors, and copy come together, and you see a working draft.',
+      },
+      {
+        title: 'Build & Revise · Days 4–6',
+        description: 'Your revision round goes in, plus forms, SEO setup, and mobile checks.',
+      },
+      {
+        title: 'Launch · Day 7',
+        description: 'Live on your domain, tested, and handed off with a quick walkthrough.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'When does the 7-day clock start?',
+        answer:
+          'The day we have everything the build needs: your logo, photos, and content notes (or, for Business sites, your 30-minute interview). If feedback or materials are delayed, the launch date moves by the same amount.',
+      },
+      {
+        question: 'Is $497 really a custom site?',
+        answer:
+          'Yes. It’s designed for your business, not pulled from a template. It’s one page, it uses the text and photos you provide, and it includes one revision round. That focus is how we deliver it in 7 days at that price.',
+      },
+      {
+        question: 'Can I start with Launch and upgrade later?',
+        answer:
+          'Yes. A Launch site is built to grow. When you’re ready we add pages, copy, and SEO without starting over.',
+      },
+      {
+        question: 'What if I don’t have photos or copy?',
+        answer:
+          'Choose Business, where we write the copy from a 30-minute interview. For photos we can work with phone pictures, help you pick licensed stock images, or plan a shoot.',
+      },
+      {
+        question: 'How is this different from AI Visibility & Authority?',
+        answer:
+          'This builds your website. AI Visibility & Authority measures and improves whether AI assistants like ChatGPT and Gemini recommend your business, across your site and the rest of the web. A Business site already includes the on-site basics (structured data and a Google Business Profile tune-up), so if you add AI visibility later, we start from there instead of redoing it.',
       },
     ],
   },
