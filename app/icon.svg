@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="tint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset=".5" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <!-- faint light edge so the black frames still read on dark browser tabs -->
+  <g fill="none" stroke="#a1a1aa" stroke-opacity=".45" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="4" y="18" width="24" height="25" rx="7"/>
+    <rect x="36" y="18" width="24" height="25" rx="7"/>
+    <path d="M28 25 Q32 21 36 25"/>
+  </g>
+  <!-- lenses -->
+  <rect x="4" y="18" width="24" height="25" rx="7" fill="url(#tint)"/>
+  <rect x="36" y="18" width="24" height="25" rx="7" fill="url(#tint)"/>
+  <!-- frames -->
+  <g fill="none" stroke="#0a0a0a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="4" y="18" width="24" height="25" rx="7"/>
+    <rect x="36" y="18" width="24" height="25" rx="7"/>
+    <path d="M28 25 Q32 21 36 25"/>
+  </g>
+  <!-- glare -->
+  <path d="M9 27 l6 -4.5" stroke="#ffffff" stroke-opacity=".85" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M41 27 l6 -4.5" stroke="#ffffff" stroke-opacity=".85" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
