@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 import SpotlightCard from './components/SpotlightCard'
+import BookCallButton from './components/BookCallButton'
 import { INDUSTRIES } from '@/lib/industries'
 import { DEALKIT } from '@/lib/success-kit'
 
@@ -127,34 +128,48 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[1.05] tracking-tight mb-6">
-            A Full-Service
+            Your New Website.
             <br />
-            <span className="text-amber-400">Digital Creative</span>
-            <br />
-            Agency
+            <span className="text-amber-400">Live in 7 Days.</span>
           </h1>
 
-          <p className="text-zinc-300 text-xl md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            We build powerful websites, dominate search rankings, and create
-            marketing systems that turn clicks into paying customers — for
-            businesses across Oregon City, Portland, Lake Oswego, West Linn,
-            and all of Oregon.
+          <p className="text-zinc-300 text-xl md:text-2xl max-w-2xl mx-auto mb-6 leading-relaxed">
+            <span className="text-white font-bold">$1,997 flat.</span> A custom,
+            mobile-first site built to bring you customers, for businesses
+            across Oregon City, Portland, Lake Oswego, West Linn, and all of
+            Oregon.
           </p>
+
+          <ul className="flex flex-wrap items-center justify-center gap-2.5 max-w-2xl mx-auto mb-10">
+            {['Custom design', 'SEO-ready', 'Lead alerts to your inbox', 'Google Business Profile tune-up'].map((item) => (
+              <li
+                key={item}
+                className="text-sm text-zinc-200 bg-black/40 border border-white/10 rounded-full px-4 py-1.5"
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="#contact"
               className="inline-block bg-amber-400 hover:bg-amber-300 text-black font-black px-10 py-4 rounded-full transition-all hover:scale-105 tracking-wide shadow-lg shadow-amber-400/20"
             >
-              Start Getting More Customers
+              Claim Your 7-Day Build
             </Link>
+            <BookCallButton />
             <Link
               href="#services"
-              className="text-zinc-300 hover:text-white border border-white/15 hover:border-zinc-500 px-8 py-4 rounded-full transition-all hover:bg-white/5"
+              className="text-zinc-300 hover:text-white px-4 py-4 transition-colors underline-offset-4 hover:underline"
             >
-              See Our Services
+              See All Services
             </Link>
           </div>
+
+          <p className="text-zinc-500 text-sm mt-6">
+            The 7-day clock starts once we have your logo, photos, and content notes.
+          </p>
         </div>
       </section>
 
@@ -418,6 +433,9 @@ export default function Home() {
               Ready to grow your business? Send us a message and we&apos;ll get
               back to you within 24 hours.
             </p>
+            <div className="mt-8 flex justify-center">
+              <BookCallButton label="Or Book a 20-Min Call Now" />
+            </div>
           </div>
 
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 md:p-10">

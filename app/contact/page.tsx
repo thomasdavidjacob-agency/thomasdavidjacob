@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
+import BookCallButton from '../components/BookCallButton'
+import { BOOKING_URL } from '@/lib/booking'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Thomas David Jacob | Oregon City, OR',
@@ -42,6 +44,7 @@ const contactDetails = [
 ]
 
 const quickReasons = [
+  'Claim a 7-day website build ($1,997)',
   'Request a website quote',
   'Ask about SEO services',
   'Discuss a marketing strategy',
@@ -113,6 +116,20 @@ export default function ContactPage() {
 
             {/* ─ Info sidebar ─ */}
             <div className="md:col-span-2 space-y-5">
+
+              {/* Book a call (hidden until NEXT_PUBLIC_BOOKING_URL is set) */}
+              {BOOKING_URL && (
+                <div className="bg-amber-400/[0.06] border border-amber-400/30 rounded-2xl p-6">
+                  <h3 className="text-white font-bold text-base mb-2">Rather Talk It Through?</h3>
+                  <p className="text-zinc-400 text-sm mb-5">
+                    Pick a time that works. 20 minutes, no pressure, and you&apos;ll leave with a plan.
+                  </p>
+                  <BookCallButton
+                    label="Book a 20-Min Call"
+                    className="inline-flex w-full items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 text-black font-black px-6 py-3.5 rounded-full transition-all text-sm tracking-wide"
+                  />
+                </div>
+              )}
 
               {/* Team image */}
               <div className="relative h-52 rounded-2xl overflow-hidden border border-zinc-800">

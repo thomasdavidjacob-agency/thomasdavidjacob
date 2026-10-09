@@ -1,13 +1,15 @@
 // Growth & Content Studio offers. Each entry renders a full package page at
 // /services/[slug] and a card on /services. Order here is card order.
 //
-// Tier prices are intentionally unset — add `price` to a tier once pricing is
-// decided and the page will show it; until then the tier reads "Custom quote".
+// Tier prices are "From" starting prices. A tier without `price` reads
+// "Custom quote". `priceNote` overrides the "per month" label (e.g. one-time).
 
 export type ServiceTier = {
   name: string
   bestFor: string
   price?: string
+  /** Label under the price; defaults to "per month". */
+  priceNote?: string
   features: string[]
   featured?: boolean
 }
@@ -113,6 +115,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $497',
         bestFor: 'Businesses testing Meta ads for the first time',
         features: [
           'Competitor ad research',
@@ -124,6 +127,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $997',
         bestFor: 'Businesses running ads every month',
         featured: true,
         features: [
@@ -136,6 +140,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,997',
         bestFor: 'Creative and campaign management together',
         features: [
           'Everything in Growth',
@@ -279,6 +284,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $497',
         bestFor: 'Solo pros with occasional design needs',
         features: [
           'Brand kit setup',
@@ -290,6 +296,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $997',
         bestFor: 'Growing teams with weekly design needs',
         featured: true,
         features: [
@@ -302,6 +309,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,797',
         bestFor: 'Teams that need design and motion',
         features: [
           'Everything in Growth',
@@ -437,6 +445,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $597',
         bestFor: 'Accounts that need consistency first',
         features: [
           'Content strategy & pillars',
@@ -448,6 +457,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $1,197',
         bestFor: 'Businesses ready to grow reach',
         featured: true,
         features: [
@@ -460,6 +470,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $2,197',
         bestFor: 'Social as a real lead channel',
         features: [
           'Everything in Growth',
@@ -597,6 +608,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $797',
         bestFor: 'Professionals just getting on camera',
         features: [
           'Channel audit & setup',
@@ -608,6 +620,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $1,497',
         bestFor: 'Pros ready to post every week',
         featured: true,
         features: [
@@ -620,6 +633,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $2,497',
         bestFor: 'The whole studio handled',
         features: [
           'Everything in Growth',
@@ -756,6 +770,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $697',
         bestFor: 'Testing AI video on your channels',
         features: [
           'Script development',
@@ -767,6 +782,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $1,297',
         bestFor: 'Weekly video without weekly filming',
         featured: true,
         features: [
@@ -779,6 +795,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $2,297',
         bestFor: 'Video across organic and paid',
         features: [
           'Everything in Growth',
@@ -918,6 +935,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $497',
         bestFor: 'Pros getting started on LinkedIn',
         features: [
           'Voice discovery session',
@@ -929,6 +947,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $997',
         bestFor: 'Building a steady referral engine',
         featured: true,
         features: [
@@ -941,6 +960,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,797',
         bestFor: 'A full thought-leadership presence',
         features: [
           'Everything in Growth',
@@ -1078,6 +1098,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Starter',
+        price: 'From $397',
         bestFor: 'A list you’ve never really emailed',
         features: [
           'List audit & cleanup',
@@ -1089,6 +1110,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $797',
         bestFor: 'Emailing consistently',
         featured: true,
         features: [
@@ -1101,6 +1123,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,297',
         bestFor: 'Email as a lead engine',
         features: [
           'Everything in Growth',
@@ -1238,6 +1261,7 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Audit',
+        price: 'From $597',
         bestFor: 'Knowing where you stand',
         features: [
           'AI visibility audit across major assistants',
@@ -1249,6 +1273,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Growth',
+        price: 'From $1,197',
         bestFor: 'Competing for AI answers',
         featured: true,
         features: [
@@ -1261,6 +1286,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Full-Service',
+        price: 'From $1,997',
         bestFor: 'Crowded, competitive markets',
         features: [
           'Everything in Growth',
@@ -1396,6 +1422,8 @@ export const studioServices: StudioService[] = [
     tiers: [
       {
         name: 'Build',
+        price: 'From $2,497',
+        priceNote: 'one-time build',
         bestFor: 'A one-time system build',
         features: [
           'Growth audit & roadmap',
@@ -1407,6 +1435,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Operate',
+        price: 'From $1,997',
         bestFor: 'Ongoing monthly execution',
         featured: true,
         features: [
@@ -1419,6 +1448,7 @@ export const studioServices: StudioService[] = [
       },
       {
         name: 'Partner',
+        price: 'From $3,997',
         bestFor: 'A deep, long-term partnership',
         features: [
           'Everything in Operate',

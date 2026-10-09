@@ -310,7 +310,7 @@ export default async function StudioServicePage({
                 <p className="text-sm text-zinc-400 mb-6">{tier.bestFor}</p>
                 <p className="text-3xl font-black text-amber-400 mb-1">{tier.price ?? 'Custom quote'}</p>
                 <p className="text-xs text-zinc-500 uppercase tracking-widest font-bold mb-8">
-                  {tier.price ? 'per month' : 'scoped to your business'}
+                  {tier.price ? tier.priceNote ?? 'per month' : 'scoped to your business'}
                 </p>
                 <ul className="space-y-3 mb-10 flex-1">
                   {tier.features.map((feature) => (
@@ -328,7 +328,7 @@ export default async function StudioServicePage({
                       : 'border border-zinc-700 hover:border-amber-400/60 text-white hover:text-amber-400'
                   }`}
                 >
-                  Get {tier.name} Pricing
+                  {tier.price ? `Start with ${tier.name}` : `Get ${tier.name} Pricing`}
                   <ArrowIcon />
                 </Link>
               </div>
