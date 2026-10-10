@@ -99,7 +99,7 @@ export default function Home() {
               </span>
             </div>
 
-            <h1 className="font-[family-name:var(--font-display)] text-5xl sm:text-6xl md:text-7xl xl:text-[5.5rem] font-black leading-[1.02] tracking-tight mb-7 opacity-0 animate-fade-up [animation-delay:120ms]">
+            <h1 className="font-[family-name:var(--font-display)] text-5xl sm:text-6xl xl:text-7xl font-black leading-[1.04] tracking-tight mb-7 opacity-0 animate-fade-up [animation-delay:120ms]">
               Be the Business
               <br />
               <HeroRotator words={PLATFORMS} />
@@ -144,16 +144,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center lg:items-end gap-8 opacity-0 animate-fade-up [animation-delay:420ms]">
-            <Image
-              src="/images/logo-tdj-glasses-white.png"
-              alt="thomas+david+jacob logo"
-              width={1200}
-              height={515}
-              priority
-              className="w-full max-w-md h-auto"
-            />
-            <AIAnswerCard />
+          <div className="flex justify-center lg:justify-end opacity-0 animate-fade-up [animation-delay:420ms]">
+            <div className="w-full max-w-md flex flex-col items-center gap-6">
+              <Image
+                src="/images/logo-tdj-glasses-white.png"
+                alt="thomas+david+jacob logo"
+                width={1200}
+                height={515}
+                priority
+                className="w-full max-w-[15rem] h-auto"
+              />
+              <AIAnswerCard />
+            </div>
           </div>
         </div>
       </section>

@@ -82,6 +82,15 @@ h2 {
   font-weight: 900;
   letter-spacing: -0.01em;
 }
+/* Every other bold element (card titles, buttons, labels, wordmark)
+   uses the logo face too, so all heavy type reads as one brand. */
+h3,
+h4,
+.font-bold,
+.font-extrabold,
+.font-black {
+  font-family: var(--font-display);
+}
 h1 .text-amber-400,
 h2 .text-amber-400 {
   background: linear-gradient(180deg, #fff6dc 0%, #f1dda4 40%, #e5c76b 100%);

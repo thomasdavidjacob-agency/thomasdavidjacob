@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 const logoFace = Fira_Sans_Condensed({
   variable: "--font-logo",
   subsets: ["latin"],
-  weight: ["800", "900"],
+  weight: ["700", "800", "900"],
 });
 
 export const metadata: Metadata = {

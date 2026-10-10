@@ -6,13 +6,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
           <Link href="/" className="inline-block opacity-90 hover:opacity-100 transition-opacity">
-            <span className="text-xl font-black tracking-tight">
-              <span className="text-white">Thomas</span>
-              <span className="text-amber-400">+</span>
-              <span className="text-white">David</span>
-              <span className="text-amber-400">+</span>
-              <span className="text-white">Jacob</span>
-            </span>
+            <span className="font-[family-name:var(--font-display)] text-2xl font-black tracking-tight lowercase">
+            <span className="text-white">thomas</span>
+            <span className="text-amber-400">+</span>
+            <span className="text-white">david</span>
+            <span className="text-amber-400">+</span>
+            <span className="text-white">jacob</span>
+          </span>
           </Link>
           <p className="text-zinc-500 text-sm mt-2">
             Oregon City, OR — Serving Portland Metro &amp; Beyond

@@ -154,7 +154,7 @@ export default async function StudioServicePage({
       <Navbar />
 
       {/* ── Hero ── */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden pt-20">
+      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden pt-20 pb-24">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] rounded-full bg-amber-500/10 blur-[140px]" />
           <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-[#0a0a0a] to-transparent" />

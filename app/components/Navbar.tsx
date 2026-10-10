@@ -34,12 +34,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/95 backdrop-blur-md border-b border-zinc-800/60">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="inline-block opacity-90 hover:opacity-100 transition-opacity">
-          <span className="font-[family-name:var(--font-display)] text-2xl font-black tracking-tight">
-            <span className="text-white">Thomas</span>
+          <span className="font-[family-name:var(--font-display)] text-[1.65rem] font-black tracking-tight lowercase">
+            <span className="text-white">thomas</span>
             <span className="text-amber-400">+</span>
-            <span className="text-white">David</span>
+            <span className="text-white">david</span>
             <span className="text-amber-400">+</span>
-            <span className="text-white">Jacob</span>
+            <span className="text-white">jacob</span>
           </span>
         </Link>
 
