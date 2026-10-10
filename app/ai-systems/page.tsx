@@ -93,7 +93,7 @@ const packages = [
   },
   {
     name: 'AI Growth',
-    price: '$8,500',
+    price: '$6,500',
     popular: true,
     items: [
       '3 automation workflows',
