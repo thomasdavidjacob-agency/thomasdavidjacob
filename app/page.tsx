@@ -16,10 +16,10 @@ import { clients } from '@/lib/clients'
 export const metadata: Metadata = {
   title: 'AI-Powered Creative Agency | SEO, AI Search & Web Design | Oregon City, OR',
   description:
-    'Thomas+David+Jacob is a full-service creative agency in Oregon City, OR. Websites, SEO, AI search visibility, and AI systems that get businesses ranked on Google and recommended by ChatGPT, Gemini, and Perplexity.',
+    'Thomas+David+Jacob is a full-service creative agency in Oregon City, OR. Websites, SEO, AI search visibility, and AI systems that get businesses ranked on Google and recommended by ChatGPT, Gemini, Claude, Perplexity, and Copilot.',
 }
 
-const PLATFORMS = ['Google', 'ChatGPT', 'Gemini', 'Perplexity', 'Copilot']
+const PLATFORMS = ['Google', 'ChatGPT', 'Gemini', 'Claude', 'Perplexity', 'Copilot']
 
 // The four things we do, in the order a customer meets them.
 const pillars = [
@@ -118,7 +118,7 @@ export default function Home() {
               Thomas+David+Jacob is a full-service creative agency. We build the
               websites, win the search rankings, and design the AI systems that put
               your business at the top of Google and inside the answers on ChatGPT,
-              Gemini, and Perplexity.
+              Gemini, Claude, Perplexity, and Copilot.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 opacity-0 animate-fade-up [animation-delay:360ms]">
@@ -144,7 +144,7 @@ export default function Home() {
                 Built to be found on
               </p>
               <ul className="flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 text-zinc-400 font-semibold">
-                {[...PLATFORMS, 'Claude'].map((p) => (
+                {PLATFORMS.map((p) => (
                   <li key={p}>{p}</li>
                 ))}
               </ul>
