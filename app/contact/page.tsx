@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 const contactDetails = [
   {
     label: 'Email',
-    value: 'thomasdavidjacob@gmail.com',
-    href: 'mailto:thomasdavidjacob@gmail.com',
+    value: 'hello@thomasdavidjacob.com',
+    href: 'mailto:hello@thomasdavidjacob.com',
     icon: (
       <svg className="w-5 h-5 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -132,15 +132,19 @@ export default function ContactPage() {
                 </div>
               )}
 
-              {/* Team image */}
-              <div className="relative h-52 rounded-2xl overflow-hidden border border-zinc-800">
+              {/* Logo */}
+              <div className="relative h-52 rounded-2xl overflow-hidden border border-zinc-800 bg-[#0d0d0d] flex items-center justify-center px-10">
+                <div className="absolute inset-0 pointer-events-none">
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-40 rounded-full bg-amber-400/[0.10] blur-3xl" />
+                  <div className="absolute inset-0 bg-grid opacity-60" />
+                </div>
                 <Image
-                  src="/images/Customer_Service.jpg"
-                  alt="Dedicated client support specialist"
-                  fill
-                  className="object-cover"
+                  src="/images/logo-tdj-glasses-white.png"
+                  alt="thomas+david+jacob logo"
+                  width={1200}
+                  height={515}
+                  className="relative w-full max-w-[16rem] h-auto"
                 />
-                <div className="absolute inset-0 bg-black/30" />
               </div>
 
               {/* Contact details */}
