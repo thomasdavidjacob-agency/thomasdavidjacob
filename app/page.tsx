@@ -106,7 +106,7 @@ export default function Home() {
               </span>
             </div>
 
-            <h1 className="font-[family-name:var(--font-display)] text-5xl sm:text-6xl md:text-7xl xl:text-[5.5rem] font-bold leading-[1.02] tracking-tight mb-7 opacity-0 animate-fade-up [animation-delay:120ms]">
+            <h1 className="font-[family-name:var(--font-display)] text-5xl sm:text-6xl md:text-7xl xl:text-[5.5rem] font-black leading-[1.02] tracking-tight mb-7 opacity-0 animate-fade-up [animation-delay:120ms]">
               Be the Business
               <br />
               <HeroRotator words={PLATFORMS} />
@@ -162,7 +162,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
           {proof.map((p) => (
             <div key={p.label} className="text-center md:text-left">
-              <p className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-bold text-gradient-gold leading-none mb-2">
+              <p className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-black text-gradient-gold leading-none mb-2">
                 {p.value}
               </p>
               <p className="text-sm text-zinc-400 leading-snug">{p.label}</p>
@@ -178,7 +178,7 @@ export default function Home() {
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
               What We Do
             </p>
-            <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-[1.05]">
+            <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-6xl font-black tracking-tight mb-6 leading-[1.05]">
               One Agency. Every Way
               <br />
               <span className="text-gradient-gold">Customers Find You.</span>
@@ -207,7 +207,7 @@ export default function Home() {
                     )}
                   </div>
                   <p className="text-amber-400/90 text-xs font-bold tracking-[0.25em] uppercase mb-2">{p.eyebrow}</p>
-                  <h3 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl font-bold text-white mb-3">{p.title}</h3>
+                  <h3 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl font-black text-white mb-3">{p.title}</h3>
                   <p className="text-zinc-400 leading-relaxed mb-6 flex-1">{p.body}</p>
                   <ul className="flex flex-wrap gap-2 mb-7">
                     {p.tags.map((t) => (
@@ -255,7 +255,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">How We Work</p>
-            <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-bold tracking-tight">
+            <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-black tracking-tight">
               Strategy First. Then We Build.
             </h2>
           </div>
@@ -266,7 +266,7 @@ export default function Home() {
               { n: '03', t: 'Grow', d: 'We track rankings, AI mentions, and leads every month, and keep improving what moves the needle.' },
             ].map((s) => (
               <div key={s.n} className="relative bg-[#0d0d0d] border border-zinc-800 rounded-2xl p-8 overflow-hidden hover:border-amber-400/30 transition-colors group">
-                <span className="absolute -top-3 right-5 font-[family-name:var(--font-display)] text-8xl font-bold text-white/[0.03] group-hover:text-amber-400/[0.06] transition-colors select-none">
+                <span className="absolute -top-3 right-5 font-[family-name:var(--font-display)] text-8xl font-black text-white/[0.03] group-hover:text-amber-400/[0.06] transition-colors select-none">
                   {s.n}
                 </span>
                 <span className="relative inline-block text-xs text-amber-400 font-bold tracking-[0.3em] uppercase border border-amber-400/30 rounded-full px-3 py-1 mb-5">
@@ -330,7 +330,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
             <div className="max-w-2xl">
               <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">Selected Work</p>
-              <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-bold tracking-tight mb-4">
+              <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-black tracking-tight mb-4">
                 Real Businesses. Live Sites.
               </h2>
               <p className="text-zinc-400 text-lg leading-relaxed">
