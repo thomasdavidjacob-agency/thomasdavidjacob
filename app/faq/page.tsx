@@ -107,7 +107,7 @@ export default function FAQPage() {
           src="/images/dark_desktop_notebooks.jpg"
           alt="Dark creative agency workspace"
           fill
-          className="object-cover"
+          className="object-cover hero-bg"
           priority
         />
         <div className="absolute inset-0 bg-black/10" />

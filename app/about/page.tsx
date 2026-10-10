@@ -93,7 +93,7 @@ export default function AboutPage() {
           src="/images/dark_laptop_desktop.jpg"
           alt="Professional dark workspace for digital strategy"
           fill
-          className="object-cover"
+          className="object-cover hero-bg"
           priority
         />
         <div className="absolute inset-0 bg-black/10" />

@@ -22,7 +22,7 @@ export default function ClientsPage() {
           src="/images/webdesign_in_darkroom.jpg"
           alt="Web design studio workspace"
           fill
-          className="object-cover"
+          className="object-cover hero-bg"
           priority
         />
         <div className="absolute inset-0 bg-black/40" />
