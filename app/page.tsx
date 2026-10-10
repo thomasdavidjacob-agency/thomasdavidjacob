@@ -9,8 +9,7 @@ import BookCallButton from './components/BookCallButton'
 import HeroRotator from './components/HeroRotator'
 import AIAnswerCard from './components/AIAnswerCard'
 import { siteGraph } from '@/lib/entity'
-import { INDUSTRIES } from '@/lib/industries'
-import { DEALKIT } from '@/lib/success-kit'
+import { liveVerticals, verticalHref } from '@/lib/verticals'
 import { clients } from '@/lib/clients'
 
 export const metadata: Metadata = {
@@ -284,11 +283,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              ...INDUSTRIES.map((i) => ({ name: i.name, href: `/success-kit/${i.slug}`, note: i.group })),
-              { name: DEALKIT.name, href: DEALKIT.href, note: DEALKIT.audience },
-            ].map((item) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            {liveVerticals.map((v) => ({ name: v.name, href: verticalHref(v), note: v.tagline })).map((item) => (
               <Link
                 key={item.href}
                 href={item.href}

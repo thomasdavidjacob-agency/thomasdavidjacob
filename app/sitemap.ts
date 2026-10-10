@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import { posts } from '../lib/blog'
 import { studioServices } from '../lib/services'
 import { INDUSTRIES } from '../lib/industries'
+import { pageVerticals } from '../lib/verticals'
 
 const BASE_URL = 'https://thomasdavidjacob.com'
 
@@ -18,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/success-kit/dealkit', priority: 0.7 },
     { path: '/our-seo-process', priority: 0.7 },
     { path: '/our-seo-process/ai-search', priority: 0.7 },
+    ...pageVerticals.map((v) => ({ path: `/industries/${v.slug}`, priority: 0.7 })),
     { path: '/about', priority: 0.6 },
     { path: '/faq', priority: 0.6 },
     { path: '/blog', priority: 0.8 },
