@@ -191,7 +191,7 @@ export default function AISystemsPage() {
           src="/images/dark_laptop_desktop.jpg"
           alt="AI systems architecture dark laptop workspace"
           fill
-          className="object-cover"
+          className="object-cover hero-bg"
           priority
         />
         <div className="absolute inset-0 bg-black/60" />

@@ -81,6 +81,19 @@ export default function Home() {
 
       {/* ── Hero ── */}
       <section className="relative min-h-screen flex items-center overflow-hidden pt-28 pb-20">
+        {/* desk photo, same family as the other page heroes. On phones it anchors
+            right so the glasses and lens stay in frame. */}
+        <Image
+          src="/images/hero-home.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover hero-bg"
+        />
+        {/* keep copy readable: darker behind the text column, lighter on the right */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/60 to-black/85 lg:bg-gradient-to-r lg:from-black/80 lg:via-black/45 lg:to-black/25" />
+
         {/* atmosphere: drifting gold + indigo light over a faint blueprint grid */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-40 left-1/4 w-[720px] h-[720px] rounded-full bg-amber-500/[0.09] blur-[140px] animate-aurora" />

@@ -63,7 +63,7 @@ export default function ContactPage() {
           src="/images/hero-contact.jpg"
           alt="Contact Thomas David Jacob agency"
           fill
-          className="object-cover"
+          className="object-cover hero-bg"
           priority
         />
         <div className="absolute inset-0 bg-black/10" />

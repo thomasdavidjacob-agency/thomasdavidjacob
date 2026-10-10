@@ -166,7 +166,7 @@ export default function ServicesPage() {
           src="/images/hero-about2.jpg"
           alt="Web design and digital services workspace"
           fill
-          className="object-cover"
+          className="object-cover hero-bg"
           priority
         />
         <div className="absolute inset-0 bg-black/10" />

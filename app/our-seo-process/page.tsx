@@ -93,7 +93,7 @@ export default function OurSEOProcessPage() {
           src="/images/hero-service.jpg"
           alt="Strategic SEO process planning workspace"
           fill
-          className="object-cover"
+          className="object-cover hero-bg"
           style={{ objectPosition: 'center 30%' }}
           priority
         />

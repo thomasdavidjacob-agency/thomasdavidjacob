@@ -55,7 +55,7 @@ export default async function BlogPostPage({
             src="/images/hero_blogpost.jpg"
             alt="Thomas David Jacob digital agency blog"
             fill
-            className="object-cover"
+            className="object-cover hero-bg"
             priority
           />
           <div className="absolute inset-0 bg-black/10" />

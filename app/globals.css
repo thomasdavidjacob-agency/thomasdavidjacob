@@ -102,6 +102,24 @@ h2 .text-amber-400 {
   filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.85));
 }
 
+/* Hero photos on phones: a tall, narrow hero made `object-cover` zoom the
+   photo until only one blown-up corner showed. Below desktop, show the photo
+   at its natural proportions across the top and fade it into the page. */
+@media (max-width: 1023px) {
+  .hero-bg {
+    height: 60vw !important;
+    bottom: auto !important;
+    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+  }
+  /* desktop min-heights (60–100vh) leave empty gaps on a phone; size to content */
+  section:has(> .hero-bg) {
+    min-height: 0 !important;
+    padding-top: 7rem;
+    padding-bottom: 3.5rem;
+  }
+}
+
 /* Faint blueprint grid overlay — drop on any section */
 .bg-grid {
   background-image: linear-gradient(var(--grid) 1px, transparent 1px),
