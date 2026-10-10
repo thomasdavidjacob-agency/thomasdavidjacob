@@ -9,17 +9,16 @@ import BookCallButton from './components/BookCallButton'
 import HeroRotator from './components/HeroRotator'
 import AIAnswerCard from './components/AIAnswerCard'
 import { siteGraph } from '@/lib/entity'
-import { INDUSTRIES } from '@/lib/industries'
-import { DEALKIT } from '@/lib/success-kit'
+import { liveVerticals, verticalHref } from '@/lib/verticals'
 import { clients } from '@/lib/clients'
 
 export const metadata: Metadata = {
   title: 'AI-Powered Creative Agency | SEO, AI Search & Web Design | Oregon City, OR',
   description:
-    'Thomas+David+Jacob is a full-service creative agency in Oregon City, OR. Websites, SEO, AI search visibility, and AI systems that get businesses ranked on Google and recommended by ChatGPT, Gemini, and Perplexity.',
+    'Thomas+David+Jacob is a full-service creative agency in Oregon City, OR. Websites, SEO, AI search visibility, and AI systems that get businesses ranked on Google and recommended by ChatGPT, Gemini, Claude, Perplexity, and Copilot.',
 }
 
-const PLATFORMS = ['Google', 'ChatGPT', 'Gemini', 'Perplexity', 'Copilot']
+const PLATFORMS = ['Google', 'ChatGPT', 'Gemini', 'Claude', 'Perplexity', 'Copilot']
 
 // The four things we do, in the order a customer meets them.
 const pillars = [
@@ -63,13 +62,6 @@ const pillars = [
   },
 ]
 
-const proof = [
-  { value: '2020', label: 'Building for Oregon businesses since' },
-  { value: `${clients.length}`, label: 'Live client sites you can visit today' },
-  { value: '5', label: 'AI platforms we test your visibility on' },
-  { value: '1', label: 'Team for strategy, design, code & SEO' },
-]
-
 const arrow = (
   <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -106,7 +98,7 @@ export default function Home() {
               </span>
             </div>
 
-            <h1 className="font-[family-name:var(--font-display)] text-5xl sm:text-6xl md:text-7xl xl:text-[5.5rem] font-bold leading-[1.02] tracking-tight mb-7 opacity-0 animate-fade-up [animation-delay:120ms]">
+            <h1 className="font-[family-name:var(--font-display)] text-5xl sm:text-6xl xl:text-7xl font-black leading-[1.04] tracking-tight mb-7 opacity-0 animate-fade-up [animation-delay:120ms]">
               Be the Business
               <br />
               <HeroRotator words={PLATFORMS} />
@@ -118,7 +110,7 @@ export default function Home() {
               Thomas+David+Jacob is a full-service creative agency. We build the
               websites, win the search rankings, and design the AI systems that put
               your business at the top of Google and inside the answers on ChatGPT,
-              Gemini, and Perplexity.
+              Gemini, Claude, Perplexity, and Copilot.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 opacity-0 animate-fade-up [animation-delay:360ms]">
@@ -144,7 +136,7 @@ export default function Home() {
                 Built to be found on
               </p>
               <ul className="flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 text-zinc-400 font-semibold">
-                {[...PLATFORMS, 'Claude'].map((p) => (
+                {PLATFORMS.map((p) => (
                   <li key={p}>{p}</li>
                 ))}
               </ul>
@@ -152,22 +144,18 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center lg:justify-end opacity-0 animate-fade-up [animation-delay:420ms]">
-            <AIAnswerCard />
-          </div>
-        </div>
-      </section>
-
-      {/* ── Proof band ── */}
-      <section className="border-y border-zinc-800/60 bg-zinc-950/60">
-        <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
-          {proof.map((p) => (
-            <div key={p.label} className="text-center md:text-left">
-              <p className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-bold text-gradient-gold leading-none mb-2">
-                {p.value}
-              </p>
-              <p className="text-sm text-zinc-400 leading-snug">{p.label}</p>
+            <div className="w-full max-w-md flex flex-col items-center gap-6">
+              <Image
+                src="/images/logo-tdj-glasses-white.png"
+                alt="thomas+david+jacob logo"
+                width={1200}
+                height={515}
+                priority
+                className="w-full max-w-[15rem] h-auto"
+              />
+              <AIAnswerCard />
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
@@ -178,7 +166,7 @@ export default function Home() {
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">
               What We Do
             </p>
-            <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-[1.05]">
+            <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-6xl font-black tracking-tight mb-6 leading-[1.05]">
               One Agency. Every Way
               <br />
               <span className="text-gradient-gold">Customers Find You.</span>
@@ -207,7 +195,7 @@ export default function Home() {
                     )}
                   </div>
                   <p className="text-amber-400/90 text-xs font-bold tracking-[0.25em] uppercase mb-2">{p.eyebrow}</p>
-                  <h3 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl font-bold text-white mb-3">{p.title}</h3>
+                  <h3 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl font-black text-white mb-3">{p.title}</h3>
                   <p className="text-zinc-400 leading-relaxed mb-6 flex-1">{p.body}</p>
                   <ul className="flex flex-wrap gap-2 mb-7">
                     {p.tags.map((t) => (
@@ -255,7 +243,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">How We Work</p>
-            <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-bold tracking-tight">
+            <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-black tracking-tight">
               Strategy First. Then We Build.
             </h2>
           </div>
@@ -266,7 +254,7 @@ export default function Home() {
               { n: '03', t: 'Grow', d: 'We track rankings, AI mentions, and leads every month, and keep improving what moves the needle.' },
             ].map((s) => (
               <div key={s.n} className="relative bg-[#0d0d0d] border border-zinc-800 rounded-2xl p-8 overflow-hidden hover:border-amber-400/30 transition-colors group">
-                <span className="absolute -top-3 right-5 font-[family-name:var(--font-display)] text-8xl font-bold text-white/[0.03] group-hover:text-amber-400/[0.06] transition-colors select-none">
+                <span className="absolute -top-3 right-5 font-[family-name:var(--font-display)] text-8xl font-black text-white/[0.03] group-hover:text-amber-400/[0.06] transition-colors select-none">
                   {s.n}
                 </span>
                 <span className="relative inline-block text-xs text-amber-400 font-bold tracking-[0.3em] uppercase border border-amber-400/30 rounded-full px-3 py-1 mb-5">
@@ -295,11 +283,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              ...INDUSTRIES.map((i) => ({ name: i.name, href: `/success-kit/${i.slug}`, note: i.group })),
-              { name: DEALKIT.name, href: DEALKIT.href, note: DEALKIT.audience },
-            ].map((item) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            {liveVerticals.map((v) => ({ name: v.name, href: verticalHref(v), note: v.tagline })).map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -330,7 +315,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
             <div className="max-w-2xl">
               <p className="text-amber-400 text-xs font-bold tracking-[0.35em] uppercase mb-5">Selected Work</p>
-              <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-bold tracking-tight mb-4">
+              <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-black tracking-tight mb-4">
                 Real Businesses. Live Sites.
               </h2>
               <p className="text-zinc-400 text-lg leading-relaxed">

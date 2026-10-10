@@ -25,6 +25,11 @@ const SCENES = [
     query: "who does kitchen remodels in West Linn?",
     service: "Kitchen remodeling · West Linn",
   },
+  {
+    platform: "Claude",
+    query: "recommend a chiropractor near Milwaukie, OR",
+    service: "Chiropractic care · Milwaukie",
+  },
 ];
 
 const TYPE_MS = 38;

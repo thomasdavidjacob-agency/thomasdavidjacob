@@ -2,24 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useId, useRef, useState } from "react";
-import { INDUSTRIES, INDUSTRY_GROUPS } from "@/lib/industries";
-import { AGENCY_SERVICES, DEALKIT } from "@/lib/success-kit";
+import { CORE_SERVICES, INTAKE_LINK, liveVerticals, verticalHref } from "@/lib/verticals";
 
-// Industry menu: DealKit for real estate, then each done-for-you group.
-const INDUSTRY_MENU = [
-  {
-    group: "Real estate & lending",
-    items: [{ name: DEALKIT.name, href: DEALKIT.href, note: DEALKIT.audience }],
-  },
-  ...INDUSTRY_GROUPS.map((group) => ({
-    group,
-    items: INDUSTRIES.filter((i) => i.group === group).map((i) => ({
-      name: i.name,
-      href: `/success-kit/${i.slug}`,
-      note: "",
-    })),
-  })),
-];
+// Services menu: core services on the left, industry verticals on the right.
+// Only vertical names live here; each vertical page lists the businesses it covers.
 
 function Chevron({ open }: { open: boolean }) {
   return (
@@ -35,7 +21,7 @@ function Chevron({ open }: { open: boolean }) {
   );
 }
 
-const PANEL_WIDTH = 720;
+const PANEL_WIDTH = 640;
 const EDGE = 16; // min gap from the screen edge
 
 const mobileHeading = "mb-2 text-xs font-bold uppercase tracking-[0.25em] text-amber-400";
@@ -104,56 +90,54 @@ export function ServicesMenu() {
           open ? "visible opacity-100" : "invisible opacity-0"
         }`}
       >
-        <div className="grid grid-cols-[1fr_1.2fr] gap-6 rounded-xl border border-zinc-800 bg-[#0d0d0d] p-5 shadow-xl shadow-black/50">
+        <div className="grid grid-cols-[1fr_1.15fr] gap-6 rounded-xl border border-zinc-800 bg-[#0d0d0d] p-5 shadow-xl shadow-black/50">
           <div>
-            <p className={heading}>What we do</p>
-            <ul className="space-y-1">
-              {AGENCY_SERVICES.map((s) => (
-                <li key={s.href}>
+            <p className={heading}>Core services</p>
+            <ul className="space-y-0.5">
+              {CORE_SERVICES.map((s) => (
+                <li key={s.name}>
                   <Link
                     href={s.href}
                     onClick={close}
-                    className="group/item block rounded-lg px-3 py-2.5 transition-colors hover:bg-amber-400/5"
+                    className="group/item block rounded-lg px-3 py-2 transition-colors hover:bg-amber-400/5"
                   >
-                    <span className="block text-sm font-medium tracking-wide text-zinc-300 transition-colors group-hover/item:text-amber-400">{s.name}</span>
+                    <span className="block text-sm font-medium tracking-wide text-zinc-200 transition-colors group-hover/item:text-amber-400">{s.name}</span>
                     <span className="mt-0.5 block text-xs text-zinc-500">{s.blurb}</span>
                   </Link>
                 </li>
               ))}
             </ul>
+            <Link
+              href="/services"
+              onClick={close}
+              className="mt-3 inline-block px-3 text-xs font-bold tracking-wide text-amber-400 hover:text-amber-300"
+            >
+              All services →
+            </Link>
           </div>
 
           <div>
             <p className={heading}>By industry</p>
-            <div className="grid grid-cols-2 gap-x-6 gap-y-4">
-              {INDUSTRY_MENU.map((g) => (
-                <div key={g.group} className={g.group === "Home services" ? "row-span-2" : ""}>
-                  <p className="px-3 text-[11px] font-bold uppercase tracking-[0.2em] text-zinc-500">
-                    {g.group}
-                  </p>
-                  <ul className="mt-1">
-                    {g.items.map((item) => (
-                      <li key={item.href}>
-                        <Link
-                          href={item.href}
-                          onClick={close}
-                          className="block rounded-lg px-3 py-2 text-sm font-medium tracking-wide text-zinc-300 transition-colors hover:bg-amber-400/5 hover:text-amber-400"
-                        >
-                          {item.name}
-                          {item.note && <span className="block text-xs font-normal text-zinc-500">{item.note}</span>}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+            <ul className="space-y-0.5">
+              {liveVerticals.map((v) => (
+                <li key={v.slug}>
+                  <Link
+                    href={verticalHref(v)}
+                    onClick={close}
+                    className="group/item block rounded-lg px-3 py-2 transition-colors hover:bg-amber-400/5"
+                  >
+                    <span className="block text-sm font-medium tracking-wide text-zinc-200 transition-colors group-hover/item:text-amber-400">{v.name}</span>
+                    <span className="mt-0.5 block text-xs text-zinc-500">{v.tagline}</span>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
             <Link
-              href="/success-kit"
+              href={INTAKE_LINK.href}
               onClick={close}
-              className="mt-4 inline-block px-3 text-xs font-bold tracking-wide text-amber-400 hover:text-amber-300"
+              className="mt-3 inline-block px-3 text-xs font-bold tracking-wide text-amber-400 hover:text-amber-300"
             >
-              All industries →
+              {INTAKE_LINK.label} →
             </Link>
           </div>
         </div>
@@ -181,35 +165,26 @@ export function MobileServicesMenu({ onNavigate }: { onNavigate?: () => void }) 
       {open && (
         <div id={menuId} className="space-y-6 pb-5">
           <div>
-            <p className={mobileHeading}>What we do</p>
-            {AGENCY_SERVICES.map((s) => (
-              <Link
-                key={s.href}
-                href={s.href}
-                onClick={onNavigate}
-                className="block py-2 text-zinc-300 hover:text-amber-400"
-              >
+            <p className={mobileHeading}>Core services</p>
+            {CORE_SERVICES.map((s) => (
+              <Link key={s.name} href={s.href} onClick={onNavigate} className="block py-2 text-zinc-300 hover:text-amber-400">
                 {s.name}
               </Link>
             ))}
+            <Link href="/services" onClick={onNavigate} className="block py-2 text-sm font-bold text-amber-400">
+              All services →
+            </Link>
           </div>
           <div>
             <p className={mobileHeading}>By industry</p>
-            {INDUSTRY_MENU.map((g) => (
-              <div key={g.group} className="mb-3">
-                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-zinc-500">{g.group}</p>
-                {g.items.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={onNavigate}
-                    className="block py-2 text-zinc-300 hover:text-amber-400"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
+            {liveVerticals.map((v) => (
+              <Link key={v.slug} href={verticalHref(v)} onClick={onNavigate} className="block py-2 text-zinc-300 hover:text-amber-400">
+                {v.name}
+              </Link>
             ))}
+            <Link href={INTAKE_LINK.href} onClick={onNavigate} className="block py-2 text-sm font-bold text-amber-400">
+              {INTAKE_LINK.label} →
+            </Link>
           </div>
         </div>
       )}
