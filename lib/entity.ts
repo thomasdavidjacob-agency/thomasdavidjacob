@@ -24,7 +24,7 @@ export const organization = {
     'Digital creative agency in Oregon City, Oregon: custom websites, local SEO, AI search visibility, and AI systems for local businesses and professionals.',
   url: BASE_URL,
   logo: `${BASE_URL}/images/Main_LogoWhite.png`,
-  email: 'thomasdavidjacob@gmail.com',
+  email: 'thomasdavidjacob@gmail.com', // the real inbox; hello@ is display-only on the site
   foundingDate: '2020',
   address: {
     '@type': 'PostalAddress',
