@@ -63,13 +63,6 @@ const pillars = [
   },
 ]
 
-const proof = [
-  { value: '2020', label: 'Building for Oregon businesses since' },
-  { value: `${clients.length}`, label: 'Live client sites you can visit today' },
-  { value: '5', label: 'AI platforms we test your visibility on' },
-  { value: '1', label: 'Team for strategy, design, code & SEO' },
-]
-
 const arrow = (
   <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -162,20 +155,6 @@ export default function Home() {
             />
             <AIAnswerCard />
           </div>
-        </div>
-      </section>
-
-      {/* ── Proof band ── */}
-      <section className="border-y border-zinc-800/60 bg-zinc-950/60">
-        <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
-          {proof.map((p) => (
-            <div key={p.label} className="text-center md:text-left">
-              <p className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-black text-gradient-gold leading-none mb-2">
-                {p.value}
-              </p>
-              <p className="text-sm text-zinc-400 leading-snug">{p.label}</p>
-            </div>
-          ))}
         </div>
       </section>
 
