@@ -151,7 +151,15 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-center lg:justify-end opacity-0 animate-fade-up [animation-delay:420ms]">
+          <div className="flex flex-col items-center lg:items-end gap-8 opacity-0 animate-fade-up [animation-delay:420ms]">
+            <Image
+              src="/images/logo-tdj-glasses-white.png"
+              alt="thomas+david+jacob logo"
+              width={1200}
+              height={515}
+              priority
+              className="w-full max-w-md h-auto"
+            />
             <AIAnswerCard />
           </div>
         </div>
