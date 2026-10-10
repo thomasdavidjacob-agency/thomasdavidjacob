@@ -336,6 +336,12 @@ export const INDUSTRIES: Industry[] = [
     ],
     worksWith: ["HoneyBook", "Dubsado", "Google Calendar", "Google Business Profile"],
     pricing: { setup: 697, monthly: 197 },
+    proof: {
+      name: "Amore Coordination",
+      location: "Wedding & event planning · Portland, OR & SW Washington",
+      body: "Amy Elizabeth Ha has coordinated over 230 weddings in a decade-plus career. We built her a site that carries that experience the way she does in person, warm and welcoming to couples and families of every background, with inquiry flows that turn browsing couples into booked consultations.",
+      url: "https://amorecoordination.com",
+    },
     faq: [
       [
         "Do I need to do anything technical?",

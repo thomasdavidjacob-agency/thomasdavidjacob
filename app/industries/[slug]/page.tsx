@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import ProofCard from '@/components/ProofCard'
 import { getVertical, pageVerticals } from '@/lib/verticals'
 import { BASE_URL, ORG_ID, organization } from '@/lib/entity'
 
@@ -153,17 +154,9 @@ export default async function IndustryPage({ params }: Props) {
         <section className="px-6 pt-20">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-black mb-6">Recent Work</h2>
-            <div className="grid gap-6 md:grid-cols-2">
+            <div className="grid gap-6">
               {p.proof.map((w) => (
-                <div key={w.client} className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-7">
-                  <p className="text-lg font-bold text-amber-400">{w.client}</p>
-                  <p className="mt-2 text-zinc-400 leading-relaxed">{w.note}</p>
-                  {w.href && (
-                    <a href={w.href} target="_blank" rel="noopener noreferrer" className="group mt-4 inline-flex items-center gap-2 text-sm font-bold text-amber-400 hover:text-amber-300">
-                      Visit the site {arrow}
-                    </a>
-                  )}
-                </div>
+                <ProofCard key={w.client} client={w.client} body={w.note} href={w.href} />
               ))}
             </div>
           </div>

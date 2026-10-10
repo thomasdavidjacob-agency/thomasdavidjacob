@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LeadForm } from "@/components/LeadForm";
+import ProofCard from "@/components/ProofCard";
 import {
   AccentHeadline,
   Check,
@@ -208,24 +209,16 @@ export default async function IndustryPage({ params }: { params: Promise<Params>
       {ind.proof && (
         <Section>
           <SectionHeader eyebrow="Proof" title="We Build for Businesses Like Yours" />
-          <div className={`${cardClass(true)} mx-auto max-w-3xl`}>
-            <div className="mb-2 flex flex-wrap items-center gap-3">
-              <h3 className="text-2xl font-black">{ind.proof.name}</h3>
-              {ind.proof.tag && (
-                <span className="rounded-full border border-amber-400/30 bg-amber-400/15 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-amber-400">
-                  {ind.proof.tag}
-                </span>
-              )}
-            </div>
-            <p className="text-sm font-bold tracking-wide text-zinc-500">{ind.proof.location}</p>
-            <p className="mt-4 text-lg leading-relaxed text-zinc-400">{ind.proof.body}</p>
-            <div className="mt-6 flex flex-wrap gap-6 text-sm font-bold tracking-wide">
-              {ind.proof.url && (
-                <a href={ind.proof.url} target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300">
-                  Visit {ind.proof.url.replace(/^https?:\/\//, "")} →
-                </a>
-              )}
-              <Link href="/clients" className="text-zinc-300 hover:text-white">
+          <div className="mx-auto max-w-4xl">
+            <ProofCard
+              client={ind.proof.name}
+              tag={ind.proof.tag}
+              location={ind.proof.location}
+              body={ind.proof.body}
+              href={ind.proof.url}
+            />
+            <div className="mt-5 text-center">
+              <Link href="/clients" className="text-sm font-bold tracking-wide text-zinc-300 hover:text-white">
                 See all clients →
               </Link>
             </div>
