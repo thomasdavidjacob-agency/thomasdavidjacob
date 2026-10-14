@@ -4,10 +4,14 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-import { posts, getPost } from '../../../lib/blog'
+import { getPosts, getPost, getSeriesPosts } from '../../../lib/blog'
+
+// Drip posts go live by date. Slugs not yet published 404 until their day,
+// then render on demand; pages refresh hourly so the series list stays current.
+export const revalidate = 3600
 
 export function generateStaticParams() {
-  return posts.map((post) => ({ slug: post.slug }))
+  return getPosts().map((post) => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({
@@ -42,7 +46,8 @@ export default async function BlogPostPage({
   const post = getPost(slug)
   if (!post) notFound()
 
-  const otherPosts = posts.filter((p) => p.slug !== slug).slice(0, 3)
+  const otherPosts = getPosts().filter((p) => p.slug !== slug).slice(0, 3)
+  const seriesPosts = post.series ? getSeriesPosts(post.series) : []
 
   return (
     <div className="min-h-screen bg-[#0a0a0a]">
@@ -78,7 +83,12 @@ export default async function BlogPostPage({
               {post.title}
             </h1>
             <div className="flex items-center gap-4 text-zinc-400 text-sm">
-              <span>{post.author}</span>
+              <span>
+                {post.author}
+                {post.authorTitle && (
+                  <span className="text-amber-400/90"> · {post.authorTitle}</span>
+                )}
+              </span>
             </div>
           </div>
         </div>
@@ -107,6 +117,30 @@ export default async function BlogPostPage({
           </div>
         </div>
       </section>
+
+      {/* Series index: only posts already published */}
+      {seriesPosts.length > 1 && (
+        <section className="pb-4 px-6">
+          <div className="max-w-4xl mx-auto border border-zinc-800 rounded-2xl p-8 bg-zinc-900/40">
+            <p className="text-amber-400 text-xs font-bold tracking-[0.2em] uppercase mb-5">
+              AI for the Trades Series
+            </p>
+            <ol className="space-y-2 list-decimal pl-6 text-zinc-400">
+              {seriesPosts.map((p) => (
+                <li key={p.slug}>
+                  {p.slug === slug ? (
+                    <span className="text-white font-bold">{p.title}</span>
+                  ) : (
+                    <Link href={`/blog/${p.slug}`} className="hover:text-amber-400 transition-colors">
+                      {p.title}
+                    </Link>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="py-16 px-6">

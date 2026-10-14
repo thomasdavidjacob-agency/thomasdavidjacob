@@ -1,10 +1,13 @@
 import type { MetadataRoute } from 'next'
-import { posts } from '../lib/blog'
+import { getPosts } from '../lib/blog'
 import { studioServices } from '../lib/services'
 import { INDUSTRIES } from '../lib/industries'
 import { pageVerticals } from '../lib/verticals'
 
 const BASE_URL = 'https://thomasdavidjacob.com'
+
+// Drip posts go live by date; regenerate hourly so new posts are listed.
+export const revalidate = 3600
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -35,7 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // One entry per blog post, generated from the posts array so new posts are
   // included automatically. lastModified uses each post's publish date.
-  const postEntries: MetadataRoute.Sitemap = posts.map((post) => {
+  const postEntries: MetadataRoute.Sitemap = getPosts().map((post) => {
     const parsed = new Date(post.date)
     return {
       url: `${BASE_URL}/blog/${post.slug}`,

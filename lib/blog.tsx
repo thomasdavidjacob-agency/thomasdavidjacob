@@ -1,4 +1,5 @@
 ﻿import React from 'react'
+import { tradesPosts } from './blog-trades'
 
 export interface BlogPost {
   slug: string
@@ -10,9 +11,13 @@ export interface BlogPost {
   excerpt: string
   heroImage: string
   content: React.ReactNode
+  /** YYYY-MM-DD (Pacific). Drip posts stay hidden until this date. */
+  publishDate?: string
+  authorTitle?: string
+  series?: 'trades'
 }
 
-export const posts: BlogPost[] = [
+const archivePosts: BlogPost[] = [
   {
     slug: 'ai-search-vs-google-rankings-do-you-need-both',
     title: 'Does Ranking in ChatGPT Matter If You Already Rank on Google?',
@@ -5863,6 +5868,29 @@ export const posts: BlogPost[] = [
   },
 ]
 
+// Drip posts publish by date, so these are computed per call (never cached at
+// module load): the blog pages revalidate hourly and pick up each new day.
+function todayPacific(): string {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date())
+}
+
+function isPublished(post: BlogPost, today: string): boolean {
+  return !post.publishDate || post.publishDate <= today
+}
+
+/** Every live post, newest first: published drip posts lead, then the archive. */
+export function getPosts(): BlogPost[] {
+  const today = todayPacific()
+  const drip = tradesPosts.filter((p) => isPublished(p, today)).reverse()
+  return [...drip, ...archivePosts]
+}
+
 export function getPost(slug: string): BlogPost | undefined {
-  return posts.find((p) => p.slug === slug)
+  return getPosts().find((p) => p.slug === slug)
+}
+
+/** Live posts in a series, oldest first (reading order). */
+export function getSeriesPosts(series: NonNullable<BlogPost['series']>): BlogPost[] {
+  const today = todayPacific()
+  return tradesPosts.filter((p) => p.series === series && isPublished(p, today))
 }

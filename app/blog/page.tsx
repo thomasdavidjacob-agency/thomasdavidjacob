@@ -3,7 +3,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { posts } from '../../lib/blog'
+import { getPosts } from '../../lib/blog'
+
+// Drip posts go live by date; re-render hourly so each day's post appears.
+export const revalidate = 3600
 
 export const metadata: Metadata = {
   title: 'Blog | Thomas David Jacob — Oregon City & Portland Digital Marketing',
@@ -21,6 +24,7 @@ export const metadata: Metadata = {
 }
 
 export default function BlogPage() {
+  const posts = getPosts()
   const featured = posts[0]
   const rest = posts.slice(1)
 
