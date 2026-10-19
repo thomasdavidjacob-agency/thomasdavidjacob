@@ -13,9 +13,10 @@ import { liveVerticals, verticalHref } from '@/lib/verticals'
 import { clients } from '@/lib/clients'
 
 export const metadata: Metadata = {
-  title: 'AI-Powered Creative Agency | SEO, AI Search & Web Design | Oregon City, OR',
+  alternates: { canonical: '/' },
+  title: 'AI Search, SEO & Web Design Agency | Oregon City, OR',
   description:
-    'Thomas+David+Jacob is a full-service creative agency in Oregon City, OR. Websites, SEO, AI search visibility, and AI systems that get businesses ranked on Google and recommended by ChatGPT, Gemini, Claude, Perplexity, and Copilot.',
+    'Oregon City creative agency building websites, SEO, and AI systems that help businesses rank on Google and get recommended by ChatGPT, Gemini, and more.',
 }
 
 const PLATFORMS = ['Google', 'ChatGPT', 'Gemini', 'Claude', 'Perplexity', 'Copilot']

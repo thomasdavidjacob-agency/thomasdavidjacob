@@ -7,6 +7,7 @@ import BookCallButton from '../components/BookCallButton'
 import { BOOKING_URL } from '@/lib/booking'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/contact' },
   title: 'Contact Us | Thomas David Jacob | Oregon City, OR',
   description:
     'Get in touch with Thomas+David+Jacob. Serving all of the Portland metro — Oregon City, West Linn, Lake Oswego, Beaverton, Milwaukie & across Oregon.',

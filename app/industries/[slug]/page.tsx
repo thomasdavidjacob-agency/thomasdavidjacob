@@ -10,10 +10,17 @@ import Footer from '../../components/Footer'
 import ProofCard from '@/components/ProofCard'
 import { getVertical, pageVerticals } from '@/lib/verticals'
 import { BASE_URL, ORG_ID, organization } from '@/lib/entity'
+import { getSeriesPosts } from '@/lib/blog'
 
 type Props = { params: Promise<{ slug: string }> }
 
 export const dynamicParams = false
+
+// Guides list pulls drip posts by publish date; refresh hourly to pick up new ones.
+export const revalidate = 3600
+
+// Verticals with a blog series to feature as guides.
+const GUIDE_SERIES: Record<string, 'trades'> = { 'home-services': 'trades' }
 
 export function generateStaticParams() {
   return pageVerticals.map((v) => ({ slug: v.slug }))
@@ -42,6 +49,10 @@ export default async function IndustryPage({ params }: Props) {
   if (!v?.page) notFound()
   const p = v.page
   const [before, after] = p.headline.split(p.accent)
+
+  // Pillar (first post) plus the five newest, all already published.
+  const series = GUIDE_SERIES[v.slug] ? getSeriesPosts(GUIDE_SERIES[v.slug]) : []
+  const guides = series.length ? [series[0], ...series.slice(1).reverse().slice(0, 5)] : []
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -157,6 +168,30 @@ export default async function IndustryPage({ params }: Props) {
             <div className="grid gap-6">
               {p.proof.map((w) => (
                 <ProofCard key={w.client} client={w.client} body={w.note} href={w.href} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── Guides: the vertical's blog series ── */}
+      {guides.length > 0 && (
+        <section className="px-6 pt-20">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-black mb-3">Guides for the Trades</h2>
+            <p className="text-zinc-400 max-w-2xl leading-relaxed mb-8">
+              Practical, no-hype articles on using AI to answer every call, win more estimates, and get found on Google and in AI answers.
+            </p>
+            <div className="grid gap-6 md:grid-cols-2">
+              {guides.map((g) => (
+                <Link
+                  key={g.slug}
+                  href={`/blog/${g.slug}`}
+                  className="group rounded-2xl border border-zinc-800 bg-[#0d0d0d] p-7 hover:border-amber-400/30 transition-colors"
+                >
+                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">{g.title}</h3>
+                  <p className="text-zinc-400 text-sm leading-relaxed line-clamp-3">{g.excerpt}</p>
+                </Link>
               ))}
             </div>
           </div>

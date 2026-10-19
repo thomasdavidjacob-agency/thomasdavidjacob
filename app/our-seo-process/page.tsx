@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/our-seo-process' },
   title: 'Our SEO Process | Rank Higher in Oregon | Thomas David Jacob',
   description:
     'Our proven SEO methodology helps Oregon businesses rank on Google. Serving Portland metro, Oregon City, Lake Oswego, Wilsonville & beyond.',

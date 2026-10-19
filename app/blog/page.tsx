@@ -9,17 +9,19 @@ import { getPosts } from '../../lib/blog'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Blog | Thomas David Jacob — Oregon City & Portland Digital Marketing',
+  alternates: { canonical: '/blog' },
+  title: 'Small Business AI, SEO & Marketing Blog | Oregon City',
   description:
-    'Practical web design, SEO, and digital marketing insights for small businesses in Oregon City, Portland, and the greater metro area. Written by the Thomas David Jacob team.',
+    'Practical AI, SEO, and web marketing advice for small businesses and trades in Oregon City, Portland, and across the Portland metro area.',
   openGraph: {
-    title: 'Blog | Thomas David Jacob — Oregon City & Portland Digital Marketing',
+    title: 'Small Business AI, SEO & Marketing Blog | Oregon City',
     description:
-      'Practical web design, SEO, and digital marketing insights for small businesses in Oregon City, Portland, and the greater metro area.',
-    url: 'https://thomasdavidjacob.com/blog',
+      'Practical AI, SEO, and web marketing advice for small businesses and trades in Oregon City, Portland, and across the metro.',
+    url: '/blog',
     siteName: 'Thomas David Jacob',
     locale: 'en_US',
     type: 'website',
+    images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'thomas+david+jacob' }],
   },
 }
 

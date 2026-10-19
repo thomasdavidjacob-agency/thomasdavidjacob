@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/about' },
   title: 'About Us | Thomas David Jacob | Oregon Digital Agency',
   description:
     'Learn about Thomas+David+Jacob — an Oregon City digital agency helping local businesses across the Portland metro and statewide grow online since 2020.',

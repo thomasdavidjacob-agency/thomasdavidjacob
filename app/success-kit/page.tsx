@@ -5,6 +5,7 @@ import { INDUSTRIES, INDUSTRY_GROUPS } from "@/lib/industries";
 import { DEALKIT } from "@/lib/success-kit";
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/success-kit' },
   title: "Industries We Serve | Websites & Lead Systems by TDJ",
   description:
     "TDJ builds and runs websites and lead systems for plumbers, electricians, HVAC, roofers, restaurants, event pros, Realtors and loan officers across Oregon.",

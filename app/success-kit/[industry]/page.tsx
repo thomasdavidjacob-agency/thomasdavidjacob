@@ -15,10 +15,14 @@ import {
   cardClass,
 } from "@/components/tdj-ui";
 import { INDUSTRIES, MONTHLY_INCLUDES, SHOW_INDUSTRY_PRICING, getIndustry } from "@/lib/industries";
+import { getPost } from "@/lib/blog";
 
 type Params = { industry: string };
 
 export const dynamicParams = false;
+
+// "Go Deeper" can list drip blog posts; refresh hourly so each appears on its day.
+export const revalidate = 3600;
 
 export function generateStaticParams(): Params[] {
   return INDUSTRIES.map((i) => ({ industry: i.slug }));
@@ -27,7 +31,11 @@ export function generateStaticParams(): Params[] {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const ind = getIndustry((await params).industry);
   if (!ind) return {};
-  return { title: ind.seoTitle, description: ind.seoDescription };
+  return {
+    title: ind.seoTitle,
+    description: ind.seoDescription,
+    alternates: { canonical: `/success-kit/${ind.slug}` },
+  };
 }
 
 const usd = (n: number) => `$${n.toLocaleString("en-US")}`;
@@ -43,6 +51,8 @@ export default async function IndustryPage({ params }: { params: Promise<Params>
   if (!ind) notFound();
   const cta = ind.cta ?? "Get a Free Demo";
   const steps = ind.steps ?? DEFAULT_STEPS;
+  // Drop blog links whose post isn't live yet (drip posts 404 before their date).
+  const articles = ind.articles?.filter((a) => !a.href.startsWith("/blog/") || getPost(a.href.slice(6)));
 
   // Service + FAQPage structured data, generated from the same entry the page renders.
   const jsonLd = {
@@ -242,11 +252,11 @@ export default async function IndustryPage({ params }: { params: Promise<Params>
       <Section narrow>
         <SectionHeader eyebrow="FAQ" title="Questions" />
         <FaqList items={ind.faq} />
-        {ind.articles && (
+        {articles && articles.length > 0 && (
           <div className="mt-16">
             <p className="mb-6 text-center text-xs font-bold uppercase tracking-[0.35em] text-amber-400">Go Deeper</p>
             <ul className="grid gap-4 md:grid-cols-2">
-              {ind.articles.map((a) => (
+              {articles.map((a) => (
                 <li key={a.href}>
                   <Link
                     href={a.href}

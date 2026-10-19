@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import { studioServices } from '../../lib/services'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/services' },
   title: 'Web Design, SEO & Marketing Services | Oregon City',
   description:
     'AI-powered web design, SEO & digital marketing in Oregon City. Serving Portland, Beaverton, Hillsboro, Milwaukie & across Oregon.',
