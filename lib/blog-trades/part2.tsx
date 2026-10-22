@@ -618,7 +618,7 @@ export const tradesPart2: BlogPost[] = [
         </p>
         <h3>A seasonal idea bank</h3>
         <p>
-          Ask for a list of twelve post ideas for the coming month, based on your services and the Pacific Northwest seasons. Then choose the ones you can back up with real photos. We map the full year in an upcoming calendar post, and our existing guide to <a href="/blog/ai-tools-oregon-small-business">AI tools for Oregon small businesses</a> lists tools to consider.
+          Ask for a list of twelve post ideas for the coming month, based on your services and the Pacific Northwest seasons. Then choose the ones you can back up with real photos. We map the full year in an upcoming calendar post, and our existing guide to <a href="/blog/most-powerful-ai-automations-portland-metro">roundup of AI automations for Portland metro businesses</a> covers tools worth considering.
         </p>
 
         <h2>What Should a Human Always Check?</h2>
@@ -1089,7 +1089,7 @@ export const tradesPart2: BlogPost[] = [
 
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/ai-tools-oregon-small-business">AI Tools for Oregon Small Business</a></li>
+          <li><a href="/blog/most-powerful-ai-automations-portland-metro">5 Powerful AI Automations for Portland Metro Businesses</a></li>
           <li><a href="/blog/more-five-star-reviews-trades-ai">Getting More Five-Star Reviews After Every Service Call, Automatically</a></li>
           <li><a href="/blog/ai-nephew-setup-costing-oregon-businesses">What an Unmanaged AI Setup Can Cost an Oregon Business</a></li>
         </ul>
