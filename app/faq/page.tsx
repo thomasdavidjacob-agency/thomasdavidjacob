@@ -6,6 +6,7 @@ import AccordionFAQ from '../components/AccordionFAQ'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/faq' },
   title: 'FAQ | Oregon Web Design & SEO Agency | Thomas David Jacob',
   description:
     'Common questions about web design, SEO & marketing for Oregon businesses. Serving Oregon City, Portland metro, Beaverton, West Linn & statewide.',

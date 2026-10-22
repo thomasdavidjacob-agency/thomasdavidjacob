@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import { clients } from '@/lib/clients'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/clients' },
   title: 'Our Clients | Thomas+David+Jacob — Oregon Web Design & SEO',
   description:
     'Oregon businesses we build for — web design, local SEO, and AI systems for clinics, restaurants, and service companies across Portland Metro and beyond.',

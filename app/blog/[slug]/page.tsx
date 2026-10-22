@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import { getPosts, getPost, getSeriesPosts } from '../../../lib/blog'
+import { BASE_URL, ORG_ID } from '../../../lib/entity'
 
 // Drip posts go live by date. Slugs not yet published 404 until their day,
 // then render on demand; pages refresh hourly so the series list stays current.
@@ -25,6 +26,7 @@ export async function generateMetadata({
   return {
     title: post.metaTitle,
     description: post.metaDescription,
+    alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
       title: post.metaTitle,
       description: post.metaDescription,
@@ -46,11 +48,35 @@ export default async function BlogPostPage({
   const post = getPost(slug)
   if (!post) notFound()
 
+  const published = post.publishDate ?? new Date(post.date).toISOString().slice(0, 10)
+  // Author is the agency for every post, Winston's included: the byline is a
+  // house persona, and marking it up as a Person would claim a human author.
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.metaDescription,
+    image: `${BASE_URL}${post.heroImage}`,
+    datePublished: published,
+    url: `${BASE_URL}/blog/${post.slug}`,
+    mainEntityOfPage: `${BASE_URL}/blog/${post.slug}`,
+    author: { '@type': 'Organization', '@id': ORG_ID, name: 'Thomas+David+Jacob', url: BASE_URL },
+    publisher: {
+      '@type': 'Organization',
+      '@id': ORG_ID,
+      name: 'Thomas+David+Jacob',
+      url: BASE_URL,
+      logo: { '@type': 'ImageObject', url: `${BASE_URL}/images/Main_LogoWhite.png` },
+    },
+    isPartOf: { '@id': `${BASE_URL}/#website` },
+  }
+
   const otherPosts = getPosts().filter((p) => p.slug !== slug).slice(0, 3)
   const seriesPosts = post.series ? getSeriesPosts(post.series) : []
 
   return (
     <div className="min-h-screen bg-[#0a0a0a]">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navbar />
 
       {/* Hero */}

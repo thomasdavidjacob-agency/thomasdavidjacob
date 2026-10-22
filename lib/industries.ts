@@ -95,6 +95,15 @@ export const INDUSTRIES: Industry[] = [
     worksWith: ["Jobber", "Housecall Pro", "ServiceTitan", "Google Business Profile"],
     pricing: { setup: 997, monthly: 297 },
     faq: tradeFaq("plumbing", HOME_TOOLS),
+    // Trades AI series posts; the page hides any not yet published.
+    articles: [
+      { title: "AI for Plumbers, Electricians, and HVAC Companies: The Practical Guide", href: "/blog/ai-for-plumbers-electricians-hvac-guide" },
+      { title: "Every Missed Call Is a Job for Your Competitor: AI Call Answering for the Trades", href: "/blog/missed-calls-cost-trades-business-ai-answering" },
+      { title: "What an AI Receptionist Can and Can\'t Handle for a Plumbing Company", href: "/blog/ai-receptionist-plumbing-company" },
+      { title: "After-Hours Emergencies: How AI Triage Separates a Burst Pipe from a Dripping Faucet", href: "/blog/ai-after-hours-emergency-triage-plumbers" },
+      { title: "Getting More Five-Star Reviews After Every Service Call, Automatically", href: "/blog/more-five-star-reviews-trades-ai" },
+      { title: "The Money Sitting in Unsold Estimates: AI Follow-Up for Contractors", href: "/blog/ai-follow-up-unsold-estimates-contractors" },
+    ],
     roles: ["Owner", "Office manager", "Other"],
   },
   {
@@ -126,6 +135,15 @@ export const INDUSTRIES: Industry[] = [
     worksWith: ["Jobber", "Housecall Pro", "ServiceTitan", "Google Business Profile"],
     pricing: { setup: 997, monthly: 297 },
     faq: tradeFaq("electrical", HOME_TOOLS),
+    // Trades AI series posts; the page hides any not yet published.
+    articles: [
+      { title: "AI for Plumbers, Electricians, and HVAC Companies: The Practical Guide", href: "/blog/ai-for-plumbers-electricians-hvac-guide" },
+      { title: "Electricians: Using AI to Book More Panel Upgrades and EV Charger Installs", href: "/blog/ai-electricians-panel-upgrades-ev-chargers" },
+      { title: "Faster Quotes Win Jobs: Using AI to Draft Estimates for Contractors", href: "/blog/ai-faster-estimates-trades" },
+      { title: "Google Business Profile for Plumbers, Electricians, and HVAC: What AI Can Keep Updated", href: "/blog/google-business-profile-trades-ai" },
+      { title: "When a Homeowner Asks ChatGPT for a Plumber, Who Gets Named?", href: "/blog/chatgpt-recommend-plumber-electrician-hvac" },
+      { title: "What a Trades Website Needs to Turn Visitors into Calls", href: "/blog/trades-website-that-turns-visitors-into-calls" },
+    ],
     roles: ["Owner", "Office manager", "Other"],
   },
   {
@@ -134,7 +152,7 @@ export const INDUSTRIES: Industry[] = [
     group: "Home services",
     seoTitle: "Websites & Lead Systems for HVAC Companies | TDJ",
     seoDescription:
-      "TDJ builds and runs HVAC websites with repair and install requests, maintenance plan signups, seasonal tune-up campaigns, missed-call text-back and review requests.",
+      "TDJ builds and runs HVAC websites with repair and install requests, maintenance plan signups, tune-up campaigns, missed-call text-back and review requests.",
     eyebrow: "For heating & cooling companies",
     headline: "Be the first call when the AC quits.",
     accent: "first call",
@@ -157,6 +175,15 @@ export const INDUSTRIES: Industry[] = [
     worksWith: ["ServiceTitan", "Housecall Pro", "Jobber", "Google Business Profile"],
     pricing: { setup: 997, monthly: 297 },
     faq: tradeFaq("HVAC", "ServiceTitan, Housecall Pro or Jobber"),
+    // Trades AI series posts; the page hides any not yet published.
+    articles: [
+      { title: "AI for Plumbers, Electricians, and HVAC Companies: The Practical Guide", href: "/blog/ai-for-plumbers-electricians-hvac-guide" },
+      { title: "How HVAC Companies Use AI to Handle the First Heat Wave and the First Cold Snap", href: "/blog/ai-hvac-heat-wave-cold-snap-call-surge" },
+      { title: "Filling the Shoulder Season: AI Reminders for HVAC Maintenance Plans", href: "/blog/hvac-maintenance-plan-renewals-ai" },
+      { title: "Heat Pump Questions Are Everywhere in Oregon. Here's How to Answer Them Online", href: "/blog/heat-pump-questions-oregon-hvac-ai" },
+      { title: "From Repair Call to Replacement Job, Honestly: AI Follow-Up for Water Heaters and Furnaces", href: "/blog/repair-to-replacement-follow-up-ai" },
+      { title: "AI Scheduling and Dispatch for Small Trade Shops: What's Real Today", href: "/blog/ai-scheduling-dispatch-small-trade-shops" },
+    ],
     roles: ["Owner", "Office manager", "Other"],
   },
   {
@@ -188,6 +215,15 @@ export const INDUSTRIES: Industry[] = [
     worksWith: ["JobNimbus", "AccuLynx", "Jobber", "Google Business Profile"],
     pricing: { setup: 997, monthly: 297 },
     faq: tradeFaq("roofing", "JobNimbus, AccuLynx or Jobber"),
+    // Trades AI series posts; the page hides any not yet published.
+    articles: [
+      { title: "AI for Plumbers, Electricians, and HVAC Companies: The Practical Guide", href: "/blog/ai-for-plumbers-electricians-hvac-guide" },
+      { title: "Beyond Plumbing and HVAC: AI for Roofers, Garage Door Techs, and Other Home Service Pros", href: "/blog/ai-roofers-garage-door-home-service-pros" },
+      { title: "Turning Technician Job Photos and Notes into Marketing with AI", href: "/blog/ai-technician-job-photos-notes-content" },
+      { title: "Service Area Pages That Actually Rank: Local SEO for Trades Across Portland Metro", href: "/blog/service-area-pages-trades-local-seo" },
+      { title: "Getting More Five-Star Reviews After Every Service Call, Automatically", href: "/blog/more-five-star-reviews-trades-ai" },
+      { title: "The Money Sitting in Unsold Estimates: AI Follow-Up for Contractors", href: "/blog/ai-follow-up-unsold-estimates-contractors" },
+    ],
     roles: ["Owner", "Sales manager", "Office manager", "Other"],
   },
   {

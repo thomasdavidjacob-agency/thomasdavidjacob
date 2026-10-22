@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/ai-systems' },
   title: 'AI Systems Architecture | Business Automation | Oregon',
   description:
     'Thomas David Jacob designs and implements AI systems that automate Oregon businesses, generate leads, and scale revenue. Serving Portland, Oregon City and beyond.',

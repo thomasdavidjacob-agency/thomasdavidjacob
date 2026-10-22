@@ -22,6 +22,18 @@ const logoFace = Fira_Sans_Condensed({
 });
 
 export const metadata: Metadata = {
+  // Lets every page use relative canonical/OG URLs. Each page sets its own
+  // alternates.canonical; a canonical here would be inherited verbatim.
+  metadataBase: new URL('https://thomasdavidjacob.com'),
+  // Default share card. A page that sets its own openGraph replaces this
+  // whole object, so it must list its own images.
+  openGraph: {
+    siteName: 'Thomas David Jacob',
+    locale: 'en_US',
+    type: 'website',
+    images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'thomas+david+jacob' }],
+  },
+  twitter: { card: 'summary_large_image', images: ['/og-default.png'] },
   title: 'Thomas David Jacob | Digital Agency Oregon City, OR',
   description:
     'Full-service digital creative agency in Oregon City, OR — AI-powered web design, SEO & marketing for the Portland metro and Oregon statewide.',

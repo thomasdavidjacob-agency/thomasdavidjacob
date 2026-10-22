@@ -14,6 +14,7 @@ import {
 import { DEALKIT_PLANS, DEALKIT_TEMPLATES, FOUNDING, TEAM_EXTRA_SEAT } from "@/lib/success-kit";
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/success-kit/dealkit' },
   title: "DealKit | Branded Lead Apps for Realtors & Loan Officers | TDJ",
   description:
     "DealKit gives Realtors, loan officers and brokerages branded lead pages, calculators and funnels with disclosures built in. Founding member pricing available.",
