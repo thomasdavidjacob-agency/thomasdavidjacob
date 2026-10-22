@@ -748,7 +748,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>If You&apos;re Not Sure Where to Start</h2>
         <p>
-          Most owners don&apos;t have the in-house expertise to know which tasks are safe to automate and which ones need a person, and guessing wrong in either direction is expensive &mdash; either in wasted labor or in mistakes that reach a customer. That&apos;s a real skills gap, and it&apos;s exactly why <a href="/blog/ai-skills-gap-businesses-need-outside-help">most businesses benefit from outside help</a> building this out correctly rather than trial-and-erroring it themselves.
+          Most owners don&apos;t have the in-house expertise to know which tasks are safe to automate and which ones need a person, and guessing wrong in either direction is expensive &mdash; either in wasted labor or in mistakes that reach a customer. That&apos;s a real skills gap, and it&apos;s exactly why <a href="/blog/why-oregon-businesses-need-ai-integration-expert">most businesses benefit from outside help</a> building this out correctly rather than trial-and-erroring it themselves.
         </p>
         <p>
           This conversation connects directly to the bigger picture of why small businesses are, if anything, better positioned than large ones to use AI well &mdash; see <a href="/blog/small-business-answer-to-ai-doom">why small business is AI&apos;s best counter-argument to the doom story</a> for that case. It also ties into the honest reckoning with fear this whole series starts from: <a href="/blog/will-ai-destroy-the-world">Will AI Destroy the World? What Business Owners Should Actually Worry About</a>.
@@ -901,7 +901,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>What This Looks Like Done Well</h2>
         <p>
-          Done well, this always includes a human who speaks the language, understands the community, and reviews the work before it goes out &mdash; AI drafts, a real person confirms it&apos;s accurate and respectful. Done poorly, it&apos;s an unreviewed machine translation embarrassing the organization it was supposed to help. The difference isn&apos;t the technology. It&apos;s whether someone who cares about getting it right is in the loop, which is the same principle covered in <a href="/blog/how-to-prepare-business-for-ai-era">how to prepare your business for the AI era</a>.
+          Done well, this always includes a human who speaks the language, understands the community, and reviews the work before it goes out &mdash; AI drafts, a real person confirms it&apos;s accurate and respectful. Done poorly, it&apos;s an unreviewed machine translation embarrassing the organization it was supposed to help. The difference isn&apos;t the technology. It&apos;s whether someone who cares about getting it right is in the loop, which is the same principle covered in <a href="/blog/signs-business-ready-for-ai">how to prepare your business for the AI era</a>.
         </p>
         <p>
           At Thomas+David+Jacob, this kind of work &mdash; helping a local business or organization actually get found and understood by its real community &mdash; is core to what we do. If that sounds like your organization, our <a href="/services/ai-search-visibility">AI search visibility</a> and <a href="/services/social-media-content-engine">content services</a> are built with exactly this in mind, or <a href="/contact">reach out</a> to talk about your specific situation.
@@ -974,7 +974,7 @@ const archivePosts: BlogPost[] = [
           <li>Does your team know which AI tools are approved and what they&apos;re allowed to be used for?</li>
         </ul>
         <p>
-          If you can answer yes to all six, you&apos;re already ahead of most businesses experimenting with AI on their own. If you can&apos;t, that&apos;s not a reason to abandon AI &mdash; it&apos;s a reason to fix the gap, which is exactly the kind of foundational work covered in <a href="/blog/how-to-prepare-business-for-ai-era">how to prepare your business for the AI era</a> and in the honest assessment at <a href="/blog/what-ai-can-and-cannot-do-business-2026">what AI can and cannot do for your business</a>.
+          If you can answer yes to all six, you&apos;re already ahead of most businesses experimenting with AI on their own. If you can&apos;t, that&apos;s not a reason to abandon AI &mdash; it&apos;s a reason to fix the gap, which is exactly the kind of foundational work covered in <a href="/blog/signs-business-ready-for-ai">how to prepare your business for the AI era</a> and in the honest assessment at <a href="/blog/what-ai-can-and-cannot-do-business-2026">what AI can and cannot do for your business</a>.
         </p>
 
         <h3>Do these risks apply the same way to every AI tool?</h3>
@@ -1045,7 +1045,7 @@ const archivePosts: BlogPost[] = [
           It&apos;s not just marketing. The same pattern holds in hiring decisions &mdash; see <a href="/blog/ai-automation-vs-hiring-oregon-business">our look at automation vs. hiring</a> &mdash; and in staffing itself, covered in <a href="/blog/ai-jobs-small-business-oregon">AI and jobs: what actually changes for small business</a>. It shows up in who gets to reach underserved communities well, covered in <a href="/blog/ai-helps-communities-local-economy-oregon">how AI helps communities, not just companies</a>. Each of those is a small, specific example of the same larger trend: capability that used to require money now mostly requires knowing what you&apos;re doing.
         </p>
         <p>
-          That last part matters. Access to the tools isn&apos;t the same as knowing how to use them well, which is exactly why <a href="/blog/ai-skills-gap-businesses-need-outside-help">most businesses still need outside help to integrate AI</a> correctly rather than assuming the tools alone will do the work.
+          That last part matters. Access to the tools isn&apos;t the same as knowing how to use them well, which is exactly why <a href="/blog/why-oregon-businesses-need-ai-integration-expert">most businesses still need outside help to integrate AI</a> correctly rather than assuming the tools alone will do the work.
         </p>
 
         <h2>Why It&apos;s Easy to Miss This If You Only Read the Headlines</h2>
@@ -1063,7 +1063,7 @@ const archivePosts: BlogPost[] = [
           If the doom story were right that AI mainly concentrates power in a shrinking number of giant companies, small businesses adopting AI should be getting squeezed out. Instead, in Oregon City and across the Portland metro, we&apos;re watching the opposite: solo operators and small teams building capabilities that used to be exclusive to their biggest competitors. That&apos;s not proof AI is harmless. It&apos;s proof the simplest version of the doom story leaves out exactly the businesses it should be easiest to check against &mdash; the small ones, doing the work every day.
         </p>
         <p>
-          This post is part of our series on AI and small business reality. Go back to the hub at <a href="/blog/will-ai-destroy-the-world">Will AI Destroy the World? What Business Owners Should Actually Worry About</a>, or see how to build AI into your business honestly in <a href="/blog/how-to-prepare-business-for-ai-era">how to prepare your business for the AI era</a>. If you want help building the kind of AI infrastructure a small business needs to compete, take a look at <a href="/ai-systems">our AI systems work</a> or <a href="/contact">reach out</a> directly.
+          This post is part of our series on AI and small business reality. Go back to the hub at <a href="/blog/will-ai-destroy-the-world">Will AI Destroy the World? What Business Owners Should Actually Worry About</a>, or see how to build AI into your business honestly in <a href="/blog/signs-business-ready-for-ai">how to prepare your business for the AI era</a>. If you want help building the kind of AI infrastructure a small business needs to compete, take a look at <a href="/ai-systems">our AI systems work</a> or <a href="/contact">reach out</a> directly.
         </p>
       </>
     ),
@@ -1768,7 +1768,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'google-business-profile-ai-management-small-business',
     title: 'Let AI Run Your Google Business Profile',
-    metaTitle: 'AI Google Business Profile Management | Oregon Small Business',
+    metaTitle: 'AI Google Business Profile Management for Small Business',
     metaDescription:
       'Your Google Business Profile is your new homepage. Learn how AI keeps it posting, answering, and ranking so local customers find you first.',
     date: 'July 29, 2026',
@@ -2128,7 +2128,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'website-is-now-the-least-important-thing-we-build',
     title: 'The Website Is the Least Important Thing We Build',
-    metaTitle: 'Why AI Systems Matter More Than Websites | Oregon City Agency',
+    metaTitle: 'Why AI Systems Matter More Than Websites | Oregon City',
     metaDescription:
       'Websites can be built in hours with AI. The real competitive advantage for Oregon businesses is the AI system running behind the site — automating, converting, and scaling.',
     date: 'June 30, 2026',
@@ -2204,7 +2204,6 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/why-oregon-business-needs-ai-system-not-website">Why Your Oregon Business Needs an AI System, Not Just a Better Website</a></li>
           <li><a href="/blog/ai-multiple-revenue-channels-oregon-businesses">Building Multiple Revenue Channels with AI</a></li>
           <li><a href="/blog/90-day-ai-system-rollout-oregon-small-businesses">The 90-Day AI System Rollout</a></li>
         </ul>
@@ -2214,7 +2213,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'restaurants-escaping-delivery-app-commissions-oregon',
     title: 'How Oregon Restaurants Are Escaping Grubhub and Uber Eats Commissions',
-    metaTitle: 'Escape Grubhub & Uber Eats Commissions | Oregon Restaurant AI Systems',
+    metaTitle: 'Escape Grubhub & Uber Eats Fees | Oregon Restaurants',
     metaDescription:
       'Oregon restaurants are keeping 20–30% more per delivery order by switching to direct ordering systems. Here\'s how the shift works and what platforms make it possible.',
     date: 'June 28, 2026',
@@ -2303,7 +2302,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'true-cost-of-grubhub-uber-eats-oregon-restaurants',
     title: 'The True Cost of Grubhub and Uber Eats: What Oregon Restaurant Owners Need to See',
-    metaTitle: 'True Cost of Grubhub & Uber Eats for Oregon Restaurants | TDJ',
+    metaTitle: 'True Cost of Grubhub & Uber Eats for Oregon Restaurants',
     metaDescription:
       'The commission rate is just the beginning. Here\'s the full picture of what third-party delivery apps are actually costing Oregon restaurants — and what to do about it.',
     date: 'June 25, 2026',
@@ -2392,7 +2391,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'toast-pos-direct-ordering-system-oregon-restaurants',
     title: 'Toast POS and the Direct Ordering Revolution for Oregon Restaurants',
-    metaTitle: 'Toast POS Direct Ordering for Oregon Restaurants | Thomas David Jacob',
+    metaTitle: 'Toast POS Direct Ordering for Oregon Restaurants',
     metaDescription:
       'Toast POS gives Oregon restaurants a complete direct ordering infrastructure — from website ordering to Google integration to loyalty. Here\'s how it works and what it costs.',
     date: 'June 22, 2026',
@@ -2483,7 +2482,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'ai-food-cost-reduction-oregon-restaurants',
     title: 'AI-Powered Food Cost Management: How Oregon Restaurants Are Cutting Waste and Boosting Margins',
-    metaTitle: 'AI Food Cost Reduction for Oregon Restaurants | Thomas David Jacob',
+    metaTitle: 'AI Food Cost Reduction for Oregon Restaurants',
     metaDescription:
       'Food cost is the most controllable expense in a restaurant — and AI inventory systems are giving Oregon restaurants the data to control it. Here\'s how.',
     date: 'June 20, 2026',
@@ -2566,7 +2565,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'ai-staff-scheduling-labor-cost-oregon-businesses',
     title: 'AI Staff Scheduling: How Oregon Businesses Are Cutting Labor Costs Without Cutting Quality',
-    metaTitle: 'AI Staff Scheduling for Oregon Businesses | Cut Labor Costs | TDJ',
+    metaTitle: 'AI Staff Scheduling: Cut Labor Costs | Oregon Businesses',
     metaDescription:
       'Labor is the largest controllable expense for most Oregon service businesses. AI scheduling systems are helping owners cut unnecessary labor costs without sacrificing service quality.',
     date: 'June 18, 2026',
@@ -2635,7 +2634,7 @@ const archivePosts: BlogPost[] = [
         <h2>Related Reading</h2>
         <ul>
           <li><a href="/blog/ai-food-cost-reduction-oregon-restaurants">AI-Powered Food Cost Management</a></li>
-          <li><a href="/blog/ai-automation-replacing-staff-costs-oregon">How AI Automation Is Replacing What Used to Cost Three Salaries</a></li>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">How AI Automation Is Replacing What Used to Cost Three Salaries</a></li>
           <li><a href="/blog/ai-multiple-revenue-channels-oregon-businesses">Building Multiple Revenue Channels with AI</a></li>
         </ul>
       </>
@@ -2713,162 +2712,9 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/ai-automation-replacing-staff-costs-oregon">How AI Automation Is Replacing What Used to Cost Three Salaries</a></li>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">How AI Automation Is Replacing What Used to Cost Three Salaries</a></li>
           <li><a href="/blog/ai-customer-service-systems-oregon-businesses">AI Customer Service Systems</a></li>
           <li><a href="/blog/website-is-now-the-least-important-thing-we-build">The Website Is the Least Important Thing We Build</a></li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    slug: 'why-oregon-business-needs-ai-system-not-website',
-    title: 'Why Your Oregon Business Needs an AI System, Not Just a Better Website',
-    metaTitle: 'AI System vs Website for Oregon Businesses | Thomas David Jacob',
-    metaDescription:
-      'A better website won\'t fix a broken lead follow-up process or a manual scheduling workflow. Oregon businesses need AI systems — the website is just where it starts.',
-    date: 'June 12, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      'We hear it constantly: "We need a new website." Usually, that\'s not actually the problem. The problem is what happens — or doesn\'t happen — after someone fills out the form on the existing website.',
-    heroImage: '/images/hero_blogpost.jpg',
-    content: (
-      <>
-        <p>
-          &ldquo;We need a new website.&rdquo; It&apos;s the most common thing we hear from Oregon business owners when they reach out. And it&apos;s rarely the actual problem.
-        </p>
-        <p>
-          The problem is almost always what happens — or more accurately, what doesn&apos;t happen — after someone engages with the existing website. A lead fills out a form and waits 48 hours for a response. A customer books an appointment and never receives a confirmation. A prospect calls during lunch, goes to voicemail, and calls a competitor.
-        </p>
-        <p>
-          A new website doesn&apos;t fix any of those problems. An AI system does.
-        </p>
-
-        <h2>The Website Is the Entry Point, Not the System</h2>
-        <p>
-          Think of your digital presence like a physical storefront. The website is the front window — it creates the first impression and invites people in. But if you walk in and nobody greets you, the shelves are disorganized, and checkout takes 20 minutes, the beautiful window display is irrelevant. You leave.
-        </p>
-        <p>
-          Oregon businesses with AI systems have built the entire operation that runs behind the window. The moment someone walks through the door — fills out a form, books a call, sends an inquiry — the system responds immediately, qualifies them, routes them to the right next step, and begins a relationship-building sequence. No human required. No leads lost.
-        </p>
-
-        <h2>What Happens to Leads Without an AI System</h2>
-        <p>
-          Studies consistently show that response speed is the single strongest predictor of lead conversion in service businesses. A lead contacted within five minutes of inquiry converts at rates 9–21x higher than a lead contacted after 30 minutes. After an hour, conversion rates drop dramatically. After 24 hours, most leads have moved on.
-        </p>
-        <p>
-          For most Oregon small businesses, this is exactly what&apos;s happening. The owner is working. The front desk is busy. The lead form submission sits in an inbox until someone has time — which is often tomorrow. By then, the prospect has already booked with someone else.
-        </p>
-        <p>
-          An AI system solves this completely. The moment a lead submits a form, they receive a personalized text message within 60 seconds: &ldquo;Hi [name], we got your inquiry about [service]. We&apos;ll have someone reach out within the hour — in the meantime, here&apos;s a quick overview of how we work: [link].&rdquo; The lead is engaged. The relationship is started. The conversion window stays open.
-        </p>
-
-        <h2>The Four Systems Every Oregon Business Needs</h2>
-        <p>
-          When we audit Oregon businesses for AI readiness, we look at four core systems:
-        </p>
-        <p>
-          <strong>Lead capture and response.</strong> Is every lead captured and responded to within minutes — 24/7, including weekends? If not, you&apos;re losing revenue every day.
-        </p>
-        <p>
-          <strong>Appointment and booking automation.</strong> Can customers book, reschedule, and receive reminders without any staff involvement? Every friction point in the booking process reduces conversion.
-        </p>
-        <p>
-          <strong>Follow-up and nurture sequences.</strong> Do cold leads get a 30, 60, and 90-day follow-up automatically? Most Oregon businesses let cold leads die. AI systems keep them warm indefinitely.
-        </p>
-        <p>
-          <strong>Review and referral generation.</strong> Does every completed job or sale trigger an automated review request and referral ask? Businesses with AI-powered review systems generate 3–5x more Google reviews than those without — which directly impacts local SEO and trust.
-        </p>
-
-        <h2>The Website Is Still Important — It Just Isn&apos;t the Destination</h2>
-        <p>
-          We still build high-performance websites for every Oregon client. The website matters — it&apos;s the foundation of your credibility, your SEO, and your first impression. But we build it as the front door of a larger AI-powered system, not as the finished product.
-        </p>
-        <p>
-          If you&apos;re ready to move beyond &ldquo;we need a new website&rdquo; to &ldquo;we need a system that generates revenue,&rdquo; contact Thomas+David+Jacob for a free AI systems audit. We&apos;ll show you exactly where your business is losing leads and revenue right now.
-        </p>
-
-        <hr />
-        <h2>Related Reading</h2>
-        <ul>
-          <li><a href="/blog/website-is-now-the-least-important-thing-we-build">The Website Is the Least Important Thing We Build</a></li>
-          <li><a href="/blog/ai-customer-service-systems-oregon-businesses">AI Customer Service Systems</a></li>
-          <li><a href="/blog/90-day-ai-system-rollout-oregon-small-businesses">The 90-Day AI System Rollout</a></li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    slug: 'ai-automation-replacing-staff-costs-oregon',
-    title: 'How AI Automation Is Replacing What Used to Cost Three Salaries',
-    metaTitle: 'AI Automation Replacing Staff Costs for Oregon Businesses | TDJ',
-    metaDescription:
-      'Oregon businesses are using AI to handle customer intake, scheduling, follow-up, and reporting — tasks that previously required 2–3 full-time employees. Here\'s the breakdown.',
-    date: 'June 10, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      'Three years ago, the tasks AI now handles for a flat monthly fee required a receptionist, a coordinator, and a marketing assistant. Oregon businesses that made the switch early have a permanent cost structure advantage.',
-    heroImage: '/images/hero_blogpost.jpg',
-    content: (
-      <>
-        <p>
-          In 2022, a well-run Oregon service business needed roughly three administrative roles to operate efficiently: a receptionist to handle calls and inquiries, a scheduler or coordinator to manage bookings and follow-ups, and someone to handle basic marketing tasks — emails, review requests, social posts. Combined salary cost: $120,000–$180,000/year before benefits.
-        </p>
-        <p>
-          In 2026, AI systems handle most of what those three people did — for $300–$800/month. The businesses that made this transition early now have a cost structure advantage that compounds every quarter.
-        </p>
-
-        <h2>What AI Actually Handles Now</h2>
-        <p>
-          The tasks that AI automation handles reliably for Oregon businesses today:
-        </p>
-        <p>
-          <strong>Inbound inquiry response.</strong> Every lead form submission, text inquiry, Facebook message, and Google Business Profile chat is answered within 60 seconds — 24 hours a day, 7 days a week. The AI qualifies the lead, answers common questions, and routes the conversation to a human when needed or books directly when appropriate.
-        </p>
-        <p>
-          <strong>Appointment scheduling and reminders.</strong> Customers book online, the system checks availability, confirms the appointment, sends calendar invites, sends SMS reminders 48 hours and 2 hours before, and follows up after to confirm completion. Zero staff involvement required for any step.
-        </p>
-        <p>
-          <strong>Follow-up sequences.</strong> Every prospect who didn&apos;t convert gets a structured follow-up: a check-in at 3 days, a value-add email at 7 days, a case study at 14 days, and a final check-in at 30 days. Cold leads that don&apos;t convert go into a quarterly nurture sequence automatically. Every warm lead stays warm without human attention.
-        </p>
-        <p>
-          <strong>Review generation.</strong> Every completed job triggers an automated text asking for a Google review, with a direct link to the review page. Businesses with this system in place see 300–500% more Google reviews than those without — directly impacting local rankings and trust.
-        </p>
-        <p>
-          <strong>Basic reporting and analytics.</strong> Weekly performance summaries — leads received, leads converted, appointments booked, revenue attributed by channel — delivered automatically to the owner&apos;s inbox. No manual compiling required.
-        </p>
-
-        <h2>What Still Requires Humans</h2>
-        <p>
-          AI automation isn&apos;t a complete replacement for human judgment. The tasks that still require people:
-        </p>
-        <ul>
-          <li>Complex customer situations requiring empathy and judgment</li>
-          <li>High-stakes sales conversations and relationship-building</li>
-          <li>Creative strategy and business development decisions</li>
-          <li>Quality control and exception handling</li>
-          <li>Anything requiring physical presence</li>
-        </ul>
-        <p>
-          The smart Oregon business owner uses AI to eliminate the routine and preserve human time for the high-judgment, high-value interactions where a person genuinely makes a difference.
-        </p>
-
-        <h2>The Real Competitive Advantage: Responsiveness at Scale</h2>
-        <p>
-          The underappreciated benefit of AI automation isn&apos;t just cost savings — it&apos;s the ability to be responsive at a scale that would be impossible with staff. An AI system that handles 200 inquiries on a busy Friday night performs identically to one handling 20 inquiries on a slow Tuesday afternoon. There&apos;s no staffing up, no overtime, no quality variation based on who&apos;s working.
-        </p>
-        <p>
-          Oregon businesses using AI customer response systems report that their response rates and conversion rates have improved significantly — not because the AI is better at sales than a human, but because it&apos;s consistent, fast, and always available.
-        </p>
-        <p>
-          Thomas+David+Jacob designs and implements AI automation systems for Oregon businesses across industries. If you want to see what your specific operation could automate — and what that&apos;s worth — reach out for a free audit.
-        </p>
-
-        <hr />
-        <h2>Related Reading</h2>
-        <ul>
-          <li><a href="/blog/ai-customer-service-systems-oregon-businesses">AI Customer Service Systems</a></li>
-          <li><a href="/blog/ai-staff-scheduling-labor-cost-oregon-businesses">AI Staff Scheduling: Cutting Labor Costs</a></li>
-          <li><a href="/blog/api-integrations-guide-oregon-business-owners">API Integrations Explained</a></li>
         </ul>
       </>
     ),
@@ -2942,7 +2788,7 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/why-oregon-business-needs-ai-system-not-website">Why Your Oregon Business Needs an AI System</a></li>
+          <li><a href="/blog/website-is-now-the-least-important-thing-we-build">Why Your Oregon Business Needs an AI System</a></li>
           <li><a href="/blog/toast-pos-direct-ordering-system-oregon-restaurants">Toast POS and the Direct Ordering Revolution</a></li>
           <li><a href="/blog/90-day-ai-system-rollout-oregon-small-businesses">The 90-Day AI System Rollout</a></li>
         </ul>
@@ -2952,7 +2798,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'ai-systems-for-oregon-contractors-win-more-jobs',
     title: 'How Oregon Contractors Are Using AI to Win More Bids and Get Paid Faster',
-    metaTitle: 'AI Systems for Oregon Contractors: Win More Jobs | Thomas David Jacob',
+    metaTitle: 'AI Systems for Oregon Contractors: Win More Jobs',
     metaDescription:
       'Oregon contractors are using AI to respond to leads faster, follow up on bids automatically, and collect payments without chasing. Here\'s what the system looks like.',
     date: 'June 5, 2026',
@@ -3022,8 +2868,8 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/why-oregon-business-needs-ai-system-not-website">Why Your Oregon Business Needs an AI System</a></li>
-          <li><a href="/blog/ai-automation-replacing-staff-costs-oregon">How AI Automation Is Replacing What Used to Cost Three Salaries</a></li>
+          <li><a href="/blog/website-is-now-the-least-important-thing-we-build">Why Your Oregon Business Needs an AI System</a></li>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">How AI Automation Is Replacing What Used to Cost Three Salaries</a></li>
           <li><a href="/blog/ai-customer-service-systems-oregon-businesses">AI Customer Service Systems</a></li>
         </ul>
       </>
@@ -3102,8 +2948,8 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/ai-automation-replacing-staff-costs-oregon">How AI Automation Is Replacing What Used to Cost Three Salaries</a></li>
-          <li><a href="/blog/why-oregon-business-needs-ai-system-not-website">Why Your Oregon Business Needs an AI System</a></li>
+          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">How AI Automation Is Replacing What Used to Cost Three Salaries</a></li>
+          <li><a href="/blog/website-is-now-the-least-important-thing-we-build">Why Your Oregon Business Needs an AI System</a></li>
           <li><a href="/blog/api-integrations-guide-oregon-business-owners">API Integrations Explained</a></li>
         </ul>
       </>
@@ -3193,7 +3039,7 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/why-oregon-business-needs-ai-system-not-website">Why Your Oregon Business Needs an AI System</a></li>
+          <li><a href="/blog/website-is-now-the-least-important-thing-we-build">Why Your Oregon Business Needs an AI System</a></li>
           <li><a href="/blog/api-integrations-guide-oregon-business-owners">API Integrations Explained</a></li>
           <li><a href="/blog/ai-multiple-revenue-channels-oregon-businesses">Building Multiple Revenue Channels with AI</a></li>
         </ul>
@@ -3201,149 +3047,9 @@ const archivePosts: BlogPost[] = [
     ),
   },
   {
-    slug: 'best-time-to-start-ai-integration-oregon-business',
-    title: 'Why Now Is the Best Time in History to Start Integrating AI Into Your Oregon Business',
-    metaTitle: 'Best Time to Start AI Integration for Oregon Businesses | Thomas David Jacob',
-    metaDescription:
-      "The tools exist. The expertise is available. The competition hasn't fully caught up yet. There has never been a better time for Oregon businesses to start building AI-powered systems.",
-    date: 'July 10, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      "The tools exist. The expertise is available. The competition hasn't fully caught up yet. There has never been a better time for Oregon businesses to start building AI-powered systems.",
-    heroImage: '/images/best-time-to-start-ai-integration-oregon-business.jpg',
-    content: (
-      <>
-        <p>
-          We&apos;re going to make a direct argument in this post: if you&apos;re an Oregon business owner, there has never been a better time to start building AI-powered systems than right now.
-        </p>
-        <p>Here&apos;s the full case.</p>
-
-        <h2>The Tools Have Never Been More Accessible</h2>
-        <p>
-          Three years ago, building AI automations required API knowledge, coding ability, and technical infrastructure that was genuinely beyond reach for most small businesses.
-        </p>
-        <p>
-          Today, the most powerful AI automation tools have intuitive visual interfaces. Connecting your website to your CRM to an AI assistant to your calendar is a matter of configuration, not coding. The technical barrier has dropped dramatically.
-        </p>
-        <p>
-          What remains is the <a href="/blog/what-is-ai-systems-architect">strategic and architectural knowledge</a> to design systems that actually solve the right problems — and that&apos;s exactly what professional AI integration partners provide.
-        </p>
-
-        <h2>The Price Has Never Been Lower</h2>
-        <p>
-          The cost to access AI capabilities has dropped by orders of magnitude in the last three years. Models that cost thousands of dollars per month to run now cost pennies. Automation platforms have democratized access to capabilities that used to require enterprise-scale software budgets.
-        </p>
-        <p>
-          A single high-impact AI automation for an Oregon small business starts at $2,500 — with ongoing costs often under $100 per month. The ROI math at that price point is compelling for almost any service business.
-        </p>
-
-        <h2>Your Competition Hasn&apos;t Fully Caught Up Yet</h2>
-        <p>
-          In three years, AI integration will be standard practice. The businesses that aren&apos;t doing it will be as conspicuous as businesses without websites are today. At that point, building AI systems will be the cost of staying relevant, not a competitive advantage.
-        </p>
-        <p>
-          Right now, it&apos;s still a competitive advantage. <a href="/blog/ai-creating-new-class-business-owner-oregon">Early adopters in Oregon</a> are pulling ahead of competitors who are still operating without AI infrastructure. That lead compounds every month.
-        </p>
-        <p>
-          The window to be an early mover is open. It won&apos;t be open indefinitely.
-        </p>
-
-        <h2>You Don&apos;t Have to Get It Perfect on Day One</h2>
-        <p>
-          The final barrier we hear from Oregon business owners: &ldquo;I want to wait until I have a better handle on it.&rdquo;
-        </p>
-        <p>
-          This instinct is understandable — and it&apos;s the wrong approach for AI. The way to get a handle on it is to build something, run it, learn from it, and refine it. The businesses that have deep AI expertise today got it by starting early and <a href="/blog/compound-effect-of-ai-business">accumulating real-world experience</a>.
-        </p>
-        <p>
-          You don&apos;t need a perfect plan. You need a professional partner, a clear starting point, and the willingness to start.
-        </p>
-
-        <h2>The One Step That Matters</h2>
-        <p>
-          Schedule the conversation. Not a sales call. Not a pitch. A real conversation with an AI integration professional who will look at your specific business, identify your highest-impact opportunity, and give you an honest assessment of what&apos;s possible.
-        </p>
-        <p>
-          At Thomas+David+Jacob, that&apos;s exactly what our free AI audit is. Thirty minutes. No pressure. A clear picture of what AI can do for your Oregon business — starting now.
-        </p>
-        <p>
-          The best time to start was last year. The second best time is today.{' '}
-          <a href="/contact">Book your free AI audit</a> and let&apos;s build something that compounds.
-        </p>
-      </>
-    ),
-  },
-  {
-    slug: 'ai-business-integration-trends-2026',
-    title: 'AI Business Integration Trends to Watch in 2026 and Beyond',
-    metaTitle: 'AI Business Integration Trends 2026 | Oregon Business AI | Thomas David Jacob',
-    metaDescription:
-      "The AI landscape is evolving fast. Here are the most important business AI trends for 2026 — and what Oregon businesses should be doing about each one right now.",
-    date: 'July 7, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      "The AI landscape is evolving fast. Here are the most important business AI trends for 2026 — and what Oregon businesses should be doing about each one right now.",
-    heroImage: '/images/ai-business-integration-trends-2026.jpg',
-    content: (
-      <>
-        <p>
-          The AI landscape moves fast. What seemed experimental in 2023 is standard practice in 2026. What&apos;s leading-edge today will be expected by 2028.
-        </p>
-        <p>
-          Here are the most important business AI trends for Oregon businesses to understand — and act on — right now.
-        </p>
-
-        <h2>Trend 1: Agentic AI Is Becoming Practical</h2>
-        <p>
-          The biggest shift happening in 2026 is the move from AI that responds to AI that acts. &ldquo;Agentic&rdquo; AI systems can take multi-step actions on your behalf — not just answering a question, but researching a lead, drafting a proposal, scheduling a follow-up, and entering the data in your CRM.
-        </p>
-        <p>
-          <strong>What to do now:</strong> Build the foundational integrations — <a href="/blog/what-is-ai-systems-architect">CRM connections, calendar access</a>, communication platform hooks — that agentic AI will run on. The businesses with clean, connected infrastructure will deploy agentic systems immediately when they&apos;re ready.
-        </p>
-
-        <h2>Trend 2: AI Search Is Rewriting SEO</h2>
-        <p>
-          Google&apos;s AI Overviews and ChatGPT search are changing how customers find local businesses. The old model — rank on page one for a keyword — is being supplemented by a new one: be cited in AI-generated answers.
-        </p>
-        <p>
-          <strong>What to do now:</strong> Content that <a href="/blog/why-oregon-businesses-need-ai-integration-expert">answers specific, practical questions</a> is the new SEO currency. Blog posts that directly address &ldquo;how do I find an AI consultant in Oregon&rdquo; or &ldquo;what does AI integration cost for a small business&rdquo; are more likely to appear in AI-generated search responses than generic service page copy.
-        </p>
-
-        <h2>Trend 3: Personalization at Scale</h2>
-        <p>
-          AI is making 1:1 personalization accessible at business volumes that used to require massive teams. Every customer gets communication that feels specifically tailored to them — at zero marginal cost.
-        </p>
-        <p>
-          <strong>What to do now:</strong> Build customer communication systems that capture relevant data from every interaction. The businesses collecting good data today will have dramatically better AI personalization in 12 months.
-        </p>
-
-        <h2>Trend 4: AI Literacy Is Becoming a Competitive Differentiator</h2>
-        <p>
-          In 2026, customers increasingly ask potential service providers: &ldquo;Do you use AI in your business?&rdquo; Forward-thinking businesses use their AI capabilities as a selling point.
-        </p>
-        <p>
-          <strong>What to do now:</strong> Be able to articulate specifically how AI makes your service better for the customer. Not &ldquo;we use AI&rdquo; — but &ldquo;when you submit an inquiry, you&apos;ll hear from us within 90 seconds, any time of day.&rdquo;
-        </p>
-
-        <h2>Trend 5: The Professional Integration Market Is Growing</h2>
-        <p>
-          The demand for skilled AI integration professionals is growing faster than the supply. Businesses that secure relationships with capable AI integration partners now will have priority access to the expertise that will matter most over the next three years.
-        </p>
-        <p>
-          <strong>What to do now:</strong> Find your AI integration partner before you desperately need one. Build the relationship. Start with a <a href="/blog/ai-automation-vs-hiring-oregon-business">manageable first project</a>.
-        </p>
-
-        <p>
-          At Thomas+David+Jacob, we work with Oregon businesses at every stage of AI adoption.{' '}
-          <a href="/contact">If you&apos;re ready to get ahead of these trends, let&apos;s start the conversation</a>.
-        </p>
-      </>
-    ),
-  },
-  {
     slug: 'compound-effect-of-ai-business',
     title: 'The Compound Effect of AI: Why Every Month You Wait Costs More Than the Month Before',
-    metaTitle: 'The Compound Effect of AI for Oregon Businesses | Thomas David Jacob',
+    metaTitle: 'The Compound Effect of AI for Oregon Businesses',
     metaDescription:
       "AI systems don't just save time — they compound. Every month they run, they get smarter and more valuable. Here's why the start date matters more than you think.",
     date: 'July 3, 2026',
@@ -3366,7 +3072,7 @@ const archivePosts: BlogPost[] = [
           <strong>Month 3:</strong> The system has now processed hundreds of leads. You can see which messages are converting and which aren&apos;t. You refine the copy. Conversion rate improves again.
         </p>
         <p>
-          <strong>Month 6:</strong> You add a <a href="/blog/ai-automate-sales-funnel-oregon">nurture sequence</a> for prospects who didn&apos;t convert immediately. Leads from three months ago start re-engaging. You&apos;re getting booked conversations from people your old system would have lost forever.
+          <strong>Month 6:</strong> You add a <a href="/blog/ai-lead-generation-oregon">nurture sequence</a> for prospects who didn&apos;t convert immediately. Leads from three months ago start re-engaging. You&apos;re getting booked conversations from people your old system would have lost forever.
         </p>
         <p>
           <strong>Month 12:</strong> Your Google reviews are at 47 — up from 9 — because your AI review request sequence has been running consistently for a year. Your Google Business Profile is showing in the local map pack for your primary keywords. Inbound leads have increased 60% organically without any additional marketing spend.
@@ -3407,87 +3113,9 @@ const archivePosts: BlogPost[] = [
     ),
   },
   {
-    slug: 'how-to-prepare-business-for-ai-era',
-    title: "How to Prepare Your Business for the AI Era Before It's Too Late",
-    metaTitle: "How to Prepare Your Oregon Business for the AI Era | Thomas David Jacob",
-    metaDescription:
-      "The businesses that prepare now will dominate the next decade. Here's a practical, step-by-step guide to getting your Oregon business AI-ready before the window closes.",
-    date: 'June 30, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      "The businesses that prepare now will dominate the next decade. Here's a practical, step-by-step guide to getting your Oregon business AI-ready before the window closes.",
-    heroImage: '/images/how-to-prepare-business-for-ai-era.jpg',
-    content: (
-      <>
-        <p>
-          You can feel the shift. AI is everywhere in the news, your competitors are talking about it, and your customers are experiencing it in every other part of their lives.
-        </p>
-        <p>
-          The question isn&apos;t whether AI will change your industry. It&apos;s whether you&apos;ll be ahead of the change or behind it.
-        </p>
-        <p>Here&apos;s a practical guide to getting your Oregon business AI-ready — step by step.</p>
-
-        <h2>Step 1: Document Your Processes</h2>
-        <p>
-          You can&apos;t automate what you haven&apos;t documented. Before any <a href="/blog/what-is-ai-systems-architect">AI integration work can begin</a>, you need a clear picture of how your business actually operates.
-        </p>
-        <p>
-          Map the key processes: how leads come in, how they&apos;re followed up with, how appointments are scheduled, how customers are onboarded, how you communicate with active clients, how you generate reports. Write it down. Draw it out. Even a rough diagram on paper is a start.
-        </p>
-        <p>
-          This documentation serves two purposes: it reveals the automation opportunities, and it gives an AI integration partner the raw material to build effectively.
-        </p>
-
-        <h2>Step 2: Get Your Tech Stack in Order</h2>
-        <p>
-          AI systems connect to other tools — your CRM, email platform, calendar, website, communication apps. Before you build, understand what you have.
-        </p>
-        <p>
-          Do a quick audit: What CRM are you using? What email marketing platform? Where do your leads land? What calendar system do you use? How do you invoice?
-        </p>
-        <p>
-          If the answer to any of these is &ldquo;I don&apos;t have one of those&rdquo; — that&apos;s important to know, because an AI integration project often includes selecting and connecting the right tools.
-        </p>
-
-        <h2>Step 3: Identify Your Highest-Impact Opportunity</h2>
-        <p>
-          With your processes documented and your tech stack understood, the question becomes: where is the biggest gap between what you&apos;re doing manually and what a well-built system could handle?
-        </p>
-        <p>
-          For most businesses, this is in one of three areas: <a href="/blog/signs-business-ready-for-ai">lead follow-up, customer communication</a>, or administrative tasks. Start there.
-        </p>
-
-        <h2>Step 4: Partner with a Professional</h2>
-        <p>
-          This is where most businesses go wrong — they try to figure it all out themselves and end up with <a href="/blog/ai-nephew-setup-costing-oregon-businesses">half-built automations</a> that create more problems than they solve.
-        </p>
-        <p>
-          An AI integration partner brings systems expertise, tool knowledge, and implementation experience that dramatically reduces the time and cost to get something working. They also help you avoid the common pitfalls that derail DIY projects.
-        </p>
-
-        <h2>Step 5: Build, Measure, Expand</h2>
-        <p>
-          Start with one well-built system. Measure the result. Then expand.
-        </p>
-        <p>
-          This approach keeps investment manageable, produces measurable early returns that justify continued investment, and builds on a solid foundation rather than rushing to automate everything at once.
-        </p>
-
-        <h2>The Timeline Reality</h2>
-        <p>
-          Businesses that start this process today will have a functioning, compounding AI infrastructure within 90 days. Businesses that wait will spend that time building what the early movers already have.
-        </p>
-        <p>
-          Thomas+David+Jacob offers a free AI audit for Oregon businesses — a structured conversation that maps your processes, identifies your opportunities, and recommends a starting point.{' '}
-          <a href="/contact">Book yours today</a>.
-        </p>
-      </>
-    ),
-  },
-  {
     slug: 'ai-nephew-setup-costing-oregon-businesses',
     title: "Why 'I'll Have My Nephew Set That Up' Is Costing Oregon Businesses Real Money",
-    metaTitle: "Why DIY AI Setup Is Costing Oregon Businesses Real Money | Thomas David Jacob",
+    metaTitle: 'Why DIY AI Setup Costs Oregon Businesses Real Money',
     metaDescription:
       "Outsourcing AI integration to a non-expert — a nephew, an intern, or your own internal team — is one of the most common and costly mistakes Oregon businesses make.",
     date: 'June 26, 2026',
@@ -3524,7 +3152,7 @@ const archivePosts: BlogPost[] = [
         </p>
         <p>And then there was the pace of the technology itself.</p>
         <p>
-          By the time the team had gotten comfortable with a tool, a new version had shipped. By the time they&apos;d built a workflow, the <a href="/blog/ai-business-integration-trends-2026">platform had changed its interface</a>. By the time they&apos;d designed a system that worked in testing, the underlying model had been updated and the behavior was different. AI in 2024 and 2025 wasn&apos;t a stable target — it was a moving one. And a team learning on the margins, in stolen hours, couldn&apos;t keep pace with an industry evolving by the week.
+          By the time the team had gotten comfortable with a tool, a new version had shipped. By the time they&apos;d built a workflow, the <a href="/blog/what-ai-can-and-cannot-do-business-2026">platform had changed its interface</a>. By the time they&apos;d designed a system that worked in testing, the underlying model had been updated and the behavior was different. AI in 2024 and 2025 wasn&apos;t a stable target — it was a moving one. And a team learning on the margins, in stolen hours, couldn&apos;t keep pace with an industry evolving by the week.
         </p>
         <p>
           The result: months of effort, significant internal time investment, and systems that were partially built, partially outdated, and never fully deployed. The opportunity cost — what those employees could have been doing with those hours — was substantial. And the business was no closer to having working AI infrastructure than when they started.
@@ -3579,7 +3207,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'what-ai-can-and-cannot-do-business-2026',
     title: 'Real Talk: What AI Can and Cannot Do for Your Business in 2026',
-    metaTitle: 'What AI Can and Cannot Do for Oregon Businesses in 2026 | Thomas David Jacob',
+    metaTitle: "What AI Can and Can't Do for Oregon Businesses in 2026",
     metaDescription:
       "There's a lot of hype about AI — and some legitimate skepticism. Here's an honest, grounded assessment of what AI actually delivers for Oregon businesses right now.",
     date: 'June 23, 2026',
@@ -3631,7 +3259,7 @@ const archivePosts: BlogPost[] = [
           AI in 2026 is not magic. It&apos;s a powerful tool that delivers real, measurable value when applied to the <a href="/blog/what-is-ai-systems-architect">right problems by someone who knows how to build</a> and connect the systems.
         </p>
         <p>
-          The businesses that win with AI aren&apos;t the ones that automate everything. They&apos;re the ones that automate the right things, built correctly, on a <a href="/blog/how-to-prepare-business-for-ai-era">solid foundation</a>.
+          The businesses that win with AI aren&apos;t the ones that automate everything. They&apos;re the ones that automate the right things, built correctly, on a <a href="/blog/signs-business-ready-for-ai">solid foundation</a>.
         </p>
         <p>
           If the bigger question on your mind is less &ldquo;what can AI do for my business&rdquo; and more &ldquo;should I be worried about AI at all,&rdquo; we tackled that head-on in <a href="/blog/will-ai-destroy-the-world">Will AI Destroy the World? What Business Owners Should Actually Worry About</a>.
@@ -3644,94 +3272,9 @@ const archivePosts: BlogPost[] = [
     ),
   },
   {
-    slug: 'ai-creating-new-class-business-owner-oregon',
-    title: 'AI Is Creating a New Class of Business Owner in Oregon — Which Side Are You On?',
-    metaTitle: 'AI Is Creating a New Class of Oregon Business Owner | Thomas David Jacob',
-    metaDescription:
-      "Two types of business owners are emerging: those who leverage AI and those who compete against it. The divide is already visible in Oregon. Which side will you be on?",
-    date: 'June 19, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      "Two types of business owners are emerging: those who leverage AI and those who compete against it. The divide is already visible in Oregon. Which side will you be on?",
-    heroImage: '/images/ai-creating-new-class-business-owner-oregon.jpg',
-    content: (
-      <>
-        <p>
-          A divide is forming in Oregon&apos;s business community. It&apos;s happening quietly, without announcements or press releases. But if you talk to business owners who are growing aggressively right now, you start to notice a pattern.
-        </p>
-        <p>They all have AI-powered systems.</p>
-
-        <h2>The Two Business Owners</h2>
-        <p>
-          <strong>The Traditional Owner</strong> runs their business the way they always have. They respond to leads when they can. They follow up when they remember. They rely on their reputation and relationships — which are strong, but have natural limits. They work hard, often harder than they want to, and they can feel the ceiling of what&apos;s possible when everything runs through them personally.
-        </p>
-        <p>
-          <strong>The AI-Enabled Owner</strong> has built systems that run independently of their personal time and attention. Leads are followed up with instantly. Customers are communicated with consistently. Reporting happens automatically. Their personal energy goes to high-value work — relationships, strategy, delivery — while the infrastructure handles the rest.
-        </p>
-
-        <h2>Three Oregon Business Owners Already on the AI Side</h2>
-
-        <h3>The West Linn Luxury Real Estate Agent</h3>
-        <p>
-          When she came to us, she had tabs open for every AI tool she&apos;d seen on Instagram that week — a brand new Sotheby&apos;s agent working the luxury West Linn and Lake Oswego market, selling $900,000-plus homes, with more software subscriptions than she had active clients.
-        </p>
-        <p>
-          We cut the noise and built three focused systems. She went from scattered and overwhelmed to running a polished one-woman operation that looks and feels like a fully staffed boutique firm. Her high-net-worth clients receive <a href="/blog/ai-reshaping-customer-expectations-oregon">white-glove, attentive communication</a> at every stage — automatically. They have no idea it&apos;s just her.
-        </p>
-        <p>
-          In luxury real estate, perception is everything. The right AI systems don&apos;t just save time — they build the brand.
-        </p>
-
-        <h3>The Oregon City Electrician Now Serving Three Markets</h3>
-        <p>He knew the trade cold. What he was still learning was how to run a business.</p>
-        <p>
-          An Oregon City electrician — skilled, licensed, building a reputation one job at a time — had reached the point where word-of-mouth was working and he was thinking about expanding into Gladstone and Portland. The problem was that his entire operation ran through him personally. When he was on a job, he was unreachable. Callbacks happened in stolen moments. Some customers didn&apos;t wait.
-        </p>
-        <p>
-          We built him an automated lead response and job intake system that worked while he worked. Every inquiry got an immediate, professional response. His calendar filled without requiring him to step off a job site.
-        </p>
-        <p>
-          The expansion into Gladstone and Portland didn&apos;t require hiring a dispatcher. It required better systems — <a href="/blog/ai-great-equalizer-small-business-oregon">ones that made a one-man operation</a> feel like an established local business to every customer who reached out, regardless of time of day.
-        </p>
-        <p>
-          The businesses that grow aren&apos;t always the ones with the most people. They&apos;re the ones with the most reliable systems.
-        </p>
-
-        <h3>The Portland Wellness Coach Who Finally Stopped Drowning in Software</h3>
-        <p>
-          She had seventeen active software subscriptions and a business that felt more stressful to manage than the stress her clients hired her to fix.
-        </p>
-        <p>
-          We audited everything, cancelled what wasn&apos;t working, and connected what was into one lean, functional system. Her monthly costs dropped. Her admin hours dropped more. And for the first time, her business felt as calm as the practice she built for her clients.
-        </p>
-        <p>Sometimes the most powerful thing AI can do is tell you what to turn off.</p>
-
-        <h2>The Compounding Effect</h2>
-        <p>
-          Here&apos;s what makes this divide self-reinforcing: every month the AI-enabled owner runs their systems, those systems get better. They accumulate data. Sequences are refined. New automations are added. The infrastructure grows.
-        </p>
-        <p>
-          Meanwhile, the traditional owner is running the same playbook they ran last year.
-        </p>
-        <p>
-          A 12-month head start in AI adoption is not a 12-month advantage. It&apos;s a foundational advantage that <a href="/blog/compound-effect-of-ai-business">compounds over years</a>.
-        </p>
-
-        <h2>The Decision</h2>
-        <p>You don&apos;t have to automate everything tomorrow. You just have to start.</p>
-        <p>
-          Thomas+David+Jacob offers a <a href="/contact">free AI audit for Oregon businesses</a>. In 30 minutes, we&apos;ll show you exactly where the highest-impact opportunities are and what it would take to build them.
-        </p>
-        <p>
-          <a href="/contact">Book your free AI audit today</a>. The question isn&apos;t whether AI will matter to your business. It&apos;s whether you&apos;ll be ready when it does.
-        </p>
-      </>
-    ),
-  },
-  {
     slug: 'ai-service-businesses-oregon-2026-guide',
     title: 'AI for Service Businesses in Oregon: The Complete 2026 Guide',
-    metaTitle: 'AI for Oregon Service Businesses: The Complete 2026 Guide | Thomas David Jacob',
+    metaTitle: 'AI for Oregon Service Businesses: 2026 Guide',
     metaDescription:
       "Plumbers, contractors, consultants, real estate pros — AI is changing how service businesses in Oregon operate. Here's everything you need to know in 2026.",
     date: 'June 16, 2026',
@@ -3800,75 +3343,9 @@ const archivePosts: BlogPost[] = [
     ),
   },
   {
-    slug: 'ai-automate-sales-funnel-oregon',
-    title: 'From Lead to Close: How AI Can Automate Your Entire Sales Funnel',
-    metaTitle: 'AI Sales Funnel Automation for Oregon Businesses | Thomas David Jacob',
-    metaDescription:
-      "Most Oregon businesses are only using their sales funnel at 40% efficiency. Here's how AI can turn every stage of your funnel into an automated revenue machine.",
-    date: 'June 12, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      "Most Oregon businesses are only using their sales funnel at 40% efficiency. Here's how AI can turn every stage of your funnel into an automated revenue machine.",
-    heroImage: '/images/ai-automate-sales-funnel-oregon.jpg.png',
-    content: (
-      <>
-        <p>
-          Your sales funnel has a leak. Multiple leaks, actually. And most of them are in the places where humans are supposed to be handling things manually — but aren&apos;t.
-        </p>
-        <p>Here&apos;s how AI seals every one of them.</p>
-
-        <h2>Stage 1: Lead Capture</h2>
-        <p>
-          Every inquiry that lands on your website, comes through social media, or arrives via Google Business Profile is a potential customer. AI systems ensure every single one is captured, tagged, and entered into your CRM automatically — regardless of what time it arrives or how busy you are.
-        </p>
-        <p>
-          No more lost inquiry forms. No more leads that fell into a spam folder and were never seen.
-        </p>
-
-        <h2>Stage 2: Instant Follow-Up</h2>
-        <p>
-          This is where most small businesses hemorrhage opportunity. A lead comes in at 7 PM on a Tuesday. The business owner doesn&apos;t see it until Wednesday morning. By then, the prospect has already booked with someone else.
-        </p>
-        <p>
-          AI follow-up systems respond within 90 seconds — always. With a personalized, intelligent message that acknowledges their inquiry, answers their most likely initial questions, and invites them to the next step.
-        </p>
-
-        <h2>Stage 3: Qualification</h2>
-        <p>
-          Not every lead is a great fit. <a href="/blog/what-is-ai-systems-architect">AI qualification systems</a> ask the right questions via SMS, email, or chat — and automatically segment leads by readiness, budget, and fit. Your time goes to the prospects most likely to close, not the tire-kickers.
-        </p>
-
-        <h2>Stage 4: Nurture</h2>
-        <p>
-          Most prospects don&apos;t buy on first contact. A well-designed <a href="/blog/most-powerful-ai-automations-portland-metro">AI nurture sequence</a> keeps your business top-of-mind over 30, 60, or 90 days — with emails, texts, and touchpoints that educate, build trust, and gently move the prospect toward a decision.
-        </p>
-        <p>This happens automatically, for every prospect, indefinitely.</p>
-
-        <h2>Stage 5: Booking and Confirmation</h2>
-        <p>
-          AI scheduling systems book consultations, send confirmations, and send reminders automatically. No back-and-forth. No no-shows because the reminder didn&apos;t go out.
-        </p>
-
-        <h2>Stage 6: Post-Sale Follow-Up</h2>
-        <p>
-          After the sale is where most businesses go completely silent. AI follow-up sequences handle: thank-you messages, onboarding instructions, check-ins at day 7 and day 30, review requests, and referral asks. All automatic. All personalized.
-        </p>
-
-        <h2>The Result: A Funnel That Actually Works</h2>
-        <p>
-          When every stage is connected and automated, the result isn&apos;t just efficiency — it&apos;s a fundamentally different business. One that generates more revenue from the same leads, retains more customers, and grows without proportionally increasing owner time.
-        </p>
-        <p>
-          At Thomas+David+Jacob, we build <a href="/ai-systems">full-funnel AI systems</a> for Oregon businesses — from lead capture through post-sale follow-up.{' '}
-          <a href="/contact">Book a free AI audit and we&apos;ll show you exactly where your funnel is leaking</a>.
-        </p>
-      </>
-    ),
-  },
-  {
     slug: 'ai-automation-vs-hiring-oregon-business',
     title: 'AI Automation vs. Hiring: Which Is the Smarter Investment for Your Oregon Business?',
-    metaTitle: 'AI Automation vs. Hiring for Oregon Small Business | Thomas David Jacob',
+    metaTitle: 'AI Automation vs Hiring for Oregon Small Business',
     metaDescription:
       "Should you hire another employee or build an AI system? Here's an honest comparison that every Oregon small business owner needs to read before their next hiring decision.",
     date: 'June 9, 2026',
@@ -3958,7 +3435,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'most-powerful-ai-automations-portland-metro',
     title: 'The 5 Most Powerful AI Automations for Businesses in the Portland Metro Area',
-    metaTitle: '5 Most Powerful AI Automations for Portland Metro Businesses | Thomas David Jacob',
+    metaTitle: '5 Powerful AI Automations for Portland Metro Businesses',
     metaDescription:
       "Not all AI automations are created equal. These five have the highest ROI for Portland metro area businesses and can be built and running within two weeks.",
     date: 'June 5, 2026',
@@ -4011,7 +3488,7 @@ const archivePosts: BlogPost[] = [
           <strong>What it does:</strong> Prospects who don&apos;t convert immediately are enrolled in a 30–60–90 day follow-up sequence — intelligent messages sent at the right intervals that keep your business top-of-mind, build trust, and invite action when the prospect is ready.
         </p>
         <p>
-          <strong>Why it matters:</strong> Most leads don&apos;t convert on first contact. A consistent <a href="/blog/ai-automate-sales-funnel-oregon">nurture system</a> works on your behalf indefinitely, without requiring your time or memory.
+          <strong>Why it matters:</strong> Most leads don&apos;t convert on first contact. A consistent <a href="/blog/ai-lead-generation-oregon">nurture system</a> works on your behalf indefinitely, without requiring your time or memory.
         </p>
 
         <h2>#3: The Review Generation System</h2>
@@ -4052,7 +3529,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'ai-reshaping-customer-expectations-oregon',
     title: 'How AI Is Reshaping Customer Expectations — and What Oregon Businesses Must Do to Keep Up',
-    metaTitle: 'AI Reshaping Customer Expectations for Oregon Businesses | Thomas David Jacob',
+    metaTitle: 'How AI Is Reshaping Customer Expectations in Oregon',
     metaDescription:
       "Your customers already interact with AI every day. Their expectations have changed. Here's how Oregon businesses can meet the new standard before it costs them customers.",
     date: 'June 2, 2026',
@@ -4119,77 +3596,11 @@ const archivePosts: BlogPost[] = [
           Every week a business waits to address customer experience through AI, they&apos;re training customers to expect less — or, more accurately, driving customers to competitors who have already built these systems.
         </p>
         <p>
-          The good news: the investment to get there is smaller than most business owners assume. The question is whether you build it now, while you can be an <a href="/blog/best-time-to-start-ai-integration-oregon-business">early mover</a>, or later, when the bar has risen even further.
+          The good news: the investment to get there is smaller than most business owners assume. The question is whether you build it now, while you can be an <a href="/blog/signs-business-ready-for-ai">early mover</a>, or later, when the bar has risen even further.
         </p>
         <p>
           <a href="/contact">Book a free AI audit with Thomas+David+Jacob</a>{' '}
           and find out exactly where your customer experience gaps are.
-        </p>
-      </>
-    ),
-  },
-  {
-    slug: 'ai-skills-gap-businesses-need-outside-help',
-    title: 'The AI Skills Gap: Why Most Businesses Will Need Outside Help to Integrate AI',
-    metaTitle: 'The AI Skills Gap: Why Oregon Businesses Need Professional AI Help | Thomas David Jacob',
-    metaDescription:
-      "Companies want AI. Most don't have the expertise to build it right. Here's why the AI skills gap is real — and why Oregon businesses should partner with a professional now.",
-    date: 'May 29, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      "Companies want AI. Most don't have the expertise to build it right. Here's why the AI skills gap is real — and why Oregon businesses should partner with a professional now.",
-    heroImage: '/images/ai-skills-gap-businesses-need-outside-help.jpg',
-    content: (
-      <>
-        <p>
-          The desire is there. The tools exist. So why are so many businesses failing to actually implement AI effectively?
-        </p>
-        <p>
-          The answer is a growing divide between the promise of AI and the practical skills required to deliver on it.
-        </p>
-
-        <h2>The Gap Is Real — and Widening</h2>
-        <p>
-          Over 70% of small business owners say they want to use AI more in their operations. But fewer than 30% have successfully implemented systems that deliver measurable results.
-        </p>
-        <p>
-          That gap — the distance between wanting AI and having AI that works — is the <a href="/blog/ai-nephew-setup-costing-oregon-businesses">AI skills gap</a>. And it&apos;s not a knowledge problem. It&apos;s an architecture problem.
-        </p>
-
-        <h2>What &ldquo;Doing AI Wrong&rdquo; Looks Like</h2>
-        <p>The most common failure pattern for businesses attempting to self-implement AI:</p>
-        <ol>
-          <li><strong>Tool overload:</strong> Sign up for five different AI tools without a coherent plan for how they&apos;ll work together.</li>
-          <li><strong>Incomplete builds:</strong> Start an automation, hit a technical wall, abandon it. The workflow never gets finished.</li>
-          <li><strong>No integration:</strong> Build an AI chatbot that doesn&apos;t connect to the CRM. A scheduling tool that doesn&apos;t connect to the calendar. A lead capture form that doesn&apos;t trigger any follow-up.</li>
-          <li><strong>No maintenance:</strong> Build something that works for six weeks and then breaks when one of the connected tools updates its API.</li>
-        </ol>
-        <p>
-          These failures don&apos;t mean AI doesn&apos;t work. They mean AI wasn&apos;t built by someone who knows how to build it.
-        </p>
-
-        <h2>What Professional AI Implementation Looks Like</h2>
-        <p>A professional AI integration partner brings:</p>
-        <p>
-          <strong><a href="/blog/what-is-ai-systems-architect">Systems thinking</a>:</strong> Understanding how every component of the system connects, and designing it so changes in one area don&apos;t break others.
-        </p>
-        <p>
-          <strong>Tool expertise:</strong> Knowing which platforms work best for which use cases, and which combinations of tools create the most reliable, scalable systems.
-        </p>
-        <p>
-          <strong>Business translation:</strong> The ability to take a business problem and translate it into a technical solution that solves exactly that problem.
-        </p>
-        <p>
-          <strong>Ongoing support:</strong> When tools update, business processes change, or new opportunities emerge, having a professional partner means the system evolves with you.
-        </p>
-
-        <h2>The Oregon Opportunity</h2>
-        <p>
-          For Oregon businesses, the AI skills gap represents an opportunity. While your competitors are fumbling through failed DIY attempts, a well-executed professional implementation gives you a reliable, high-performing system that compounds in value over time.
-        </p>
-        <p>
-          Thomas+David+Jacob exists to bridge exactly this gap — bringing professional <a href="/ai-systems">AI architecture expertise</a> to Oregon businesses that want results, not experiments.{' '}
-          <a href="/contact">Book a free consultation today</a>.
         </p>
       </>
     ),
@@ -4223,7 +3634,7 @@ const archivePosts: BlogPost[] = [
         <h2>What They Actually Build</h2>
         <p>For most small and mid-size businesses, an AI Systems Architect focuses on three high-value areas:</p>
         <p>
-          <strong>1. <a href="/blog/ai-automate-sales-funnel-oregon">Lead Generation and Follow-Up Systems</a></strong>
+          <strong>1. <a href="/blog/ai-lead-generation-oregon">Lead Generation and Follow-Up Systems</a></strong>
         </p>
         <p>
           Building the infrastructure that captures leads from every source — your website, social media, ads, referrals — and follows up automatically with the right message at the right time. No lead slips through the cracks. No follow-up forgotten.
@@ -4266,7 +3677,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'signs-business-ready-for-ai',
     title: '7 Signs Your Business Is Ready to Integrate AI (Even If You Think You\'re Not)',
-    metaTitle: '7 Signs Your Oregon Business Is Ready for AI Integration | Thomas David Jacob',
+    metaTitle: '7 Signs Your Oregon Business Is Ready for AI',
     metaDescription:
       "You don't need to be a tech company to benefit from AI. Here are the 7 signs that your Oregon business is ready — and what to do next.",
     date: 'May 22, 2026',
@@ -4333,7 +3744,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'hidden-cost-of-not-adopting-ai',
     title: 'The Hidden Cost of Doing Nothing: Why Waiting to Adopt AI Will Hurt Your Business',
-    metaTitle: 'The Hidden Cost of Not Adopting AI | Oregon Business Strategy | Thomas David Jacob',
+    metaTitle: 'The Hidden Cost of Not Adopting AI | Oregon Business',
     metaDescription:
       "Most business owners are watching AI from the sidelines. Here's what that decision is actually costing them — and why the window to act smart is shrinking.",
     date: 'May 19, 2026',
@@ -4425,7 +3836,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'ai-great-equalizer-small-business-oregon',
     title: 'Why AI Is the Great Equalizer for Small Businesses Competing Against Larger Companies',
-    metaTitle: 'AI Levels the Playing Field for Oregon Small Business | Thomas David Jacob',
+    metaTitle: 'AI Levels the Playing Field for Oregon Small Business',
     metaDescription:
       "Small businesses in Oregon City and Portland now have access to the same AI capabilities as Fortune 500 companies. Here's how to use that to your advantage.",
     date: 'May 15, 2026',
@@ -4545,7 +3956,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'why-oregon-businesses-need-ai-integration-expert',
     title: 'Why Every Oregon Business Will Need an AI Integration Expert Within 3 Years',
-    metaTitle: 'Why Oregon Businesses Need an AI Integration Expert | Thomas David Jacob',
+    metaTitle: 'Why Oregon Businesses Need an AI Integration Expert',
     metaDescription:
       "AI is no longer optional for businesses in Oregon. Here's why having a professional AI integration partner now will determine whether your business leads or falls behind.",
     date: 'May 12, 2026',
@@ -4573,7 +3984,7 @@ const archivePosts: BlogPost[] = [
           But it did change. The businesses that embraced websites and SEO early didn&apos;t just survive — they dominated their markets. The ones that waited until everyone was doing it spent years playing catch-up and tens of thousands of dollars just to get back to even.
         </p>
         <p>
-          AI is the same inflection point. And we&apos;re in the <a href="/blog/best-time-to-start-ai-integration-oregon-business">early-mover window</a> right now.
+          AI is the same inflection point. And we&apos;re in the <a href="/blog/signs-business-ready-for-ai">early-mover window</a> right now.
         </p>
 
         <h2>What &ldquo;AI Integration&rdquo; Actually Means for a Local Business</h2>
@@ -4736,92 +4147,9 @@ const archivePosts: BlogPost[] = [
     ),
   },
   {
-    slug: 'future-of-small-business-ai-oregon',
-    title: 'The Future of Small Business in Oregon Is AI — Are You Ready?',
-    metaTitle: 'The Future of Small Business in Oregon Is AI | TDJ AI Strategy',
-    metaDescription:
-      'Oregon businesses that adopt AI in 2026 will dominate their markets by 2028. Here is the big picture on AI business strategy for Portland metro small businesses.',
-    date: 'April 24, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      'Three years from now, the business landscape in Oregon will look dramatically different. The divide between businesses that adopted AI and those that waited is already beginning to show.',
-    heroImage: '/images/hero_blogpost.jpg',
-    content: (
-      <>
-        <p>
-          Three years from now, the small business landscape in Oregon will look significantly different from today. Not because of the economy, not because of real estate, not because of demographics — but because of artificial intelligence. The divide between businesses that moved early and those that waited is not a future scenario. It is already happening in Portland, Beaverton, Lake Oswego, and Oregon City right now.
-        </p>
-
-        <h2>What Is Already Happening in Oregon</h2>
-        <p>
-          A Beaverton landscaping contractor automated his lead follow-up process in late 2025. Before automation, his team manually followed up with quote requests over two to three days. After implementation, every new lead received a personalized response within four minutes, a qualification sequence over 48 hours, and an automated booking link. His booked appointments tripled without adding a single employee.
-        </p>
-        <p>
-          An Oregon City restaurant implemented an AI inventory management and ordering system. Food waste dropped 28 percent in the first quarter. A Hillsboro accounting firm deployed an AI client intake and document request system. Their onboarding time went from two weeks to three days. These are not large corporations with enterprise budgets. These are local Oregon businesses that made a deliberate decision to move early.
-        </p>
-
-        <h2>The Competitive Gap Is Widening Every Month</h2>
-        <p>
-          Here is what makes the AI moment different from previous technology waves: the advantage compounds. A business that implements AI lead generation today will have twelve months of optimization data by early 2027. Their systems will be faster, smarter, and more refined. A competitor starting in 2027 will be starting from scratch against an opponent that has been training their systems for a year.
-        </p>
-        <p>
-          In market after market — home services, restaurants, retail, professional services — we are watching the same pattern: early adopters pull ahead, and the gap becomes harder to close with every passing month. West Linn and Lake Oswego businesses that move now will hold a structural advantage over Wilsonville and Milwaukie competitors who wait until "it makes more sense."
-        </p>
-
-        <h2>What the AI-Powered Oregon Business Looks Like in 2028</h2>
-        <p>
-          Picture a Portland plumbing company in 2028 that adopted AI in 2025. Their website AI captures leads at 2am when a homeowner's water heater fails. The lead is instantly qualified, a quote range provided, and an appointment booked — all before a human touches it. Their Google Business Profile posts automatically three times per week with project photos and seasonal tips. Their customer follow-up sequence runs without anyone managing it. Their reviews are consistently high because automated post-job check-ins catch issues before they become one-star ratings.
-        </p>
-        <p>
-          The owner of that company is not working 65 hours a week anymore. They are working 40 — on the parts of the business only they can handle. Their competitors are still manually following up leads and posting to Instagram on Sunday nights.
-        </p>
-
-        <h2>Oregon's Economy Is Perfectly Positioned for AI Leverage</h2>
-        <p>
-          Oregon's small business economy is heavily service-oriented: contractors, healthcare providers, restaurants, real estate professionals, personal services, and professional services. These are precisely the industries where AI creates the most immediate and measurable leverage. Service businesses live or die on responsiveness, consistency, and customer experience — and those are exactly the dimensions AI optimizes.
-        </p>
-        <p>
-          Portland, Beaverton, Hillsboro, Lake Oswego, Oregon City, Milwaukie, West Linn, Wilsonville — every market in the metro area has service businesses that will be transformed by AI in the next three years. The question is not whether your industry will be affected. It is whether you will be the one who led that transformation or the one who scrambled to catch up.
-        </p>
-
-        <h2>This Is Not Fear — It Is Opportunity</h2>
-        <p>
-          We are not making this case to alarm you. We are making it because the window for first-mover advantage in your specific market is genuinely open right now — and it will not stay open indefinitely. The businesses that move in 2026 will have established their systems, optimized their workflows, and built a structural moat by the time their competitors realize they need to act.
-        </p>
-        <p>
-          Early adoption is not a gamble. The tools are mature, the ROI is documented, and the implementation pathways are well-established. What requires expertise is the architecture — designing systems that actually work together, that fit your specific business, and that scale as you grow. That is where most DIY attempts fail, and where professional implementation pays for itself many times over.
-        </p>
-
-        <h2>The Window Is Open. The Clock Is Running.</h2>
-        <p>
-          The Thomas David Jacob team works with Oregon businesses to design and implement AI systems that create real competitive advantage — not shiny tools that sit unused. If you are ready to have an honest conversation about what an AI strategy looks like for your specific business and market, start with a free AI strategy session.
-        </p>
-        <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
-          <a
-            href="/ai-systems"
-            style={{
-              display: 'inline-block',
-              background: '#fbbf24',
-              color: '#000',
-              fontWeight: 900,
-              padding: '1rem 2.5rem',
-              borderRadius: '9999px',
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              fontSize: '0.875rem',
-              textDecoration: 'none',
-            }}
-          >
-            Book a Free AI Strategy Session
-          </a>
-        </div>
-      </>
-    ),
-  },
-  {
     slug: 'ai-lead-generation-oregon',
     title: 'How AI Lead Generation Is Changing the Game for Oregon Service Businesses',
-    metaTitle: 'AI Lead Generation Oregon — Automated Lead Systems for Portland Businesses',
+    metaTitle: 'AI Lead Generation for Portland & Oregon Businesses',
     metaDescription:
       'AI lead generation systems are replacing cold calls and referral-only growth for Oregon service businesses. See how Portland metro contractors, restaurants, and agents are winning.',
     date: 'April 22, 2026',
@@ -4905,7 +4233,6 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/ai-automate-sales-funnel-oregon">From Lead to Close: How AI Can Automate Your Entire Sales Funnel</a></li>
           <li><a href="/blog/most-powerful-ai-automations-portland-metro">The 5 Most Powerful AI Automations for Portland Metro Businesses</a></li>
           <li><a href="/blog/ai-reshaping-customer-expectations-oregon">How AI Is Reshaping Customer Expectations</a></li>
         </ul>
@@ -4913,313 +4240,9 @@ const archivePosts: BlogPost[] = [
     ),
   },
   {
-    slug: 'ai-customer-service-oregon-business',
-    title: 'Why Oregon Businesses Are Replacing Live Chat With AI Assistants',
-    metaTitle: 'AI Customer Service for Oregon Businesses | AI Chatbot Portland',
-    metaDescription:
-      'Oregon businesses are using AI assistants to handle customer inquiries 24/7, qualify leads overnight, and never miss a message. See the cost comparison vs. part-time staff.',
-    date: 'April 20, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      "What happens when a customer reaches out at 11pm on a Friday? For most Oregon businesses, nothing — until Monday morning. AI assistants are changing that, and the ROI is undeniable.",
-    heroImage: '/images/hero_blogpost.jpg',
-    content: (
-      <>
-        <p>
-          What happens when a potential customer reaches out to your business at 11pm on a Friday? For most small businesses in Portland, Oregon City, Beaverton, and across the metro area, the answer is: nothing. The message sits until Monday morning. If you are lucky, the customer is still available and still interested. More often than not, they found someone else over the weekend. That missed message is a missed lead. And missed leads are missed revenue.
-        </p>
-
-        <h2>The Real Cost of Slow Response</h2>
-        <p>
-          Research from Harvard Business Review found that businesses responding to leads within an hour are seven times more likely to qualify that lead than those responding even one hour later. After 24 hours, the odds of a meaningful conversation drop below two percent. For service businesses in Lake Oswego, West Linn, and Hillsboro where average transaction values run $500 to $5,000, the financial impact of slow response is staggering.
-        </p>
-        <p>
-          Consider a Portland home services company receiving 50 inquiries per month across their website, Google Business Profile, and social media. If even 20 percent of those arrive outside business hours and go unanswered until the next morning, that is ten potential customers per month who have already moved on. At $2,000 average job value, that is $20,000 in potential revenue evaporating monthly from a responsiveness problem, not a quality problem.
-        </p>
-
-        <h2>What an AI Assistant Actually Does</h2>
-        <p>
-          A properly built AI assistant is not a generic chatbot that says "Thanks for reaching out! We'll get back to you soon." That is barely better than voicemail. A well-architected AI assistant knows your business — your services, your service area, your pricing ranges, your availability — and uses that knowledge to have a real, qualified conversation with every person who reaches out.
-        </p>
-        <p>
-          It answers common questions immediately: Do you serve my area? What does this service cost? How quickly can you come out? It collects the information you need: name, address, service type, urgency, budget. It qualifies the lead against your ideal customer criteria and routes high-value prospects to your calendar for an immediate booking. It handles the other inquiries gracefully without wasting your time. And it does all of this at 2am on a Sunday with the same consistency it has on Tuesday at noon.
-        </p>
-
-        <h2>The Cost Comparison: Part-Time Employee vs. AI Assistant</h2>
-        <p>
-          Many Oregon businesses manage customer inquiries with a part-time office person or receptionist. Let us run the numbers honestly. A part-time employee at 20 hours per week at $17 per hour (Oregon minimum wage for 2026) costs $1,360 per month in wages alone — before payroll taxes, benefits, paid time off, and the cost of recruiting and training when they leave, which happens.
-        </p>
-        <p>
-          That employee works eight to four, takes lunch, calls in sick, and has bad days where their tone costs you a customer. They cover 20 hours of your 168-hour week. An AI assistant — one that is properly built and trained on your specific business — operates 168 hours per week at $300 to $600 per month in operating costs. It never has a bad day. It never forgets to follow up. It does not require a desk, a laptop, or health insurance.
-        </p>
-        <p>
-          The comparison is not about replacing people. Most businesses that implement AI assistants retain their team and redirect them to higher-value work that requires human judgment and relationship-building. The AI handles volume and consistency; the humans handle nuance and complexity.
-        </p>
-
-        <h2>Real Oregon Business Applications</h2>
-        <p>
-          A Beaverton dental office implemented an AI assistant to handle after-hours appointment requests, insurance questions, and new patient inquiries. Within 60 days, they had eliminated the after-hours voicemail backlog that had previously required 45 minutes of staff time every morning. New patient bookings from after-hours inquiries increased 34 percent.
-        </p>
-        <p>
-          A Portland HVAC company deployed an AI assistant to handle emergency service routing after hours — capturing the caller's information, diagnosing urgency, and either booking a same-day emergency call or scheduling a non-urgent appointment for the following week. The owner stopped carrying his personal cell phone 24 hours a day. Emergency revenue went up because no emergency lead went unanswered.
-        </p>
-        <p>
-          A Lake Oswego law firm used an AI intake assistant to pre-qualify potential clients before they reached an attorney's calendar — gathering case details, jurisdiction information, and conflict-of-interest disclosures automatically. Attorney consultation time with non-qualified leads dropped to near zero.
-        </p>
-
-        <h2>Why Generic Chatbots Fail</h2>
-        <p>
-          If you have tried an off-the-shelf chatbot and found it useless, you are not alone. Generic chatbot tools are exactly that — generic. They are built to handle common e-commerce questions and simple FAQ lookups. They are not built for a Milwaukie plumber whose service area is specific, whose emergency response process is unique, and whose lead qualification criteria are different from every other plumber in the metro.
-        </p>
-        <p>
-          A properly built AI assistant is trained on your business. It knows your services, your geography, your process, your tone of voice. That specificity is the difference between an AI assistant that converts and one that frustrates your customers.
-        </p>
-
-        <h2>Never Miss Another Lead</h2>
-        <p>
-          The Thomas David Jacob team designs custom AI assistants for Oregon businesses — built around your specific services, service area, and customer journey. If you are ready to stop missing leads and start responding to every inquiry within seconds, let us talk.
-        </p>
-        <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
-          <a
-            href="/ai-systems"
-            style={{
-              display: 'inline-block',
-              background: '#fbbf24',
-              color: '#000',
-              fontWeight: 900,
-              padding: '1rem 2.5rem',
-              borderRadius: '9999px',
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              fontSize: '0.875rem',
-              textDecoration: 'none',
-            }}
-          >
-            Explore Custom AI Assistant Development
-          </a>
-        </div>
-
-        <hr />
-        <h2>Related Reading</h2>
-        <ul>
-          <li><a href="/blog/ai-reshaping-customer-expectations-oregon">How AI Is Reshaping Customer Expectations — and What Oregon Businesses Must Do</a></li>
-          <li><a href="/blog/what-ai-can-and-cannot-do-business-2026">Real Talk: What AI Can and Cannot Do for Your Business in 2026</a></li>
-          <li><a href="/blog/most-powerful-ai-automations-portland-metro">The 5 Most Powerful AI Automations for Portland Metro Businesses</a></li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    slug: 'automate-business-processes-portland',
-    title: 'How Portland Business Owners Are Saving 20 Hours a Week With Automation',
-    metaTitle: 'Business Automation Portland Oregon — Save 20 Hours a Week | TDJ',
-    metaDescription:
-      'Portland business owners are using AI automation to eliminate follow-up emails, appointment reminders, invoice chasing, and social posting. See how the time savings add up.',
-    date: 'April 18, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      "Meet a typical Portland business owner drowning in admin work — follow-up emails, appointment reminders, invoice chasing, social posts. Here is how AI automation solves each one.",
-    heroImage: '/images/hero_blogpost.jpg',
-    content: (
-      <>
-        <p>
-          Meet Sarah. She runs a home cleaning service out of Lake Oswego. Eight employees, 40 regular clients, a reputation she has spent five years building. On paper, the business is doing well. In reality, Sarah is working 62 hours a week — and she is not cleaning houses for 22 of those hours. She is sending follow-up emails to leads who never booked. She is reminding clients about appointments that are already in the calendar. She is chasing invoices. She is posting on Instagram because she knows she should. She is handling customer questions that the answer to is already on her website.
-        </p>
-        <p>
-          Sarah is not bad at running a business. Sarah is running a business the way almost every small business in Portland, Beaverton, Hillsboro, and Oregon City runs — manually, reactively, and at a pace that is not sustainable. Here is what happens when automation takes over each of those tasks.
-        </p>
-
-        <h2>The Follow-Up Email Black Hole</h2>
-        <p>
-          Sarah gets twelve quote requests per month. She aims to follow up within 24 hours, but between jobs and family, it is often 48 to 72 hours before she gets to them. By then, four of those twelve leads have already booked someone else. She knows this. She hates this. But there are only so many hours.
-        </p>
-        <p>
-          Automated lead follow-up changes the math entirely. The moment a form is submitted or a quote request comes in, a personalized email goes out within four minutes — while Sarah is still in someone's kitchen. A second follow-up sends at 48 hours if there is no response. A third at one week. The sequence stops the moment someone books. Sarah does not write these emails every time — she wrote them once. The system handles the rest, every time, with the consistency a busy owner simply cannot match manually.
-        </p>
-
-        <h2>Appointment Reminders That Run Themselves</h2>
-        <p>
-          No-shows and last-minute cancellations cost the average service business in the Portland metro $500 to $1,500 per month in lost revenue and wasted labor. Sarah manually sends reminder texts the day before each appointment. For 40 clients on a bi-weekly schedule, that is 20 reminders per week she is sending from her personal phone.
-        </p>
-        <p>
-          Automated appointment reminders eliminate this entirely. The system sends a text 48 hours before the appointment, another the morning of, and a post-service message requesting a review. Clients feel attended to. Sarah stops being a human calendar notification. A Hillsboro salon we worked with cut no-shows by 71 percent in the first month of automated reminders — recovering more than $2,000 per month in previously lost revenue.
-        </p>
-
-        <h2>Invoice Chasing Without the Awkwardness</h2>
-        <p>
-          Sarah invoices weekly. On average, a third of her invoices go unpaid past their due date. Chasing them feels uncomfortable — she does not want to be the business owner who pesters clients she likes. So she waits too long, sends apologetic emails, and occasionally writes off small balances just to avoid the conversation.
-        </p>
-        <p>
-          Automated invoice follow-up sequences handle this without any of the awkwardness. A friendly reminder goes out three days before the due date. Another at the due date. Another at seven days past due, slightly more direct. Another at 14 days past due, more formal. Every message is pre-written, goes out automatically, and does not require Sarah to decide whether today is the right day to follow up. A Milwaukie contractor using this system reduced his average accounts receivable aging from 42 days to 18 days within 90 days of implementation.
-        </p>
-
-        <h2>Social Media That Does Not Require Your Sunday Afternoon</h2>
-        <p>
-          Sarah posts on Instagram when she can, which is inconsistently. She knows consistent social presence drives referrals and keeps her brand visible. She just cannot find the time to do it well. So she either posts something halfhearted or skips weeks entirely.
-        </p>
-        <p>
-          AI content systems change this. An Oregon City restaurant owner we work with now runs a consistent three-posts-per-week social strategy on Instagram and Facebook. An AI system drafts the captions based on seasonal themes, current menu items, and local events. She reviews and approves in about 20 minutes per week. Before automation, she was spending four to five hours per week on social and posting less frequently. The consistency has driven a measurable increase in direct message reservations and new customer inquiries.
-        </p>
-
-        <h2>Lead Capture That Never Takes a Day Off</h2>
-        <p>
-          A Wilsonville landscaping contractor was losing after-hours leads consistently — calls that went to voicemail, website inquiries that sat in an inbox until Monday, messages on Facebook that were seen two days late. Every missed touchpoint was a potential customer who went with a competitor who responded first.
-        </p>
-        <p>
-          An AI chat assistant on his website now engages every visitor within seconds, regardless of the hour. It collects lead information, qualifies by service type and location, and routes urgent requests to a text notification on his phone. Non-urgent leads are automatically queued for his morning follow-up. He now starts every Monday with a organized list of qualified leads to call back, instead of a pile of unread emails and missed calls.
-        </p>
-
-        <h2>What Does 20 Hours a Week Actually Mean?</h2>
-        <p>
-          The businesses we work with consistently recover 15 to 25 hours per week after full automation implementation. For a business owner billing at even $75 per hour of their expertise, that is $1,125 to $1,875 per week in redirected value — not counting the revenue from leads that were previously slipping through the cracks.
-        </p>
-        <p>
-          More than the financial math, those hours represent something qualitative: the ability to think strategically instead of reactively, to spend time on the work that actually grows the business, and to leave the office at a reasonable hour without a list of tasks that followed you home.
-        </p>
-
-        <h2>Ready to Get Your Time Back?</h2>
-        <p>
-          We offer a free AI audit for Portland metro business owners — a 30-minute conversation where we map out exactly where automation creates the most leverage for your specific situation and calculate what the time and revenue recovery looks like in real numbers.
-        </p>
-        <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
-          <a
-            href="/ai-systems"
-            style={{
-              display: 'inline-block',
-              background: '#fbbf24',
-              color: '#000',
-              fontWeight: 900,
-              padding: '1rem 2.5rem',
-              borderRadius: '9999px',
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              fontSize: '0.875rem',
-              textDecoration: 'none',
-            }}
-          >
-            Book a Free AI Audit
-          </a>
-        </div>
-
-        <hr />
-        <h2>Related Reading</h2>
-        <ul>
-          <li><a href="/blog/ai-automation-vs-hiring-oregon-business">AI Automation vs. Hiring: Which Is the Smarter Investment for Your Oregon Business?</a></li>
-          <li><a href="/blog/compound-effect-of-ai-business">The Compound Effect of AI: Why Every Month You Wait Costs More</a></li>
-          <li><a href="/blog/what-is-ai-systems-architect">What Is an AI Systems Architect — and Why Your Business Needs One</a></li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    slug: 'ai-tools-oregon-small-business',
-    title: '5 AI Tools Every Oregon Small Business Should Be Using in 2026',
-    metaTitle: '5 AI Tools for Oregon Small Business in 2026 | Portland AI Agency',
-    metaDescription:
-      'ChatGPT, Zapier, AI chatbots, scheduling AI — here are the 5 AI tools Oregon small businesses should be using in 2026, and why having tools is only half the equation.',
-    date: 'April 16, 2026',
-    author: 'Thomas David Jacob Team',
-    excerpt:
-      'The AI tools available to small businesses today would have required a team of ten just five years ago. Here are the five that deliver the most immediate value for Oregon business owners.',
-    heroImage: '/images/hero_blogpost.jpg',
-    content: (
-      <>
-        <p>
-          The AI tools available to a small business owner in Portland, Beaverton, Oregon City, or anywhere in the Oregon metro today would have required an enterprise software budget and a team of ten to replicate just five years ago. The barrier to AI adoption is lower than it has ever been — and the businesses that are using these tools well are building real competitive advantages. Here are the five that deliver the most immediate, practical value for Oregon small businesses in 2026.
-        </p>
-
-        <h2>1. ChatGPT — Your 24/7 Content and Communication Engine</h2>
-        <p>
-          ChatGPT has moved well beyond novelty. For small business owners in Lake Oswego, Hillsboro, and Milwaukie, it functions as an always-available communications assistant. Write a professional response to a difficult customer review. Draft a proposal for a commercial client. Create a week of social media captions for an Oregon City restaurant. Generate FAQ content for a new service page. Build out a follow-up email sequence for unconverted leads.
-        </p>
-        <p>
-          The businesses using ChatGPT well are not using it to replace their voice — they are using it to produce at a volume that was previously impossible without a full marketing team. A Wilsonville contractor produces more written content in a month with ChatGPT than his entire team did in a quarter previously.
-        </p>
-        <p>
-          The limitation: ChatGPT alone does not integrate with your other business systems. The content it creates has to be manually placed into your website, your email platform, your social scheduler. Which brings us to the next tool.
-        </p>
-
-        <h2>2. Zapier — The Automation Layer That Connects Everything</h2>
-        <p>
-          Zapier connects over 7,000 applications and lets you build automated workflows — called Zaps — that move information between them without manual effort. When a new lead submits your website form, Zapier adds them to your CRM, sends a confirmation email, creates a task in your project management system, and sends you a Slack notification — all simultaneously, all automatically.
-        </p>
-        <p>
-          For a West Linn home services business, that means a new customer inquiry triggers a follow-up text, adds a card to their scheduling board, and creates a folder in Google Drive for job documentation. Zero manual data entry. Zero things falling through the cracks. Every new customer handled with the same consistency regardless of who is in the office that day.
-        </p>
-
-        <h2>3. AI Chat Assistants — Lead Qualification While You Sleep</h2>
-        <p>
-          Platforms like Tidio, Intercom, and purpose-built AI chat systems place a conversational assistant on your website that engages visitors within seconds. Unlike traditional live chat that requires a human on standby, AI chat assistants work around the clock — qualifying leads, answering common questions, collecting contact information, and booking appointments directly into your calendar.
-        </p>
-        <p>
-          For a Lake Oswego real estate agent, this means every website visitor who expresses interest in buying or selling is immediately engaged with a conversation that captures their timeline, budget range, and neighborhood preferences — before a human ever gets involved. The agent's follow-up calls start with qualified, warm prospects instead of cold inquiries.
-        </p>
-
-        <h2>4. AI Scheduling Tools — End the Back-and-Forth</h2>
-        <p>
-          Calendly, Acuity Scheduling, and similar AI-enhanced scheduling platforms eliminate the email tennis of "Does Tuesday work? How about Thursday at 2?" Clients pick from your real-time available slots, the appointment is confirmed automatically, reminders go out, and Zoom links are generated — all without you touching it.
-        </p>
-        <p>
-          Advanced implementations connect your scheduling tool to your CRM so that when a lead books a consultation, their contact information is automatically created, the meeting is logged, and a pre-call preparation sequence kicks off. A Beaverton financial advisor we work with estimates this single automation saves her team four hours per week in scheduling coordination alone.
-        </p>
-
-        <h2>5. AI Content and Social Media Systems — Consistency Without the Grind</h2>
-        <p>
-          Tools like Buffer, Hootsuite, and newer AI-native platforms combine content generation with scheduling and analytics. For Oregon businesses that need consistent social presence but do not have a dedicated marketing person, these systems make professional-grade content output achievable. AI drafts the captions based on your prompts, tone guidelines, and seasonal context. You review and approve. The system posts at optimal times across your platforms.
-        </p>
-        <p>
-          A Portland restaurant using this system maintains a consistent presence on Instagram, Facebook, and Google Posts with about 30 minutes of owner input per week — down from four to five hours previously.
-        </p>
-
-        <h2>The Part Most Businesses Miss: You Need an Architect, Not Just Tools</h2>
-        <p>
-          Here is the honest truth that most AI tool vendors will not tell you: having these five tools installed on your business is not the same as having an AI-powered business. The tools create value when they work together — when your AI chat feeds qualified leads into your CRM, which triggers your Zapier automation, which starts your email sequence, which syncs to your calendar, which updates your project management system.
-        </p>
-        <p>
-          When those connections are missing, you have a collection of subscriptions that each do something useful in isolation but do not compound into real leverage. The business owner ends up managing the tools instead of benefiting from them. This is the difference between AI adoption and AI architecture — and it is where most Oregon businesses that "tried AI and it didn't work" lost the thread.
-        </p>
-        <p>
-          Designing the system that connects these tools correctly, trains them on your specific business, and builds workflows that actually match how your business operates — that is the work that delivers compounding, lasting results. It requires expertise that goes beyond downloading an app.
-        </p>
-
-        <h2>Ready to Build an AI System That Actually Works?</h2>
-        <p>
-          The Thomas David Jacob team designs integrated AI systems for Oregon small businesses — not just tool recommendations, but the architecture that makes them work together. If you are ready to stop experimenting and start building something that scales, let us talk.
-        </p>
-        <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
-          <a
-            href="/ai-systems"
-            style={{
-              display: 'inline-block',
-              background: '#fbbf24',
-              color: '#000',
-              fontWeight: 900,
-              padding: '1rem 2.5rem',
-              borderRadius: '9999px',
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              fontSize: '0.875rem',
-              textDecoration: 'none',
-            }}
-          >
-            Explore AI Systems Architecture
-          </a>
-        </div>
-
-        <hr />
-        <h2>Related Reading</h2>
-        <ul>
-          <li><a href="/blog/why-oregon-businesses-need-ai-integration-expert">Why Every Oregon Business Will Need an AI Integration Expert Within 3 Years</a></li>
-          <li><a href="/blog/signs-business-ready-for-ai">7 Signs Your Business Is Ready to Integrate AI</a></li>
-          <li><a href="/blog/what-is-ai-systems-architect">What Is an AI Systems Architect — and Why Your Business Needs One</a></li>
-        </ul>
-      </>
-    ),
-  },
-  {
     slug: 'how-long-does-seo-take',
     title: 'How Long Does SEO Take? A Realistic Timeline for Oregon Businesses',
-    metaTitle: 'How Long Does SEO Take? Timeline for Oregon City & Portland Businesses',
+    metaTitle: 'How Long Does SEO Take? Oregon City & Portland Timeline',
     metaDescription:
       'Wondering how long SEO takes to work? Get a realistic month-by-month breakdown from a digital agency serving Oregon City, Portland, and the metro area.',
     date: 'April 14, 2026',
@@ -5286,7 +4309,7 @@ const archivePosts: BlogPost[] = [
         <ul>
           <li><a href="/blog/compound-effect-of-ai-business">The Compound Effect of AI: Why Every Month You Wait Costs More</a></li>
           <li><a href="/blog/hidden-cost-of-not-adopting-ai">The Hidden Cost of Doing Nothing: Why Waiting to Adopt AI Will Hurt Your Business</a></li>
-          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026</a></li>
+          <li><a href="/blog/what-ai-can-and-cannot-do-business-2026">AI Business Integration Trends to Watch in 2026</a></li>
         </ul>
       </>
     ),
@@ -5294,7 +4317,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'custom-built-vs-template-websites-oregon-businesses',
     title: 'Custom-Built vs. Template Websites: What Oregon Businesses Need to Know',
-    metaTitle: 'Custom-Built vs Template Websites for Oregon City & Portland Businesses',
+    metaTitle: 'Custom vs Template Websites for Oregon City Businesses',
     metaDescription:
       "Squarespace, Wix, and other template platforms are easy — but are they right for your Oregon business? Here's why custom-built AI-powered websites win.",
     date: 'April 7, 2026',
@@ -5434,8 +4457,8 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026</a></li>
-          <li><a href="/blog/how-to-prepare-business-for-ai-era">How to Prepare Your Business for the AI Era</a></li>
+          <li><a href="/blog/what-ai-can-and-cannot-do-business-2026">AI Business Integration Trends to Watch in 2026</a></li>
+          <li><a href="/blog/signs-business-ready-for-ai">How to Prepare Your Business for the AI Era</a></li>
           <li><a href="/blog/ai-great-equalizer-small-business-oregon">Why AI Is the Great Equalizer for Small Businesses</a></li>
         </ul>
       </>
@@ -5444,7 +4467,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'why-your-website-is-not-generating-leads',
     title: "Why Your Website Isn't Generating Leads (And How to Fix It)",
-    metaTitle: "Why Your Business Website Isn't Generating Leads | Oregon City Digital Agency",
+    metaTitle: "Why Your Website Isn't Generating Leads | Oregon City",
     metaDescription:
       'Is your website getting traffic but not converting? Here are the most common reasons Oregon City and Portland small business websites fail to generate leads.',
     date: 'March 24, 2026',
@@ -5529,7 +4552,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'google-business-profile-optimization-guide',
     title: 'How to Optimize Your Google Business Profile for More Customers',
-    metaTitle: 'Google Business Profile Optimization Guide for Portland Metro Businesses',
+    metaTitle: 'Google Business Profile Optimization Guide | Portland',
     metaDescription:
       'Learn how to fully optimize your Google Business Profile to rank higher in local search and get more customers in Oregon City, Portland, and the metro area.',
     date: 'March 17, 2026',
@@ -5606,8 +4629,8 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026 and Beyond</a></li>
-          <li><a href="/blog/best-time-to-start-ai-integration-oregon-business">Why Now Is the Best Time in History to Start Integrating AI</a></li>
+          <li><a href="/blog/what-ai-can-and-cannot-do-business-2026">AI Business Integration Trends to Watch in 2026 and Beyond</a></li>
+          <li><a href="/blog/signs-business-ready-for-ai">Why Now Is the Best Time in History to Start Integrating AI</a></li>
           <li><a href="/blog/ai-reshaping-customer-expectations-oregon">How AI Is Reshaping Customer Expectations</a></li>
         </ul>
       </>
@@ -5616,7 +4639,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'what-to-expect-from-a-web-design-agency',
     title: 'What to Expect When Hiring a Web Design Agency: A Guide for Business Owners',
-    metaTitle: "Hiring a Web Design Agency in Oregon City or Portland? Here's What to Expect",
+    metaTitle: 'Hiring a Web Design Agency in Oregon City? What to Expect',
     metaDescription:
       "Not sure what to expect when working with a web design agency? Here's a transparent breakdown of the process from discovery to launch for Portland metro businesses.",
     date: 'March 10, 2026',
@@ -5702,7 +4725,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'seo-vs-google-ads-for-small-business',
     title: 'SEO vs. Google Ads: Which Is Right for Your Small Business?',
-    metaTitle: 'SEO vs. Google Ads for Small Business | Oregon City & Portland Marketing Agency',
+    metaTitle: 'SEO vs Google Ads for Small Business | Oregon City',
     metaDescription:
       "Should you invest in SEO or Google Ads for your Oregon City or Portland small business? Here's an honest comparison to help you decide where to put your marketing dollars.",
     date: 'March 3, 2026',
@@ -5773,7 +4796,7 @@ const archivePosts: BlogPost[] = [
         <ul>
           <li><a href="/blog/compound-effect-of-ai-business">The Compound Effect of AI: Why Every Month You Wait Costs More</a></li>
           <li><a href="/blog/hidden-cost-of-not-adopting-ai">The Hidden Cost of Doing Nothing: Why Waiting to Adopt AI Will Hurt Your Business</a></li>
-          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026</a></li>
+          <li><a href="/blog/what-ai-can-and-cannot-do-business-2026">AI Business Integration Trends to Watch in 2026</a></li>
         </ul>
       </>
     ),
@@ -5781,7 +4804,7 @@ const archivePosts: BlogPost[] = [
   {
     slug: 'web-design-trends-2026',
     title: '7 Web Design Trends Dominating 2026 (And What They Mean for Your Business)',
-    metaTitle: 'Web Design Trends 2026 | Oregon City & Portland Web Design Agency',
+    metaTitle: 'Web Design Trends 2026 | Oregon City & Portland',
     metaDescription:
       'From dark mode aesthetics to AI-driven personalization, here are the web design trends shaping 2026 — and how Oregon City & Portland businesses can use them.',
     date: 'February 24, 2026',
@@ -5859,8 +4882,8 @@ const archivePosts: BlogPost[] = [
         <hr />
         <h2>Related Reading</h2>
         <ul>
-          <li><a href="/blog/ai-business-integration-trends-2026">AI Business Integration Trends to Watch in 2026 and Beyond</a></li>
-          <li><a href="/blog/best-time-to-start-ai-integration-oregon-business">Why Now Is the Best Time in History to Start Integrating AI</a></li>
+          <li><a href="/blog/what-ai-can-and-cannot-do-business-2026">AI Business Integration Trends to Watch in 2026 and Beyond</a></li>
+          <li><a href="/blog/signs-business-ready-for-ai">Why Now Is the Best Time in History to Start Integrating AI</a></li>
           <li><a href="/blog/ai-reshaping-customer-expectations-oregon">How AI Is Reshaping Customer Expectations</a></li>
         </ul>
       </>
