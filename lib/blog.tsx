@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import { tradesPosts } from './blog-trades'
+import { guidePosts } from './blog-guides'
 
 export interface BlogPost {
   slug: string
@@ -4901,11 +4902,14 @@ function isPublished(post: BlogPost, today: string): boolean {
   return !post.publishDate || post.publishDate <= today
 }
 
-/** Every live post, newest first: published drip posts lead, then the archive. */
+/** Every live post, newest first: published drip and guide posts lead, then the archive. */
 export function getPosts(): BlogPost[] {
   const today = todayPacific()
-  const drip = tradesPosts.filter((p) => isPublished(p, today)).reverse()
-  return [...drip, ...archivePosts]
+  // Stable sort keeps same-day posts in source order (drip before guides).
+  const dated = [...tradesPosts.slice().reverse(), ...guidePosts]
+    .filter((p) => isPublished(p, today))
+    .sort((a, b) => (b.publishDate ?? '').localeCompare(a.publishDate ?? ''))
+  return [...dated, ...archivePosts]
 }
 
 export function getPost(slug: string): BlogPost | undefined {
