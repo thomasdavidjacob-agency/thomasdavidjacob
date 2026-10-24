@@ -47,7 +47,7 @@ const pillars = [
     title: 'Sites Built to Win',
     body: 'Custom, hand-coded websites that load fast, look sharp on every phone, and turn visitors into calls, bookings, and sales.',
     tags: ['Custom design', 'Mobile-first', 'Speed optimized', 'Lead capture'],
-    href: '/services',
+    href: '/services/website-in-7-days',
     cta: 'See web design',
     icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
   },

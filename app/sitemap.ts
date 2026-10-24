@@ -6,8 +6,9 @@ import { pageVerticals } from '../lib/verticals'
 
 const BASE_URL = 'https://thomasdavidjacob.com'
 
-// Drip posts go live by date; regenerate hourly so new posts are listed.
-export const revalidate = 3600
+// Drip posts go live by date, so build the sitemap per request. `revalidate`
+// alone never refreshed it: live on 2026-10-24 it still stopped at the 10-21 post.
+export const dynamic = 'force-dynamic'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()

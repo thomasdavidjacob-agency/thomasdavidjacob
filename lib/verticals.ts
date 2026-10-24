@@ -171,9 +171,8 @@ export const INTAKE_LINK = { label: "Don't see your industry? Let's talk", href:
 
 // Core services column of the Services menu, pointing at real pages.
 export const CORE_SERVICES = [
-  { name: "AI Systems Architecture", blurb: "Automation, AI assistants, live dashboards.", href: "/ai-systems" },
+  { name: "AI Systems Architecture", blurb: "Automation, AI assistants, lead capture and follow-up.", href: "/ai-systems" },
   { name: "AI Search Visibility", blurb: "Get recommended by ChatGPT, Gemini & more.", href: "/services/ai-search-visibility" },
   { name: "Web Design", blurb: "Custom sites, live in as little as 7 days.", href: "/services/website-in-7-days" },
   { name: "SEO", blurb: "Rank where your buyers search.", href: "/our-seo-process" },
-  { name: "Lead Generation", blurb: "AI lead capture and follow-up.", href: "/ai-systems" },
 ];
