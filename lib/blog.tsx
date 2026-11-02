@@ -2216,7 +2216,7 @@ const archivePosts: BlogPost[] = [
     title: 'How Oregon Restaurants Are Escaping Grubhub and Uber Eats Commissions',
     metaTitle: 'Escape Grubhub & Uber Eats Fees | Oregon Restaurants',
     metaDescription:
-      'Oregon restaurants are keeping 20–30% more per delivery order by switching to direct ordering systems. Here\'s how the shift works and what platforms make it possible.',
+      'Third-party apps take a commission on every delivery order. Direct ordering lets a restaurant keep that money and own the customer relationship. Here\'s how the shift works and what platforms make it possible.',
     date: 'June 28, 2026',
     author: 'Thomas David Jacob Team',
     excerpt:
@@ -2276,7 +2276,7 @@ const archivePosts: BlogPost[] = [
           <li><strong>Google Business Profile</strong> updated with the direct ordering link prominently featured</li>
         </ul>
         <p>
-          Most restaurants see 20–40% of their delivery volume shift to direct within 90 days of launching this strategy. The savings begin immediately.
+          How fast regulars move to ordering direct depends on your menu, your customers, and how consistently you promote it. Every order that does move is one you keep in full.
         </p>
 
         <h2>You Don&apos;t Have to Abandon the Apps Entirely</h2>
@@ -2357,7 +2357,7 @@ const archivePosts: BlogPost[] = [
         <ul>
           <li>A loyalty program that increases repeat visit frequency</li>
           <li>An email marketing system that keeps customers coming back</li>
-          <li>AI-powered inventory management that cuts food waste by 15–20%</li>
+          <li>AI-powered inventory management that flags overordering and waste before it hits the dumpster</li>
           <li>Staff scheduling optimization that reduces unnecessary overtime</li>
           <li>A professional marketing campaign targeting the specific Portland neighborhoods with highest customer LTV</li>
         </ul>
@@ -2373,7 +2373,7 @@ const archivePosts: BlogPost[] = [
           Setting up Toast Online Ordering with a direct ordering website, Google Business Profile integration, and basic loyalty program costs roughly $2,000–$4,000 in setup with $150–$300/month in platform fees.
         </p>
         <p>
-          A restaurant currently paying $5,000/month in commissions that moves 40% of orders to direct — a conservative target — saves $2,000/month. The system pays for itself in two months. After that, it&apos;s pure margin recovery.
+          A restaurant currently paying $5,000/month in commissions that moves 40% of orders to direct would keep $2,000/month that currently goes to the apps. That is simple arithmetic on your own numbers, not a forecast; how many orders actually move is up to your customers.
         </p>
         <p>
           Thomas+David+Jacob helps Oregon restaurants design and implement these direct ordering systems. If you want to see what this math looks like for your specific restaurant, reach out for a free consultation.
@@ -2428,7 +2428,7 @@ const archivePosts: BlogPost[] = [
           <li><strong>Menu sync:</strong> Menu updates made in your POS reflect instantly on the online ordering page — no double entry</li>
           <li><strong>86&apos;ing items:</strong> When you run out of a dish, it disappears from the online menu automatically</li>
           <li><strong>Pickup and delivery options:</strong> Both supported with customizable prep time estimates</li>
-          <li><strong>Upsell prompts:</strong> AI-powered suggestions during checkout (&ldquo;Add a dessert?&rdquo;) that increase average ticket by 8–15%</li>
+          <li><strong>Upsell prompts:</strong> AI-powered suggestions during checkout (&ldquo;Add a dessert?&rdquo;) that give guests an easy way to add to their order</li>
           <li><strong>Tip prompts:</strong> Customizable tip suggestions that increase tip rates for delivery drivers</li>
         </ul>
 
@@ -2489,7 +2489,7 @@ const archivePosts: BlogPost[] = [
     date: 'June 20, 2026',
     author: 'Thomas David Jacob Team',
     excerpt:
-      'Food cost running at 32%? Industry average is 28–35%, but AI-powered inventory and waste tracking systems are helping Oregon restaurants hit 25–28% — a difference that goes straight to the bottom line.',
+      'Food cost creeping up? AI-powered inventory and waste tracking shows exactly where product is going, so you can act on it before it eats your margin.',
     heroImage: '/images/hero_blogpost.jpg',
     content: (
       <>
@@ -2531,7 +2531,7 @@ const archivePosts: BlogPost[] = [
           For an Oregon restaurant doing significant weekend volume, this means the Thursday order is calibrated to the actual projected Friday-Saturday-Sunday demand — not a gut estimate. The result is tighter inventory turns, less spoilage, and less money sitting in the walk-in refrigerator as unused food.
         </p>
         <p>
-          Industry data consistently shows that restaurants using AI ordering optimization reduce food waste by 10–20%. On a restaurant with $40,000/month in food purchases, that&apos;s $4,000–$8,000 per month in recovered margin.
+          AI ordering tools compare what you buy against what you actually sell, so overordering and spoilage show up as numbers instead of guesses. On a restaurant buying $40,000/month in food, every point of waste you cut is $400 a month back in margin.
         </p>
 
         <h2>Vendor Price Tracking and Optimization</h2>
@@ -2544,7 +2544,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>What Oregon Restaurants Are Actually Saving</h2>
         <p>
-          A Portland-area restaurant spending $50,000/month on food with a 32% food cost ratio is at $16,000/month in food spend relative to revenue. Bringing that ratio to 28% — a reasonable target for AI-optimized operations — saves $2,000/month in direct food cost reduction. Annualized: $24,000 back to the bottom line from one system.
+          A Portland-area restaurant spending $50,000/month on food with a 32% food cost ratio is at $16,000/month in food spend relative to revenue. As an example of the math, every point that ratio drops is worth $500/month on that food spend. The tools show you where the points are; the results depend on what you change.
         </p>
         <p>
           Combined with reduced commission costs from direct ordering, an Oregon restaurant can realistically recover $5,000–$10,000/month in margin through AI systems alone — without raising prices or cutting quality.
@@ -2601,7 +2601,7 @@ const archivePosts: BlogPost[] = [
           <li>Total unnecessary labor cost: ~$288/week or roughly $1,200/month</li>
         </ul>
         <p>
-          This is a conservative estimate. Restaurants with multiple positions and larger teams often see $3,000–$5,000/month in schedulable labor waste. AI scheduling systems typically recover 60–80% of this waste in the first 90 days.
+          Larger teams with more positions have more room for the same kind of mismatch. AI scheduling makes it visible shift by shift, so you can decide what to change.
         </p>
 
         <h2>Oregon Labor Law Compliance: An Overlooked Benefit</h2>
@@ -2625,7 +2625,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>Implementation: What It Actually Takes</h2>
         <p>
-          AI scheduling systems connect to your existing POS or job management software and are typically running within 2–4 weeks. The setup requires sharing historical data and defining your scheduling rules — minimum staff per shift, role requirements, overtime thresholds. After that, the system generates recommendations and you approve or adjust.
+          AI scheduling systems connect to your existing POS or job management software and can usually be set up in a few weeks. The setup requires sharing historical data and defining your scheduling rules — minimum staff per shift, role requirements, overtime thresholds. After that, the system generates recommendations and you approve or adjust.
         </p>
         <p>
           Most Oregon businesses see full ROI within 60–90 days of launch. Thomas+David+Jacob helps Oregon businesses identify the right scheduling system for their operations and integrate it into their broader AI infrastructure. Reach out to get started.
@@ -2844,7 +2844,7 @@ const archivePosts: BlogPost[] = [
           <li>Day 21: Final check-in with a seasonal urgency prompt if applicable</li>
         </ul>
         <p>
-          Oregon contractors running this system consistently recover 15–25% of bids that would otherwise go cold. On a $150,000/month bid volume, that&apos;s $22,500–$37,500 in recovered revenue per month from automation alone.
+          Bids that used to go cold now get a timely, consistent follow-up every time. On a high bid volume, even a few of those coming back is real money.
         </p>
 
         <h2>Payment Collection: Stop Chasing Invoices</h2>
@@ -2852,7 +2852,7 @@ const archivePosts: BlogPost[] = [
           Cash flow is the other major pain point for Oregon contractors. Jobs complete, invoices go out, and then come the follow-up calls for payment — calls that eat time and create awkward client relationships.
         </p>
         <p>
-          AI-powered payment systems send invoices automatically at job completion, send payment reminders at 3, 7, and 14 days, offer easy mobile payment links, and escalate to a human only when payment is genuinely at risk. Most Oregon contractors who implement this system see their average days-to-payment cut by 30–50%.
+          AI-powered payment systems send invoices automatically at job completion, send payment reminders at 3, 7, and 14 days, offer easy mobile payment links, and escalate to a human only when payment is genuinely at risk. Nobody has to remember to chase an invoice, so follow-up happens on time, every time.
         </p>
 
         <h2>Review Generation: The Trust Multiplier</h2>
@@ -2860,7 +2860,7 @@ const archivePosts: BlogPost[] = [
           A Portland-area contractor with 200 Google reviews at 4.8 stars wins against one with 12 reviews at 4.6 stars every time — even if the work quality is identical. Trust is built on volume of social proof, and AI review generation systems build that volume automatically.
         </p>
         <p>
-          Every completed job triggers a review request text to the homeowner with a direct link to your Google review page. Response rates for SMS review requests average 15–30%. An Oregon contractor completing 30 jobs per month who didn&apos;t have a review system might have been getting 1–2 new reviews per month. With an AI system, that becomes 5–9 new reviews per month — compounding the trust advantage over time.
+          Every completed job triggers a review request text to the homeowner with a direct link to your Google review page. A request that arrives right after the job, while the homeowner is happy, is far easier to say yes to than one that never gets sent. Done consistently, reviews keep arriving month after month, and that trust advantage compounds over time.
         </p>
         <p>
           Thomas+David+Jacob builds AI systems specifically designed for Oregon trade contractors. Reach out for a free consultation to see what&apos;s possible for your business.
@@ -2926,7 +2926,7 @@ const archivePosts: BlogPost[] = [
           The Oregon businesses implementing AI customer service most effectively aren&apos;t trying to remove humans from customer interactions entirely. They&apos;re drawing a clear line: AI handles the volume and the routine; humans handle the moments that genuinely matter — a complicated complaint, a high-stakes new client, a long-term relationship that needs personal attention.
         </p>
         <p>
-          With AI handling 60–80% of customer touchpoints automatically, staff members have more time and energy for the interactions where their judgment, empathy, and relationship skills actually make a difference.
+          With AI handling the routine customer touchpoints automatically, staff members have more time and energy for the interactions where their judgment, empathy, and relationship skills actually make a difference.
         </p>
 
         <h2>Implementation Reality: What It Takes to Get Running</h2>
@@ -2940,7 +2940,7 @@ const archivePosts: BlogPost[] = [
           <li>3–4 weeks of configuration and testing</li>
         </ul>
         <p>
-          Total setup time: 3–6 weeks depending on complexity. Ongoing cost: $200–$600/month depending on volume and platform. The math almost always works for Oregon businesses receiving more than 20 customer inquiries per day.
+          Total setup time: 3–6 weeks depending on complexity. Ongoing cost: $200–$600/month depending on volume and platform. Whether it makes sense depends on your inquiry volume; we'll look at your numbers with you before you commit.
         </p>
         <p>
           Thomas+David+Jacob designs and deploys AI customer service systems for Oregon businesses across industries. Reach out to start a conversation.
@@ -2965,7 +2965,7 @@ const archivePosts: BlogPost[] = [
     date: 'June 1, 2026',
     author: 'Thomas David Jacob Team',
     excerpt:
-      'Oregon business owners often ask: "How long does this actually take?" The honest answer: most businesses can have a meaningful AI system live and generating ROI within 90 days. Here\'s what that looks like.',
+      'Oregon business owners often ask: "How long does this actually take?" The honest answer: most businesses can have a meaningful AI system built and live within about 90 days. Here\'s what that looks like.',
     heroImage: '/images/hero_blogpost.jpg',
     content: (
       <>
@@ -2973,7 +2973,7 @@ const archivePosts: BlogPost[] = [
           When Oregon business owners start exploring AI systems, one of the first questions is always some version of: &ldquo;How long does this actually take?&rdquo; followed closely by &ldquo;How disruptive is it?&rdquo;
         </p>
         <p>
-          The honest answer: for most Oregon small businesses, a meaningful AI system that generates real ROI can be live within 90 days. Here&apos;s what that timeline actually looks like, phase by phase.
+          The honest answer: for most Oregon small businesses, a meaningful AI system can be built and live within about 90 days. Here&apos;s what that timeline actually looks like, phase by phase.
         </p>
 
         <h2>Days 1–14: Discovery and Architecture</h2>
@@ -3067,7 +3067,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>How AI Compounds Over Time</h2>
         <p>
-          <strong>Month 1:</strong> Your <a href="/blog/most-powerful-ai-automations-portland-metro">lead follow-up system goes live</a>. It responds to every inquiry within 90 seconds. You book 15% more consultations than before.
+          <strong>Month 1:</strong> Your <a href="/blog/most-powerful-ai-automations-portland-metro">lead follow-up system goes live</a>. It responds to every inquiry within 90 seconds, so fewer prospects slip away before you call back.
         </p>
         <p>
           <strong>Month 3:</strong> The system has now processed hundreds of leads. You can see which messages are converting and which aren&apos;t. You refine the copy. Conversion rate improves again.
@@ -3076,7 +3076,7 @@ const archivePosts: BlogPost[] = [
           <strong>Month 6:</strong> You add a <a href="/blog/ai-lead-generation-oregon">nurture sequence</a> for prospects who didn&apos;t convert immediately. Leads from three months ago start re-engaging. You&apos;re getting booked conversations from people your old system would have lost forever.
         </p>
         <p>
-          <strong>Month 12:</strong> Your Google reviews are at 47 — up from 9 — because your AI review request sequence has been running consistently for a year. Your Google Business Profile is showing in the local map pack for your primary keywords. Inbound leads have increased 60% organically without any additional marketing spend.
+          <strong>Month 12:</strong> Your AI review request sequence has been running consistently for a year, so reviews have kept arriving instead of trickling in. Each system has been feeding the next for a year, which is what compounding means: the same setup is doing more for you than it did on day one.
         </p>
         <p>
           <strong>Month 18:</strong> You add a second automation built on what you&apos;ve learned from the first. The new system learns faster because the infrastructure is already in place.
@@ -3193,7 +3193,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>What Professional Implementation Actually Costs</h2>
         <p>
-          A professional <a href="/ai-systems">AI integration project from Thomas+David+Jacob</a> starts at $2,500 for a single, high-impact automation. When that automation generates even five additional booked appointments per month for a service business, it pays for itself in the first months of operation.
+          A professional <a href="/ai-systems">AI integration project from Thomas+David+Jacob</a> starts at $2,500 for a single, high-impact automation. Before we build, we look at your numbers together so you can judge whether it&apos;s worth it for your business.
         </p>
         <p>
           The question isn&apos;t whether professional implementation is worth it. It&apos;s whether a half-built, unsupported DIY system will ever get to the point where it delivers that return.
@@ -3226,7 +3226,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>What AI Actually Delivers (Proven, Real-World Results)</h2>
         <p>
-          <strong>Automated lead follow-up:</strong> This is the highest-ROI application for most small businesses. AI follow-up systems respond within 90 seconds, qualify prospects with conversational messages, and keep leads warm indefinitely. Businesses that implement this consistently see <a href="/blog/most-powerful-ai-automations-portland-metro">30–50% increases in booked consultations</a>.
+          <strong>Automated lead follow-up:</strong> This is the highest-ROI application for most small businesses. AI follow-up systems respond within 90 seconds, qualify prospects with conversational messages, and keep leads warm indefinitely. It makes sure <a href="/blog/most-powerful-ai-automations-portland-metro">every lead gets a fast, consistent reply</a>, which is where most small businesses lose the most.
         </p>
         <p>
           <strong>24/7 customer communication:</strong> AI assistants trained on your business can handle inquiries, answer FAQs, and route conversations appropriately around the clock. Not perfectly — but consistently and at scale.
@@ -3337,7 +3337,7 @@ const archivePosts: BlogPost[] = [
           For most service businesses, that&apos;s lead follow-up. Start there, build it right, measure the result, and expand from that foundation.
         </p>
         <p>
-          Thomas+David+Jacob specializes in AI systems for service businesses in the Oregon metro area. Our <a href="/ai-systems">AI Starter package</a> — designed to automate your single highest-impact process — starts at $2,500. It pays for itself in most cases within 60–90 days.{' '}
+          Thomas+David+Jacob specializes in AI systems for service businesses in the Oregon metro area. Our <a href="/ai-systems">AI Starter package</a> — designed to automate your single highest-impact process — starts at $2,500. We&apos;ll walk through your numbers with you before you decide.{' '}
           <a href="/contact">Book your free audit today</a>.
         </p>
       </>
@@ -3481,7 +3481,7 @@ const archivePosts: BlogPost[] = [
           <strong>Why it&apos;s #1:</strong> The speed-to-lead correlation is the most consistent finding in modern sales research. Businesses that respond within five minutes convert leads at dramatically higher rates than those that respond after an hour. Most Portland businesses respond in hours or days.
         </p>
         <p>
-          <strong>Typical ROI:</strong> 30–50% increase in qualified conversations from the same volume of leads.
+          <strong>Why it matters:</strong> More of the leads you already pay for turn into real conversations, because nobody waits hours for a reply.
         </p>
 
         <h2>#2: The Automated Nurture Sequence</h2>
@@ -3505,7 +3505,7 @@ const archivePosts: BlogPost[] = [
           <strong>What it does:</strong> Once an appointment is booked, AI handles confirmation, 48-hour reminder, 2-hour reminder, and a follow-up message after the appointment.
         </p>
         <p>
-          <strong>Why it matters:</strong> No-show rates typically drop 40–60% with automated reminders. That alone can mean 3–5 more productive appointments per week.
+          <strong>Why it matters:</strong> Automated reminders make it easy for clients to confirm or reschedule, so fewer appointment slots sit empty.
         </p>
 
         <h2>#5: The AI Website Assistant</h2>
@@ -3776,7 +3776,7 @@ const archivePosts: BlogPost[] = [
           <strong>Time:</strong> If AI automation could save your business 10 hours per week — on lead follow-up, scheduling, reporting, customer communication, and content creation — that&apos;s 520 hours per year. At $100 per hour value, that&apos;s $52,000 in recovered productive time. Every year you wait is another $52,000 you didn&apos;t get back.
         </p>
         <p>
-          <strong>Leads:</strong> The average business only follows up with about 27% of inquiries within the first hour. AI systems follow up 100% of inquiries within 90 seconds. If you&apos;re generating 50 leads per month and converting 10%, AI could realistically push that conversion rate up by 40–50% — from the same leads you&apos;re already paying to generate.
+          <strong>Leads:</strong> The average business only follows up with about 27% of inquiries within the first hour. AI systems follow up 100% of inquiries within 90 seconds. Speed matters because the first business to respond often wins the job, and AI makes sure that business is you, using the same leads you&apos;re already paying to generate.
         </p>
         <p>
           <strong>Competitive position:</strong> Every month your competitors are building their AI infrastructure, training their systems, and accumulating data that makes those systems smarter. You can&apos;t compress that timeline by starting later.
@@ -3825,7 +3825,7 @@ const archivePosts: BlogPost[] = [
           You don&apos;t have to automate everything at once. The right approach is to start with your <a href="/blog/signs-business-ready-for-ai">single highest-impact process</a> — the one thing that, if automated, would free up the most time or generate the most revenue — and build from there.
         </p>
         <p>
-          At Thomas+David+Jacob, we help Oregon businesses find that starting point and build it right. One well-built automation can pay for itself in 60 days. From there, every additional system is <a href="/blog/compound-effect-of-ai-business">compounding return on a foundation</a> you already own.
+          At Thomas+David+Jacob, we help Oregon businesses find that starting point and build it right. Start with one well-built automation and measure what it does. From there, every additional system is <a href="/blog/compound-effect-of-ai-business">compounding return on a foundation</a> you already own.
         </p>
         <p>
           The cost of waiting is real. The cost of starting is a fraction of that.{' '}
@@ -4292,7 +4292,7 @@ const archivePosts: BlogPost[] = [
           This is where SEO really differentiates itself from paid ads. Every blog post you've published, every link you've earned, every page you've optimized is now working 24 hours a day to bring you traffic — without a cost-per-click attached to it. Paid ads stop the moment your budget runs out. SEO compounds.
         </p>
         <p>
-          By month twelve, our clients typically report that organic search has become their top or second-top traffic source. One home services client in the Portland metro was spending $2,500/month on Google Ads before starting SEO. After twelve months, they reduced their ad spend by 60% because organic traffic was filling the gap — at a fraction of the cost.
+          For several of our clients, organic search had become a top traffic source by month twelve. One home services client in the Portland metro was spending $2,500/month on Google Ads before starting SEO. After twelve months, they reduced their ad spend by 60% because organic traffic was filling the gap — at a fraction of the cost.
         </p>
 
         <h2>What Slows SEO Down</h2>
@@ -4364,7 +4364,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>The Real Cost Comparison</h2>
         <p>
-          Template platform subscriptions run $16–$49/month — forever. A custom-built site is a one-time investment you own outright, with no recurring platform fees, no terms-of-service surprises, and no ceiling on what it can do as your business grows. When you factor in the SEO performance gap and the lost revenue from a site that doesn't convert, the custom build pays for itself faster than most business owners expect.
+          Template platform subscriptions run $16–$49/month — forever. A custom-built site is a one-time investment you own outright, with no recurring platform fees, no terms-of-service surprises, and no ceiling on what it can do as your business grows. You also get full control over speed, SEO, and conversion, which a template platform limits.
         </p>
 
         <h2>Our Recommendation</h2>
@@ -4598,7 +4598,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>Upload High-Quality Photos Regularly</h2>
         <p>
-          Profiles with photos get 42% more direction requests and 35% more website clicks than those without. Upload at least 10–20 photos: your storefront, team members, work samples, before-and-afters, and your logo. Add new photos at least monthly — recency signals activity, which Google rewards.
+          According to Google, profiles with photos get 42% more direction requests and 35% more website clicks than those without. Upload at least 10–20 photos: your storefront, team members, work samples, before-and-afters, and your logo. Add new photos at least monthly — recency signals activity, which Google rewards.
         </p>
         <p>
           Make sure photo filenames include descriptive keywords before uploading (e.g., "oregon-city-web-design-team.jpg" rather than "IMG_4821.jpg").
@@ -4762,7 +4762,7 @@ const archivePosts: BlogPost[] = [
           The main advantage of SEO is compounding returns. Every blog post you publish, every page you optimize, every review you earn is an asset that continues paying dividends indefinitely. A plumbing company in Milwaukie that ranks first for "emergency plumber Milwaukie OR" gets that traffic for free every month, month after month, without paying per click.
         </p>
         <p>
-          The disadvantage is time. SEO takes 3–12 months to produce significant results. If you need leads next week, SEO alone won't get you there.
+          The disadvantage is time. SEO builds gradually, and nobody can honestly promise when it pays off. If you need leads next week, SEO alone won't get you there.
         </p>
 
         <h2>Which Should You Choose?</h2>
@@ -4821,7 +4821,7 @@ const archivePosts: BlogPost[] = [
 
         <h2>1. Dark Mode as a Default</h2>
         <p>
-          Dark mode has moved from a novelty to an expectation. More than 80% of smartphone users now use dark mode for at least some of their daily browsing. Websites with dark color schemes feel premium, modern, and easier on the eyes in low-light environments.
+          Dark mode has moved from a novelty to an expectation. Many smartphone users now run dark mode for at least some of their daily browsing. Websites with dark color schemes feel premium, modern, and easier on the eyes in low-light environments.
         </p>
         <p>
           For local businesses in high-consideration service categories — legal, financial, medical, home services — a dark, polished aesthetic signals professionalism and attention to detail. The key is execution: dark mode done poorly looks muddy and hard to read. Done well, it conveys a level of design sophistication that sets you apart from competitors using generic templates.
