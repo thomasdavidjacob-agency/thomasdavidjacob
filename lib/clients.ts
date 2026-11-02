@@ -60,6 +60,21 @@ export const clients: Client[] = [
     href: 'https://diamondbondoregon.com',
   },
   {
+    name: 'Cedar Chiropractic & Auto Injury',
+    industry: 'Chiropractic & Auto Injury Care',
+    location: 'Milwaukie, OR',
+    summary:
+      'Dr. Fred Seater\'s practice treats everyday pain and car-accident injuries, and his old site didn\'t show either. We rebuilt it from scratch with online booking, a dedicated auto-injury section that explains Oregon PIP in plain language, a page for each service, and a Google review system, then moved the domain over without interrupting the office\'s email.',
+    work: [
+      'Full site redesign & build',
+      'Online booking & patient portal',
+      'Auto-injury & Oregon PIP pages',
+      'Blog, local SEO & Google reviews',
+    ],
+    thumb: '/images/client-cedar.webp',
+    href: 'https://www.cedar-chiro.com',
+  },
+  {
     name: 'La Fondita',
     industry: 'Authentic Mexican Food Cart',
     location: 'Medford, OR',
