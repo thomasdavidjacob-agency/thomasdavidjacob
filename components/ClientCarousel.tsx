@@ -15,7 +15,7 @@ export default function ClientCarousel({ clients }: { clients: Client[] }) {
   }
 
   const btn =
-    'hidden md:flex absolute top-[38%] -translate-y-1/2 z-10 w-11 h-11 items-center justify-center rounded-full bg-[#0a0a0a]/90 border border-zinc-700 text-white hover:border-amber-400 hover:text-amber-400 transition-colors'
+    'hidden md:flex absolute top-[18%] -translate-y-1/2 z-10 w-11 h-11 items-center justify-center rounded-full bg-[#0a0a0a]/90 border border-zinc-700 text-white hover:border-amber-400 hover:text-amber-400 transition-colors'
 
   return (
     <div className="relative">
@@ -27,7 +27,7 @@ export default function ClientCarousel({ clients }: { clients: Client[] }) {
 
       <div
         ref={track}
-        className="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth scroll-px-6 pb-4 -mx-6 px-6 [scrollbar-width:thin] [scrollbar-color:#3f3f46_transparent]"
+        className="flex gap-5 overflow-x-auto snap-x snap-mandatory scroll-smooth scroll-px-6 pb-4 -mx-6 px-6 [scrollbar-width:thin] [scrollbar-color:#3f3f46_transparent]"
       >
         {clients.map((c) => (
           <a
@@ -35,21 +35,28 @@ export default function ClientCarousel({ clients }: { clients: Client[] }) {
             href={c.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="group snap-start shrink-0 w-[70%] sm:w-[42%] lg:w-[calc((100%-4rem)/5)] block bg-[#0d0d0d] border border-zinc-800 hover:border-amber-400/40 rounded-xl overflow-hidden transition-colors duration-300"
+            className="group snap-start shrink-0 w-[86%] sm:w-[calc((100%-1.25rem)/2)] lg:w-[calc((100%-2.5rem)/3)] flex flex-col bg-[#0d0d0d] border border-zinc-800 hover:border-amber-400/40 rounded-2xl overflow-hidden transition-colors duration-300"
           >
             <div className="relative aspect-[2/1] overflow-hidden border-b border-zinc-800">
               <Image
                 src={c.thumb!}
                 alt={`${c.name} website`}
                 fill
-                sizes="(min-width: 1024px) 230px, (min-width: 640px) 42vw, 70vw"
-                className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.05]"
+                sizes="(min-width: 1024px) 370px, (min-width: 640px) 50vw, 86vw"
+                className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
               />
             </div>
-            <div className="p-4">
-              <p className="text-amber-400 text-[10px] font-bold tracking-[0.18em] uppercase mb-1 line-clamp-1">{c.industry}</p>
-              <h3 className="text-sm font-bold text-white leading-snug mb-0.5 line-clamp-2">{c.name}</h3>
-              <p className="text-xs text-zinc-500 line-clamp-1">{c.location}</p>
+            <div className="p-6 flex flex-col flex-1">
+              <p className="text-amber-400 text-[11px] font-bold tracking-[0.2em] uppercase mb-1.5">{c.industry}</p>
+              <h3 className="text-lg font-bold text-white leading-snug mb-1">{c.name}</h3>
+              <p className="text-sm text-zinc-500 mb-4">{c.location}</p>
+              <p className="text-sm text-zinc-400 leading-relaxed mb-5">{c.summary}</p>
+              <span className="mt-auto inline-flex items-center gap-2 text-amber-400 group-hover:text-amber-300 font-bold text-sm">
+                Visit the site
+                <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </span>
             </div>
           </a>
         ))}
