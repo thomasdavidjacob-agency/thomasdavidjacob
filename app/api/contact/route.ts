@@ -1,5 +1,16 @@
 import { NextRequest } from 'next/server'
 import { Resend } from 'resend'
+import {
+  EMAIL_RE,
+  clean,
+  clientIp,
+  escapeHtml,
+  hasLink,
+  mostlyLinks,
+  rateLimited,
+  turnstileOk,
+  verifyFormToken,
+} from '@/lib/spam-guard'
 
 /* Only accept submissions that originate from our own site. */
 const ALLOWED_HOSTS = ['thomasdavidjacob.com', 'www.thomasdavidjacob.com']
@@ -10,79 +21,74 @@ function originAllowed(request: NextRequest): boolean {
   try {
     const host = new URL(origin).hostname
     if (host === 'localhost' || host === '127.0.0.1') return true // local dev
+    if (host.endsWith('-thomasdavidjacob-agencys-projects.vercel.app')) return true // previews
     return ALLOWED_HOSTS.includes(host)
   } catch {
     return false
   }
 }
 
+// Bots get a fake success so they move on instead of retrying.
+const fakeOk = () => Response.json({ success: true })
+
 export async function POST(request: NextRequest) {
   try {
-    // Block bots that POST straight to the API (no/foreign Origin).
     if (!originAllowed(request)) {
       return Response.json({ error: 'Forbidden.' }, { status: 403 })
     }
 
-    const { name, email, subject, message, website, t, turnstileToken } = await request.json()
-
-    // Honeypot: humans never see/fill `website`. If it's set, silently accept
-    // (return success so the bot thinks it worked) but send nothing.
-    if (typeof website === 'string' && website.trim() !== '') {
-      return Response.json({ success: true })
-    }
-
-    // Timing: real people take more than a couple seconds to fill the form.
-    // A missing or too-fast timestamp is a bot — silently drop it.
-    const elapsed = typeof t === 'number' ? Date.now() - t : NaN
-    if (!Number.isFinite(elapsed) || elapsed < 2000 || elapsed > 1000 * 60 * 60 * 24) {
-      return Response.json({ success: true })
-    }
-
-    // Cloudflare Turnstile — active ONLY when TURNSTILE_SECRET_KEY is set.
-    // Until then this block is skipped and the form works on the other guards.
-    const turnstileSecret = process.env.TURNSTILE_SECRET_KEY
-    if (turnstileSecret) {
-      if (typeof turnstileToken !== 'string' || !turnstileToken) {
-        return Response.json({ error: 'Please complete the verification.' }, { status: 400 })
-      }
-      const verifyRes = await fetch(
-        'https://challenges.cloudflare.com/turnstile/v0/siteverify',
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams({ secret: turnstileSecret, response: turnstileToken }),
-        }
+    const ip = clientIp(request)
+    if (rateLimited(`contact:${ip}`)) {
+      return Response.json(
+        { error: 'Too many messages from this connection. Please try again later.' },
+        { status: 429 },
       )
-      const outcome = (await verifyRes.json()) as { success?: boolean }
-      if (!outcome.success) {
-        return Response.json({ error: 'Verification failed. Please try again.' }, { status: 400 })
-      }
     }
+
+    const body = (await request.json().catch(() => ({}))) as Record<string, unknown>
+
+    // 1. Honeypot.
+    if (clean(body.website, 200)) return fakeOk()
+
+    // 2. Signed time token: missing, forged or too fast = bot.
+    if (!verifyFormToken(body.formToken)) return fakeOk()
+
+    // 3. Turnstile.
+    if (!(await turnstileOk(body.turnstileToken, ip))) {
+      return Response.json({ error: 'Verification failed. Please try again.' }, { status: 400 })
+    }
+
+    // 4. Validation.
+    const name = clean(body.name, 100)
+    const email = clean(body.email, 200)
+    const subject = clean(body.subject, 150)
+    const message = clean(body.message, 5000)
 
     if (!name || !email || !subject || !message) {
       return Response.json({ error: 'All fields are required.' }, { status: 400 })
     }
-
-    // Basic email sanity check.
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email))) {
+    if (!EMAIL_RE.test(email)) {
       return Response.json({ error: 'Invalid email address.' }, { status: 400 })
     }
+    if (hasLink(name) || hasLink(subject)) {
+      return Response.json({ error: 'Please remove links from your name and subject.' }, { status: 400 })
+    }
+    if (mostlyLinks(message)) return fakeOk()
 
     const resend = new Resend(process.env.RESEND_API_KEY)
-
     const { error } = await resend.emails.send({
       from: 'Thomas David Jacob <hello@thomasdavidjacob.com>',
       replyTo: email,
-      to: 'thomasdavidjacob@gmail.com',
-      subject: `[Contact Form] ${subject}`,
+      to: process.env.LEAD_TO_EMAIL || 'thomasdavidjacob@gmail.com',
+      subject: `[Contact Form] ${subject.replace(/[\r\n]+/g, ' ')}`,
       html: `
         <h2 style="color:#f59e0b;font-family:sans-serif">New Contact Form Submission</h2>
-        <p style="font-family:sans-serif"><strong>Name:</strong> ${name}</p>
-        <p style="font-family:sans-serif"><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
-        <p style="font-family:sans-serif"><strong>Subject:</strong> ${subject}</p>
+        <p style="font-family:sans-serif"><strong>Name:</strong> ${escapeHtml(name)}</p>
+        <p style="font-family:sans-serif"><strong>Email:</strong> ${escapeHtml(email)}</p>
+        <p style="font-family:sans-serif"><strong>Subject:</strong> ${escapeHtml(subject)}</p>
         <hr />
         <p style="font-family:sans-serif"><strong>Message:</strong></p>
-        <p style="font-family:sans-serif;white-space:pre-wrap">${message}</p>
+        <p style="font-family:sans-serif;white-space:pre-wrap">${escapeHtml(message)}</p>
       `,
     })
 

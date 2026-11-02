@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { useFormGuard } from "@/components/useFormGuard";
 
 type Props = {
   /** "demo" = done-for-you industry request (asks for phone), "waitlist" = DealKit founding list */
@@ -28,9 +29,15 @@ export function LeadForm({
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
   const isDemo = type === "demo";
+  const { widget, guardFields, needsChallenge, reset } = useFormGuard();
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (needsChallenge) {
+      setError("Please complete the verification above the button.");
+      setStatus("error");
+      return;
+    }
     setStatus("sending");
     setError("");
     const data = Object.fromEntries(new FormData(e.currentTarget));
@@ -38,7 +45,7 @@ export function LeadForm({
       const res = await fetch("/api/lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, type, source }),
+        body: JSON.stringify({ ...data, type, source, ...guardFields() }),
       });
       if (!res.ok) {
         const body = (await res.json().catch(() => ({}))) as { error?: string };
@@ -48,6 +55,7 @@ export function LeadForm({
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
       setStatus("error");
+      reset();
     }
   }
 
@@ -104,6 +112,8 @@ export function LeadForm({
           <input name="website" tabIndex={-1} autoComplete="off" />
         </label>
       </div>
+
+      {widget}
 
       <button
         type="submit"

@@ -16,9 +16,9 @@ export const metadata: Metadata = {
 const contactDetails = [
   {
     label: 'Email',
-    // Shown as hello@, but clicks open a message to the Gmail inbox (hello@ has no mailbox).
-    value: 'hello@thomasdavidjacob.com',
-    href: 'mailto:thomasdavidjacob@gmail.com',
+    // No address in the HTML (spam rule): scrapers harvest it. The form is the email channel.
+    value: 'Use the message form',
+    href: '#message-form',
     icon: (
       <svg className="w-5 h-5 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -108,7 +108,7 @@ export default function ContactPage() {
 
             {/* ─ Form ─ */}
             <div className="md:col-span-3">
-              <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 md:p-10">
+              <div id="message-form" className="scroll-mt-28 bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 md:p-10">
                 <h2 className="text-2xl font-black text-white mb-2">Send Us a Message</h2>
                 <p className="text-zinc-400 text-sm mb-8">
                   Fill out the form below and we&apos;ll get back to you within one business day.

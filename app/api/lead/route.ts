@@ -1,5 +1,15 @@
 import { NextResponse } from "next/server";
 import { INDUSTRIES } from "@/lib/industries";
+import {
+  EMAIL_RE,
+  clean,
+  clientIp,
+  escapeHtml,
+  hasLink,
+  rateLimited,
+  turnstileOk,
+  verifyFormToken,
+} from "@/lib/spam-guard";
 
 // Demo requests (industry pages) and DealKit founding-list signups are emailed to you via Resend.
 // Env vars (Vercel → Project → Settings → Environment Variables):
@@ -9,19 +19,40 @@ import { INDUSTRIES } from "@/lib/industries";
 
 const SOURCES = new Set(["dealkit", ...INDUSTRIES.map((i) => i.slug)]);
 const TYPES = new Set(["demo", "waitlist"]);
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-function clean(v: unknown, max = 200): string {
-  return typeof v === "string" ? v.trim().slice(0, max) : "";
+const ALLOWED_HOSTS = ["thomasdavidjacob.com", "www.thomasdavidjacob.com"];
+
+function originAllowed(req: Request): boolean {
+  const origin = req.headers.get("origin") || req.headers.get("referer") || "";
+  try {
+    const host = new URL(origin).hostname;
+    return (
+      ALLOWED_HOSTS.includes(host) ||
+      host === "localhost" ||
+      host === "127.0.0.1" ||
+      host.endsWith("-thomasdavidjacob-agencys-projects.vercel.app")
+    );
+  } catch {
+    return false;
+  }
 }
 
-function escapeHtml(s: string): string {
-  return s.replace(/[&<>"']/g, (c) =>
-    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] as string,
-  );
-}
+// Bots get a fake success so they move on instead of retrying.
+const fakeOk = () => NextResponse.json({ ok: true });
 
 export async function POST(req: Request) {
+  if (!originAllowed(req)) {
+    return NextResponse.json({ error: "Forbidden." }, { status: 403 });
+  }
+
+  const ip = clientIp(req);
+  if (rateLimited(`lead:${ip}`)) {
+    return NextResponse.json(
+      { error: "Too many requests from this connection. Please try again later." },
+      { status: 429 },
+    );
+  }
+
   let body: Record<string, unknown>;
   try {
     body = await req.json();
@@ -29,8 +60,16 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Invalid request." }, { status: 400 });
   }
 
-  // Honeypot filled in = bot. Pretend success so it moves on.
-  if (clean(body.website)) return NextResponse.json({ ok: true });
+  // 1. Honeypot.
+  if (clean(body.website, 200)) return fakeOk();
+
+  // 2. Signed time token: missing, forged or too fast = bot.
+  if (!verifyFormToken(body.formToken)) return fakeOk();
+
+  // 3. Turnstile.
+  if (!(await turnstileOk(body.turnstileToken, ip))) {
+    return NextResponse.json({ error: "Verification failed. Please try again." }, { status: 400 });
+  }
 
   const type = clean(body.type, 20);
   const source = clean(body.source, 40);
@@ -42,6 +81,9 @@ export async function POST(req: Request) {
 
   if (!TYPES.has(type) || !SOURCES.has(source)) {
     return NextResponse.json({ error: "Invalid request." }, { status: 400 });
+  }
+  if (hasLink(name) || hasLink(company) || hasLink(role)) {
+    return NextResponse.json({ error: "Please remove links from your name and business." }, { status: 400 });
   }
   const phoneOk = type !== "demo" || phone.replace(/\D/g, "").length >= 10;
   const companyOk = type !== "demo" || company.length > 0;

@@ -1,44 +1,14 @@
 'use client'
 
-import { useState, useRef, useCallback } from 'react'
-import Script from 'next/script'
-
-// Public site key — safe to expose. When unset, the Turnstile widget simply
-// doesn't render and the form falls back to the honeypot/timing/origin guards.
-const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
-
-declare global {
-  interface Window {
-    turnstile?: {
-      render: (el: HTMLElement, opts: Record<string, unknown>) => string
-      reset: (id?: string) => void
-    }
-  }
-}
+import { useState } from 'react'
+import { useFormGuard } from '@/components/useFormGuard'
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '', website: '' })
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-  const [token, setToken] = useState('')
-
-  // Timestamp set when the form first mounts — used server-side to reject
-  // submissions that arrive impossibly fast (bots).
-  const loadedAt = useRef(Date.now())
-  const widgetEl = useRef<HTMLDivElement>(null)
-  const widgetId = useRef<string | null>(null)
-
-  const renderTurnstile = useCallback(() => {
-    if (!TURNSTILE_SITE_KEY || !window.turnstile || !widgetEl.current || widgetId.current) return
-    widgetId.current = window.turnstile.render(widgetEl.current, {
-      sitekey: TURNSTILE_SITE_KEY,
-      theme: 'dark',
-      callback: (t: string) => setToken(t),
-      'error-callback': () => setToken(''),
-      'expired-callback': () => setToken(''),
-    })
-  }, [])
+  const { widget, guardFields, needsChallenge, reset } = useFormGuard()
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     setForm({ ...form, [e.target.name]: e.target.value })
@@ -46,7 +16,7 @@ export default function ContactForm() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (TURNSTILE_SITE_KEY && !token) {
+    if (needsChallenge) {
       setError('Please complete the verification below.')
       return
     }
@@ -56,7 +26,7 @@ export default function ContactForm() {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...form, t: loadedAt.current, turnstileToken: token }),
+        body: JSON.stringify({ ...form, ...guardFields() }),
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data.error || 'Something went wrong.')
@@ -64,10 +34,7 @@ export default function ContactForm() {
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.')
       // Let the visitor try again with a fresh token.
-      if (widgetId.current && window.turnstile) {
-        window.turnstile.reset(widgetId.current)
-        setToken('')
-      }
+      reset()
     } finally {
       setLoading(false)
     }
@@ -92,13 +59,6 @@ export default function ContactForm() {
 
   return (
     <>
-      {TURNSTILE_SITE_KEY && (
-        <Script
-          src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
-          strategy="afterInteractive"
-          onReady={renderTurnstile}
-        />
-      )}
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Honeypot — hidden from humans, catnip for bots. Leave it empty. */}
         <div
@@ -169,7 +129,7 @@ export default function ContactForm() {
         </div>
 
         {/* Cloudflare Turnstile widget — renders only when a site key is set. */}
-        {TURNSTILE_SITE_KEY && <div ref={widgetEl} className="min-h-[65px]" />}
+        {widget}
 
         {error && (
           <p className="text-red-400 text-sm bg-red-400/10 border border-red-400/20 rounded-xl px-4 py-3">
