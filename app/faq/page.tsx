@@ -44,12 +44,12 @@ const seoFAQs = [
   {
     question: 'How long does SEO take to show results?',
     answer:
-      'SEO is a long-term investment. Most clients see meaningful movement in rankings within 3–6 months, and significant traffic growth within 6–12 months. The timeline depends on your industry competitiveness, the current state of your site, and how aggressively we execute. We\'re always transparent about realistic expectations upfront.',
+      'SEO is a long-term investment, and nobody can honestly promise a timeline. How fast anything moves depends on your industry, your competition, and the current state of your site. What we can promise is the work: we show you every month what we did and where your rankings and traffic stand, so you never have to guess.',
   },
   {
     question: 'Can you guarantee #1 rankings on Google?',
     answer:
-      'No reputable SEO agency can guarantee specific rankings — and any that do are either lying or using black-hat tactics that will get your site penalized. What we guarantee is a rigorous, proven process, complete transparency, and measurable improvement in organic traffic and leads. Our track record speaks for itself.',
+      'No reputable SEO agency can guarantee specific rankings — and any that do are either lying or using black-hat tactics that will get your site penalized. What we commit to is a disciplined process, white-hat methods only, and complete transparency about what we did and what changed.',
   },
   {
     question: 'What\'s the difference between local SEO and national SEO?',
@@ -82,7 +82,7 @@ const marketingFAQs = [
   {
     question: 'What kind of ROI can I expect from digital marketing?',
     answer:
-      'ROI varies by industry, budget, and baseline. Our clients typically see a significant positive return within the first year, with organic SEO delivering the best long-term ROI of any digital channel. During your consultation, we\'ll research your specific market and give you a realistic projection based on real data — not guesswork.',
+      'We don\'t promise ROI figures, because results depend on your industry, budget, competition, and starting point. During your consultation we look at your market and talk honestly about what\'s realistic. Once we start, every system and campaign is tracked, so you see exactly what it\'s doing.',
   },
   {
     question: 'How do I get started?',

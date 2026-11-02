@@ -22,7 +22,7 @@ const timeline = [
     year: '2021',
     title: 'First 10 Clients',
     description:
-      'Word spread fast. Our first clients saw measurable results within 90 days — increased rankings, more calls, more foot traffic. We grew entirely through referrals.',
+      'Word spread through referrals. Local owners told other local owners, and that is still how most of our work arrives.',
   },
   {
     year: '2022',

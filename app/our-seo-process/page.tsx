@@ -78,9 +78,10 @@ const steps = [
 ]
 
 const stats = [
-  { value: '3–6 mo', label: 'Average time to first page rankings' },
-  { value: '300%+', label: 'Organic traffic increase at 12 months*' },
-  { value: '100%', label: 'White-hat only — zero algorithm risk' },
+  // What we commit to doing, never outcome promises or performance stats.
+  { value: 'Monthly', label: 'Rankings & traffic report, in plain English' },
+  { value: 'White-hat', label: 'Only methods Google allows' },
+  { value: '3 months', label: 'Initial term, then month-to-month' },
 ]
 
 export default function OurSEOProcessPage() {
@@ -142,9 +143,6 @@ export default function OurSEOProcessPage() {
               </div>
             ))}
           </div>
-          <p className="text-zinc-600 text-xs text-center mt-6 max-w-2xl mx-auto leading-relaxed">
-            * Results vary by industry and market competitiveness. Figures reflect performance in lower-to-mid competition markets. Highly competitive industries may see different timelines and growth rates.
-          </p>
         </div>
       </section>
 
