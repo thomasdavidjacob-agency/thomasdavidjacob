@@ -76,43 +76,43 @@ export default function ClientsPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {clients.map((client) => (
               <div
                 key={client.name}
-                className="group bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 hover:border-amber-400/30 hover:-translate-y-1.5 transition-all duration-300 flex flex-col"
+                className="group bg-zinc-900/40 border border-zinc-800 rounded-xl p-5 hover:border-amber-400/30 hover:-translate-y-1 transition-all duration-300 flex flex-col"
               >
                 {/* Live-site screenshot, full-bleed to the card edges. */}
                 {client.thumb && (
-                  <div className="relative -mx-8 -mt-8 mb-7 h-44 overflow-hidden rounded-t-2xl border-b border-zinc-800">
+                  <div className="relative -mx-5 -mt-5 mb-4 aspect-[2/1] overflow-hidden rounded-t-xl border-b border-zinc-800">
                     <Image
                       src={client.thumb}
                       alt={`${client.name} website homepage`}
                       fill
                       className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
-                      sizes="(max-width: 768px) 100vw, 50vw"
+                      sizes="(min-width: 1024px) 370px, (min-width: 640px) 50vw, 100vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/70 via-transparent to-transparent" />
                   </div>
                 )}
 
-                <div className="flex items-start justify-between gap-4 mb-3">
+                <div className="flex items-start justify-between gap-3 mb-2">
                   <div>
-                    <h3 className="text-2xl font-black text-white leading-tight">{client.name}</h3>
-                    <p className="text-amber-400 text-xs font-bold tracking-[0.25em] uppercase mt-2">
+                    <h3 className="text-lg font-black text-white leading-tight">{client.name}</h3>
+                    <p className="text-amber-400 text-[10px] font-bold tracking-[0.2em] uppercase mt-1.5">
                       {client.industry}
                     </p>
                   </div>
                   {client.tag && (
-                    <span className="flex-shrink-0 text-[10px] font-black tracking-[0.2em] uppercase text-amber-400 bg-amber-400/10 border border-amber-400/20 rounded-full px-3 py-1.5">
+                    <span className="flex-shrink-0 text-[9px] font-black tracking-[0.18em] uppercase text-amber-400 bg-amber-400/10 border border-amber-400/20 rounded-full px-2.5 py-1">
                       {client.tag}
                     </span>
                   )}
                 </div>
 
-                <p className="flex items-center gap-1.5 text-zinc-500 text-sm mb-5">
+                <p className="flex items-center gap-1.5 text-zinc-500 text-xs mb-3">
                   <svg
-                    className="w-4 h-4 text-zinc-600"
+                    className="w-3.5 h-3.5 text-zinc-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -133,11 +133,11 @@ export default function ClientsPage() {
                   {client.location}
                 </p>
 
-                <p className="text-zinc-400 leading-relaxed mb-7">{client.summary}</p>
+                <p className="text-zinc-400 text-sm leading-relaxed mb-4">{client.summary}</p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-7">
+                <div className="grid grid-cols-1 gap-1.5 mb-4">
                   {client.work.map((item) => (
-                    <div key={item} className="flex items-center gap-2.5 text-sm text-zinc-300">
+                    <div key={item} className="flex items-center gap-2 text-xs text-zinc-300">
                       <span className="flex-shrink-0 w-4 h-4 rounded-full bg-amber-400/15 flex items-center justify-center">
                         <svg
                           className="w-2.5 h-2.5 text-amber-400"
@@ -158,7 +158,7 @@ export default function ClientsPage() {
                   ))}
                 </div>
 
-                <div className="mt-auto pt-2">
+                <div className="mt-auto pt-1">
                   {client.href ? (
                     <a
                       href={client.href}

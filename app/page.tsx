@@ -11,6 +11,7 @@ import AIAnswerCard from './components/AIAnswerCard'
 import { siteGraph } from '@/lib/entity'
 import { liveVerticals, verticalHref } from '@/lib/verticals'
 import { clients } from '@/lib/clients'
+import ClientCarousel from '@/components/ClientCarousel'
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -70,7 +71,7 @@ const arrow = (
 )
 
 export default function Home() {
-  const featuredWork = clients.filter((c) => c.thumb && c.href).slice(0, 6)
+  const featuredWork = clients.filter((c) => c.thumb && c.href)
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
@@ -341,32 +342,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredWork.map((c) => (
-              <a
-                key={c.name}
-                href={c.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block bg-[#0d0d0d] border border-zinc-800 hover:border-amber-400/40 rounded-2xl overflow-hidden hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className="relative aspect-[2/1] overflow-hidden border-b border-zinc-800">
-                  <Image
-                    src={c.thumb!}
-                    alt={`${c.name} website`}
-                    fill
-                    sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
-                    className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
-                  />
-                </div>
-                <div className="p-6">
-                  <p className="text-amber-400 text-[11px] font-bold tracking-[0.2em] uppercase mb-1.5">{c.industry}</p>
-                  <h3 className="text-lg font-bold text-white mb-1">{c.name}</h3>
-                  <p className="text-sm text-zinc-500">{c.location}</p>
-                </div>
-              </a>
-            ))}
-          </div>
+          <ClientCarousel clients={featuredWork} />
         </div>
       </section>
 
