@@ -27,7 +27,7 @@ export default function ClientCarousel({ clients }: { clients: Client[] }) {
 
       <div
         ref={track}
-        className="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 -mx-6 px-6 [scrollbar-width:thin] [scrollbar-color:#3f3f46_transparent]"
+        className="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth scroll-px-6 pb-4 -mx-6 px-6 [scrollbar-width:thin] [scrollbar-color:#3f3f46_transparent]"
       >
         {clients.map((c) => (
           <a
