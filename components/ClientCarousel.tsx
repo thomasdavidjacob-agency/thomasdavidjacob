@@ -124,7 +124,7 @@ export default function ClientCarousel({ clients }: { clients: Client[] }) {
               onClick={() => goTo(i)}
               aria-label={`Show ${c.name}`}
               aria-current={active ? 'true' : undefined}
-              className="group text-left"
+              className="group text-left self-start"
             >
               <span
                 className={`relative block aspect-[2/1] overflow-hidden rounded-lg border transition-all duration-300 ${
